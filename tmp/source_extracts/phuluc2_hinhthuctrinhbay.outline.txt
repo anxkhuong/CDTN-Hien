@@ -1,0 +1,40 @@
+0000	Title	PHỤ LỤC 2
+0001	Title	HÌNH THỨC TRÌNH BÀY ĐỒ ÁN TỐT NGHIỆP
+0003	Heading 1	CẤU TRÚC CỦA ĐỒ ÁN
+0004	Normal	Bìa chính Đồ án
+0005	Normal	Bìa phụ Đồ án
+0006	Normal	Thông tin hội đồng chấm Đồ án tốt nghiệp
+0007	Normal	Lời cảm ơn
+0008	Normal	Mục lục
+0009	Normal	Danh mục hình
+0010	Normal	Danh mục bảng
+0011	Normal	Danh mục từ viết tắt (Danh mục chữ viết tắt xếp theo thứ tự bảng chữ cái. Không viết tắt những cụm từ dài hoặc cụm từ ít xuất hiện trong Đồ án).
+0012	Normal	Nội dung của Đồ án.
+0013	Heading 1	BỐ CỤC CỦA ĐỒ ÁN
+0015	Normal	Nội dung đồ án trình bày tối thiểu 50 trang khổ A4 và không nên vượt quá 100 trang (không kể các trang bìa, lời cám ơn, mục lục, tài liệu tham khảo…)
+0016	Normal	Theo trình tự như sau:
+0017	Normal	MỞ ĐẦU (Problem Statement): Trình bày lí do chọn đề tài, mục đích, đối tượng và phạm vi nghiên cứu.
+0022	Normal	HƯỚNG PHÁT TRIỂN (Future work): Kiến nghị về những hướng nghiên cứu tiếp theo
+0023	Normal	TÀI LIỆU THAM KHẢO (References): Chỉ bao gồm các tài liệu được trích dẫn, sử dụng và đề cập tới để bàn luận trong khoá luận.
+0024	Normal	PHỤ LỤC (Appendices).
+0026	Heading 1	HÌNH THỨC TRÌNH BÀY
+0028	Normal	Font chữ Unicode: Times New Roman, kích thước(size) 13pt.
+0029	Normal	Dãn dòng (line spacing): 1.5 lines.
+0030	Normal	Lề trên 3 cm, lề dưới 3.5 cm, lề trái 3.5 cm, lề phải 2 cm.
+0031	Normal	Đánh số trang:
+0032	Normal	Không đánh số trang các trang: Thông tin hội đồng chấm Đồ án tốt nghiệp, Lời cảm ơn, Mục lục, các danh mục hình, bảng, chữ viết tắt.
+0033	Normal	Bắt đầu đánh số trang từ phần Tóm tắt Đồ án: đánh số trang ở giữa bên dưới, theo hệ thống số Ả-rập.
+0034	Normal	Các bảng biểu trình bày theo chiều ngang khổ giấy thì đầu bảng là lề trái của trang.
+0035	Normal	Cách đánh danh mục bảng, hình vẽ:
+0036	Normal	Chữ số thứ nhất chỉ tên chương
+0037	Normal	Chữ số thứ hai chỉ thứ tự bảng biểu, sơ đồ, hình,… trong mỗi chương
+0038	Normal	Mỗi bảng biểu, sơ đồ, hình,… phải có ghi chú, giải thích (caption), nêu rõ nguồn trích hoặc sao chụp,…
+0039	Normal	Các chú thích phải đánh số và viết ghi chú ở cuối mỗi trang.
+0041	Normal	Chương 3 …(bold, font 14)
+0042	Normal	3.1. …(bold, font 13)
+0043	Normal	3.1.1. …(bold, font 13)
+0044	Normal	3.1.2. …(bold, font 13)
+0045	Normal	3.2. …(bold, font 13)
+0046	Normal	Qui ước ghi tài liệu tham khảo:
+0047	Normal	Theo chuẩn của IEEE
+0048	Normal	Danh mục tài liệu tham khảo phải tách riêng tài liệu tiếng Việt và tiếng Anh, xếp theo thứ tự alphabet tên tác giả, tài liệu, nơi và năm phát hành.

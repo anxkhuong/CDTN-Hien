@@ -1,0 +1,491 @@
+{
+  "type": "docx",
+  "paragraph_count": 134,
+  "nonempty_paragraph_count": 74,
+  "table_count": 0,
+  "sections": [
+    {
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "top_margin_cm": 2.0,
+      "bottom_margin_cm": 1.5,
+      "left_margin_cm": 2.54,
+      "right_margin_cm": 2.0,
+      "header_distance_cm": 1.25,
+      "footer_distance_cm": 1.25
+    },
+    {
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "top_margin_cm": 2.0,
+      "bottom_margin_cm": 1.5,
+      "left_margin_cm": 2.54,
+      "right_margin_cm": 2.0,
+      "header_distance_cm": 1.25,
+      "footer_distance_cm": 1.25
+    },
+    {
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "top_margin_cm": 3.17,
+      "bottom_margin_cm": 1.5,
+      "left_margin_cm": 2.54,
+      "right_margin_cm": 2.0,
+      "header_distance_cm": 1.25,
+      "footer_distance_cm": 1.25
+    },
+    {
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "top_margin_cm": 3.0,
+      "bottom_margin_cm": 3.5,
+      "left_margin_cm": 3.5,
+      "right_margin_cm": 2.0,
+      "header_distance_cm": 1.25,
+      "footer_distance_cm": 1.25
+    },
+    {
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "top_margin_cm": 3.0,
+      "bottom_margin_cm": 3.5,
+      "left_margin_cm": 3.5,
+      "right_margin_cm": 2.0,
+      "header_distance_cm": 1.25,
+      "footer_distance_cm": 1.25
+    },
+    {
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "top_margin_cm": 3.0,
+      "bottom_margin_cm": 3.5,
+      "left_margin_cm": 3.5,
+      "right_margin_cm": 2.0,
+      "header_distance_cm": 1.25,
+      "footer_distance_cm": 1.25
+    },
+    {
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "top_margin_cm": 3.0,
+      "bottom_margin_cm": 3.5,
+      "left_margin_cm": 3.5,
+      "right_margin_cm": 2.0,
+      "header_distance_cm": 1.25,
+      "footer_distance_cm": 1.25
+    },
+    {
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "top_margin_cm": 3.0,
+      "bottom_margin_cm": 3.5,
+      "left_margin_cm": 3.5,
+      "right_margin_cm": 2.0,
+      "header_distance_cm": 1.25,
+      "footer_distance_cm": 1.25
+    },
+    {
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "top_margin_cm": 3.0,
+      "bottom_margin_cm": 3.5,
+      "left_margin_cm": 3.5,
+      "right_margin_cm": 2.0,
+      "header_distance_cm": 1.25,
+      "footer_distance_cm": 1.25
+    },
+    {
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "top_margin_cm": 3.0,
+      "bottom_margin_cm": 3.5,
+      "left_margin_cm": 3.5,
+      "right_margin_cm": 2.0,
+      "header_distance_cm": 1.25,
+      "footer_distance_cm": 1.25
+    },
+    {
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "top_margin_cm": 3.0,
+      "bottom_margin_cm": 3.5,
+      "left_margin_cm": 3.5,
+      "right_margin_cm": 2.0,
+      "header_distance_cm": 1.25,
+      "footer_distance_cm": 1.25
+    }
+  ],
+  "paragraphs": [
+    {
+      "index": 0,
+      "style": "Normal",
+      "text": "ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH"
+    },
+    {
+      "index": 1,
+      "style": "Normal",
+      "text": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN"
+    },
+    {
+      "index": 2,
+      "style": "Normal",
+      "text": "KHOA……….."
+    },
+    {
+      "index": 6,
+      "style": "Normal",
+      "text": "<TÊN SINH VIÊN>"
+    },
+    {
+      "index": 10,
+      "style": "Normal",
+      "text": "KHÓA LUẬN TỐT NGHIỆP"
+    },
+    {
+      "index": 11,
+      "style": "Normal",
+      "text": "<TÊN KHÓA LUẬN TỐT NGHIỆP>"
+    },
+    {
+      "index": 12,
+      "style": "Normal",
+      "text": "<Tên khóa luận Tiếng Anh>"
+    },
+    {
+      "index": 15,
+      "style": "Normal",
+      "text": "KỸ SƯ/ CỬ NHÂN NGÀNH <TÊN NGÀNH>"
+    },
+    {
+      "index": 23,
+      "style": "Normal",
+      "text": "TP. HỒ CHÍ MINH, <NĂM>"
+    },
+    {
+      "index": 25,
+      "style": "Normal",
+      "text": "ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH"
+    },
+    {
+      "index": 26,
+      "style": "Normal",
+      "text": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN"
+    },
+    {
+      "index": 27,
+      "style": "Normal",
+      "text": "KHOA…………."
+    },
+    {
+      "index": 31,
+      "style": "Normal",
+      "text": "<TÊN SINH VIÊN> – <MÃ SINH VIÊN>"
+    },
+    {
+      "index": 35,
+      "style": "Normal",
+      "text": "KHÓA LUẬN TỐT NGHIỆP"
+    },
+    {
+      "index": 36,
+      "style": "Normal",
+      "text": "<TÊN KHÓA LUẬN>"
+    },
+    {
+      "index": 37,
+      "style": "Normal",
+      "text": "<Tên khóa luận Tiếng Anh>"
+    },
+    {
+      "index": 40,
+      "style": "Normal",
+      "text": "KỸ SƯ/ CỬ NHÂNNGÀNH <TÊN NGÀNH>"
+    },
+    {
+      "index": 43,
+      "style": "Normal",
+      "text": "GIẢNG VIÊN HƯỚNG DẪN"
+    },
+    {
+      "index": 44,
+      "style": "Normal",
+      "text": "<TÊN GIẢNG VIÊN HƯỚNG DẪN>"
+    },
+    {
+      "index": 48,
+      "style": "Normal",
+      "text": "TP. HỒ CHÍ MINH, <NĂM>"
+    },
+    {
+      "index": 49,
+      "style": "Title",
+      "text": "THÔNG TIN HỘI ĐỒNG CHẤM KHÓA LUẬN TỐT NGHIỆP"
+    },
+    {
+      "index": 51,
+      "style": "Normal",
+      "text": "Hội đồng chấm khóa luận tốt nghiệp, thành lập theo Quyết định số …………………… ngày ………………….. của Hiệu trưởng Trường Đại học Công nghệ Thông tin."
+    },
+    {
+      "index": 53,
+      "style": "Title",
+      "text": "LỜI CẢM ƠN"
+    },
+    {
+      "index": 54,
+      "style": "Title",
+      "text": "MỤC LỤC"
+    },
+    {
+      "index": 55,
+      "style": "toc 1",
+      "text": "Chương 1.\tTÊN CHƯƠNG 1\t3"
+    },
+    {
+      "index": 56,
+      "style": "toc 2",
+      "text": "1.1.\tChủ đề cấp độ 2\t3"
+    },
+    {
+      "index": 57,
+      "style": "toc 3",
+      "text": "1.1.1.\tChủ đề cấp độ 3\t3"
+    },
+    {
+      "index": 58,
+      "style": "toc 3",
+      "text": "1.1.2.\tChủ đề cấp độ 3\t3"
+    },
+    {
+      "index": 59,
+      "style": "toc 4",
+      "text": "1.1.2.1.\tChủ đề cấp độ 4\t3"
+    },
+    {
+      "index": 60,
+      "style": "toc 1",
+      "text": "Chương 2.\tTÊN CHƯƠNG 2\t4"
+    },
+    {
+      "index": 61,
+      "style": "toc 2",
+      "text": "2.1.\tChủ đề cấp độ 2\t4"
+    },
+    {
+      "index": 62,
+      "style": "toc 3",
+      "text": "2.1.1.\tChủ đề cấp độ 3\t4"
+    },
+    {
+      "index": 63,
+      "style": "toc 4",
+      "text": "2.1.1.1.\tChủ đề cấp độ 4\t4"
+    },
+    {
+      "index": 64,
+      "style": "toc 2",
+      "text": "2.2.\tChủ đề cấp độ 2\t4"
+    },
+    {
+      "index": 65,
+      "style": "toc 3",
+      "text": "2.2.1.\tChủ đề cấp độ 3\t4"
+    },
+    {
+      "index": 66,
+      "style": "toc 1",
+      "text": "Chương 3.\tTÊN CHƯƠNG 3\t5"
+    },
+    {
+      "index": 67,
+      "style": "toc 2",
+      "text": "3.1.\tChủ đề cấp độ 2\t5"
+    },
+    {
+      "index": 68,
+      "style": "toc 3",
+      "text": "3.1.1.\tChủ đề cấp độ 3\t5"
+    },
+    {
+      "index": 69,
+      "style": "toc 4",
+      "text": "3.1.1.1.\tChủ đề cấp độ 4\t5"
+    },
+    {
+      "index": 70,
+      "style": "toc 2",
+      "text": "3.2.\tChủ đề cấp độ 2\t5"
+    },
+    {
+      "index": 74,
+      "style": "Title",
+      "text": "DANH MỤC HÌNH"
+    },
+    {
+      "index": 75,
+      "style": "table of figures",
+      "text": "Hình 1.1: Tên hình 1\t3"
+    },
+    {
+      "index": 79,
+      "style": "Title",
+      "text": "DANH MỤC BẢNG"
+    },
+    {
+      "index": 80,
+      "style": "table of figures",
+      "text": "Bảng 1.1: Tên bảng 1\t3"
+    },
+    {
+      "index": 81,
+      "style": "table of figures",
+      "text": "Bảng 2.1: Tên bảng 1\t4"
+    },
+    {
+      "index": 86,
+      "style": "Title",
+      "text": "DANH MỤC TỪ VIẾT TẮT"
+    },
+    {
+      "index": 91,
+      "style": "Title",
+      "text": "TÓM TẮT KHÓA LUẬN"
+    },
+    {
+      "index": 95,
+      "style": "Title",
+      "text": "TÊN CHƯƠNG 1"
+    },
+    {
+      "index": 96,
+      "style": "Heading 2",
+      "text": "Chủ đề cấp độ 2"
+    },
+    {
+      "index": 97,
+      "style": "Normal",
+      "text": "Nội dung …………………"
+    },
+    {
+      "index": 98,
+      "style": "Normal",
+      "text": "Nội dung…………………."
+    },
+    {
+      "index": 99,
+      "style": "Heading 3",
+      "text": "Chủ đề cấp độ 3"
+    },
+    {
+      "index": 100,
+      "style": "Normal",
+      "text": "Nội dung"
+    },
+    {
+      "index": 101,
+      "style": "Heading 3",
+      "text": "Chủ đề cấp độ 3"
+    },
+    {
+      "index": 102,
+      "style": "Heading 4",
+      "text": "Chủ đề cấp độ 4"
+    },
+    {
+      "index": 103,
+      "style": "Normal",
+      "text": "Nội dung"
+    },
+    {
+      "index": 105,
+      "style": "Caption",
+      "text": "Hình 1.1: Tên hình 1"
+    },
+    {
+      "index": 107,
+      "style": "Caption",
+      "text": "Bảng 1.1: Tên bảng 1"
+    },
+    {
+      "index": 112,
+      "style": "Heading 1",
+      "text": "TÊN CHƯƠNG 2"
+    },
+    {
+      "index": 113,
+      "style": "Heading 2",
+      "text": "Chủ đề cấp độ 2"
+    },
+    {
+      "index": 114,
+      "style": "Heading 3",
+      "text": "Chủ đề cấp độ 3"
+    },
+    {
+      "index": 115,
+      "style": "Heading 4",
+      "text": "Chủ đề cấp độ 4"
+    },
+    {
+      "index": 117,
+      "style": "Caption",
+      "text": "Bảng 2.1: Tên bảng 1"
+    },
+    {
+      "index": 118,
+      "style": "Heading 2",
+      "text": "Chủ đề cấp độ 2"
+    },
+    {
+      "index": 119,
+      "style": "Heading 3",
+      "text": "Chủ đề cấp độ 3"
+    },
+    {
+      "index": 123,
+      "style": "Heading 1",
+      "text": "TÊN CHƯƠNG 3"
+    },
+    {
+      "index": 124,
+      "style": "Heading 2",
+      "text": "Chủ đề cấp độ 2"
+    },
+    {
+      "index": 125,
+      "style": "Normal",
+      "text": "Nội dung …………………"
+    },
+    {
+      "index": 126,
+      "style": "Normal",
+      "text": "Nội dung…………………."
+    },
+    {
+      "index": 127,
+      "style": "Heading 3",
+      "text": "Chủ đề cấp độ 3"
+    },
+    {
+      "index": 128,
+      "style": "Heading 4",
+      "text": "Chủ đề cấp độ 4"
+    },
+    {
+      "index": 129,
+      "style": "Heading 2",
+      "text": "Chủ đề cấp độ 2"
+    },
+    {
+      "index": 132,
+      "style": "Title",
+      "text": "TÀI LIỆU THAM KHẢO"
+    },
+    {
+      "index": 133,
+      "style": "Normal",
+      "text": "Theo chuẩn IEEE"
+    }
+  ],
+  "tables": []
+}

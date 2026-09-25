@@ -1,0 +1,256 @@
+{
+  "type": "docx",
+  "paragraph_count": 49,
+  "nonempty_paragraph_count": 47,
+  "table_count": 0,
+  "sections": [
+    {
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "top_margin_cm": 2.0,
+      "bottom_margin_cm": 1.5,
+      "left_margin_cm": 2.0,
+      "right_margin_cm": 2.0,
+      "header_distance_cm": 0.0,
+      "footer_distance_cm": 0.0
+    }
+  ],
+  "paragraphs": [
+    {
+      "index": 0,
+      "style": "Title",
+      "text": "PHỤ LỤC 2"
+    },
+    {
+      "index": 1,
+      "style": "Title",
+      "text": "HÌNH THỨC TRÌNH BÀY ĐỒ ÁN TỐT NGHIỆP"
+    },
+    {
+      "index": 3,
+      "style": "Heading 1",
+      "text": "CẤU TRÚC CỦA ĐỒ ÁN"
+    },
+    {
+      "index": 4,
+      "style": "Normal",
+      "text": "Bìa chính Đồ án"
+    },
+    {
+      "index": 5,
+      "style": "Normal",
+      "text": "Bìa phụ Đồ án"
+    },
+    {
+      "index": 6,
+      "style": "Normal",
+      "text": "Thông tin hội đồng chấm Đồ án tốt nghiệp"
+    },
+    {
+      "index": 7,
+      "style": "Normal",
+      "text": "Lời cảm ơn"
+    },
+    {
+      "index": 8,
+      "style": "Normal",
+      "text": "Mục lục"
+    },
+    {
+      "index": 9,
+      "style": "Normal",
+      "text": "Danh mục hình"
+    },
+    {
+      "index": 10,
+      "style": "Normal",
+      "text": "Danh mục bảng"
+    },
+    {
+      "index": 11,
+      "style": "Normal",
+      "text": "Danh mục từ viết tắt (Danh mục chữ viết tắt xếp theo thứ tự bảng chữ cái. Không viết tắt những cụm từ dài hoặc cụm từ ít xuất hiện trong Đồ án)."
+    },
+    {
+      "index": 12,
+      "style": "Normal",
+      "text": "Nội dung của Đồ án."
+    },
+    {
+      "index": 13,
+      "style": "Heading 1",
+      "text": "BỐ CỤC CỦA ĐỒ ÁN"
+    },
+    {
+      "index": 14,
+      "style": "Normal",
+      "text": "Tóm tắt Đồ án (Abstract): trình bày tóm tắt vấn đề nghiên cứu, các hướng tiếp cận, cách giải quyết vấn đề và một số kết quả đạt được, dài từ 1 đến 2 trang."
+    },
+    {
+      "index": 15,
+      "style": "Normal",
+      "text": "Nội dung đồ án trình bày tối thiểu 50 trang khổ A4 và không nên vượt quá 100 trang (không kể các trang bìa, lời cám ơn, mục lục, tài liệu tham khảo…)"
+    },
+    {
+      "index": 16,
+      "style": "Normal",
+      "text": "Theo trình tự như sau:"
+    },
+    {
+      "index": 17,
+      "style": "Normal",
+      "text": "MỞ ĐẦU (Problem Statement): Trình bày lí do chọn đề tài, mục đích, đối tượng và phạm vi nghiên cứu."
+    },
+    {
+      "index": 18,
+      "style": "Normal",
+      "text": "TỔNG QUAN (Overview/Literature review/Related work/Background): Phân tích đánh giá các hướng nghiên cứu đã có của các tác giả trong và ngoài nước liên quan đến đề tài; nêu những vấn đề còn tồn tại; chỉ ra những vấn đề mà đề tài cần tập trung, nghiên cứu giải quyết."
+    },
+    {
+      "index": 19,
+      "style": "Normal",
+      "text": "NGHIÊN CỨU THỰC NGHIỆM HOẶC LÍ THUYẾT (Model/Method/Solutions): Trình bày cơ sở lí thuyết, lí luận, giả thiết khoa học và phương pháp nghiên cứu đã được sử dụng trong khoá luận."
+    },
+    {
+      "index": 20,
+      "style": "Normal",
+      "text": "TRÌNH BÀY, ĐÁNH GIÁ BÀN LUẬN VỀ KẾT QUẢ (Evaluation/Experimental Results/Validation): Mô tả ngắn gọn công việc nghiên cứu khoa học đã tiến hành, các kết quả nghiên cứu khoa học hoặc kết quả thực nghiệm. Đối với các đề tài ứng dụng có kết quả là sản phẩm phần mềm phải có hồ sơ thiết kế, cài đặt, ... theo các mô hình đã học (UML, ...)."
+    },
+    {
+      "index": 21,
+      "style": "Normal",
+      "text": "KẾT LUẬN (Summary/Conclusion): Trình bày những kết quả đạt được, những đóng góp mới và những đề xuất mới. Phần kết luận cần ngắn gọn, không có lời bàn và bình luận thêm."
+    },
+    {
+      "index": 22,
+      "style": "Normal",
+      "text": "HƯỚNG PHÁT TRIỂN (Future work): Kiến nghị về những hướng nghiên cứu tiếp theo"
+    },
+    {
+      "index": 23,
+      "style": "Normal",
+      "text": "TÀI LIỆU THAM KHẢO (References): Chỉ bao gồm các tài liệu được trích dẫn, sử dụng và đề cập tới để bàn luận trong khoá luận."
+    },
+    {
+      "index": 24,
+      "style": "Normal",
+      "text": "PHỤ LỤC (Appendices)."
+    },
+    {
+      "index": 26,
+      "style": "Heading 1",
+      "text": "HÌNH THỨC TRÌNH BÀY"
+    },
+    {
+      "index": 27,
+      "style": "Normal",
+      "text": "Đồ án phải được trình bày ngắn gọn, rõ ràng, mạch lạc, sạch sẽ, không được tẩy xóa, có đánh số trang, đánh số bảng biểu, hình vẽ, đồ thị. Nội dung phân thành các chương."
+    },
+    {
+      "index": 28,
+      "style": "Normal",
+      "text": "Font chữ Unicode: Times New Roman, kích thước(size) 13pt."
+    },
+    {
+      "index": 29,
+      "style": "Normal",
+      "text": "Dãn dòng (line spacing): 1.5 lines."
+    },
+    {
+      "index": 30,
+      "style": "Normal",
+      "text": "Lề trên 3 cm, lề dưới 3.5 cm, lề trái 3.5 cm, lề phải 2 cm."
+    },
+    {
+      "index": 31,
+      "style": "Normal",
+      "text": "Đánh số trang:"
+    },
+    {
+      "index": 32,
+      "style": "Normal",
+      "text": "Không đánh số trang các trang: Thông tin hội đồng chấm Đồ án tốt nghiệp, Lời cảm ơn, Mục lục, các danh mục hình, bảng, chữ viết tắt."
+    },
+    {
+      "index": 33,
+      "style": "Normal",
+      "text": "Bắt đầu đánh số trang từ phần Tóm tắt Đồ án: đánh số trang ở giữa bên dưới, theo hệ thống số Ả-rập."
+    },
+    {
+      "index": 34,
+      "style": "Normal",
+      "text": "Các bảng biểu trình bày theo chiều ngang khổ giấy thì đầu bảng là lề trái của trang."
+    },
+    {
+      "index": 35,
+      "style": "Normal",
+      "text": "Cách đánh danh mục bảng, hình vẽ:"
+    },
+    {
+      "index": 36,
+      "style": "Normal",
+      "text": "Chữ số thứ nhất chỉ tên chương"
+    },
+    {
+      "index": 37,
+      "style": "Normal",
+      "text": "Chữ số thứ hai chỉ thứ tự bảng biểu, sơ đồ, hình,… trong mỗi chương"
+    },
+    {
+      "index": 38,
+      "style": "Normal",
+      "text": "Mỗi bảng biểu, sơ đồ, hình,… phải có ghi chú, giải thích (caption), nêu rõ nguồn trích hoặc sao chụp,…"
+    },
+    {
+      "index": 39,
+      "style": "Normal",
+      "text": "Các chú thích phải đánh số và viết ghi chú ở cuối mỗi trang."
+    },
+    {
+      "index": 40,
+      "style": "Normal",
+      "text": "Số thứ tự của các chương, mục được đánh số bằng hệ thống số Ả-rập, không dùng số La mã. Các mục và tiểu mục được đánh số bằng các nhóm hai hoặc ba chữ số, cách nhau một dấu chấm: số thứ nhất chỉ số chương, chỉ số thứ hai chỉ số mục, số thứ ba chỉ số tiểu mục. Ví dụ:"
+    },
+    {
+      "index": 41,
+      "style": "Normal",
+      "text": "Chương 3 …(bold, font 14)"
+    },
+    {
+      "index": 42,
+      "style": "Normal",
+      "text": "3.1. …(bold, font 13)"
+    },
+    {
+      "index": 43,
+      "style": "Normal",
+      "text": "3.1.1. …(bold, font 13)"
+    },
+    {
+      "index": 44,
+      "style": "Normal",
+      "text": "3.1.2. …(bold, font 13)"
+    },
+    {
+      "index": 45,
+      "style": "Normal",
+      "text": "3.2. …(bold, font 13)"
+    },
+    {
+      "index": 46,
+      "style": "Normal",
+      "text": "Qui ước ghi tài liệu tham khảo:"
+    },
+    {
+      "index": 47,
+      "style": "Normal",
+      "text": "Theo chuẩn của IEEE"
+    },
+    {
+      "index": 48,
+      "style": "Normal",
+      "text": "Danh mục tài liệu tham khảo phải tách riêng tài liệu tiếng Việt và tiếng Anh, xếp theo thứ tự alphabet tên tác giả, tài liệu, nơi và năm phát hành."
+    }
+  ],
+  "tables": []
+}

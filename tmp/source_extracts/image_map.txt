@@ -1,0 +1,118 @@
+P9: media/image1.jpeg
+  7:Kiểm tra trực quan tự động trong môi trường sản xuất quy mô nhỏ phải đối mặt với hạn chế về dữ liệu khác với giả định của hầu hết các tiêu chuẩn phát hiện bất thường đã được công bố. Một dây chuyền sản xuất cho một danh mục linh kiện có khối lượng thấp và thường xuyên thay đổi không thể thu thập nhiều dữ liệu một cách kinh tế.
+  9:Mỗi sản phẩm chỉ có một trăm hình ảnh bình thường, và chắc chắn không thể thu thập mặt nạ lỗi chính xác đến từng pixel để huấn luyện, vì toàn bộ tiền đề của việc phát hiện bất thường một lớp là các ví dụ bị lỗi rất hiếm và hình dạng của chúng không được biết trước. Công trình này được thúc đẩy bởi chính bối cảnh đó, một tập dữ liệu công nghiệp thực tế gồm 12 mẫu sản phẩm với linh kiện trang trí khác nhau, mỗi mẫu sản phẩm chỉ có 100 hình ảnh bình thường và từ 30 đến 53 hình ảnh bị lỗi để đánh giá, không có nhãn hoặc mặt nạ lỗi ở bất kỳ giai đoạn nào, và không giống như các tiêu chuẩn được tuyển chọn, không có vị trí hoặc tỷ lệ đối tượng nhất quán trong một mẫu (Mục 3).
+  10:Tôi giải quyết hai nhiệm vụ cho mỗi mẫu sản phẩm một cách độc lập: phân loại cấp độ hình ảnh, quyết định xem hình ảnh được giữ lại là bình thường hay bị lỗi, và định vị cấp độ pixel, chỉ ra vị trí lỗi trong hình ảnh bị lỗi. Tôi sử dụng PatchCore [4], một bộ phát hiện bất thường lân cận gần nhất dựa trên bộ nhớ, làm phương pháp chính vì nó không yêu cầu huấn luyện dựa trên gradient của bộ trích xuất đặc trưng và do đó tương đối phù hợp với ngân sách huấn luyện 80 hình ảnh mỗi lớp (Mục 4). Vì việc định vị của PatchCore là sản phẩm phụ gián tiếp của lưới khoảng cách vá thô chứ không phải là đầu ra phân đoạn được huấn luyện trực tiếp, tôi kết hợp nó với một quy trình nhỏ gồm các bước tiền xử lý và hậu xử lý, loại bỏ nền, ngưỡng hạn chế tiền cảnh, lọc thành phần liên thông lớn nhất và tổng hợp đa tỷ lệ, được tổ chức xung quanh khung chín giai đoạn (OC-MAR) do thầy hướng dẫn của tôi đề xuất (Mục 4.1), nhằm mục đích thắt chặt việc định vị mà không yêu cầu bất kỳ nhãn bổ sung nào. Để so sánh, tôi cũng đã thử SuperSimpleNet [3], một giải pháp thay thế có thể huấn luyện được, học trực tiếp đầu phân đoạn từ các khiếm khuyết giả tổng hợp; tôi báo cáo nỗ lực này và việc nó không hội tụ ở quy mô dữ liệu của tôi như một kết quả tiêu cực thay vì bỏ qua nó (Phụ lục A). Bài báo này ghi lại cuộc điều tra đó, bao gồm hai phát hiện không được dự đoán trước và tôi cho rằng có nhiều thông tin hơn so với độ chính xác phân loại được nêu bật. Thứ nhất, bước tiền xử lý loại bỏ nền, bỏ qua kênh alpha, tạo ra mặt nạ đối tượng bị lỗi âm thầm đối với các đối tượng có màu tối, một lỗi mà chúng tôi không nhận thấy chỉ bằng cách kiểm tra trực quan nhưng một cuộc khảo sát định lượng trên tất cả 12 lớp cho thấy nó được dự đoán mạnh mẽ bởi độ sáng của đối tượng (Mục 6.4). Thứ hai, việc áp dụng toàn bộ quy trình định vị của tôi một cách đồng nhất cho các hình ảnh bình thường từ tất cả 12 mẫu sản phẩm, không chỉ hai lớp có độ chính xác phân loại yếu nhất, cho thấy các vùng dương tính giả nhỏ còn sót lại vẫn tồn tại dưới ngưỡng phát hiện cố định, không được hiệu chỉnh, một hạn chế dễ bị bỏ sót khi chỉ kiểm tra một lớp duy nhất (Mục 6).
+  11:Những đóng góp của tôi như sau.
+  12:• Một quy trình phát hiện và định vị bất thường hoàn chỉnh cho một mẫu sản phẩm duy nhất, được đánh giá từ đầu đến cuối trên
+P29: media/image1.jpeg
+  29:Phần còn lại của bài báo cáo được tổ chức như sau. Phần 2 trình bày phương pháp của tôi so với các phương pháp phát
+  30:hiện bất thường dựa trên bộ nhớ, dựa trên tái tạo và phương pháp cổ điển. Phần 3 mô tả chi tiết tập dữ liệu và thiết lập bài
+  31:toán. Phần 4 mô tả quy trình xử lý dữ liệu của tôi. Phần 5 mô tả quy trình đánh giá. Phần 6 trình bày kết quả, bao gồm
+  32:hai phát hiện được tóm tắt ở trên.
+P70: media/image2.jpeg
+  70:Hình 1: Các mẫu bình thường và lỗi tiêu biểu từ bốn mẫu sản phẩm. Các lỗi trong tập dữ liệu này chủ yếu là thiếu
+  71:hoặc không đầy đủ màu sắc và chi tiết in (ví dụ: họa tiết in hiển thị dưới dạng hình bóng trống) chứ không
+  72:phải là hư hỏng vật lý đối với vật thể.
+  73:Các mặt nạ lỗi thực tế và, đối với hầu hết các danh mục, có khoảng 200 hoặc nhiều hơn hình ảnh huấn luyện
+P97: media/image3.jpeg
+  97:Hình 2: Các hộp giới hạn đối tượng được phát hiện bằng phương pháp phỏng đoán được chồng lên nhau cho 60 hình ảnh bình thường
+  98:được lấy mẫu trên tất cả 12 mẫu sản phẩm (5 hình ảnh mỗi mẫu sản phẩm), minh họa phạm vi vị trí và kích thước của đối tượng trong tập dữ liệu.
+  99:Các hình ảnh chủ yếu có kích thước 956×1276 pixel theo hướng dọc, với một phần nhỏ được xoay 90 sang hướng ngang (1276
+  100:× 956); tỷ lệ hình ảnh được xoay thay đổi đáng kể tùy theo từng loại (ví dụ: 0/150 đối với FA-1041 so với 68/153 đối với
+P122: media/image4.jpeg
+  122:Hình 3: Số lượng ảnh bình thường và ảnh lỗi trên mỗi mẫu sản phẩm. Mỗi lớp có chính xác 100 ảnh bình thường; số lượng ảnh lỗi dao
+  123:động từ 30 đến 53.
+  124:(Mục 4), các hình ảnh bị lỗi chỉ đóng vai trò là tập dữ liệu đánh giá. Do số lượng nhỏ, ước tính AUROC trên mỗi lớp về nguyên tắc có
+  125:thể mang phương sai đáng kể tùy thuộc vào sự phân chia giữa tập huấn luyện và tập hiệu chuẩn; điều này được xem là một hạn chế trong Mục
+P180: media/image6.jpeg
+  180:Hình 5: Quy trình PatchCore, được sao chép từ ấn bản gốc [4]. Một xương sống đóng băng trích xuất các đặc điểm
+  181:cấp độ vá; các đặc điểm hình ảnh bình thường điền vào ngân hàng bộ nhớ coreset trong thời gian huấn luyện; các
+  182:đặc điểm hình ảnh thử nghiệm được chấm điểm bằng khoảng cách lân cận gần nhất với ngân hàng để tạo ra một sự bất thường.
+  183:bản đồ.
+P217: media/image1.jpeg
+  217:4.7 Phân ngưỡng (giai đoạn 7)
+  218:Các mục 4.6 và 6 ở trên sử dụng một ngưỡng phân vị thứ 92 cố định duy nhất cho tất cả 12 lớp. Ngoài ra, tôi hiệu chỉnh
+  219:ngưỡng này cho từng lớp, sử dụng phép chia chuẩn hiệu chỉnh (Mục 5), đối với mỗi lớp, tôi chọn phân vị ứng viên nhỏ
+  220:nhất trong {92, 94, 96, 98, 99} có diện tích dương tính giả trung bình được giữ lại trên ảnh chuẩn hiệu chỉnh của lớp đó nằm
+P255: media/image7.jpeg
+  255:5.5 Đường cơ sở thống kê cổ điển
+  256:Để so sánh hiệu suất của PatchCore với một phương pháp thay thế không dựa trên học sâu, tôi đánh giá một
+  257:đường cơ sở một lớp cổ điển bằng cách sử dụng các thống kê hình ảnh được tạo thủ công được tính toán trong quá
+  258:trình phân tích dữ liệu thăm dò, độ sáng, độ tương phản, độ sắc nét, mật độ cạnh, độ bão hòa, bốn mô tả ma
+P346: media/image8.jpeg
+  346:Hình 6: FA-1047, một mẫu sản phẩm bình thường. Từ trái sang phải, ảnh gốc; mặt nạ alpha thực (phân đoạn mới).
+  347:đầu ra mô hình); mặt nạ ngưỡng màu (từ tập dữ liệu đã loại bỏ nền); các pixel hiện có trong
+  348:Mặt nạ thật nhưng bị mặt nạ ngưỡng màu bỏ sót, được tô đỏ. Mặt nạ ngưỡng màu
+  349:Bỏ sót hầu hết phần đế tối màu.
+P377: media/image9.jpeg
+  377:Bảng 5: Cấu hình cuối cùng, AUROC cấp độ ảnh cho mỗi mẫu sản phẩm (ảnh đã
+  378:loại bỏ nền, đầu vào 384 × 384, ngưỡng giới hạn đối tượng tiền
+  379:cảnh).
+  380:Lớp AUROC
+P420: media/image10.jpeg
+  421:Đối với mỗi mẫu sản phẩm (Mục 3), Tôi đã đánh dấu AUROC trên mỗi mẫu sản phẩm là một hạn chế vì nó mang phương sai đáng kể.
+  422:Chúng tôi lặp lại cấu hình cuối cùng (hình ảnh đã loại bỏ nền, đầu vào 384 × 384) trên 5 hạt giống.
+  423:(0–4), mỗi nhóm có một bộ dữ liệu huấn luyện/hiệu chuẩn được lấy mẫu lại độc lập và bộ lõi. Bảng 6 báo cáo
+P447: media/image11.jpeg
+  448:Việc tổng hợp đa thang đo theo giá trị cực đại không cải thiện AUROC trung bình, mà chỉ làm giảm nhẹ.
+  449:(0,9964 so với 0,9958), gần như hoàn toàn do hai mẫu sản phẩm, FA-1113 ( 0,007) và FA-1120
+  450:( 0,005), trong khi năm mẫu sản phẩm không thay đổi và ba mẫu sản phẩm cải thiện rất nhẹ. Việc lấy giá trị tối đa theo từng phần tử trên
+P486: media/image12.jpeg
+  486:Hình 7: FA-1047, ba mẫu bị lỗi, lớp phủ giới hạn vùng phía trước ở từng tỷ lệ riêng lẻ.
+  487:và cho tổng hợp tối đa đa quy mô.
+  488:FA-1113 cần đạt mức phân vị thứ 99 để đạt mục tiêu, trong khi FA-504 đã đạt được mục tiêu ở mức phân vị thứ 94.
+  489:một sự lan rộng mà ngưỡng đồng nhất không thể đáp ứng đồng thời.
+P541: media/image1.jpeg
+  541:6.10 Định vị định lượng, một tập hợp con được chú thích thủ công
+  542:Đánh giá định tính nêu trên, về bản chất, không thể trả lời một câu hỏi cơ bản: liệu vùng được giữ lại có thực sự
+  543:trùng khớp với vùng bị lỗi hay không, ngoài một vài ví dụ đã được trình bày. Tập dữ liệu không cung cấp dữ liệu tham
+  544:chiếu ở cấp độ pixel, vì vậy tôi đã xây dựng một phần dữ liệu tham chiếu đó. Đối với mỗi mẫu sản phẩm, tôi đã chú
+P582: media/image14.jpeg
+  583:Bảng 9: Định vị định lượng so với mặt nạ được chú thích thủ công,
+  584:tất cả 12 mẫu sản phẩm (192 hình ảnh không trống)
+  585:sự thật cơ bản), dự đoán bị hạn chế ở tiền cảnh tại điểm cố định
+P615: media/image1.jpeg
+  615:(Hình 11) cho thấy một số vùng dương tính giả nhỏ vẫn tồn tại sau ngưỡng cố định của tôi trên hầu hết
+  616:mọi hình ảnh bình thường mà tôi đã kiểm tra, không chỉ hai lớp yếu nhất theo AUROC, mặc dù không có vùng
+  617:nào trong số đó đủ lớn để làm cho điểm số ở cấp độ hình ảnh tương ứng vượt quá mức bị lỗi. Bài học chung rút
+  618:ra là việc kiểm tra định tính trên một lớp hoặc một ví dụ duy nhất không thể thay thế cho việc kiểm tra toàn
+P657: media/image15.jpeg
+  657:Kết quả tôi báo cáo thay vì bỏ qua (Phụ lục A); và ngưỡng phát hiện đồng nhất được lựa chọn thủ công rõ ràng là
+  658:không tối ưu, ngưỡng thích ứng theo từng lớp trên các hình ảnh bình thường được giữ lại làm giảm diện tích dương tính
+  659:giả trung bình xuống 66% mà không ảnh hưởng đến AUROC phân loại (Mục 6.8), trong khi giai đoạn thứ hai, phức tạp hơn
+  660:của quy trình OC-MAR, tổng hợp bản đồ dị thường đa tỷ lệ, đã được đánh giá và thấy rằng không giúp ích gì (Mục 6.7).
+P702: media/image1.jpeg
+  702:(i) tổn thất phân loại không lan truyền ngược qua đầu phân đoạn và đầu phân loại sử dụng các đặc trưng xương sống
+  703:thô (không được điều chỉnh) thay vì các đặc trưng được điều chỉnh được sử dụng cho phân đoạn; (ii) đầu phân đoạn
+  704:là một khối tích chập 1×1 hai lớp với kích thước ẩn rộng hơn đáng kể (1024) so với thiết kế tích chập 3×3 ba lớp
+  705:ban đầu của chúng tôi, và quá trình huấn luyện sử dụng lịch trình tốc độ học (giảm dần ở 80% và 90% quá trình huấn
+P745: media/image1.jpeg
+  745:[6] Zhang Jianming, Sarah Adel Bargal, Zhe Lin, Jonathan Brandt, Xiaohui Shen và Stan Sclaroff.
+  746:Sự chú ý thần kinh từ trên xuống bằng cách lan truyền ngược kích thích. Tạp chí quốc tế về thị giác máy
+  747:tính, 126(10):1084–1102, 2018.
+  748:24
+P753: media/image16.jpeg
+  753:Hình 8: FA-808, các mẫu bị lỗi ở độ phân giải 384 × 384. Bên trái, ảnh gốc. Ở giữa, ngưỡng phần trăm toàn bộ ảnh. Bên phải, ngưỡng
+  754:giới hạn vùng tiền cảnh với bộ lọc thành phần liên thông lớn nhất, mặt nạ đối tượng từ kênh alpha thực; ranh giới của vùng được giữ
+  755:lại được vẽ thêm bằng màu xanh lá cây, vì việc tô màu pha trộn alpha một mình có thể khó nhận biết bằng mắt thường trên các màu đối
+  756:tượng bão hòa.
+P762: media/image17.jpeg
+  762:Hình 9: FA-1047, các mẫu bị lỗi ở kích thước 384 × 384, bố cục giống như Hình 8.
+  763:26
+P768: media/image18.jpeg
+  768:Hình 10: FA-808, các mẫu bình thường được giữ lại ở độ phân giải 384 × 384, ngưỡng giới hạn vùng
+  769:tiền cảnh với mặt nạ đối tượng alpha thực. Các vùng nhỏ riêng lẻ (ví dụ: cạnh của hộp quà) đôi khi
+  770:được giữ lại, nhưng không tạo ra vùng dương tính giả lớn nào.
+  771:27
+P776: media/image19.jpeg
+  776:Hình 11: Một hình ảnh mẫu sản phẩm bình thường và một hình ảnh mẫu sản phẩm lỗi từ mỗi trong số 10 mẫu sản phẩm không được hiển thị trong Hình 8–9,
+  777:cùng một quy trình xử lý hạn chế tiền cảnh, 384 × 384, các tham số không thay đổi. Đối với mỗi mẫu sản phẩm, từ
+  778:trái sang phải, lớp phủ hạn chế tiền cảnh trên hình ảnh mẫu sản phẩm bình thường, hình ảnh mẫu sản phẩm lỗi ban đầu, lớp phủ hạn chế tiền cảnh trên cùng hình ảnh mẫu sản phẩm lỗi đó. s là điểm số bất thường ở cấp độ hình ảnh cho mẫu sản phẩm đó.
+  779:28
+P784: media/image20.jpeg
+  784:29
+P789: media/image21.jpeg
+  789:Hình 13: Hàm mất mát huấn luyện cho lần chạy SuperSimpleNet cuối cùng (đã hiệu chỉnh kiến trúc), FA-1047
+  790:và FA-808. Hàm mất mát giảm mạnh từ khởi tạo ngẫu nhiên nhưng đạt mức ổn định ở khoảng epoch 20 và không
+  791:giảm đáng kể trong 280 epoch còn lại, kể cả sau khi tốc độ học giảm dần theo lịch trình ở epoch 240 và
+  792:270.

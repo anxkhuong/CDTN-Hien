@@ -1,0 +1,142 @@
+TABLE 1
+	1		2 3 XONG XONG XONG Hình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo
+	JPEG, tối đa		rembg		256 / 384 /
+	1276 × 956		alpha thực sự 512 px
+	6		5 4 XONG XONG XONG Lọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường
+	máy kết hợp tối đa		PatchCore
+	phần trăm trong khẩu trang		không có lợi nhuận AUROC		(+ SuperSimpleNet)
+	7		8 XONG Ngưỡng thích ứng Tinh chỉnh vùng		9 MỘT PHẦN XONG Mặt nạ cuối cùng	
+	Hiệu chuẩn theo từng lớp. -66% diện tích FP		CC lớn nhất không có hình thái		lớp phủ nhị phân
+
+TABLE 2
+	FA-504 1.000
+	FA-808 0.970
+	FA-838 0.996
+
+TABLE 3
+	Lớp học		Bản vá lõi rừng cô lập (cơ sở)
+	FA-504 0.993 1.000
+	FA-1114		0.978 1.000
+	FA-1043 0.965 0.991
+	FA-1047 0.958 0.964
+	FA-1113 0.946 1.000
+	FA-1041 0.928 0.996
+	FA-1120 0.922 1.000
+	FA-1042 0.845 0.981
+	FA-1045 0.833 0.995
+	FA-838 0.814 0.996
+	FA-924 0.799 1.000
+	FA-808 0.799 0.970
+	Nghĩa là		0.898 0.991
+
+TABLE 4
+	Lớp học		Ảnh gốc đã được xóa phông nền
+	FA-1047 0.964 1.000		+0,036
+
+TABLE 5
+	Lớp học		Ảnh gốc đã được xóa phông nền
+	FA-1042 0,981 0.990		+0,009
+	FA-1045 0,995 FA-838 1.000		+0,005
+	FA-1041 0.996 1.000		+0,004
+	0,996 FA-1113 1,000 0.999		+0,003
+	FA-504 1,000 FA-924 1.000 0,000
+	FA-1114 1,000 1.000 0,000
+	FA-1120 1.000 1.000 0,000
+	1,000 FA-808 0,970 0.994 -0,006
+	FA-1043 0,991 0.989 -0,011
+	0,955 -0,015
+	0,970 -0,021
+	Nghĩa là		0.991 0.991 0,000
+
+TABLE 6
+	Lớp học		Tỷ lệ âm tính giả Độ sáng trung bình của vật thể
+	FA-1120 0.963 4.7
+	FA-1047 0.825 28,7
+	FA-1114		0.780 31,6
+	FA-1113 0,064 133.2
+	FA-1042 0,047 132,8
+	FA-1043 0,042 139,5
+	FA-1045 0,040 132,4
+
+TABLE 7
+	Lớp học		Tỷ lệ âm tính giả Độ sáng trung bình của vật thể
+	FA-838 0,007 152,5
+	FA-1041 0,003 171,6
+	FA-924 0,003 128,7
+	FA-504 0,003 117,6
+	FA-808 0,002 200,9
+
+TABLE 8
+	FA-504 1.000
+	FA-808 0.983
+	FA-838 1.000
+
+TABLE 9
+	Lớp học AUROC trung bình Độ lệch chuẩn
+	FA-1120 0.982 0,014
+	FA-1042 0.992 0,005
+	FA-924 0.992 0,011
+	FA-1113 0.993 0,005
+	FA-808 0.996 0,008
+	FA-1114		0.998 0,003
+	FA-1045 0.999 0,002
+	FA-1043 0.999 0,001
+	FA-1047 1.000 0,000
+	FA-1041 1.000 0,000
+	FA-504 1.000 0,000
+	FA-838 1.000 0,000
+	Trung bình (tất cả hạt giống, tất cả các lớp)		0.9959 —
+
+TABLE 10
+	Lớp học		Chỉ 384 × 384 Đa tỷ lệ (tối đa)
+	FA-504 1.000 1.000
+	FA-808 1.000 1.000
+	FA-838 1.000 1.000
+
+TABLE 11
+	Lớp học		Chỉ 384 × 384 Đa tỷ lệ (tối đa)
+	FA-924 1.000 1.000
+	FA-1041 1.000 0.999
+	FA-1042 0.995 0.994
+	FA-1043 0.994 0.999
+	FA-1045 0.997 0.998
+	FA-1047 0.999 0.999
+	FA-1113 1.000 0.993
+	FA-1114		0.995 0.995
+	FA-1120 0.977 0.973
+	Nghĩa là		0.996 0.996
+
+TABLE 12
+	Lớp học		Phần trăm được chọn Diện tích FP trung bình (p92) Diện tích FP trung bình (được chọn)
+	FA-1114		99 1244,5 196,4
+	FA-1113 99 1171,8 187,3
+	FA-1047 98 846,3 253.1
+	FA-1043 98 634,8 219.1
+	FA-1042 98 618,4 223.0
+	FA-1041 98 562,9 175,2
+	FA-1045 96 577,9 293,7
+
+TABLE 13
+	Lớp học		Phần trăm được chọn Diện tích FP trung bình (p92) Diện tích FP trung bình (được chọn)
+	FA-808 98 543,7 195,8
+	FA-1120 98 530,7 163.2
+	FA-924 96 432,7 260,2
+	FA-838 96 410,7 240,2
+	FA-504 94 374,5 288.0
+	Nghĩa là		—		662,4 224,6
+
+TABLE 14
+	Lớp học		n Trò chơi tính điểm phạm vi phủ sóng IoU
+	FA-808 20 0,323 0.564 0,800
+	FA-1041 20 0,289 0.361 0,950
+	FA-1043 16 0,258 0.329 1.000
+	FA-1047 12 0,222 0.229 1.000
+	FA-1042 16 0,214 12 0.369 1.000
+	FA-1113 0,212 0,225 1.000
+	FA-1045 12 0,209 0.237 1.000
+	FA-504 20 0,206 0.352 0,700
+	FA-924 12 0,199 0.242 0.917
+	FA-838 20 0,194 0.269 0,900
+	FA-1120 12 0,179 0.206 1.000
+	FA-1114		20 0,116 0.213 0,500
+	Trung bình (12 mẫu sản phẩm) 192 0,220		0.313 0.875

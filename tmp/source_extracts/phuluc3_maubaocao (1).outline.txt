@@ -1,0 +1,74 @@
+0000	Normal	ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH
+0001	Normal	TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN
+0002	Normal	KHOA………..
+0006	Normal	<TÊN SINH VIÊN>
+0010	Normal	KHÓA LUẬN TỐT NGHIỆP
+0011	Normal	<TÊN KHÓA LUẬN TỐT NGHIỆP>
+0012	Normal	<Tên khóa luận Tiếng Anh>
+0015	Normal	KỸ SƯ/ CỬ NHÂN NGÀNH <TÊN NGÀNH>
+0023	Normal	TP. HỒ CHÍ MINH, <NĂM>
+0025	Normal	ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH
+0026	Normal	TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN
+0027	Normal	KHOA………….
+0031	Normal	<TÊN SINH VIÊN> – <MÃ SINH VIÊN>
+0035	Normal	KHÓA LUẬN TỐT NGHIỆP
+0036	Normal	<TÊN KHÓA LUẬN>
+0037	Normal	<Tên khóa luận Tiếng Anh>
+0040	Normal	KỸ SƯ/ CỬ NHÂNNGÀNH <TÊN NGÀNH>
+0043	Normal	GIẢNG VIÊN HƯỚNG DẪN
+0044	Normal	<TÊN GIẢNG VIÊN HƯỚNG DẪN>
+0048	Normal	TP. HỒ CHÍ MINH, <NĂM>
+0049	Title	THÔNG TIN HỘI ĐỒNG CHẤM KHÓA LUẬN TỐT NGHIỆP
+0051	Normal	Hội đồng chấm khóa luận tốt nghiệp, thành lập theo Quyết định số …………………… ngày ………………….. của Hiệu trưởng Trường Đại học Công nghệ Thông tin.
+0053	Title	LỜI CẢM ƠN
+0054	Title	MỤC LỤC
+0055	toc 1	Chương 1.	TÊN CHƯƠNG 1	3
+0056	toc 2	1.1.	Chủ đề cấp độ 2	3
+0057	toc 3	1.1.1.	Chủ đề cấp độ 3	3
+0058	toc 3	1.1.2.	Chủ đề cấp độ 3	3
+0059	toc 4	1.1.2.1.	Chủ đề cấp độ 4	3
+0060	toc 1	Chương 2.	TÊN CHƯƠNG 2	4
+0061	toc 2	2.1.	Chủ đề cấp độ 2	4
+0062	toc 3	2.1.1.	Chủ đề cấp độ 3	4
+0063	toc 4	2.1.1.1.	Chủ đề cấp độ 4	4
+0064	toc 2	2.2.	Chủ đề cấp độ 2	4
+0065	toc 3	2.2.1.	Chủ đề cấp độ 3	4
+0066	toc 1	Chương 3.	TÊN CHƯƠNG 3	5
+0067	toc 2	3.1.	Chủ đề cấp độ 2	5
+0068	toc 3	3.1.1.	Chủ đề cấp độ 3	5
+0069	toc 4	3.1.1.1.	Chủ đề cấp độ 4	5
+0070	toc 2	3.2.	Chủ đề cấp độ 2	5
+0074	Title	DANH MỤC HÌNH
+0075	table of figures	Hình 1.1: Tên hình 1	3
+0079	Title	DANH MỤC BẢNG
+0080	table of figures	Bảng 1.1: Tên bảng 1	3
+0081	table of figures	Bảng 2.1: Tên bảng 1	4
+0086	Title	DANH MỤC TỪ VIẾT TẮT
+0091	Title	TÓM TẮT KHÓA LUẬN
+0095	Title	TÊN CHƯƠNG 1
+0096	Heading 2	Chủ đề cấp độ 2
+0097	Normal	Nội dung …………………
+0098	Normal	Nội dung………………….
+0099	Heading 3	Chủ đề cấp độ 3
+0100	Normal	Nội dung
+0101	Heading 3	Chủ đề cấp độ 3
+0102	Heading 4	Chủ đề cấp độ 4
+0103	Normal	Nội dung
+0105	Caption	Hình 1.1: Tên hình 1
+0107	Caption	Bảng 1.1: Tên bảng 1
+0112	Heading 1	TÊN CHƯƠNG 2
+0113	Heading 2	Chủ đề cấp độ 2
+0114	Heading 3	Chủ đề cấp độ 3
+0115	Heading 4	Chủ đề cấp độ 4
+0117	Caption	Bảng 2.1: Tên bảng 1
+0118	Heading 2	Chủ đề cấp độ 2
+0119	Heading 3	Chủ đề cấp độ 3
+0123	Heading 1	TÊN CHƯƠNG 3
+0124	Heading 2	Chủ đề cấp độ 2
+0125	Normal	Nội dung …………………
+0126	Normal	Nội dung………………….
+0127	Heading 3	Chủ đề cấp độ 3
+0128	Heading 4	Chủ đề cấp độ 4
+0129	Heading 2	Chủ đề cấp độ 2
+0132	Title	TÀI LIỆU THAM KHẢO
+0133	Normal	Theo chuẩn IEEE

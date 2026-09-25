@@ -1,0 +1,5095 @@
+{
+  "type": "docx",
+  "paragraph_count": 794,
+  "nonempty_paragraph_count": 683,
+  "table_count": 14,
+  "sections": [
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 1.27,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 1.78,
+      "right_margin_cm": 1.78,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 2.65,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 11.92,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 12.21,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 9.54,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 2.65,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.5,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 7.66,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 2.69,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 2.59,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 2.6,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 2.71,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 7.31,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 2.64,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 2.69,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 2.67,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 15.7,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 2.71,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 2.53,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 2.58,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 2.65,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 2.66,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 2.64,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 2.64,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.55,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 21.1,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 21.95,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 4.41,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 18.67,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 20.64,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 26.14,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 10.62,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    },
+    {
+      "page_width_cm": 21.59,
+      "page_height_cm": 27.94,
+      "top_margin_cm": 16.7,
+      "bottom_margin_cm": 0.0,
+      "left_margin_cm": 2.51,
+      "right_margin_cm": 0.18,
+      "header_distance_cm": 1.27,
+      "footer_distance_cm": 1.27
+    }
+  ],
+  "drawing_count": 27,
+  "picture_count": 27,
+  "explicit_page_break_count": 27,
+  "image_relationships": [
+    "media/image3.jpeg",
+    "media/image8.jpeg",
+    "media/image13.jpeg",
+    "media/image20.jpeg",
+    "media/image2.jpeg",
+    "media/image7.jpeg",
+    "media/image12.jpeg",
+    "media/image19.jpeg",
+    "media/image11.jpeg",
+    "media/image15.jpeg",
+    "media/image1.jpeg",
+    "media/image6.jpeg",
+    "media/image18.jpeg",
+    "media/image10.jpeg",
+    "media/image17.jpeg",
+    "media/image5.jpeg",
+    "media/image14.jpeg",
+    "media/image4.jpeg",
+    "media/image9.jpeg",
+    "media/image16.jpeg",
+    "media/image21.jpeg"
+  ],
+  "paragraphs": [
+    {
+      "index": 0,
+      "style": "Normal",
+      "text": "Chuyên đề tốt nghiệp"
+    },
+    {
+      "index": 1,
+      "style": "Normal",
+      "text": "Đề tài: Xây dựng hệ thống phát hiện sai lệch ngoại quan của sản phẩm đồ"
+    },
+    {
+      "index": 2,
+      "style": "Normal",
+      "text": "trang trí xuất khẩu sử dụng thị giác máy tính"
+    },
+    {
+      "index": 3,
+      "style": "Normal",
+      "text": "Tóm tắt"
+    },
+    {
+      "index": 4,
+      "style": "Normal",
+      "text": "Tôi nghiên cứu việc phát hiện và định vị bất thường trên một tập dữ liệu công nghiệp thực  tế gồm 12 mẫu sản phẩm với ngân sách dữ liệu nhỏ hơn nhiều so với các tiêu chuẩn thông thường, 100 hình ảnh  bình thường mỗi lớp, 30-53 hình ảnh lỗi chỉ dành cho việc đánh giá, và không có nhãn lỗi hoặc mặt nạ  cấp độ pixel ở bất kỳ giai đoạn nào. Tôi sử dụng PatchCore, một bộ phát hiện dựa trên bộ nhớ  không cần huấn luyện, làm phương pháp chính và tổ chức một quy trình nhỏ gồm các bước tiền xử lý và  hậu xử lý, loại bỏ nền, ngưỡng giới hạn tiền cảnh, đánh giá đa tỷ lệ và ngưỡng thích ứng cho mỗi lớp,  xung quanh khung chín giai đoạn (OC-MAR) do thầy hướng dẫn của tôi đề xuất. Cấu hình cuối cùng đạt được AUROC trung bình ở cấp độ hình ảnh là 0,996, ổn định trong phạm vi 0,002 trên 5 hạt giống ngẫu nhiên,  cao hơn nhiều so với mức cơ sở thống kê cổ điển (0,898). Ngoài con số nổi bật này, tôi báo cáo ba phát hiện mà tôi cho là hữu ích hơn."
+    },
+    {
+      "index": 5,
+      "style": "Normal",
+      "text": "Thứ nhất, bước loại bỏ nền bằng cách bỏ qua kênh alpha tạo ra mặt nạ đối tượng bị lỗi âm thầm đối với các  đối tượng có màu tối, bỏ sót 78–96% pixel đối tượng thực sự cho ba lớp tối nhất, một mô hình không  thể nhận thấy từ một số ví dụ định tính nhưng được dự đoán mạnh mẽ bởi độ sáng của đối tượng khi  được quét định lượng trên tất cả 12 mẫu (r =  0,938). \nThứ hai, tôi đã thử một phương án thay thế có thể huấn luyện được, có lỗi tổng hợp (SuperSimpleNet) để so sánh; mặc dù đã trải qua ba vòng  xác minh kiến trúc so với triển khai tham chiếu, nó vẫn không hội tụ ở quy mô dữ liệu này, và chúng tôi báo cáo điều này như một kết quả tiêu cực thay vì bỏ qua nó. Thứ ba, việc đánh giá thêm hai giai  đoạn nữa của quy trình OC-MAR cho thấy kết quả không đối xứng: ngưỡng thích ứng theo từng lớp, được  hiệu chỉnh trên các ảnh bình thường được giữ lại, làm giảm diện tích dương tính giả trung bình xuống  66% mà không ảnh hưởng đến độ chính xác phân loại, trong khi việc tổng hợp bản đồ dị thường đa tỷ lệ,  được đánh giá độc lập, không cải thiện AUROC so với một độ phân giải được lựa chọn kỹ lưỡng duy nhất.\n Vì tập dữ liệu không cung cấp mặt nạ lỗi được chuyên gia vẽ sẵn, việc định vị chủ yếu được đánh  giá định tính; tôi cũng xây dựng thêm một tập dữ liệu tham chiếu được chú thích thủ công một phần (192 hình ảnh bị lỗi, cố ý thô sơ để phản ánh nỗ lực chú thích thực tế trong môi trường sản xuất  nhỏ) và báo cáo ba chỉ số định lượng bổ sung so với tập dữ liệu này. Độ chồng lấp ranh giới (IoU,  0,220) thấp, như dự kiến với tập dữ liệu tham chiếu thô sơ, nhưng độ chính xác của trò chơi chỉ điểm  cao (0,875), cho thấy bộ phát hiện xác định đáng tin cậy vị trí lỗi tổng quát chính xác ngay cả khi  nó không xác định ranh giới một cách chính xác. Tóm lại, kết quả của chúng tôi cho thấy rằng một bộ phát hiện không cần huấn luyện, kết hợp với quá trình tiền xử lý được xác minh cẩn thận và kiểm tra  định lượng, là một lựa chọn thực tế và được đánh giá trung thực để phát hiện bất thường trong điều  kiện dữ liệu cực kỳ khan hiếm, và một số phát hiện hữu ích nhất trong bối cảnh này đến từ việc kiểm  tra các giả định của chính mình trên toàn bộ tập hợp các lớp hơn là từ một số ít ví dụ định tính."
+    },
+    {
+      "index": 6,
+      "style": "Normal",
+      "text": "1. Giới thiệu"
+    },
+    {
+      "index": 7,
+      "style": "Normal",
+      "text": "Kiểm tra trực quan tự động trong môi trường sản xuất quy mô nhỏ phải đối mặt với hạn chế về dữ liệu khác với giả định của hầu hết các tiêu chuẩn phát hiện bất thường đã được công bố. Một dây chuyền sản xuất cho một danh mục linh kiện có khối lượng thấp và thường xuyên thay đổi không thể thu thập nhiều dữ liệu một cách kinh tế."
+    },
+    {
+      "index": 9,
+      "style": "Normal",
+      "text": "Mỗi sản phẩm chỉ có một trăm hình ảnh bình thường, và chắc chắn không thể thu thập mặt nạ lỗi chính xác đến từng pixel để huấn luyện, vì toàn bộ tiền đề của việc phát hiện bất thường một lớp là các ví dụ bị lỗi rất hiếm và hình dạng của chúng không được biết trước. Công trình này được thúc đẩy bởi chính bối cảnh đó, một tập dữ liệu công nghiệp thực tế gồm 12 mẫu sản phẩm với linh kiện trang trí khác nhau, mỗi mẫu sản phẩm chỉ có 100 hình ảnh bình thường và từ 30 đến 53 hình ảnh bị lỗi để đánh giá, không có nhãn hoặc mặt nạ lỗi ở bất kỳ giai đoạn nào, và không giống như các tiêu chuẩn được tuyển chọn, không có vị trí hoặc tỷ lệ đối tượng nhất quán trong một mẫu (Mục 3)."
+    },
+    {
+      "index": 10,
+      "style": "Normal",
+      "text": "Tôi giải quyết hai nhiệm vụ cho mỗi mẫu sản phẩm một cách độc lập: phân loại cấp độ hình ảnh, quyết định xem hình ảnh được giữ lại là bình thường hay bị lỗi, và định vị cấp độ pixel, chỉ ra vị trí lỗi trong hình ảnh bị lỗi. Tôi sử dụng PatchCore [4], một bộ phát hiện bất thường lân cận gần nhất dựa trên bộ nhớ, làm phương pháp chính vì nó không yêu cầu huấn luyện dựa trên gradient của bộ trích xuất đặc trưng và do đó tương đối phù hợp với ngân sách huấn luyện 80 hình ảnh mỗi lớp (Mục 4). Vì việc định vị của PatchCore là sản phẩm phụ gián tiếp của lưới khoảng cách vá thô chứ không phải là đầu ra phân đoạn được huấn luyện trực tiếp, tôi kết hợp nó với một quy trình nhỏ gồm các bước tiền xử lý và hậu xử lý, loại bỏ nền, ngưỡng hạn chế tiền cảnh, lọc thành phần liên thông lớn nhất và tổng hợp đa tỷ lệ, được tổ chức xung quanh khung chín giai đoạn (OC-MAR) do thầy hướng dẫn của tôi đề xuất (Mục 4.1), nhằm mục đích thắt chặt việc định vị mà không yêu cầu bất kỳ nhãn bổ sung nào. Để so sánh, tôi cũng đã thử SuperSimpleNet [3], một giải pháp thay thế có thể huấn luyện được, học trực tiếp đầu phân đoạn từ các khiếm khuyết giả tổng hợp; tôi báo cáo nỗ lực này và việc nó không hội tụ ở quy mô dữ liệu của tôi như một kết quả tiêu cực thay vì bỏ qua nó (Phụ lục A).\n\nBài báo này ghi lại cuộc điều tra đó, bao gồm hai phát hiện không được dự đoán trước và tôi cho rằng có nhiều thông tin hơn so với độ chính xác phân loại được nêu bật. Thứ nhất, bước tiền xử lý loại bỏ nền, bỏ qua kênh alpha, tạo ra mặt nạ đối tượng bị lỗi âm thầm đối với các đối tượng có màu tối, một lỗi mà chúng tôi không nhận thấy chỉ bằng cách kiểm tra trực quan nhưng một cuộc khảo sát định lượng trên tất cả 12 lớp cho thấy nó được dự đoán mạnh mẽ bởi độ sáng của đối tượng (Mục 6.4). Thứ hai, việc áp dụng toàn bộ quy trình định vị của tôi một cách đồng nhất cho các hình ảnh bình thường từ tất cả 12 mẫu sản phẩm, không chỉ hai lớp có độ chính xác phân loại yếu nhất, cho thấy các vùng dương tính giả nhỏ còn sót lại vẫn tồn tại dưới ngưỡng phát hiện cố định, không được hiệu chỉnh, một hạn chế dễ bị bỏ sót khi chỉ kiểm tra một lớp duy nhất (Mục 6)."
+    },
+    {
+      "index": 11,
+      "style": "Normal",
+      "text": "Những đóng góp của tôi như sau."
+    },
+    {
+      "index": 12,
+      "style": "Normal",
+      "text": "• Một quy trình phát hiện và định vị bất thường hoàn chỉnh cho một mẫu sản phẩm duy nhất, được đánh giá từ đầu đến cuối trên"
+    },
+    {
+      "index": 13,
+      "style": "Normal",
+      "text": "một tập dữ liệu công nghiệp thực tế gồm 12 mẫu với ngân sách huấn luyện chỉ dành cho dữ liệu bình thường cực kỳ"
+    },
+    {
+      "index": 14,
+      "style": "Normal",
+      "text": "hạn chế, đạt được AUROC trung bình ở cấp độ hình ảnh là 0,996 (Mục 6)."
+    },
+    {
+      "index": 15,
+      "style": "Normal",
+      "text": "• Một phát hiện phương pháp luận định lượng về việc xây dựng mặt nạ đối tượng từ hình ảnh đã loại bỏ nền, tỷ lệ âm"
+    },
+    {
+      "index": 16,
+      "style": "Normal",
+      "text": "tính giả so với mặt nạ kênh alpha thực sự tương quan với độ sáng của đối tượng ở mức r =  0,938 trên 12 mẫu sản phẩm,"
+    },
+    {
+      "index": 17,
+      "style": "Normal",
+      "text": "cùng với giải pháp cụ thể được áp dụng trong quy trình cuối cùng của tôi (Mục 6.4)."
+    },
+    {
+      "index": 18,
+      "style": "Normal",
+      "text": "• Kết quả tiêu cực được ghi nhận đối với một phương án phân đoạn lỗi tổng hợp có thể huấn luyện được"
+    },
+    {
+      "index": 19,
+      "style": "Normal",
+      "text": "(SuperSimpleNet) ở quy mô dữ liệu này, bao gồm ba vòng xác minh kiến trúc so với triển khai tham chiếu, đã loại"
+    },
+    {
+      "index": 20,
+      "style": "Normal",
+      "text": "trừ lỗi triển khai là nguyên nhân chính (Phụ lục A)."
+    },
+    {
+      "index": 21,
+      "style": "Normal",
+      "text": "• Định lượng một phần chất lượng định vị, vốn chỉ được đánh giá định tính do thiếu mặt nạ lỗi thực tế, bằng cách"
+    },
+    {
+      "index": 22,
+      "style": "Normal",
+      "text": "sử dụng một tập hợp con các hình ảnh bị lỗi được chú thích thủ công (Mục 6), cùng với việc so sánh với một đường"
+    },
+    {
+      "index": 23,
+      "style": "Normal",
+      "text": "cơ sở thống kê cổ điển, không dựa trên học sâu (Mục 5.5) để làm rõ đóng góp của các đặc trưng đã học."
+    },
+    {
+      "index": 24,
+      "style": "Normal",
+      "text": "2"
+    },
+    {
+      "index": 29,
+      "style": "Normal",
+      "text": "Phần còn lại của bài báo cáo được tổ chức như sau. Phần 2 trình bày phương pháp của tôi so với các phương pháp phát"
+    },
+    {
+      "index": 30,
+      "style": "Normal",
+      "text": "hiện bất thường dựa trên bộ nhớ, dựa trên tái tạo và phương pháp cổ điển. Phần 3 mô tả chi tiết tập dữ liệu và thiết lập bài"
+    },
+    {
+      "index": 31,
+      "style": "Normal",
+      "text": "toán. Phần 4 mô tả quy trình xử lý dữ liệu của tôi. Phần 5 mô tả quy trình đánh giá. Phần 6 trình bày kết quả, bao gồm"
+    },
+    {
+      "index": 32,
+      "style": "Normal",
+      "text": "hai phát hiện được tóm tắt ở trên."
+    },
+    {
+      "index": 33,
+      "style": "Normal",
+      "text": "Phần 7 thảo luận về những điều rút ra được từ công trình nghiên cứu này, và Phần 8 kết luận."
+    },
+    {
+      "index": 34,
+      "style": "Normal",
+      "text": "2. Các công trình nghiên cứu liên quan"
+    },
+    {
+      "index": 35,
+      "style": "Normal",
+      "text": "2.1 Phát hiện bất thường dựa trên ngân hàng bộ nhớ và nhúng"
+    },
+    {
+      "index": 36,
+      "style": "Normal",
+      "text": "PatchCore [4], bộ dò mà tôi xây dựng dựa trên, thuộc một họ các phương pháp một lớp chấm điểm các điểm bất thường"
+    },
+    {
+      "index": 37,
+      "style": "Normal",
+      "text": "bằng khoảng cách giữa phần nhúng của một mảng thử nghiệm, từ một xương sống được huấn luyện trước trên ImageNet đã được đóng"
+    },
+    {
+      "index": 38,
+      "style": "Normal",
+      "text": "băng, và một ngân hàng bộ nhớ chứa các phần nhúng của mảng hình ảnh bình thường, được lấy mẫu con thành một tập lõi để dễ xử lý."
+    },
+    {
+      "index": 39,
+      "style": "Normal",
+      "text": "Họ mô hình này không yêu cầu huấn luyện dựa trên gradient cho chính mạng xương sống, chỉ cần tìm kiếm lân cận gần nhất và lựa"
+    },
+    {
+      "index": 40,
+      "style": "Normal",
+      "text": "chọn tập lõi, điều này khiến nó tương đối phù hợp với các thiết lập có rất ít ảnh huấn luyện thông thường, chẳng hạn như 80 ảnh"
+    },
+    {
+      "index": 41,
+      "style": "Normal",
+      "text": "mỗi mẫu sản phẩm (sau khi chia tách hiệu chuẩn) được sử dụng xuyên suốt công trình này. Hạn chế chính của nó đối với mục đích của chúng ta"
+    },
+    {
+      "index": 42,
+      "style": "Normal",
+      "text": "là việc định vị là một sản phẩm phụ gián tiếp của bản đồ khoảng cách lưới vá chứ không phải là kết quả phân đoạn được huấn luyện"
+    },
+    {
+      "index": 43,
+      "style": "Normal",
+      "text": "trực tiếp, điều này thúc đẩy quá trình xử lý hậu kỳ hạn chế tiền cảnh được mô tả trong Phần 4.6 và việc đánh giá định vị chỉ"
+    },
+    {
+      "index": 44,
+      "style": "Normal",
+      "text": "mang tính định tính được thảo luận như một hạn chế trong Phần 5."
+    },
+    {
+      "index": 45,
+      "style": "Normal",
+      "text": "2.2 Phương pháp tái cấu trúc và huấn luyện khuyết tật tổng hợp"
+    },
+    {
+      "index": 46,
+      "style": "Normal",
+      "text": "Một họ khác huấn luyện mạng phân đoạn trực tiếp, sử dụng các khiếm khuyết giả được tạo ra tổng hợp để không cần hình ảnh"
+    },
+    {
+      "index": 47,
+      "style": "Normal",
+      "text": "khiếm khuyết thực sự trong quá trình huấn luyện. DRAEM [5] tái tạo đầu vào bị hỏng tổng hợp và huấn luyện một mạng con phân"
+    },
+    {
+      "index": 48,
+      "style": "Normal",
+      "text": "biệt để phân đoạn vùng bị hỏng so với bản tái tạo. SuperSimpleNet [3], mà tôi đã thử nghiệm như một giải pháp thay thế"
+    },
+    {
+      "index": 49,
+      "style": "Normal",
+      "text": "cho PatchCore trong công việc này, tuân theo một công thức liên quan, các khiếm khuyết giả nhiễu Perlin được đưa trực tiếp"
+    },
+    {
+      "index": 50,
+      "style": "Normal",
+      "text": "vào không gian đặc trưng, với một bộ phân biệt nhẹ tạo ra cả phân loại cấp độ hình ảnh và bản đồ phân đoạn cấp độ pixel, và"
+    },
+    {
+      "index": 51,
+      "style": "Normal",
+      "text": "tùy chọn kết hợp hình ảnh khiếm khuyết thực sự khi có sẵn."
+    },
+    {
+      "index": 52,
+      "style": "Normal",
+      "text": "Về nguyên tắc, họ mô hình này cung cấp một con đường trực tiếp hơn để phân đoạn sắc nét từng pixel so với bản đồ khoảng"
+    },
+    {
+      "index": 53,
+      "style": "Normal",
+      "text": "cách lân cận gần nhất. Trên thực tế, như đã báo cáo trong Phụ lục A, nỗ lực SuperSimpleNet của tôi đã không hội tụ"
+    },
+    {
+      "index": 54,
+      "style": "Normal",
+      "text": "trên tập dữ liệu này ngay cả sau ba vòng hiệu chỉnh kiến trúc so với triển khai tham chiếu, điều mà tôi tạm thời cho"
+    },
+    {
+      "index": 55,
+      "style": "Normal",
+      "text": "là do sự kết hợp của tập huấn luyện cực kỳ nhỏ cho mỗi mẫu sản phẩm (80 hình ảnh) và có thể là một chi tiết sao chép hàng loạt không"
+    },
+    {
+      "index": 56,
+      "style": "Normal",
+      "text": "được tái tạo của vòng lặp huấn luyện ban đầu, hơn là do lỗi triển khai còn sót lại."
+    },
+    {
+      "index": 57,
+      "style": "Normal",
+      "text": "2.3 Các đường cơ sở cổ điển, không sâu"
+    },
+    {
+      "index": 58,
+      "style": "Normal",
+      "text": "Việc chấm điểm bất thường bằng thống kê hình ảnh được tạo thủ công và bộ phát hiện ngoại lệ đa năng, chẳng hạn như Isolation"
+    },
+    {
+      "index": 59,
+      "style": "Normal",
+      "text": "Forest [2], có trước các phương pháp dựa trên nhúng sâu ở trên và vẫn là một điểm so sánh phù hợp chính xác vì nó không yêu"
+    },
+    {
+      "index": 60,
+      "style": "Normal",
+      "text": "cầu xương sống được huấn luyện trước và có chi phí huấn luyện thấp."
+    },
+    {
+      "index": 61,
+      "style": "Normal",
+      "text": "Mục 5.5 và Mục 6 sử dụng chính xác sự kết hợp này làm cơ sở so sánh với PatchCore, để kiểm tra xem khoảng cách do các tính"
+    },
+    {
+      "index": 62,
+      "style": "Normal",
+      "text": "năng sâu tạo ra có phải là thật hay chỉ là kết quả giả tạo của một phép so sánh yếu kém khác."
+    },
+    {
+      "index": 63,
+      "style": "Normal",
+      "text": "2.4 Tiêu chuẩn so sánh và sự khác biệt trong môi trường của tôi"
+    },
+    {
+      "index": 64,
+      "style": "Normal",
+      "text": "Hầu hết các tài liệu về phát hiện dị thường nêu trên, bao gồm cả các đánh giá PatchCore và DRAEM ban đầu, đều được đánh giá"
+    },
+    {
+      "index": 65,
+      "style": "Normal",
+      "text": "trên MVTec AD [1], một tập dữ liệu được sử dụng rộng rãi cung cấp độ chính xác pixel trên mặt đất-"
+    },
+    {
+      "index": 66,
+      "style": "Normal",
+      "text": "3"
+    },
+    {
+      "index": 70,
+      "style": "Normal",
+      "text": "Hình 1: Các mẫu bình thường và lỗi tiêu biểu từ bốn mẫu sản phẩm. Các lỗi trong tập dữ liệu này chủ yếu là thiếu"
+    },
+    {
+      "index": 71,
+      "style": "Normal",
+      "text": "hoặc không đầy đủ màu sắc và chi tiết in (ví dụ: họa tiết in hiển thị dưới dạng hình bóng trống) chứ không"
+    },
+    {
+      "index": 72,
+      "style": "Normal",
+      "text": "phải là hư hỏng vật lý đối với vật thể."
+    },
+    {
+      "index": 73,
+      "style": "Normal",
+      "text": "Các mặt nạ lỗi thực tế và, đối với hầu hết các danh mục, có khoảng 200 hoặc nhiều hơn hình ảnh huấn luyện"
+    },
+    {
+      "index": 74,
+      "style": "Normal",
+      "text": "bình thường cho mỗi danh mục. Tập dữ liệu của chúng tôi (Mục 3) khác với thiết lập này ở ba điểm liên quan"
+    },
+    {
+      "index": 75,
+      "style": "Normal",
+      "text": "đến lựa chọn và đánh giá phương pháp: nó chỉ cung cấp 100 hình ảnh bình thường cho mỗi mẫu sản phẩm thay vì vài"
+    },
+    {
+      "index": 76,
+      "style": "Normal",
+      "text": "trăm, nó không cung cấp bất kỳ mặt nạ thực tế cấp pixel nào, và vị trí và tỷ lệ của đối tượng thay đổi đáng"
+    },
+    {
+      "index": 77,
+      "style": "Normal",
+      "text": "kể trong cùng một mẫu sản phẩm thay vì được căn giữa và đóng khung nhất quán. Sự khác biệt đầu tiên là một lý do hợp"
+    },
+    {
+      "index": 78,
+      "style": "Normal",
+      "text": "lý giải thích tại sao nỗ lực SuperSimpleNet của chúng tôi hoạt động kém hơn so với kết quả MVTec AD đã được"
+    },
+    {
+      "index": 79,
+      "style": "Normal",
+      "text": "công bố, vì quá trình huấn luyện lỗi tổng hợp của phương pháp gốc được xác thực ở quy mô dữ liệu lớn hơn"
+    },
+    {
+      "index": 80,
+      "style": "Normal",
+      "text": "cho mỗi lớp. Sự khác biệt thứ hai là lý do tại sao việc đánh giá định vị của tôi trong toàn bộ bài"
+    },
+    {
+      "index": 81,
+      "style": "Normal",
+      "text": "báo cáo này mang tính định tính, và nếu có thể định lượng, dựa trên một tập con được chú thích thủ công (Mục"
+    },
+    {
+      "index": 82,
+      "style": "Normal",
+      "text": "6), thay vì một chỉ số cấp pixel tiêu chuẩn được tính toán dựa trên toàn bộ tập dữ liệu thực tế. Sự khác"
+    },
+    {
+      "index": 83,
+      "style": "Normal",
+      "text": "biệt thứ ba thúc đẩy sự lựa chọn rõ ràng, được thảo luận trong Mục 4, là không cắt ảnh đầu vào ở trung tâm"
+    },
+    {
+      "index": 84,
+      "style": "Normal",
+      "text": "trong quá trình tiền xử lý."
+    },
+    {
+      "index": 85,
+      "style": "Normal",
+      "text": "3. Thiết lập bộ dữ liệu và bài toán"
+    },
+    {
+      "index": 86,
+      "style": "Normal",
+      "text": "3.1 Tập dữ liệu"
+    },
+    {
+      "index": 87,
+      "style": "Normal",
+      "text": "Tập dữ liệu bao gồm 12 mẫu sản phầm thành phần riêng biệt (ký hiệu là FA-504, FA-808, FA-838, FA-924, FA-1041, FA-1042, FA-1043, FA-1045,"
+    },
+    {
+      "index": 88,
+      "style": "Normal",
+      "text": "FA-1047, FA-1113, FA-1114, FA-1120), mỗi mẫu sản phẩm được chụp ảnh trong hai điều kiện: mẫu bình thường không có khuyết tật và mẫu có khuyết"
+    },
+    {
+      "index": 89,
+      "style": "Normal",
+      "text": "tật có thể nhìn thấy (Hình 1). Mỗi mẫu sản phẩm chứa chính xác 100 hình ảnh bình thường; số lượng hình ảnh có khuyết tật dao động từ 30 đến 53"
+    },
+    {
+      "index": 90,
+      "style": "Normal",
+      "text": "hình ảnh mỗi mẫu sản phẩm. Sau khi loại bỏ một tệp đại diện trùng lặp nằm ngoài hai thư mục con được gắn nhãn của mỗi mẫu sản phẩm, tập dữ liệu có tổng"
+    },
+    {
+      "index": 91,
+      "style": "Normal",
+      "text": "cộng 1705 hình ảnh JPEG duy nhất, không có hình ảnh nào bị hỏng, với dung lượng 474MB."
+    },
+    {
+      "index": 92,
+      "style": "Normal",
+      "text": "4"
+    },
+    {
+      "index": 97,
+      "style": "Normal",
+      "text": "Hình 2: Các hộp giới hạn đối tượng được phát hiện bằng phương pháp phỏng đoán được chồng lên nhau cho 60 hình ảnh bình thường"
+    },
+    {
+      "index": 98,
+      "style": "Normal",
+      "text": "được lấy mẫu trên tất cả 12 mẫu sản phẩm (5 hình ảnh mỗi mẫu sản phẩm), minh họa phạm vi vị trí và kích thước của đối tượng trong tập dữ liệu."
+    },
+    {
+      "index": 99,
+      "style": "Normal",
+      "text": "Các hình ảnh chủ yếu có kích thước 956×1276 pixel theo hướng dọc, với một phần nhỏ được xoay 90 sang hướng ngang (1276"
+    },
+    {
+      "index": 100,
+      "style": "Normal",
+      "text": "× 956); tỷ lệ hình ảnh được xoay thay đổi đáng kể tùy theo từng loại (ví dụ: 0/150 đối với FA-1041 so với 68/153 đối với"
+    },
+    {
+      "index": 101,
+      "style": "Normal",
+      "text": "FA-1047)."
+    },
+    {
+      "index": 102,
+      "style": "Normal",
+      "text": "3.2 Sự thay đổi về vị trí và kích thước của đối tượng"
+    },
+    {
+      "index": 103,
+      "style": "Normal",
+      "text": "Không giống như các bộ dữ liệu chuẩn được chọn lọc, trong đó đối tượng quan tâm được đặt ở trung tâm và có tỷ lệ nhất quán,"
+    },
+    {
+      "index": 104,
+      "style": "Normal",
+      "text": "các đối tượng trong bộ dữ liệu này được đặt ở các vị trí khác nhau và chiếm các phần khác nhau của khung hình (Hình 2)."
+    },
+    {
+      "index": 105,
+      "style": "Normal",
+      "text": "Sử dụng phương pháp phỏng đoán dựa trên sự khác biệt màu sắc ở các góc để ước tính khung bao cho mỗi hình ảnh, tâm khung bao"
+    },
+    {
+      "index": 106,
+      "style": "Normal",
+      "text": "tương đối bị lệch về phía trên bên trái của khung hình trung bình, và diện tích đối tượng tương đối dao động từ khoảng 3%"
+    },
+    {
+      "index": 107,
+      "style": "Normal",
+      "text": "đến gần 100% của khung hình. Điều này trực tiếp giải thích cho lựa chọn tiền xử lý được mô tả trong Phần 4 (không cắt xén"
+    },
+    {
+      "index": 108,
+      "style": "Normal",
+      "text": "tâm)."
+    },
+    {
+      "index": 109,
+      "style": "Normal",
+      "text": "3.3 Thang đo khuyết tật"
+    },
+    {
+      "index": 110,
+      "style": "Normal",
+      "text": "Các khuyết tật quan sát được trong các hình ảnh bị lỗi có kích thước vật lý rất khác nhau, từ các vết nhỏ cục bộ khoảng 30–"
+    },
+    {
+      "index": 111,
+      "style": "Normal",
+      "text": "40 pixel (ở độ phân giải gốc) cho đến các khuyết tật trải rộng trên một phần lớn đối tượng. Sự đa dạng về kích thước này là"
+    },
+    {
+      "index": 112,
+      "style": "Normal",
+      "text": "một yếu tố quan trọng cần xem xét đối với việc giảm độ phân giải trong Phần 6, vì diện tích hiệu dụng của một ô lưới đặc"
+    },
+    {
+      "index": 113,
+      "style": "Normal",
+      "text": "trưng (tính bằng pixel của hình ảnh gốc) phải nhỏ so với các khuyết tật nhỏ nhất để bản đồ bất thường có thể định vị chúng."
+    },
+    {
+      "index": 114,
+      "style": "Normal",
+      "text": "3.4 Sự mất cân bằng giai cấp"
+    },
+    {
+      "index": 115,
+      "style": "Normal",
+      "text": "Hình 3 tóm tắt sự phân bố nhãn cho mỗi mẫu sản phẩm. Với 100 hình ảnh bình thường so với 30–53 hình ảnh bị lỗi cho mỗi mẫu sản phẩm, và chỉ"
+    },
+    {
+      "index": 116,
+      "style": "Normal",
+      "text": "sử dụng hình ảnh bình thường để huấn luyện trong thiết lập một mẫu sản phẩm."
+    },
+    {
+      "index": 117,
+      "style": "Normal",
+      "text": "5"
+    },
+    {
+      "index": 122,
+      "style": "Normal",
+      "text": "Hình 3: Số lượng ảnh bình thường và ảnh lỗi trên mỗi mẫu sản phẩm. Mỗi lớp có chính xác 100 ảnh bình thường; số lượng ảnh lỗi dao"
+    },
+    {
+      "index": 123,
+      "style": "Normal",
+      "text": "động từ 30 đến 53."
+    },
+    {
+      "index": 124,
+      "style": "Normal",
+      "text": "(Mục 4), các hình ảnh bị lỗi chỉ đóng vai trò là tập dữ liệu đánh giá. Do số lượng nhỏ, ước tính AUROC trên mỗi lớp về nguyên tắc có"
+    },
+    {
+      "index": 125,
+      "style": "Normal",
+      "text": "thể mang phương sai đáng kể tùy thuộc vào sự phân chia giữa tập huấn luyện và tập hiệu chuẩn; điều này được xem là một hạn chế trong Mục"
+    },
+    {
+      "index": 126,
+      "style": "Normal",
+      "text": "5 và được đánh giá thực nghiệm trên 5 hạt giống trong Mục 6.6."
+    },
+    {
+      "index": 127,
+      "style": "Normal",
+      "text": "3.5 Phát biểu vấn đề"
+    },
+    {
+      "index": 128,
+      "style": "Normal",
+      "text": "Đối với mỗi mẫu sản phẩm riêng biệt, với một tập dữ liệu huấn luyện chỉ gồm các hình ảnh bình thường, nhiệm vụ gồm hai phần: (a)"
+    },
+    {
+      "index": 129,
+      "style": "Normal",
+      "text": "phân loại ở cấp độ hình ảnh, dự đoán xem hình ảnh thử nghiệm được giữ lại là bình thường hay bị lỗi, và (b) định vị ở cấp"
+    },
+    {
+      "index": 130,
+      "style": "Normal",
+      "text": "độ pixel, tạo ra bản đồ không gian chỉ ra vị trí có khả năng xảy ra lỗi trong hình ảnh bị lỗi. Không có nhãn hoặc mặt nạ"
+    },
+    {
+      "index": 131,
+      "style": "Normal",
+      "text": "lỗi nào được cung cấp trong quá trình huấn luyện."
+    },
+    {
+      "index": 132,
+      "style": "Normal",
+      "text": "Phương pháp 4"
+    },
+    {
+      "index": 133,
+      "style": "Normal",
+      "text": "4.1 Tổng quan về quy trình OC-MAR"
+    },
+    {
+      "index": 134,
+      "style": "Normal",
+      "text": "Tôi xây dựng phương pháp của mình dựa trên OC-MAR (Nhận dạng dị thường đa tỷ lệ bị ràng buộc bởi đối tượng), một quy"
+    },
+    {
+      "index": 135,
+      "style": "Normal",
+      "text": "trình chín bước để phát hiện và định vị dị thường một lớp do cố vấn của tôi đề xuất. Các bước bao gồm: (1) ảnh đầu"
+    },
+    {
+      "index": 136,
+      "style": "Normal",
+      "text": "vào, (2) loại bỏ nền để thu được mặt nạ đối tượng, (3) thay đổi kích thước đa tỷ lệ của ảnh đầu vào, (4) phát hiện dị"
+    },
+    {
+      "index": 137,
+      "style": "Normal",
+      "text": "thường trên mỗi tỷ lệ bằng bộ phát hiện một mẫu sản phẩm, (5) tổng hợp đa tỷ lệ các bản đồ dị thường thu được, (6) lọc bị ràng buộc"
+    },
+    {
+      "index": 138,
+      "style": "Normal",
+      "text": "bởi đối tượng, giới hạn các dị thường trong mặt nạ đối tượng, (7) ngưỡng thích ứng được hiệu chỉnh trên tập dữ liệu xác"
+    },
+    {
+      "index": 139,
+      "style": "Normal",
+      "text": "thực bình thường được giữ lại, (8) tinh chỉnh vùng hình thái, và (9) mặt nạ phân đoạn khuyết tật nhị phân cuối cùng. Hình"
+    },
+    {
+      "index": 140,
+      "style": "Normal",
+      "text": "4 minh họa từng giai đoạn cho việc triển khai cụ thể của tôi và trạng thái hiện tại của nó."
+    },
+    {
+      "index": 141,
+      "style": "Normal",
+      "text": "4.2 Xử lý sơ bộ (giai đoạn 1)"
+    },
+    {
+      "index": 142,
+      "style": "Normal",
+      "text": "Mỗi hình ảnh được điều chỉnh kích thước trực tiếp thành độ phân giải vuông cố định mà không cắt xén phần trung tâm, vì đối"
+    },
+    {
+      "index": 143,
+      "style": "Normal",
+      "text": "tượng cần quan tâm thường nằm lệch tâm (Mục 3); việc cắt xén phần trung tâm có nguy cơ làm mất đi một phần của đối tượng."
+    },
+    {
+      "index": 144,
+      "style": "Normal",
+      "text": "Các hình ảnh ở chế độ ngang được xoay 90 sang chế độ dọc trước khi thay đổi kích thước, để mạng lưới được hiển thị đầy đủ."
+    },
+    {
+      "index": 145,
+      "style": "Normal",
+      "text": "6"
+    },
+    {
+      "index": 150,
+      "style": "Normal",
+      "text": "Hình 4: Các giai đoạn của OC-MAR, quá trình triển khai và trạng thái của tôi, được cập nhật sau Giai đoạn 2 (tổng hợp đa thang"
+    },
+    {
+      "index": 151,
+      "style": "Normal",
+      "text": "đo) và Giai đoạn 3 (ngưỡng thích ứng). Màu xanh lá cây: đã được đánh giá và báo cáo; màu cam: đã được triển khai một phần. Các vòng"
+    },
+    {
+      "index": 152,
+      "style": "Normal",
+      "text": "tròn được đánh số cho biết thứ tự đọc; xem phần văn bản chính để biết chi tiết triển khai mà mỗi ô viết tắt."
+    },
+    {
+      "index": 153,
+      "style": "Normal",
+      "text": "Không cần phải học thêm về tính bất biến xoay. Giá trị pixel được chuẩn hóa bằng cách sử dụng thống kê ImageNet tiêu"
+    },
+    {
+      "index": 154,
+      "style": "Normal",
+      "text": "chuẩn, phù hợp với kiến trúc mạng được huấn luyện trước."
+    },
+    {
+      "index": 155,
+      "style": "Normal",
+      "text": "4.3 Xóa nền và tạo mặt nạ đối tượng (giai đoạn 2)"
+    },
+    {
+      "index": 156,
+      "style": "Normal",
+      "text": "Tôi sử dụng mô hình phân đoạn đối tượng nổi bật được huấn luyện trước (isnet-general-use, thông qua rembg) để"
+    },
+    {
+      "index": 157,
+      "style": "Normal",
+      "text": "tách từng đối tượng khỏi nền của nó. Hai cách sử dụng khác nhau của mô hình này được đánh giá. Thứ nhất, như một bước"
+    },
+    {
+      "index": 158,
+      "style": "Normal",
+      "text": "tiền xử lý tập dữ liệu, các pixel nền được thay thế bằng màu đen đồng nhất và các hình ảnh kết quả được đánh giá như"
+    },
+    {
+      "index": 159,
+      "style": "Normal",
+      "text": "một đầu vào thay thế cho PatchCore (Mục 6). Thứ hai, như một nguồn mặt nạ đối tượng được sử dụng trong giai đoạn 6,"
+    },
+    {
+      "index": 160,
+      "style": "Normal",
+      "text": "chúng tôi so sánh hai cách để có được mặt nạ này, (a) một phương pháp phỏng đoán đơn giản, ngưỡng độ sáng pixel trên"
+    },
+    {
+      "index": 161,
+      "style": "Normal",
+      "text": "hình ảnh đã được loại bỏ nền (tiền cảnh = bất kỳ pixel nào có giá trị kênh trên 10), và (b) đầu ra alpha mềm gốc của"
+    },
+    {
+      "index": 162,
+      "style": "Normal",
+      "text": "mô hình, được ngưỡng ở mức 0,5. Tôi nhận thấy rằng (a) thất bại đáng kể đối với các mẫu sản phẩm có vật liệu đối tượng"
+    },
+    {
+      "index": 163,
+      "style": "Normal",
+      "text": "có màu tối, vì bước làm phẳng tạo ra tập dữ liệu đã loại bỏ nền sẽ loại bỏ kênh alpha, không còn tín hiệu nào để phân"
+    },
+    {
+      "index": 164,
+      "style": "Normal",
+      "text": "biệt vùng đối tượng tối màu với nền đen mà nó được ghép vào; điều này được định lượng trong Mục 6. Tôi áp dụng"
+    },
+    {
+      "index": 165,
+      "style": "Normal",
+      "text": "(b) làm mặt nạ đối tượng được sử dụng trong cấu hình cuối cùng."
+    },
+    {
+      "index": 166,
+      "style": "Normal",
+      "text": "4.4 PatchCore (giai đoạn 4)"
+    },
+    {
+      "index": 167,
+      "style": "Normal",
+      "text": "Tôi sử dụng PatchCore [4] làm bộ phát hiện bất thường một lớp chính (Hình 5), khởi tạo giai đoạn 4 của OC-MAR."
+    },
+    {
+      "index": 168,
+      "style": "Normal",
+      "text": "Một mạng xương sống WideResNet-50 cố định, được huấn luyện trước trên ImageNet, trích xuất các bản đồ đặc trưng trung"
+    },
+    {
+      "index": 169,
+      "style": "Normal",
+      "text": "gian từ lớp 2 và lớp 3. Mỗi bản đồ đặc trưng được tổng hợp cục bộ với một nhóm trung bình 3×3 và bản đồ lớp 3 được"
+    },
+    {
+      "index": 170,
+      "style": "Normal",
+      "text": "lấy mẫu tăng tuyến tính để phù hợp với độ phân giải không gian của lớp 2 trước khi nối theo kênh, tạo ra một lưới các"
+    },
+    {
+      "index": 171,
+      "style": "Normal",
+      "text": "vectơ đặc trưng cấp độ mảng cho mỗi hình ảnh."
+    },
+    {
+      "index": 172,
+      "style": "Normal",
+      "text": "Đối với mỗi lớp, một ngân hàng bộ nhớ được xây dựng bằng cách gộp các đặc trưng vá lỗi của tất cả các ảnh huấn"
+    },
+    {
+      "index": 173,
+      "style": "Normal",
+      "text": "luyện thông thường, sau đó lấy mẫu con thông qua lựa chọn tập lõi k-center tham lam để giữ lại một tập con nhỏ, đa"
+    },
+    {
+      "index": 174,
+      "style": "Normal",
+      "text": "dạng các vectơ đại diện. Trong quá trình suy luận, mỗi vá lỗi của ảnh truy vấn được chấm điểm bằng giá trị Euclidean của nó."
+    },
+    {
+      "index": 175,
+      "style": "Normal",
+      "text": "7"
+    },
+    {
+      "index": 180,
+      "style": "Normal",
+      "text": "Hình 5: Quy trình PatchCore, được sao chép từ ấn bản gốc [4]. Một xương sống đóng băng trích xuất các đặc điểm"
+    },
+    {
+      "index": 181,
+      "style": "Normal",
+      "text": "cấp độ vá; các đặc điểm hình ảnh bình thường điền vào ngân hàng bộ nhớ coreset trong thời gian huấn luyện; các"
+    },
+    {
+      "index": 182,
+      "style": "Normal",
+      "text": "đặc điểm hình ảnh thử nghiệm được chấm điểm bằng khoảng cách lân cận gần nhất với ngân hàng để tạo ra một sự bất thường."
+    },
+    {
+      "index": 183,
+      "style": "Normal",
+      "text": "bản đồ."
+    },
+    {
+      "index": 184,
+      "style": "Normal",
+      "text": "Khoảng cách đến vectơ gần nhất trong bộ nhớ; lưới khoảng cách trên mỗi ô kết quả tạo thành bản đồ dị thường thô,"
+    },
+    {
+      "index": 185,
+      "style": "Normal",
+      "text": "được lấy mẫu lại đến độ phân giải đầu vào và làm mờ bằng bộ lọc Gaussian để tạo ra bản đồ nhiệt dị thường ở cấp"
+    },
+    {
+      "index": 186,
+      "style": "Normal",
+      "text": "độ pixel. Điểm số dị thường ở cấp độ hình ảnh là giá trị lớn nhất của bản đồ dị thường thô, được điều chỉnh trọng"
+    },
+    {
+      "index": 187,
+      "style": "Normal",
+      "text": "số bằng mật độ cục bộ của bộ nhớ xung quanh điểm khớp tốt nhất để giảm độ nhạy cảm với các điểm ngoại lai còn sót"
+    },
+    {
+      "index": 188,
+      "style": "Normal",
+      "text": "lại trong tập lõi."
+    },
+    {
+      "index": 189,
+      "style": "Normal",
+      "text": "Vì PatchCore không yêu cầu huấn luyện dựa trên gradient nào ngoài tìm kiếm lân cận gần nhất và lựa chọn tập"
+    },
+    {
+      "index": 190,
+      "style": "Normal",
+      "text": "hợp lõi, nên nó rất phù hợp với ngân sách mẫu bình thường trên mỗi lớp cực kỳ hạn chế trong tập dữ liệu này (Mục"
+    },
+    {
+      "index": 191,
+      "style": "Normal",
+      "text": "3). Là bộ phát hiện thứ hai, chúng tôi cũng đã thử SuperSimpleNet [3], một phương án thay thế có thể huấn luyện"
+    },
+    {
+      "index": 192,
+      "style": "Normal",
+      "text": "không giám sát cho giai đoạn 4; nỗ lực này không hội tụ đáng tin cậy ở quy mô tập dữ liệu của tôi và được"
+    },
+    {
+      "index": 193,
+      "style": "Normal",
+      "text": "báo cáo là kết quả tiêu cực trong Phụ lục A."
+    },
+    {
+      "index": 194,
+      "style": "Normal",
+      "text": "4.5 Nhập liệu và tổng hợp đa quy mô (giai đoạn 3 và 5)"
+    },
+    {
+      "index": 195,
+      "style": "Normal",
+      "text": "Vì bước tiến hiệu quả của mạng xương sống được cố định so với độ phân giải đầu vào, nên kích thước vật lý của một"
+    },
+    {
+      "index": 196,
+      "style": "Normal",
+      "text": "ô lưới đặc trưng duy nhất, được đo bằng pixel của ảnh gốc, tỷ lệ nghịch với kích thước đầu vào đã chọn. Tôi"
+    },
+    {
+      "index": 197,
+      "style": "Normal",
+      "text": "đánh giá ba độ phân giải đầu vào, 256 × 256, 384 × 384 (được sử dụng xuyên suốt phần còn lại của bài báo này) và"
+    },
+    {
+      "index": 198,
+      "style": "Normal",
+      "text": "512 × 512, một cách độc lập, để đánh giá ảnh hưởng của độ chi tiết lưới đến việc định vị các khuyết tật nhỏ (Mục"
+    },
+    {
+      "index": 199,
+      "style": "Normal",
+      "text": "3). Ngoài ra, tôi kết hợp ba bản đồ bất thường trên mỗi tỷ lệ thành một bản đồ duy nhất (giai đoạn 5 của OC-MAR)"
+    },
+    {
+      "index": 200,
+      "style": "Normal",
+      "text": "bằng cách thay đổi kích thước từng bản đồ thành một khung chung và lấy giá trị tối đa theo từng phần tử, với điểm"
+    },
+    {
+      "index": 201,
+      "style": "Normal",
+      "text": "số tổng hợp ở cấp độ ảnh được lấy là giá trị tối đa của ba điểm số trên mỗi tỷ lệ. Mục 6 báo cáo rằng sự"
+    },
+    {
+      "index": 202,
+      "style": "Normal",
+      "text": "kết hợp này không cải thiện AUROC trung bình so với cấu hình 384 × 384 đơn tỷ lệ; Chúng tôi giữ nguyên cấu hình"
+    },
+    {
+      "index": 203,
+      "style": "Normal",
+      "text": "384 × 384 làm cấu hình cuối cùng và báo cáo kết quả tổng hợp là một phát hiện tiêu cực thay vì chấp nhận nó."
+    },
+    {
+      "index": 204,
+      "style": "Normal",
+      "text": "4.6 Lọc có ràng buộc đối tượng và tinh chỉnh vùng (giai đoạn 6 và 8)"
+    },
+    {
+      "index": 205,
+      "style": "Normal",
+      "text": "Bản đồ nhiệt bất thường thô được phân ngưỡng để trực quan hóa và sử dụng tiếp theo. Tôi so sánh hai biến"
+    },
+    {
+      "index": 206,
+      "style": "Normal",
+      "text": "thể. Trong biến thể đơn giản, ngưỡng phần trăm (ví dụ: phần trăm thứ 92) được tính toán trên toàn bộ bản đồ nhiệt,"
+    },
+    {
+      "index": 207,
+      "style": "Normal",
+      "text": "bao gồm cả các pixel nền. Trong biến thể bị ràng buộc bởi đối tượng, ngưỡng phần trăm tương tự chỉ được tính toán"
+    },
+    {
+      "index": 208,
+      "style": "Normal",
+      "text": "trên các pixel nằm trong mặt nạ đối tượng (Mục 4.3), và chỉ thành phần liên thông lớn nhất trong số các pixel đã"
+    },
+    {
+      "index": 209,
+      "style": "Normal",
+      "text": "được phân ngưỡng được giữ lại như một hình thức tinh chỉnh vùng đơn giản, loại bỏ các phát hiện giả nhỏ. Bước"
+    },
+    {
+      "index": 210,
+      "style": "Normal",
+      "text": "tinh chỉnh vùng đầy đủ hơn bằng cách sử dụng phép mở và đóng hình thái học (giai đoạn 8 của OC-MAR) vẫn chưa được"
+    },
+    {
+      "index": 211,
+      "style": "Normal",
+      "text": "đánh giá."
+    },
+    {
+      "index": 212,
+      "style": "Normal",
+      "text": "8"
+    },
+    {
+      "index": 217,
+      "style": "Normal",
+      "text": "4.7 Phân ngưỡng (giai đoạn 7)"
+    },
+    {
+      "index": 218,
+      "style": "Normal",
+      "text": "Các mục 4.6 và 6 ở trên sử dụng một ngưỡng phân vị thứ 92 cố định duy nhất cho tất cả 12 lớp. Ngoài ra, tôi hiệu chỉnh"
+    },
+    {
+      "index": 219,
+      "style": "Normal",
+      "text": "ngưỡng này cho từng lớp, sử dụng phép chia chuẩn hiệu chỉnh (Mục 5), đối với mỗi lớp, tôi chọn phân vị ứng viên nhỏ"
+    },
+    {
+      "index": 220,
+      "style": "Normal",
+      "text": "nhất trong {92, 94, 96, 98, 99} có diện tích dương tính giả trung bình được giữ lại trên ảnh chuẩn hiệu chỉnh của lớp đó nằm"
+    },
+    {
+      "index": 221,
+      "style": "Normal",
+      "text": "ở mức bằng hoặc thấp hơn mục tiêu cố định 300 pixel."
+    },
+    {
+      "index": 222,
+      "style": "Normal",
+      "text": "Mục 6 báo cáo rằng điều này làm giảm diện tích dương tính giả trung bình trên tất cả 12 lớp xuống 66% so với phân vị thứ 92"
+    },
+    {
+      "index": 223,
+      "style": "Normal",
+      "text": "cố định, mà không làm thay đổi ngân hàng bộ nhớ hoặc điểm số bất thường ở cấp độ hình ảnh."
+    },
+    {
+      "index": 224,
+      "style": "Normal",
+      "text": "5. Thiết lập thí nghiệm"
+    },
+    {
+      "index": 225,
+      "style": "Normal",
+      "text": "5.1 Quy trình"
+    },
+    {
+      "index": 226,
+      "style": "Normal",
+      "text": "Đối với mỗi mẫu sản phẩm, 100 hình ảnh bình thường được chia theo tỷ lệ 80/20 thành một tập dữ liệu huấn luyện dùng làm bộ nhớ và một tập dữ liệu"
+    },
+    {
+      "index": 227,
+      "style": "Normal",
+      "text": "hiệu chuẩn bình thường được giữ lại, sử dụng một hạt giống ngẫu nhiên cố định được chia sẻ trong tất cả các thí nghiệm được báo cáo ở đây."
+    },
+    {
+      "index": 228,
+      "style": "Normal",
+      "text": "Tất cả các ảnh lỗi đều được giữ lại để đánh giá và không bao giờ được dùng để xây dựng bộ nhớ. Việc phát hiện ở cấp độ ảnh"
+    },
+    {
+      "index": 229,
+      "style": "Normal",
+      "text": "được đánh giá trên tập hợp các ảnh bình thường được giữ lại (nhãn 0) và tất cả các ảnh lỗi thuộc mẫu sản phẩm đó (nhãn 1)."
+    },
+    {
+      "index": 230,
+      "style": "Normal",
+      "text": "5.2 Hệ mét"
+    },
+    {
+      "index": 231,
+      "style": "Normal",
+      "text": "Chỉ số định lượng chính là AUROC cấp độ hình ảnh, được tính toán cho mỗi lớp và tính trung bình trên 12 mẫu sản phẩm, được báo cáo"
+    },
+    {
+      "index": 232,
+      "style": "Normal",
+      "text": "cả cho một điểm khởi đầu cố định duy nhất và, trong Phần 6.6, dưới dạng giá trị trung bình ± độ lệch chuẩn trên 5 điểm khởi"
+    },
+    {
+      "index": 233,
+      "style": "Normal",
+      "text": "đầu. Chất lượng định vị chủ yếu được đánh giá định tính thông qua lớp phủ bản đồ nhiệt trên các hình ảnh bị lỗi (Phần 6),"
+    },
+    {
+      "index": 234,
+      "style": "Normal",
+      "text": "vì tập dữ liệu không cung cấp mặt nạ tham chiếu cấp độ pixel (Phần 3)."
+    },
+    {
+      "index": 235,
+      "style": "Normal",
+      "text": "Ngoài ra, tôi cũng trình bày kết quả đánh giá định vị định lượng một phần (IoU, thước đo độ chồng lấp vùng ngưỡng đơn"
+    },
+    {
+      "index": 236,
+      "style": "Normal",
+      "text": "và độ chính xác của trò chơi chỉ điểm) đối với một tập hợp con các hình ảnh bị lỗi được chú thích thủ công trong Phần 6.10."
+    },
+    {
+      "index": 237,
+      "style": "Normal",
+      "text": "5.3 Tỷ lệ Coreset"
+    },
+    {
+      "index": 238,
+      "style": "Normal",
+      "text": "Tỷ lệ lấy mẫu con của coreset được đặt ở mức 2% dung lượng bộ nhớ thô, được chọn sau khi so sánh thực nghiệm thời gian huấn"
+    },
+    {
+      "index": 239,
+      "style": "Normal",
+      "text": "luyện thực tế với mức 10%, trên phần cứng GPU hiện có, 5 phút so với 14 phút trên tất cả 12 lớp cho cấu hình độ phân giải"
+    },
+    {
+      "index": 240,
+      "style": "Normal",
+      "text": "đầy đủ (224 × 224)."
+    },
+    {
+      "index": 241,
+      "style": "Normal",
+      "text": "5.4 So sánh các cấu hình"
+    },
+    {
+      "index": 242,
+      "style": "Normal",
+      "text": "Tôi trình bày kết quả cho các cấu hình sau, mỗi cấu hình thể hiện một quyết định thiết kế riêng biệt."
+    },
+    {
+      "index": 243,
+      "style": "Normal",
+      "text": "(1) Đường cơ sở, PatchCore trên ảnh gốc (không xóa nền), đầu vào 224×224, na¨ive"
+    },
+    {
+      "index": 244,
+      "style": "Normal",
+      "text": "Phân ngưỡng phần trăm toàn bộ hình ảnh."
+    },
+    {
+      "index": 245,
+      "style": "Normal",
+      "text": "(2) Loại bỏ nền, giống hệt với cơ sở ngoại trừ biến hình ảnh đã loại bỏ nền-"
+    },
+    {
+      "index": 246,
+      "style": "Normal",
+      "text": "Từ \"ant\" được sử dụng."
+    },
+    {
+      "index": 247,
+      "style": "Normal",
+      "text": "(3) Ngưỡng giới hạn tiền cảnh, hình ảnh đã loại bỏ nền, với ngưỡng bản đồ dị thường được giới hạn trong mặt nạ tiền cảnh và"
+    },
+    {
+      "index": 248,
+      "style": "Normal",
+      "text": "lọc thành phần liên thông lớn nhất (Mục 4.6)."
+    },
+    {
+      "index": 249,
+      "style": "Normal",
+      "text": "(4) Độ phân giải cao hơn, như trên, với độ phân giải đầu vào tăng từ 224 × 224 lên 384 × 384."
+    },
+    {
+      "index": 250,
+      "style": "Normal",
+      "text": "9"
+    },
+    {
+      "index": 255,
+      "style": "Normal",
+      "text": "5.5 Đường cơ sở thống kê cổ điển"
+    },
+    {
+      "index": 256,
+      "style": "Normal",
+      "text": "Để so sánh hiệu suất của PatchCore với một phương pháp thay thế không dựa trên học sâu, tôi đánh giá một"
+    },
+    {
+      "index": 257,
+      "style": "Normal",
+      "text": "đường cơ sở một lớp cổ điển bằng cách sử dụng các thống kê hình ảnh được tạo thủ công được tính toán trong quá"
+    },
+    {
+      "index": 258,
+      "style": "Normal",
+      "text": "trình phân tích dữ liệu thăm dò, độ sáng, độ tương phản, độ sắc nét, mật độ cạnh, độ bão hòa, bốn mô tả ma"
+    },
+    {
+      "index": 259,
+      "style": "Normal",
+      "text": "trận đồng xuất hiện mức độ xám (GLCM) (độ tương phản, độ đồng nhất, năng lượng, tương quan) và entropy mẫu nhị"
+    },
+    {
+      "index": 260,
+      "style": "Normal",
+      "text": "phân cục bộ (LBP), tổng cộng mười đặc trưng trên mỗi hình ảnh. Đối với mỗi mẫu sản phẩm, một Rừng cô lập [2] (200 bộ"
+    },
+    {
+      "index": 261,
+      "style": "Normal",
+      "text": "ước lượng) được huấn luyện trên các đặc trưng được chuẩn hóa chỉ của các hình ảnh huấn luyện bình thường, phản"
+    },
+    {
+      "index": 262,
+      "style": "Normal",
+      "text": "ánh giao thức một mẫu sản phẩm của PatchCore; điểm số bất thường thu được được đánh giá bằng AUROC so với cùng một tập"
+    },
+    {
+      "index": 263,
+      "style": "Normal",
+      "text": "nhãn được sử dụng cho PatchCore. Một điểm khác biệt về phương pháp luận so với giao thức PatchCore đáng chú ý"
+    },
+    {
+      "index": 264,
+      "style": "Normal",
+      "text": "là đường cơ sở này được đánh giá trên tất cả các hình ảnh bình thường của một lớp (thay vì chia tách 20%), vì"
+    },
+    {
+      "index": 265,
+      "style": "Normal",
+      "text": "ban đầu nó được tính toán như một phần của phân tích thăm dò chứ không phải là một đánh giá giữ lại; Điều này"
+    },
+    {
+      "index": 266,
+      "style": "Normal",
+      "text": "khiến cho chỉ số AUROC được báo cáo, nếu có thể nói, có phần lạc quan so với đánh giá mà PatchCore đưa ra trước đó."
+    },
+    {
+      "index": 267,
+      "style": "Normal",
+      "text": "5.6 Phương pháp tiếp cận thay thế"
+    },
+    {
+      "index": 268,
+      "style": "Normal",
+      "text": "Để so sánh thêm, tôi cũng đã cố gắng huấn luyện SuperSimpleNet [3], một phương pháp phân đoạn có thể"
+    },
+    {
+      "index": 269,
+      "style": "Normal",
+      "text": "huấn luyện không giám sát tổng hợp các khiếm khuyết giả thông qua nhiễu Perlin được đưa vào không gian đặc"
+    },
+    {
+      "index": 270,
+      "style": "Normal",
+      "text": "trưng, trên hai lớp có AUROC PatchCore cơ bản thấp nhất. So sánh này và kết quả của nó được báo cáo trong Phụ"
+    },
+    {
+      "index": 271,
+      "style": "Normal",
+      "text": "lục A."
+    },
+    {
+      "index": 272,
+      "style": "Normal",
+      "text": "6 Kết quả"
+    },
+    {
+      "index": 273,
+      "style": "Normal",
+      "text": "6.1 Hiệu suất phát hiện cơ bản"
+    },
+    {
+      "index": 274,
+      "style": "Normal",
+      "text": "Bảng 1 trình bày giá trị AUROC ở cấp độ ảnh cho cấu hình cơ bản (ảnh gốc, đầu vào 224×224) trên tất cả 12 mẫu sản phẩm."
+    },
+    {
+      "index": 275,
+      "style": "Normal",
+      "text": "Giá trị AUROC trung bình trên các lớp là 0,991, với 5 trong số 12 mẫu sản phẩm đạt giá trị tuyệt đối 1,000 và các lớp"
+    },
+    {
+      "index": 276,
+      "style": "Normal",
+      "text": "yếu nhất, FA-1047 (0,964) và FA-808 (0,970), vẫn cao hơn 0,95."
+    },
+    {
+      "index": 277,
+      "style": "Normal",
+      "text": "Bảng 1: Chỉ số AUROC cơ bản ở cấp độ ảnh PatchCore cho mỗi mẫu sản phẩm (ảnh"
+    },
+    {
+      "index": 278,
+      "style": "Normal",
+      "text": "gốc, đầu vào 224 × 224)."
+    },
+    {
+      "index": 279,
+      "style": "Normal",
+      "text": "Lớp AUROC"
+    },
+    {
+      "index": 280,
+      "style": "Normal",
+      "text": "FA-924 1,000 FA-1041"
+    },
+    {
+      "index": 281,
+      "style": "Normal",
+      "text": "0,996 FA-1042 0,981"
+    },
+    {
+      "index": 282,
+      "style": "Normal",
+      "text": "FA-1043 0,991"
+    },
+    {
+      "index": 283,
+      "style": "Normal",
+      "text": "FA-1045 0,995"
+    },
+    {
+      "index": 284,
+      "style": "Normal",
+      "text": "FA-1047 0,964"
+    },
+    {
+      "index": 285,
+      "style": "Normal",
+      "text": "FA-1113 1,000"
+    },
+    {
+      "index": 286,
+      "style": "Normal",
+      "text": "FA-1114 1,000"
+    },
+    {
+      "index": 287,
+      "style": "Normal",
+      "text": "FA-1120 1.000"
+    },
+    {
+      "index": 288,
+      "style": "Normal",
+      "text": "Nghĩa là 0.991"
+    },
+    {
+      "index": 289,
+      "style": "Normal",
+      "text": "10"
+    },
+    {
+      "index": 294,
+      "style": "Normal",
+      "text": "6.2 So sánh với một tiêu chuẩn thống kê cơ bản cổ điển"
+    },
+    {
+      "index": 295,
+      "style": "Normal",
+      "text": "Bảng 2 so sánh PatchCore với mô hình cơ bản Isolation Forest cổ điển được mô tả trong Phần 5.5."
+    },
+    {
+      "index": 296,
+      "style": "Normal",
+      "text": "Chỉ số AUROC trung bình của phương pháp chuẩn cổ điển là 0,898, thấp hơn hơn 9 điểm so với chỉ số chuẩn của PatchCore."
+    },
+    {
+      "index": 297,
+      "style": "Normal",
+      "text": "cấu hình (0,991) và thấp hơn gần 10 điểm so với cấu hình cuối cùng của PatchCore (0,996, Bảng 5)."
+    },
+    {
+      "index": 298,
+      "style": "Normal",
+      "text": "Khoảng cách này chủ yếu xuất phát từ một số ít các lớp học mà số liệu thống kê được tính toán thủ công rõ ràng là không phù hợp."
+    },
+    {
+      "index": 299,
+      "style": "Normal",
+      "text": "Không đủ, FA-808, FA-924 và FA-838 đều thấp hơn 0,82 so với mức cơ sở cổ điển trong khi vẫn duy trì"
+    },
+    {
+      "index": 300,
+      "style": "Normal",
+      "text": "trên 0,97 đối với PatchCore. Độ phân tán theo từng mẫu sản phẩm của đường cơ sở cổ điển cũng rộng hơn đáng kể (0,799)"
+    },
+    {
+      "index": 301,
+      "style": "Normal",
+      "text": "(đến 0,993) so với PatchCore (0,964 đến 1,000 trong cấu hình cơ bản), cho thấy rằng khả năng học hỏi đã được cải thiện."
+    },
+    {
+      "index": 302,
+      "style": "Normal",
+      "text": "Các đặc điểm sâu có khả năng khái quát hóa nhất quán hơn trên 12 loại đối tượng khác nhau so với các đặc điểm khác."
+    },
+    {
+      "index": 303,
+      "style": "Normal",
+      "text": "Bộ tính năng cố định, được thiết kế thủ công."
+    },
+    {
+      "index": 304,
+      "style": "Normal",
+      "text": "Bảng 2: AUROC cấp độ hình ảnh, đường cơ sở thống kê cổ điển"
+    },
+    {
+      "index": 305,
+      "style": "Normal",
+      "text": "(Rừng cô lập) so với PatchCore (cấu hình cơ bản)."
+    },
+    {
+      "index": 306,
+      "style": "Normal",
+      "text": "6.3 Loại bỏ mô nền bằng phương pháp đốt điện"
+    },
+    {
+      "index": 307,
+      "style": "Normal",
+      "text": "Bảng 3 so sánh đường cơ sở với biến thể đã loại bỏ nhiễu nền. Giá trị AUROC trung bình là"
+    },
+    {
+      "index": 308,
+      "style": "Normal",
+      "text": "không thay đổi (0,991 trong cả hai cấu hình), nhưng sự chênh lệch giữa các lớp là không nhỏ ở cả hai hướng."
+    },
+    {
+      "index": 309,
+      "style": "Normal",
+      "text": "Việc loại bỏ nền cải thiện đáng kể FA-1047 (+0,036) nhưng làm giảm FA-1043 ( 0,021) và"
+    },
+    {
+      "index": 310,
+      "style": "Normal",
+      "text": "FA-808 ( 0,015). Việc kiểm tra định tính các bản đồ nhiệt bất thường cho thấy rõ hơn rằng sự đồng nhất"
+    },
+    {
+      "index": 311,
+      "style": "Normal",
+      "text": "Việc thêm nền đen do quá trình loại bỏ nền, khi kết hợp với phương pháp phân ngưỡng phần trăm toàn bộ ảnh đơn giản,"
+    },
+    {
+      "index": 312,
+      "style": "Normal",
+      "text": "sẽ làm biến dạng ngưỡng và tạo ra các vùng định vị rộng hơn so với ban đầu."
+    },
+    {
+      "index": 313,
+      "style": "Normal",
+      "text": "Ngược lại với kỳ vọng ban đầu rằng việc loại bỏ nền sẽ giúp cải thiện khả năng định vị."
+    },
+    {
+      "index": 314,
+      "style": "Normal",
+      "text": "Điều này thúc đẩy việc áp dụng ngưỡng giới hạn đối tượng tiền cảnh được mô tả trong Phần 4.6."
+    },
+    {
+      "index": 315,
+      "style": "Normal",
+      "text": "Bảng 3: AUROC cấp độ ảnh, ảnh gốc so với ảnh đã chỉnh sửa"
+    },
+    {
+      "index": 316,
+      "style": "Normal",
+      "text": "Ảnh đã loại bỏ nền, được sắp xếp theo độ chênh lệch."
+    },
+    {
+      "index": 320,
+      "style": "Normal",
+      "text": "6.4 Phương pháp che phủ đối tượng, một dạng lỗi đối với các đối tượng có màu tối"
+    },
+    {
+      "index": 321,
+      "style": "Normal",
+      "text": "Mục 4.3 mô tả hai cách để thu được mặt nạ đối tượng được sử dụng cho ngưỡng giới hạn tiền cảnh, một ngưỡng độ"
+    },
+    {
+      "index": 322,
+      "style": "Normal",
+      "text": "sáng màu đơn giản trên ảnh đã được loại bỏ nền, và đầu ra alpha mềm gốc của mô hình phân đoạn. Tôi định"
+    },
+    {
+      "index": 323,
+      "style": "Normal",
+      "text": "lượng sự khác biệt giữa chúng bằng cách lấy mẫu 10 ảnh bình thường."
+    },
+    {
+      "index": 324,
+      "style": "Normal",
+      "text": "hình ảnh cho mỗi mẫu sản phẩm, tính toán cả hai mặt nạ và đo tỷ lệ pixel vật thể thực (alpha)."
+    },
+    {
+      "index": 325,
+      "style": "Normal",
+      "text": "> 0,5) mặt nạ ngưỡng màu dán nhãn sai là nền (tỷ lệ âm tính giả). Bảng 4"
+    },
+    {
+      "index": 326,
+      "style": "Normal",
+      "text": "Báo cáo kết quả cho từng lớp, cùng với độ sáng trung bình của vùng đối tượng thực."
+    },
+    {
+      "index": 327,
+      "style": "Normal",
+      "text": "Đối với 9 trong số 12 mẫu sản phẩm, hai loại khẩu trang cho kết quả gần như tương đồng (tỷ lệ âm tính giả dưới 7%). Đối với ba mẫu sản phẩm còn lại,"
+    },
+    {
+      "index": 328,
+      "style": "Normal",
+      "text": "FA-1047, FA-1114 và FA-1120, mặt nạ ngưỡng màu bỏ sót 78–96% số pixel vật thể thực."
+    },
+    {
+      "index": 329,
+      "style": "Normal",
+      "text": "Ba mẫu sản phẩm này có màu sắc trung bình của vật thể tối nhất trong tập dữ liệu (lần lượt là 28,7, 31,6 và 4,7 trên thang"
+    },
+    {
+      "index": 330,
+      "style": "Normal",
+      "text": "điểm 0–255), và có mối tương quan giữa tỷ lệ âm tính giả và độ sáng trung bình của vật thể."
+    },
+    {
+      "index": 331,
+      "style": "Normal",
+      "text": "Hệ số tương quan r trên tất cả 12 lớp là r =  0,938. Cơ chế là do bước loại bỏ nền của tôi kết hợp các yếu tố sau:"
+    },
+    {
+      "index": 332,
+      "style": "Normal",
+      "text": "đối tượng được phân đoạn trên nền đen đồng nhất và loại bỏ kênh alpha; khi đối tượng"
+    },
+    {
+      "index": 333,
+      "style": "Normal",
+      "text": "Bản thân vật liệu có màu tối, giá trị pixel của nó sau khi ghép ảnh không thể phân biệt được với nền."
+    },
+    {
+      "index": 334,
+      "style": "Normal",
+      "text": "chỉ riêng độ sáng. Hình 6 minh họa trực tiếp điều này cho FA-1047, mặt nạ ngưỡng màu chính xác."
+    },
+    {
+      "index": 335,
+      "style": "Normal",
+      "text": "Hình ảnh thể hiện rõ các nhân vật có màu sắc tươi sáng nhưng lại bỏ sót gần như toàn bộ phần đế tối màu nối liền chúng."
+    },
+    {
+      "index": 336,
+      "style": "Normal",
+      "text": "trong đó mặt nạ alpha thực sự bao gồm một cách chính xác."
+    },
+    {
+      "index": 337,
+      "style": "Normal",
+      "text": "Bảng 4: Tỷ lệ âm tính giả của đối tượng ngưỡng màu"
+    },
+    {
+      "index": 338,
+      "style": "Normal",
+      "text": "Mặt nạ so với mặt nạ alpha thực và độ sáng trung bình của đối tượng,"
+    },
+    {
+      "index": 339,
+      "style": "Normal",
+      "text": "theo từng mẫu sản phẩm (10 hình ảnh bình thường mỗi mẫu sản phẩm), được sắp xếp theo"
+    },
+    {
+      "index": 340,
+      "style": "Normal",
+      "text": "tỷ lệ âm tính giả."
+    },
+    {
+      "index": 341,
+      "style": "Normal",
+      "text": "12"
+    },
+    {
+      "index": 346,
+      "style": "Normal",
+      "text": "Hình 6: FA-1047, một mẫu sản phẩm bình thường. Từ trái sang phải, ảnh gốc; mặt nạ alpha thực (phân đoạn mới)."
+    },
+    {
+      "index": 347,
+      "style": "Normal",
+      "text": "đầu ra mô hình); mặt nạ ngưỡng màu (từ tập dữ liệu đã loại bỏ nền); các pixel hiện có trong"
+    },
+    {
+      "index": 348,
+      "style": "Normal",
+      "text": "Mặt nạ thật nhưng bị mặt nạ ngưỡng màu bỏ sót, được tô đỏ. Mặt nạ ngưỡng màu"
+    },
+    {
+      "index": 349,
+      "style": "Normal",
+      "text": "Bỏ sót hầu hết phần đế tối màu."
+    },
+    {
+      "index": 350,
+      "style": "Normal",
+      "text": "Tôi lưu ý một hạn chế quan trọng được phát hiện trong quá trình chuẩn bị các ví dụ định tính, đó là định lượng này."
+    },
+    {
+      "index": 351,
+      "style": "Normal",
+      "text": "được thực hiện trên các hình ảnh bình thường. Khi tôi kiểm tra các hình ảnh FA-1047 bị lỗi cụ thể được sử dụng"
+    },
+    {
+      "index": 352,
+      "style": "Normal",
+      "text": "Đối với các số liệu định tính trong phần tiếp theo, hai loại mặt nạ cho kết quả gần giống nhau (âm tính giả)."
+    },
+    {
+      "index": 353,
+      "style": "Normal",
+      "text": "tỷ lệ lần lượt là 2,7% và 5,8% cho hai mẫu sản phẩm được hiển thị), và các số liệu chồng lớp thu được về cơ bản trông giống nhau."
+    },
+    {
+      "index": 354,
+      "style": "Normal",
+      "text": "Giống hệt nhau cho dù sử dụng ngưỡng màu hay mặt nạ alpha thực, điều này có thể dễ dàng gây nhầm lẫn."
+    },
+    {
+      "index": 355,
+      "style": "Normal",
+      "text": "bằng chứng cho thấy phương thức hỏng hóc không quan trọng trong thực tế. Giả thuyết làm việc của chúng tôi là bị lỗi"
+    },
+    {
+      "index": 356,
+      "style": "Normal",
+      "text": "Các mẫu trong mẫu sản phẩm này thường xuyên hiển thị màu in bị thiếu hoặc không đầy đủ (Hình 1), điều này thường xảy ra"
+    },
+    {
+      "index": 357,
+      "style": "Normal",
+      "text": "để phần đế không bị tối đều và do đó dễ phân biệt hơn với nền bằng cách"
+    },
+    {
+      "index": 358,
+      "style": "Normal",
+      "text": "chỉ riêng độ sáng. Sự khác biệt này giữa phép đo định lượng, có hệ thống (trên bình thường)"
+    },
+    {
+      "index": 359,
+      "style": "Normal",
+      "text": "(hình ảnh) và việc kiểm tra chất lượng nhanh (trên hai hình ảnh bị lỗi có sẵn) tự nó đã là một phương pháp hữu ích."
+    },
+    {
+      "index": 360,
+      "style": "Normal",
+      "text": "Bài học về phương pháp luận: một số ít ví dụ được kiểm tra bằng mắt thường có thể không tiết lộ được vấn đề thực sự."
+    },
+    {
+      "index": 361,
+      "style": "Normal",
+      "text": "Vấn đề mang tính hệ thống mà chỉ có phân tích định lượng toàn diện mới phát hiện ra. Xét đến sự thất bại đã được chứng minh trên..."
+    },
+    {
+      "index": 362,
+      "style": "Normal",
+      "text": "Đối với ảnh thông thường, và phù hợp với Mục 4.3, tôi sử dụng mặt nạ alpha thực làm mặt nạ đối tượng."
+    },
+    {
+      "index": 363,
+      "style": "Normal",
+      "text": "trong cấu hình cuối cùng của chúng tôi."
+    },
+    {
+      "index": 364,
+      "style": "Normal",
+      "text": "6.5 Loại bỏ, ngưỡng giới hạn vùng tiền cảnh và độ phân giải đầu vào"
+    },
+    {
+      "index": 365,
+      "style": "Normal",
+      "text": "Bảng 5 trình bày giá trị AUROC ở cấp độ ảnh cho cấu hình kết hợp, ảnh đã loại bỏ nền."
+    },
+    {
+      "index": 366,
+      "style": "Normal",
+      "text": "Đầu vào 384 × 384, ngưỡng phần trăm giới hạn vùng tiền cảnh với thành phần liên thông lớn nhất."
+    },
+    {
+      "index": 367,
+      "style": "Normal",
+      "text": "lọc. Giá trị AUROC trung bình được cải thiện lên 0,996, tăng từ 0,991 của đường cơ sở ban đầu và 0,991."
+    },
+    {
+      "index": 368,
+      "style": "Normal",
+      "text": "Chỉ riêng việc loại bỏ nền ở độ phân giải 224 × 224. Hiện tại, mọi mẫu sản phẩm đều đạt điểm từ 0,983 trở lên, và..."
+    },
+    {
+      "index": 369,
+      "style": "Normal",
+      "text": "Các lớp yếu nhất trước đây không còn là ngoại lệ rõ ràng nữa, FA-1047 đạt điểm tuyệt đối 1.000 và FA-808 cải thiện lên"
+    },
+    {
+      "index": 370,
+      "style": "Normal",
+      "text": "0.983 (từ 0.970 ở mức cơ bản và 0.955 ở mức 224 × 224 đã loại bỏ nền)."
+    },
+    {
+      "index": 371,
+      "style": "Normal",
+      "text": "(cấu hình). Mẫu sản phẩm có chỉ số thấp nhất là FA-1120 với 0,987, vẫn ở mức khá cao."
+    },
+    {
+      "index": 372,
+      "style": "Normal",
+      "text": "13"
+    },
+    {
+      "index": 377,
+      "style": "Normal",
+      "text": "Bảng 5: Cấu hình cuối cùng, AUROC cấp độ ảnh cho mỗi mẫu sản phẩm (ảnh đã"
+    },
+    {
+      "index": 378,
+      "style": "Normal",
+      "text": "loại bỏ nền, đầu vào 384 × 384, ngưỡng giới hạn đối tượng tiền"
+    },
+    {
+      "index": 379,
+      "style": "Normal",
+      "text": "cảnh)."
+    },
+    {
+      "index": 380,
+      "style": "Normal",
+      "text": "Lớp AUROC"
+    },
+    {
+      "index": 381,
+      "style": "Normal",
+      "text": "FA-1041 1.000"
+    },
+    {
+      "index": 382,
+      "style": "Normal",
+      "text": "FA-1042 1.000"
+    },
+    {
+      "index": 383,
+      "style": "Normal",
+      "text": "FA-1043 0,996"
+    },
+    {
+      "index": 384,
+      "style": "Normal",
+      "text": "FA-1045 1.000"
+    },
+    {
+      "index": 385,
+      "style": "Normal",
+      "text": "FA-1047 1.000"
+    },
+    {
+      "index": 386,
+      "style": "Normal",
+      "text": "FA-1113 0,995"
+    },
+    {
+      "index": 387,
+      "style": "Normal",
+      "text": "FA-1114 0,994"
+    },
+    {
+      "index": 388,
+      "style": "Normal",
+      "text": "FA-1120 0,987"
+    },
+    {
+      "index": 389,
+      "style": "Normal",
+      "text": "FA-924 1.000"
+    },
+    {
+      "index": 390,
+      "style": "Normal",
+      "text": "Nghĩa là 0.996"
+    },
+    {
+      "index": 391,
+      "style": "Normal",
+      "text": "So sánh định tính trên hai mẫu sản phẩm ban đầu yếu nhất (FA-1047, FA-808) cho thấy rằng việc giới hạn ngưỡng phần"
+    },
+    {
+      "index": 392,
+      "style": "Normal",
+      "text": "trăm vào mặt nạ tiền cảnh và chỉ giữ lại thành phần liên thông lớn nhất giúp thu hẹp đáng kể vùng cục bộ so"
+    },
+    {
+      "index": 393,
+      "style": "Normal",
+      "text": "với ngưỡng toàn ảnh đơn giản, trên cả ảnh bị lỗi (định vị chính xác) và ảnh bình thường (không quan sát thấy"
+    },
+    {
+      "index": 394,
+      "style": "Normal",
+      "text": "vùng dương tính giả lớn). Tăng độ phân giải đầu vào từ 224×224 lên 384×384 giúp thu hẹp hơn nữa việc định vị,"
+    },
+    {
+      "index": 395,
+      "style": "Normal",
+      "text": "và trong một trường hợp đã phát hiện ra một vùng lỗi thực sự nhỏ hoàn toàn không được phát hiện ở độ phân"
+    },
+    {
+      "index": 396,
+      "style": "Normal",
+      "text": "giải 224×224, phù hợp với lập luận về dấu vết ô lưới trong Phần 4.5."
+    },
+    {
+      "index": 397,
+      "style": "Normal",
+      "text": "Tôi lưu ý một chi tiết triển khai ảnh hưởng đến cấu hình này: ở độ phân giải đầu vào 384×384, tập hợp các"
+    },
+    {
+      "index": 398,
+      "style": "Normal",
+      "text": "đặc trưng thô (trước khi thiết lập lại lõi) lớn hơn khoảng 3 lần so với ở độ phân giải 224×224 (vì độ phân giải lưới"
+    },
+    {
+      "index": 399,
+      "style": "Normal",
+      "text": "đặc trưng tỷ lệ thuận với kích thước đầu vào), điều này khiến việc lựa chọn lõi k-center tham lam trở nên quá chậm;"
+    },
+    {
+      "index": 400,
+      "style": "Normal",
+      "text": "tôi đã giới hạn tập hợp thô thông qua lấy mẫu con ngẫu nhiên ở mức 65.000 điểm (tương đương với kích thước tập"
+    },
+    {
+      "index": 401,
+      "style": "Normal",
+      "text": "hợp thô ở độ phân giải 224×224) trước khi lựa chọn lõi, khôi phục thời gian chạy thực tế mà không làm giảm chất"
+    },
+    {
+      "index": 402,
+      "style": "Normal",
+      "text": "lượng bộ nhớ, theo như tôi nhận thấy từ các kết quả trên."
+    },
+    {
+      "index": 403,
+      "style": "Normal",
+      "text": "Các số liệu định tính bên dưới (Hình 8, 9, 10) đã được tạo lại hoàn toàn với mặt nạ alpha thực sự đã được"
+    },
+    {
+      "index": 404,
+      "style": "Normal",
+      "text": "sửa lỗi được áp dụng trong Phần 6.4, thay thế mặt nạ ngưỡng màu được sử dụng trong một phiên bản trước của"
+    },
+    {
+      "index": 405,
+      "style": "Normal",
+      "text": "quy trình này. Bảng 5 ở trên đã phản ánh cấu hình mặt nạ alpha, vì mặt nạ đối tượng chỉ ảnh hưởng đến việc"
+    },
+    {
+      "index": 406,
+      "style": "Normal",
+      "text": "hiển thị và xử lý hậu kỳ, chứ không ảnh hưởng đến ngân hàng bộ nhớ hoặc điểm số bất thường ở cấp độ hình ảnh."
+    },
+    {
+      "index": 407,
+      "style": "Normal",
+      "text": "Việc tạo lại các hình ảnh đã làm nổi bật một vấn đề riêng biệt, hoàn toàn mang tính trực quan, đó là lớp phủ"
+    },
+    {
+      "index": 408,
+      "style": "Normal",
+      "text": "pha trộn alpha đơn giản gần như không thể nhìn thấy khi vùng được ngưỡng nằm trên các pixel đối tượng có màu"
+    },
+    {
+      "index": 409,
+      "style": "Normal",
+      "text": "đỏ bão hòa dưới bản đồ màu JET, sự pha trộn đỏ trên đỏ làm thay đổi giá trị pixel về mặt số học nhưng không"
+    },
+    {
+      "index": 410,
+      "style": "Normal",
+      "text": "thể nhận biết được. Tôi đã khắc phục điều này bằng cách vẽ thêm ranh giới của vùng được giữ lại dưới"
+    },
+    {
+      "index": 411,
+      "style": "Normal",
+      "text": "dạng đường viền màu xanh lá cây, như các hình ảnh bên dưới cho thấy; bản thân vùng được ngưỡng bên dưới đã"
+    },
+    {
+      "index": 412,
+      "style": "Normal",
+      "text": "chính xác."
+    },
+    {
+      "index": 413,
+      "style": "Normal",
+      "text": "6.6 Độ ổn định của nhiều loại hạt"
+    },
+    {
+      "index": 414,
+      "style": "Normal",
+      "text": "Mọi kết quả được báo cáo ở trên đều sử dụng một hạt giống ngẫu nhiên cố định duy nhất (Mục 5), hạt giống này"
+    },
+    {
+      "index": 415,
+      "style": "Normal",
+      "text": "xác định cả việc phân chia tập huấn luyện/hiệu chuẩn và việc lấy mẫu con của tập lõi; do số lượng ảnh lỗi nhỏ."
+    },
+    {
+      "index": 416,
+      "style": "Normal",
+      "text": "14"
+    },
+    {
+      "index": 421,
+      "style": "Normal",
+      "text": "Đối với mỗi mẫu sản phẩm (Mục 3), Tôi đã đánh dấu AUROC trên mỗi mẫu sản phẩm là một hạn chế vì nó mang phương sai đáng kể."
+    },
+    {
+      "index": 422,
+      "style": "Normal",
+      "text": "Chúng tôi lặp lại cấu hình cuối cùng (hình ảnh đã loại bỏ nền, đầu vào 384 × 384) trên 5 hạt giống."
+    },
+    {
+      "index": 423,
+      "style": "Normal",
+      "text": "(0–4), mỗi nhóm có một bộ dữ liệu huấn luyện/hiệu chuẩn được lấy mẫu lại độc lập và bộ lõi. Bảng 6 báo cáo"
+    },
+    {
+      "index": 424,
+      "style": "Normal",
+      "text": "Giá trị trung bình và độ lệch chuẩn của từng lớp."
+    },
+    {
+      "index": 425,
+      "style": "Normal",
+      "text": "Giá trị AUROC trung bình trên tất cả các hạt giống và mẫu sản phẩm là 0,9959, trùng khớp với kết quả của một hạt giống duy nhất (0,996)."
+    },
+    {
+      "index": 426,
+      "style": "Normal",
+      "text": "đến ba chữ số thập phân, và độ lệch chuẩn trên mỗi mẫu sản phẩm nhỏ xuyên suốt, tối đa là 0,014 (FA-1120), với 5 trong số 12"
+    },
+    {
+      "index": 427,
+      "style": "Normal",
+      "text": "mẫu sản phẩm cho thấy phương sai bằng không trên các hạt giống (hoàn hảo 1,000 bất kể sự phân chia)."
+    },
+    {
+      "index": 428,
+      "style": "Normal",
+      "text": "Độ lệch chuẩn của giá trị AUROC trung bình tổng thể trên 5 hạt giống là 0,0019. Tôi coi đây là bằng chứng cho thấy kết quả gieo một hạt giống"
+    },
+    {
+      "index": 429,
+      "style": "Normal",
+      "text": "được báo cáo ở phần khác trong bài báo này không phải là kết quả giả tạo do yếu tố thuận lợi."
+    },
+    {
+      "index": 430,
+      "style": "Normal",
+      "text": "tách ra."
+    },
+    {
+      "index": 431,
+      "style": "Normal",
+      "text": "Bảng 6: AUROC ở cấp độ hình ảnh, giá trị trung bình ± độ lệch chuẩn"
+    },
+    {
+      "index": 432,
+      "style": "Normal",
+      "text": "Trên 5 hạt giống (cấu hình cuối cùng), được sắp xếp theo giá trị trung bình."
+    },
+    {
+      "index": 433,
+      "style": "Normal",
+      "text": "6.7 Tổng hợp đa quy mô"
+    },
+    {
+      "index": 434,
+      "style": "Normal",
+      "text": "Mục 4.5 đã đánh giá kích thước 224×224 và 384×384 một cách độc lập chứ không phải kết hợp. Bây giờ chúng ta sẽ đánh giá"
+    },
+    {
+      "index": 435,
+      "style": "Normal",
+      "text": "Tổng hợp đa quy mô thực sự (giai đoạn 5 của OC-MAR), chạy PatchCore độc lập ở ba đầu vào."
+    },
+    {
+      "index": 436,
+      "style": "Normal",
+      "text": "các độ phân giải 256 × 256, 384 × 384 và 512 × 512, điều chỉnh kích thước mỗi bản đồ nhiệt thu được về cùng một độ phân giải."
+    },
+    {
+      "index": 437,
+      "style": "Normal",
+      "text": "Khung vẽ 384 × 384, và kết hợp chúng theo từng phần tử bằng cách lấy giá trị tối đa. Mức độ hình ảnh tổng hợp"
+    },
+    {
+      "index": 438,
+      "style": "Normal",
+      "text": "Điểm số này cũng là điểm tối đa trong ba điểm số trên mỗi thang đo. Bảng 7 so sánh điểm số tổng hợp này."
+    },
+    {
+      "index": 439,
+      "style": "Normal",
+      "text": "Cấu hình được so sánh với cấu hình 384 × 384 riêng lẻ, được đánh giá trong cùng một lần chạy để có sự so sánh công bằng."
+    },
+    {
+      "index": 440,
+      "style": "Normal",
+      "text": "Bảng 7: AUROC cấp độ ảnh, đơn tỷ lệ (384 × 384) so với"
+    },
+    {
+      "index": 441,
+      "style": "Normal",
+      "text": "Tổng hợp đa quy mô (tối đa trên 256/384/512), cùng một đánh giá-"
+    },
+    {
+      "index": 442,
+      "style": "Normal",
+      "text": "chạy tình trạng."
+    },
+    {
+      "index": 443,
+      "style": "Normal",
+      "text": "15"
+    },
+    {
+      "index": 448,
+      "style": "Normal",
+      "text": "Việc tổng hợp đa thang đo theo giá trị cực đại không cải thiện AUROC trung bình, mà chỉ làm giảm nhẹ."
+    },
+    {
+      "index": 449,
+      "style": "Normal",
+      "text": "(0,9964 so với 0,9958), gần như hoàn toàn do hai mẫu sản phẩm, FA-1113 ( 0,007) và FA-1120"
+    },
+    {
+      "index": 450,
+      "style": "Normal",
+      "text": "( 0,005), trong khi năm mẫu sản phẩm không thay đổi và ba mẫu sản phẩm cải thiện rất nhẹ. Việc lấy giá trị tối đa theo từng phần tử trên"
+    },
+    {
+      "index": 451,
+      "style": "Normal",
+      "text": "các thang đo kết hợp bằng chứng một cách lạc quan cho thấy, nó có khả năng lan truyền chính xác như nhau."
+    },
+    {
+      "index": 452,
+      "style": "Normal",
+      "text": "Sự gia tăng đột biến dương tính giả theo quy mô cụ thể vào bản đồ tổng hợp nhằm mục đích phục hồi một khiếm khuyết thực sự bị bỏ sót."
+    },
+    {
+      "index": 453,
+      "style": "Normal",
+      "text": "một thang điểm duy nhất, và đối với các lớp đã đạt hoặc gần đạt điểm tuyệt đối, sẽ có nhiều khả năng giảm điểm hơn."
+    },
+    {
+      "index": 454,
+      "style": "Normal",
+      "text": "Việc này nhằm mục đích thu lợi từ bên kia hơn là từ bên trước."
+    },
+    {
+      "index": 455,
+      "style": "Normal",
+      "text": "Hình 7 thể hiện phiên bản định tính của FA-1047. Cả ba thang đo riêng lẻ đều đã nhất trí."
+    },
+    {
+      "index": 456,
+      "style": "Normal",
+      "text": "Quan sát kỹ vị trí khuyết tật trong các ví dụ này, và vùng tập trung khuyết tật phù hợp với chúng."
+    },
+    {
+      "index": 457,
+      "style": "Normal",
+      "text": "Trong một mẫu (hàng thứ hai), chỉ riêng thang đo 256 tạo ra một vùng phụ giả trên Giáng sinh"
+    },
+    {
+      "index": 458,
+      "style": "Normal",
+      "text": "cây không tồn tại trong tập hợp đa quy mô, vì thành phần liên thông lớn nhất"
+    },
+    {
+      "index": 459,
+      "style": "Normal",
+      "text": "Bộ lọc chỉ giữ lại vùng chiếm ưu thế của bản đồ kết hợp. Tôi coi đây là một tín hiệu tích cực nhẹ."
+    },
+    {
+      "index": 460,
+      "style": "Normal",
+      "text": "để đảm bảo tính ổn định (một lỗi dương tính giả đơn lẻ ở một thang đo duy nhất sẽ không lan truyền vào kết quả tổng hợp cuối cùng)"
+    },
+    {
+      "index": 461,
+      "style": "Normal",
+      "text": "mà không làm thay đổi kết luận tổng thể của chúng tôi, với kích thước khuyết tật hiện có trong tập dữ liệu này, kích thước 384 × 384 là phù hợp."
+    },
+    {
+      "index": 462,
+      "style": "Normal",
+      "text": "Độ phân giải đã được sử dụng xuyên suốt phần còn lại của bài báo này đáp ứng được yêu cầu, và đa thang đo."
+    },
+    {
+      "index": 463,
+      "style": "Normal",
+      "text": "Việc tổng hợp dữ liệu làm tăng chi phí suy luận lên khoảng gấp 3 lần so với Mục 6 mà không mang lại lợi ích ròng nào về AUROC. Có thể"
+    },
+    {
+      "index": 464,
+      "style": "Normal",
+      "text": "Điều này vẫn có thể được đảm bảo đối với các tập dữ liệu có phạm vi kích thước vật lý của khuyết tật rộng hơn so với những gì đã quan sát được trong Phần 3."
+    },
+    {
+      "index": 465,
+      "style": "Normal",
+      "text": "6.8 Ngưỡng thích ứng"
+    },
+    {
+      "index": 466,
+      "style": "Normal",
+      "text": "Mục 6 ở trên chứng minh rằng một vùng dương tính giả nhỏ còn sót lại trên hầu hết mọi trường hợp."
+    },
+    {
+      "index": 467,
+      "style": "Normal",
+      "text": "Hình ảnh bình thường dưới ngưỡng phân vị thứ 92 cố định, không hiệu chỉnh được sử dụng xuyên suốt bài báo này."
+    },
+    {
+      "index": 468,
+      "style": "Normal",
+      "text": "Chúng tôi đánh giá một phương án thích ứng theo từng lớp (giai đoạn 7 của OC-MAR), đối với mỗi lớp, tôi đo lường giá trị trung bình."
+    },
+    {
+      "index": 469,
+      "style": "Normal",
+      "text": "diện tích thành phần liên thông lớn nhất được giữ lại trên đường phân chia chuẩn hiệu chuẩn của lớp đó (Mục 5) tại năm"
+    },
+    {
+      "index": 470,
+      "style": "Normal",
+      "text": "các phân vị ứng viên (92, 94, 96, 98, 99), và chọn ứng viên nhỏ nhất có giá trị trung bình được giữ lại."
+    },
+    {
+      "index": 471,
+      "style": "Normal",
+      "text": "khu vực nằm ở mức hoặc thấp hơn mục tiêu cố định là 300 pixel (khoảng 0,2% của khung vẽ 384 × 384),"
+    },
+    {
+      "index": 472,
+      "style": "Normal",
+      "text": "Thay vì áp dụng phân vị thứ 92 một cách đồng đều. Quá trình hiệu chuẩn này chỉ sử dụng các hình ảnh bình thường và"
+    },
+    {
+      "index": 473,
+      "style": "Normal",
+      "text": "Nó không làm thay đổi ngân hàng bộ nhớ hoặc điểm số bất thường ở cấp độ hình ảnh, do đó không ảnh hưởng đến AUROC."
+    },
+    {
+      "index": 474,
+      "style": "Normal",
+      "text": "Kết quả đã được báo cáo trước đó trong phần này."
+    },
+    {
+      "index": 475,
+      "style": "Normal",
+      "text": "Bảng 8 trình bày phần trăm được chọn cho mỗi lớp và diện tích dương tính giả trung bình thu được, cùng với diện tích"
+    },
+    {
+      "index": 476,
+      "style": "Normal",
+      "text": "tại phần trăm thứ 92 cố định để so sánh. Mỗi lớp đều đạt mục tiêu 300 pixel."
+    },
+    {
+      "index": 477,
+      "style": "Normal",
+      "text": "ở mức phần trăm từ 94 đến 99 tùy thuộc vào từng nhóm, và diện tích dương tính giả trung bình trên tất cả các nhóm."
+    },
+    {
+      "index": 478,
+      "style": "Normal",
+      "text": "Số lượng pixel giảm từ 662 ở phân vị thứ 92 cố định xuống còn 225 pixel dưới ngưỡng thích ứng ở 12 lớp, tương ứng với mức"
+    },
+    {
+      "index": 479,
+      "style": "Normal",
+      "text": "giảm 66%. Điều này phù hợp với kỳ vọng của chúng tôi rằng một phân vị được chọn thủ công duy nhất"
+    },
+    {
+      "index": 480,
+      "style": "Normal",
+      "text": "là một sự thỏa hiệp quá lỏng lẻo đối với một số lớp học và quá chặt chẽ một cách không cần thiết đối với những mẫu sản phẩm khác, FA-1114 và"
+    },
+    {
+      "index": 481,
+      "style": "Normal",
+      "text": "16"
+    },
+    {
+      "index": 486,
+      "style": "Normal",
+      "text": "Hình 7: FA-1047, ba mẫu bị lỗi, lớp phủ giới hạn vùng phía trước ở từng tỷ lệ riêng lẻ."
+    },
+    {
+      "index": 487,
+      "style": "Normal",
+      "text": "và cho tổng hợp tối đa đa quy mô."
+    },
+    {
+      "index": 488,
+      "style": "Normal",
+      "text": "FA-1113 cần đạt mức phân vị thứ 99 để đạt mục tiêu, trong khi FA-504 đã đạt được mục tiêu ở mức phân vị thứ 94."
+    },
+    {
+      "index": 489,
+      "style": "Normal",
+      "text": "một sự lan rộng mà ngưỡng đồng nhất không thể đáp ứng đồng thời."
+    },
+    {
+      "index": 490,
+      "style": "Normal",
+      "text": "Bảng 8: Lựa chọn ngưỡng thích ứng theo từng mẫu sản phẩm.Đã chọn"
+    },
+    {
+      "index": 491,
+      "style": "Normal",
+      "text": "Phân vị là giá trị nhỏ nhất trong {92, 94, 96, 98, 99} có giá trị trung bình là 92."
+    },
+    {
+      "index": 492,
+      "style": "Normal",
+      "text": "diện tích thành phần liên thông lớn nhất trên đường chuẩn hiệu chuẩn"
+    },
+    {
+      "index": 493,
+      "style": "Normal",
+      "text": "Khoảng cách chia tách là 300 pixel trở xuống."
+    },
+    {
+      "index": 494,
+      "style": "Normal",
+      "text": "17"
+    },
+    {
+      "index": 499,
+      "style": "Normal",
+      "text": "Việc hiệu chuẩn này được thực hiện độc lập và sau khi có kết quả phân vị cố định."
+    },
+    {
+      "index": 500,
+      "style": "Normal",
+      "text": "các số liệu được báo cáo ở những phần khác trong mục này; các số liệu định tính ở trên (Hình 8, 9, 11) vẫn sử dụng"
+    },
+    {
+      "index": 501,
+      "style": "Normal",
+      "text": "phân vị thứ 92 cố định, và chưa được tạo lại với ngưỡng thích ứng theo từng mẫu sản phẩm."
+    },
+    {
+      "index": 502,
+      "style": "Normal",
+      "text": "Tôi kỳ vọng điều này sẽ giúp làm rõ hơn các lớp phủ hình ảnh thông thường được hiển thị ở đó mà không làm thay đổi đáng kể cấu trúc."
+    },
+    {
+      "index": 503,
+      "style": "Normal",
+      "text": "việc định vị hình ảnh bị lỗi, vì điểm số bất thường của vùng lỗi thực sự về cơ bản là như vậy đối với tất cả"
+    },
+    {
+      "index": 504,
+      "style": "Normal",
+      "text": "Các mẫu được kiểm tra trong bài báo này được tách biệt rõ ràng khỏi mức nền của hình ảnh bình thường (Hình 11)."
+    },
+    {
+      "index": 505,
+      "style": "Normal",
+      "text": "6.9 Định vị chất lượng"
+    },
+    {
+      "index": 506,
+      "style": "Normal",
+      "text": "Hình 8 và 9 so sánh hai biến thể ngưỡng trên ảnh FA-808 và FA-1047 bị lỗi."
+    },
+    {
+      "index": 507,
+      "style": "Normal",
+      "text": "tương ứng, ở độ phân giải 384 × 384. Trong cả hai lớp, ngưỡng phần trăm toàn bộ hình ảnh đơn giản."
+    },
+    {
+      "index": 508,
+      "style": "Normal",
+      "text": "(cột giữa) bao phủ hầu hết thân đối tượng, trong khi ngưỡng giới hạn tiền cảnh với"
+    },
+    {
+      "index": 509,
+      "style": "Normal",
+      "text": "Lọc thành phần liên thông lớn nhất (cột bên phải) cô lập một vùng nhỏ, ổn định, gần"
+    },
+    {
+      "index": 510,
+      "style": "Normal",
+      "text": "Mũ dành cho FA-808 và gần hình bên trái nhất dành cho FA-1047, mà tôi cho là vị trí lỗi thực sự."
+    },
+    {
+      "index": 511,
+      "style": "Normal",
+      "text": "Với tính nhất quán trên các mẫu lỗi độc lập. Hình 10 cho thấy quy trình hạn chế vùng tiền cảnh tương tự được áp dụng"
+    },
+    {
+      "index": 512,
+      "style": "Normal",
+      "text": "cho các hình ảnh FA-808 bình thường được giữ lại, không có vùng dương tính giả lớn nào."
+    },
+    {
+      "index": 513,
+      "style": "Normal",
+      "text": "được tạo ra, cho thấy việc thiết lập ngưỡng chặt chẽ hơn không dẫn đến việc phát hiện sai."
+    },
+    {
+      "index": 514,
+      "style": "Normal",
+      "text": "Nguyên liệu đầu vào không có lỗi."
+    },
+    {
+      "index": 515,
+      "style": "Normal",
+      "text": "Hình 8 và 9 tập trung vào hai mẫu sản phẩm yếu nhất theo chỉ số AUROC cơ bản. Để kiểm tra điều đó"
+    },
+    {
+      "index": 516,
+      "style": "Normal",
+      "text": "Quy trình giới hạn ở phía trước không chỉ được điều chỉnh cho hai mẫu này, Hình 11 áp dụng quy trình giống hệt nhau,"
+    },
+    {
+      "index": 517,
+      "style": "Normal",
+      "text": "không thay đổi, cho một mẫu bình thường và một mẫu lỗi từ mỗi trong số 10 mẫu còn lại."
+    },
+    {
+      "index": 518,
+      "style": "Normal",
+      "text": "các lớp được đặt cạnh nhau để so sánh trực tiếp. Đối với mẫu lỗi trong 9 trên 10 mẫu sản phẩm,"
+    },
+    {
+      "index": 519,
+      "style": "Normal",
+      "text": "Vùng được giữ lại là một mảng nhỏ, có tính liên tục về mặt không gian chứ không phải là một khối phân tán, phù hợp với"
+    },
+    {
+      "index": 520,
+      "style": "Normal",
+      "text": "Các ví dụ FA-808 và FA-1047 ở trên. Trong mẫu FA-1041 được hiển thị, không có vùng nào còn sót lại."
+    },
+    {
+      "index": 521,
+      "style": "Normal",
+      "text": "Bộ lọc thành phần liên thông lớn nhất, điểm số bất thường thô của nó (s = 13,7) tương đối thấp so với các bộ lọc khác."
+    },
+    {
+      "index": 522,
+      "style": "Normal",
+      "text": "Các mẫu được hiển thị phù hợp với trường hợp lỗi yếu hơn hoặc ở mức ranh giới hơn là lỗi của..."
+    },
+    {
+      "index": 523,
+      "style": "Normal",
+      "text": "Quá trình xử lý hậu kỳ."
+    },
+    {
+      "index": 524,
+      "style": "Normal",
+      "text": "Đối với hình ảnh bình thường trong mỗi mẫu sản phẩm, một vùng nhỏ được giữ lại trong cả 10 trường hợp, trái ngược với những gì..."
+    },
+    {
+      "index": 525,
+      "style": "Normal",
+      "text": "Ví dụ đơn lẻ về FA-808 trong Hình 10 có thể gợi ý điều đó. Khi kiểm tra từng vùng riêng lẻ, không có vùng nào..."
+    },
+    {
+      "index": 526,
+      "style": "Normal",
+      "text": "tương ứng với một vùng dương tính giả lớn, và một vùng (FA-1114) nằm trên một phần nhô ra trang trí mỏng thực sự của"
+    },
+    {
+      "index": 527,
+      "style": "Normal",
+      "text": "vật thể chứ không phải trên nền bên ngoài vật thể, loại trừ lỗi căn chỉnh mặt nạ. Tôi tiến hành"
+    },
+    {
+      "index": 528,
+      "style": "Normal",
+      "text": "Đây là hành vi được dự đoán trước, do ngưỡng phân vị thứ 92 cố định và không được hiệu chỉnh được sử dụng xuyên suốt."
+    },
+    {
+      "index": 529,
+      "style": "Normal",
+      "text": "Trong phần này, một số vùng dương tính giả nhỏ còn sót lại trên hầu hết mọi hình ảnh bình thường tại điểm hoạt động"
+    },
+    {
+      "index": 530,
+      "style": "Normal",
+      "text": "này, và đó chính là lý do cho việc hiệu chỉnh thích ứng theo từng lớp."
+    },
+    {
+      "index": 531,
+      "style": "Normal",
+      "text": "ngưỡng được đánh giá trong Phần 6.8, và làm giảm diện tích dương tính giả trung bình xuống 66% so với..."
+    },
+    {
+      "index": 532,
+      "style": "Normal",
+      "text": "Ngưỡng cố định được sử dụng trong hình trên. Điểm số bất thường ở cấp độ hình ảnh s được hiển thị trong Hình 11 là"
+    },
+    {
+      "index": 533,
+      "style": "Normal",
+      "text": "Tuy nhiên, tỷ lệ này luôn thấp hơn đáng kể đối với mẫu bình thường so với mẫu bị lỗi."
+    },
+    {
+      "index": 534,
+      "style": "Normal",
+      "text": "trong mỗi một trong 10 mẫu sản phẩm, do đó các kết quả dương tính giả còn lại trong quá trình định vị không chuyển thành"
+    },
+    {
+      "index": 535,
+      "style": "Normal",
+      "text": "Lỗi phân loại ở cấp độ hình ảnh tại đây."
+    },
+    {
+      "index": 536,
+      "style": "Normal",
+      "text": "18"
+    },
+    {
+      "index": 541,
+      "style": "Normal",
+      "text": "6.10 Định vị định lượng, một tập hợp con được chú thích thủ công"
+    },
+    {
+      "index": 542,
+      "style": "Normal",
+      "text": "Đánh giá định tính nêu trên, về bản chất, không thể trả lời một câu hỏi cơ bản: liệu vùng được giữ lại có thực sự"
+    },
+    {
+      "index": 543,
+      "style": "Normal",
+      "text": "trùng khớp với vùng bị lỗi hay không, ngoài một vài ví dụ đã được trình bày. Tập dữ liệu không cung cấp dữ liệu tham"
+    },
+    {
+      "index": 544,
+      "style": "Normal",
+      "text": "chiếu ở cấp độ pixel, vì vậy tôi đã xây dựng một phần dữ liệu tham chiếu đó. Đối với mỗi mẫu sản phẩm, tôi đã chú"
+    },
+    {
+      "index": 545,
+      "style": "Normal",
+      "text": "thích thủ công một mẫu hình ảnh bị lỗi được phân tầng, nhắm mục tiêu vào 40% số hình ảnh bị lỗi của mẫu sản phẩm đó, được"
+    },
+    {
+      "index": 546,
+      "style": "Normal",
+      "text": "chia cho hai người chú thích, sử dụng một công cụ trình duyệt được xây dựng riêng (một hình ảnh tham chiếu bình"
+    },
+    {
+      "index": 547,
+      "style": "Normal",
+      "text": "thường được hiển thị bên cạnh mỗi hình ảnh bị lỗi để chú thích) ghi lại một vùng nhị phân được vẽ tay thay vì một đa"
+    },
+    {
+      "index": 548,
+      "style": "Normal",
+      "text": "giác chính xác. Lựa chọn này là có chủ ý chứ không phải là một lối tắt, vì việc phân đoạn chính xác đến từng pixel"
+    },
+    {
+      "index": 549,
+      "style": "Normal",
+      "text": "đòi hỏi chuyên môn và thời gian của người chú thích, điều hiếm khi có sẵn trong môi trường sản xuất nhỏ mà bài báo"
+    },
+    {
+      "index": 550,
+      "style": "Normal",
+      "text": "cáo này nhắm đến, vì vậy một giao thức chú thích thô, nhanh chóng được cho là dữ liệu tham chiếu đại diện hơn để đánh"
+    },
+    {
+      "index": 551,
+      "style": "Normal",
+      "text": "giá khả năng triển khai thực tế, với chi phí là ranh giới lỏng lẻo hơn so với mặt nạ do chuyên gia vẽ."
+    },
+    {
+      "index": 552,
+      "style": "Normal",
+      "text": "Với một ranh giới thực tế được xác định một cách thô sơ và cố ý không chính xác, một chỉ số chồng lấp ranh giới"
+    },
+    {
+      "index": 553,
+      "style": "Normal",
+      "text": "nghiêm ngặt như giao điểm trên hợp nhất (IoU) được cho là sẽ mang tính bi quan; một vị trí được xác định chính xác"
+    },
+    {
+      "index": 554,
+      "style": "Normal",
+      "text": "về mặt kỹ thuật vẫn có thể đạt điểm IoU thấp nếu vùng được vẽ thủ công lớn hơn hoặc nhỏ hơn phạm vi khuyết tật thực sự."
+    },
+    {
+      "index": 555,
+      "style": "Normal",
+      "text": "Do đó, tôi báo cáo ba số liệu bổ sung so với cùng một dự đoán thành phần liên kết lớn nhất bị hạn chế ở tiền"
+    },
+    {
+      "index": 556,
+      "style": "Normal",
+      "text": "cảnh được sử dụng trong suốt phần này (ngưỡng phân vị thứ 92 cố định), IoU; phạm vi bao phủ, phần trăm vùng được chú"
+    },
+    {
+      "index": 557,
+      "style": "Normal",
+      "text": "thích bằng tay mà vùng được dự đoán chồng lấn (|pred∩ gt|/|gt|, một thước đo chồng lấn vùng ngưỡng đơn, không phải là"
+    },
+    {
+      "index": 558,
+      "style": "Normal",
+      "text": "đường cong PRO đa ngưỡng đầy đủ của [1]); và độ chính xác trò chơi chỉ điểm [6], liệu pixel có điểm số cao nhất của"
+    },
+    {
+      "index": 559,
+      "style": "Normal",
+      "text": "bản đồ nhiệt bất thường thô có nằm bên trong vùng được chú thích bằng tay hay không, một số liệu hoàn toàn không phụ"
+    },
+    {
+      "index": 560,
+      "style": "Normal",
+      "text": "thuộc vào ranh giới của vùng được dự đoán."
+    },
+    {
+      "index": 561,
+      "style": "Normal",
+      "text": "Bảng 9 trình bày kết quả cho tất cả 12 mẫu sản phẩm (192 hình ảnh có vùng được chú thích không trống; thêm 9 hình ảnh"
+    },
+    {
+      "index": 562,
+      "style": "Normal",
+      "text": "được chú thích là \"không thấy khuyết tật rõ ràng\" và bị loại trừ, vì IoU và độ phủ không được xác định so với dữ"
+    },
+    {
+      "index": 563,
+      "style": "Normal",
+      "text": "liệu tham chiếu trống). IoU trung bình thấp (0,220), phù hợp với kỳ vọng của tôi dựa trên dữ liệu tham chiếu"
+    },
+    {
+      "index": 564,
+      "style": "Normal",
+      "text": "thô. Độ phủ trung bình cao hơn (0,313) nhưng vẫn ở mức khiêm tốn. Độ chính xác của trò chơi chỉ trỏ cao hơn đáng kể"
+    },
+    {
+      "index": 565,
+      "style": "Normal",
+      "text": "(0,875), trong 10 trên 12 mẫu sản phẩm, pixel có điểm số cao nhất nằm bên trong vùng khuyết tật được chú thích thủ công trên"
+    },
+    {
+      "index": 566,
+      "style": "Normal",
+      "text": "80–100% số hình ảnh được chú thích. Nhìn chung, ba con số này kể một câu chuyện nhất quán: khả năng định vị của mô"
+    },
+    {
+      "index": 567,
+      "style": "Normal",
+      "text": "hình không hoàn toàn chính xác đến từng ranh giới so với cảm nhận của con người về phạm vi khuyết tật, nhưng đối với"
+    },
+    {
+      "index": 568,
+      "style": "Normal",
+      "text": "hầu hết các loại khuyết tật, nó lại rất đáng tin cậy trong việc chỉ ra đúng vị trí tổng quát, đây là thuộc tính hữu"
+    },
+    {
+      "index": 569,
+      "style": "Normal",
+      "text": "ích hơn đối với người kiểm tra khi sử dụng kết quả đầu ra của hệ thống làm gợi ý để xác định vị trí cần tìm, thay vì"
+    },
+    {
+      "index": 570,
+      "style": "Normal",
+      "text": "một hệ thống tính toán trực tiếp mặt nạ phân đoạn."
+    },
+    {
+      "index": 571,
+      "style": "Normal",
+      "text": "Có một mẫu sản phẩm là ngoại lệ rõ ràng, FA-1114 chỉ đạt độ chính xác trò chơi chỉ trỏ là 0,500, thấp hơn nhiều so với"
+    },
+    {
+      "index": 572,
+      "style": "Normal",
+      "text": "mọi lớp khác, cùng với IoU (0,116) và độ phủ (0,213) thấp nhất trong bảng. FA-1114 cũng là một trong ba mẫu sản phẩm đối"
+    },
+    {
+      "index": 573,
+      "style": "Normal",
+      "text": "tượng tối nhất được xác định trong phân tích lỗi mặt nạ đối tượng của Mục 6.4. Tôi không có bằng chứng trực"
+    },
+    {
+      "index": 574,
+      "style": "Normal",
+      "text": "tiếp cho thấy hai điều này có liên quan đến nhau về mặt nhân quả, mặt nạ đối tượng được sử dụng ở đây đã là phiên"
+    },
+    {
+      "index": 575,
+      "style": "Normal",
+      "text": "bản alpha thực được hiệu chỉnh, chứ không phải là thuật toán ngưỡng màu bị lỗi, nhưng sự xuất hiện lặp lại của cùng"
+    },
+    {
+      "index": 576,
+      "style": "Normal",
+      "text": "một lớp như một ngoại lệ trong hai phân tích độc lập là một tín hiệu mà tôi sẽ ưu tiên điều tra trước tiên"
+    },
+    {
+      "index": 577,
+      "style": "Normal",
+      "text": "trong bất kỳ công việc tiếp theo nào, thay vì mặc định cho rằng đó là nhiễu chú thích."
+    },
+    {
+      "index": 578,
+      "style": "Normal",
+      "text": "19"
+    },
+    {
+      "index": 583,
+      "style": "Normal",
+      "text": "Bảng 9: Định vị định lượng so với mặt nạ được chú thích thủ công,"
+    },
+    {
+      "index": 584,
+      "style": "Normal",
+      "text": "tất cả 12 mẫu sản phẩm (192 hình ảnh không trống)"
+    },
+    {
+      "index": 585,
+      "style": "Normal",
+      "text": "sự thật cơ bản), dự đoán bị hạn chế ở tiền cảnh tại điểm cố định"
+    },
+    {
+      "index": 586,
+      "style": "Normal",
+      "text": "Ngưỡng phân vị thứ 92."
+    },
+    {
+      "index": 587,
+      "style": "Normal",
+      "text": "Chúng tôi coi phần này như một giới hạn dưới trung thực về tính chặt chẽ hơn là một nghiên cứu định lượng hoàn chỉnh."
+    },
+    {
+      "index": 588,
+      "style": "Normal",
+      "text": "Việc đánh giá này còn có hai lý do nữa. Thứ nhất, tôi không đo lường sự nhất trí giữa những người chú thích, vì vậy"
+    },
+    {
+      "index": 589,
+      "style": "Normal",
+      "text": "Chúng ta không biết khái niệm về \"vùng khuyết tật\" của hai người chú thích có nhất quán với nhau đến mức nào."
+    },
+    {
+      "index": 590,
+      "style": "Normal",
+      "text": "Khác; một tập hợp con nhỏ được chú thích kép để tính toán điều này được xác định là công việc tiếp theo. Thứ hai,"
+    },
+    {
+      "index": 591,
+      "style": "Normal",
+      "text": "Các mặt nạ dữ liệu thực tế được thiết kế thô sơ (Mục 6.10 ở trên), do đó số liệu IoU và độ phủ không chính xác."
+    },
+    {
+      "index": 592,
+      "style": "Normal",
+      "text": "Ở đây nên được hiểu là giới hạn dưới, một phần là do sự lỏng lẻo trong chú thích chứ không phải là một giới hạn thuần túy."
+    },
+    {
+      "index": 593,
+      "style": "Normal",
+      "text": "Mức độ chính xác của mô hình."
+    },
+    {
+      "index": 594,
+      "style": "Normal",
+      "text": "7. Thảo luận"
+    },
+    {
+      "index": 595,
+      "style": "Normal",
+      "text": "Một bộ dò không cần huấn luyện là lựa chọn mặc định hợp lý ở quy mô dữ liệu này, nhưng khả năng định vị của nó..."
+    },
+    {
+      "index": 596,
+      "style": "Normal",
+      "text": "Cần trợ giúp. PatchCore đạt được AUROC trung bình ở cấp độ hình ảnh là 0,996 chỉ với 80 lần huấn luyện thông thường."
+    },
+    {
+      "index": 597,
+      "style": "Normal",
+      "text": "hình ảnh cho mỗi mẫu sản phẩm và không có huấn luyện dựa trên gradient nào ngoài việc chọn coreset, đó là lý do chính."
+    },
+    {
+      "index": 598,
+      "style": "Normal",
+      "text": "chúng tôi đã sử dụng nó làm bộ dò chính thay vì mạng phân đoạn có thể huấn luyện (Mục 4)."
+    },
+    {
+      "index": 599,
+      "style": "Normal",
+      "text": "Sự đánh đổi ở đây là kết quả định vị của nó là hệ quả gián tiếp của lưới khoảng cách giữa các vùng, chứ không phải là"
+    },
+    {
+      "index": 600,
+      "style": "Normal",
+      "text": "một đầu phân đoạn được huấn luyện trực tiếp và quy trình xử lý hậu kỳ các quyết định trong Phần 4.6,"
+    },
+    {
+      "index": 601,
+      "style": "Normal",
+      "text": "Hạn chế tiền cảnh, lọc thành phần liên thông lớn nhất, bằng chứng đa thang đo, tồn tại đặc biệt để bù đắp cho"
+    },
+    {
+      "index": 602,
+      "style": "Normal",
+      "text": "điều đó. Không quyết định nào trong số này thay đổi bộ dò cơ bản; chúng chỉ thay đổi"
+    },
+    {
+      "index": 603,
+      "style": "Normal",
+      "text": "Cách thức đầu ra thô của nó được phân ngưỡng và hiển thị."
+    },
+    {
+      "index": 604,
+      "style": "Normal",
+      "text": "Độ chính xác phân loại cao và khả năng định vị tốt là hai yêu cầu riêng biệt, và tôi đã đạt được điều đó."
+    },
+    {
+      "index": 605,
+      "style": "Normal",
+      "text": "có nguy cơ nhầm lẫn chúng. Gần như mọi lớp trong tập dữ liệu này đều đạt AUROC ở mức hình ảnh từ hoặc trở lên."
+    },
+    {
+      "index": 606,
+      "style": "Normal",
+      "text": "trên 0,98 (Bảng 5), điều này có thể dễ dàng được hiểu là bằng chứng cho thấy đường ống xử lý lỗi rất tốt."
+    },
+    {
+      "index": 607,
+      "style": "Normal",
+      "text": "ở khắp mọi nơi. Hai phát hiện trong Phần 6 phản bác lại cách hiểu đó. Phương pháp mặt nạ đối tượng"
+    },
+    {
+      "index": 608,
+      "style": "Normal",
+      "text": "Lỗi (Mục 6.4) không thể nhận thấy trong hai ví dụ định tính mà tôi đã kiểm tra ban đầu và chỉ"
+    },
+    {
+      "index": 609,
+      "style": "Normal",
+      "text": "xuất hiện sau khi tôi khảo sát định lượng tất cả 12 mẫu sản phẩm. So sánh định tính giữa các mẫu sản phẩm đa dạng"
+    },
+    {
+      "index": 610,
+      "style": "Normal",
+      "text": "20"
+    },
+    {
+      "index": 615,
+      "style": "Normal",
+      "text": "(Hình 11) cho thấy một số vùng dương tính giả nhỏ vẫn tồn tại sau ngưỡng cố định của tôi trên hầu hết"
+    },
+    {
+      "index": 616,
+      "style": "Normal",
+      "text": "mọi hình ảnh bình thường mà tôi đã kiểm tra, không chỉ hai lớp yếu nhất theo AUROC, mặc dù không có vùng"
+    },
+    {
+      "index": 617,
+      "style": "Normal",
+      "text": "nào trong số đó đủ lớn để làm cho điểm số ở cấp độ hình ảnh tương ứng vượt quá mức bị lỗi. Bài học chung rút"
+    },
+    {
+      "index": 618,
+      "style": "Normal",
+      "text": "ra là việc kiểm tra định tính trên một lớp hoặc một ví dụ duy nhất không thể thay thế cho việc kiểm tra toàn"
+    },
+    {
+      "index": 619,
+      "style": "Normal",
+      "text": "bộ các mẫu sản phẩm, ngay cả trong một bài báo cáo mà việc đánh giá chính được thực hiện một cách có chủ ý là định tính."
+    },
+    {
+      "index": 620,
+      "style": "Normal",
+      "text": "Các lựa chọn tiền xử lý tưởng chừng miễn phí không phải lúc nào cũng miễn phí. Việc loại bỏ nền được áp dụng để cho phép phân ngưỡng"
+    },
+    {
+      "index": 621,
+      "style": "Normal",
+      "text": "giới hạn đối tượng trước mà hầu như không tốn thêm chi phí, và nó đã cải thiện nhẹ chỉ số AUROC trung bình (từ 0,991 lên 0,996, Bảng"
+    },
+    {
+      "index": 622,
+      "style": "Normal",
+      "text": "3). Nhưng cách cụ thể mà chúng tôi triển khai mặt nạ đối tượng thu được ban đầu, bằng cách phân ngưỡng độ sáng pixel trên một hình"
+    },
+    {
+      "index": 623,
+      "style": "Normal",
+      "text": "ảnh đã được làm phẳng, đã âm thầm loại bỏ hầu hết vùng đối tượng thực sự cho ba lớp màu tối nhất (Mục 6.4). Giải pháp khắc phục, sử"
+    },
+    {
+      "index": 624,
+      "style": "Normal",
+      "text": "dụng trực tiếp đầu ra alpha gốc của mô hình phân đoạn thay vì tạo lại mặt nạ từ màu sắc, không tốn chi phí tính toán và luôn có sẵn;"
+    },
+    {
+      "index": 625,
+      "style": "Normal",
+      "text": "sai sót nằm ở chỗ không nhận thấy rằng hai biểu diễn của \"mặt nạ đối tượng\" có thể trùng khớp chặt chẽ trên một số hình ảnh nhưng lại"
+    },
+    {
+      "index": 626,
+      "style": "Normal",
+      "text": "khác biệt rõ rệt trên những hình ảnh khác, tùy thuộc vào một thuộc tính (màu sắc đối tượng) không liên quan gì đến khuyết điểm đang"
+    },
+    {
+      "index": 627,
+      "style": "Normal",
+      "text": "được phát hiện."
+    },
+    {
+      "index": 628,
+      "style": "Normal",
+      "text": "Ranh giới giữa các phương pháp không cần huấn luyện và các phương pháp có thể huấn luyện, ít nhất là trong trường hợp của tôi,"
+    },
+    {
+      "index": 629,
+      "style": "Normal",
+      "text": "được xác định bởi quy mô dữ liệu chứ không phải kiến trúc. Về nguyên tắc, việc huấn luyện lỗi tổng hợp của SuperSimpleNet tạo ra đầu"
+    },
+    {
+      "index": 630,
+      "style": "Normal",
+      "text": "ra phân đoạn được huấn luyện trực tiếp, giúp định vị chính xác hơn so với bản đồ khoảng cách lân cận gần nhất. Sau ba vòng tái triển"
+    },
+    {
+      "index": 631,
+      "style": "Normal",
+      "text": "khai ngày càng trung thực hơn so với kiến trúc tham chiếu, nó không hội tụ trên bất kỳ lớp nào trong hai mẫu sản phẩm mà tôi đã thử"
+    },
+    {
+      "index": 632,
+      "style": "Normal",
+      "text": "nghiệm (Phụ lục A). Tôi không thể loại trừ khả năng còn tồn tại một lỗ hổng triển khai chưa được xác định, nhưng tôi đã"
+    },
+    {
+      "index": 633,
+      "style": "Normal",
+      "text": "xác minh mọi chi tiết kiến trúc mà tôi có thể tìm thấy trong triển khai tham chiếu, và lời giải thích hợp lý nhất còn lại là 80"
+    },
+    {
+      "index": 634,
+      "style": "Normal",
+      "text": "hình ảnh huấn luyện mỗi lớp đơn giản là thấp hơn quy mô dữ liệu mà phương pháp được thiết kế và xác thực. Điều này phù hợp với mô"
+    },
+    {
+      "index": 635,
+      "style": "Normal",
+      "text": "hình rộng hơn trong bài báo này, các phương pháp và lựa chọn tiền xử lý được thiết lập tốt ở quy mô dữ liệu chuẩn không tự động"
+    },
+    {
+      "index": 636,
+      "style": "Normal",
+      "text": "chuyển sang quy mô triển khai thực tế nhỏ hơn nhiều, và khoảng trống này cần được kiểm tra chứ không phải giả định."
+    },
+    {
+      "index": 637,
+      "style": "Normal",
+      "text": "8. Kết luận"
+    },
+    {
+      "index": 638,
+      "style": "Normal",
+      "text": "Tôi đã xây dựng và đánh giá một quy trình phát hiện và định vị bất thường một mẫu sản phẩm cho một tập dữ liệu"
+    },
+    {
+      "index": 639,
+      "style": "Normal",
+      "text": "công nghiệp thực tế gồm 12 mẫu sản phẩm với ngân sách huấn luyện cực kỳ hạn chế chỉ dành cho ảnh bình thường, 100 ảnh"
+    },
+    {
+      "index": 640,
+      "style": "Normal",
+      "text": "bình thường cho mỗi mẫu sản phẩm và không có nhãn hoặc mặt nạ lỗi ở bất kỳ giai đoạn nào. Bộ phát hiện dựa trên bộ nhớ"
+    },
+    {
+      "index": 641,
+      "style": "Normal",
+      "text": "không cần huấn luyện, PatchCore, kết hợp với một tập hợp nhỏ các quyết định tiền xử lý và hậu xử lý được tổ"
+    },
+    {
+      "index": 642,
+      "style": "Normal",
+      "text": "chức xung quanh khung chín giai đoạn (OC-MAR) do thầy hướng dẫn của tôi đề xuất, đã đạt được AUROC trung bình ở"
+    },
+    {
+      "index": 643,
+      "style": "Normal",
+      "text": "cấp độ ảnh là 0,996 trên 12 lớp, ổn định trong phạm vi 0,002 trên 5 hạt giống ngẫu nhiên (Mục 6.6), và rõ ràng"
+    },
+    {
+      "index": 644,
+      "style": "Normal",
+      "text": "vượt trội so với đường cơ sở thống kê cổ điển (0,898)."
+    },
+    {
+      "index": 645,
+      "style": "Normal",
+      "text": "Theo quan điểm của tôi, đóng góp bền vững hơn của công trình này không phải là con số thống kê nổi"
+    },
+    {
+      "index": 646,
+      "style": "Normal",
+      "text": "bật mà là ba điều tôi phát hiện ra trong quá trình cố gắng xác minh nó. Mặt nạ đối tượng được tạo ra từ"
+    },
+    {
+      "index": 647,
+      "style": "Normal",
+      "text": "hình ảnh đã loại bỏ nền bằng cách phân ngưỡng màu sắc thường thất bại một cách đáng kể đối với các đối tượng"
+    },
+    {
+      "index": 648,
+      "style": "Normal",
+      "text": "có màu tối, một mô hình chỉ trở nên rõ ràng khi tôi kiểm tra định lượng trên tất cả 12 mẫu sản phẩm thay vì chỉ"
+    },
+    {
+      "index": 649,
+      "style": "Normal",
+      "text": "tin tưởng vào hai ví dụ mà chúng tôi đã kiểm tra ban đầu (Mục 6.4); một giải pháp thay thế có thể huấn luyện,"
+    },
+    {
+      "index": 650,
+      "style": "Normal",
+      "text": "có lỗi tổng hợp (SuperSimpleNet) về nguyên tắc cung cấp khả năng định vị trực tiếp hơn đã không hội tụ ở quy"
+    },
+    {
+      "index": 651,
+      "style": "Normal",
+      "text": "mô dữ liệu này mặc dù đã trải qua ba vòng xác minh kiến trúc so với triển khai tham chiếu, một kết quả tiêu cực."
+    },
+    {
+      "index": 652,
+      "style": "Normal",
+      "text": "21"
+    },
+    {
+      "index": 657,
+      "style": "Normal",
+      "text": "Kết quả tôi báo cáo thay vì bỏ qua (Phụ lục A); và ngưỡng phát hiện đồng nhất được lựa chọn thủ công rõ ràng là"
+    },
+    {
+      "index": 658,
+      "style": "Normal",
+      "text": "không tối ưu, ngưỡng thích ứng theo từng lớp trên các hình ảnh bình thường được giữ lại làm giảm diện tích dương tính"
+    },
+    {
+      "index": 659,
+      "style": "Normal",
+      "text": "giả trung bình xuống 66% mà không ảnh hưởng đến AUROC phân loại (Mục 6.8), trong khi giai đoạn thứ hai, phức tạp hơn"
+    },
+    {
+      "index": 660,
+      "style": "Normal",
+      "text": "của quy trình OC-MAR, tổng hợp bản đồ dị thường đa tỷ lệ, đã được đánh giá và thấy rằng không giúp ích gì (Mục 6.7)."
+    },
+    {
+      "index": 661,
+      "style": "Normal",
+      "text": "Cả ba phát hiện đều chỉ ra cùng một bài học rộng hơn, các phương pháp, các bước tiền xử lý, và thậm chí cả các kiểm"
+    },
+    {
+      "index": 662,
+      "style": "Normal",
+      "text": "tra tính hợp lý hoạt động ở quy mô dữ liệu và điều kiện chuẩn mà chúng được phát triển không tự động chuyển sang quy"
+    },
+    {
+      "index": 663,
+      "style": "Normal",
+      "text": "mô triển khai thực tế nhỏ hơn nhiều, và khoảng cách đó phải được kiểm tra trực tiếp thay vì giả định bỏ qua, theo bất"
+    },
+    {
+      "index": 664,
+      "style": "Normal",
+      "text": "kỳ hướng nào, vì không phải mọi cải tiến khả thi đều hữu ích."
+    },
+    {
+      "index": 665,
+      "style": "Normal",
+      "text": "Trong nghiên cứu này, chất lượng định vị chủ yếu được đánh giá định tính, vì tập dữ liệu không cung cấp mặt nạ"
+    },
+    {
+      "index": 666,
+      "style": "Normal",
+      "text": "khuyết tật được vẽ bởi chuyên gia; Mục 6.10 báo cáo một phần kiểm tra định lượng so với một tập con được chú thích"
+    },
+    {
+      "index": 667,
+      "style": "Normal",
+      "text": "thủ công, cố ý thô (192 hình ảnh trên tất cả 12 mẫu sản phẩm), cho thấy độ chồng chéo ranh giới (IoU) thấp nhưng độ chính xác"
+    },
+    {
+      "index": 668,
+      "style": "Normal",
+      "text": "trò chơi chỉ điểm cao (0,875), phù hợp với một mô hình xác định đáng tin cậy vị trí khuyết tật tổng quát chính xác"
+    },
+    {
+      "index": 669,
+      "style": "Normal",
+      "text": "mà không cần vạch rõ ranh giới của nó. Thu hẹp khoảng cách này hơn nữa, với dữ liệu tham chiếu chặt chẽ hơn, sự đồng"
+    },
+    {
+      "index": 670,
+      "style": "Normal",
+      "text": "thuận giữa những người chú thích được đo lường, hoặc một đường cong PRO đa ngưỡng đầy đủ, là hướng đi có giá trị nhất"
+    },
+    {
+      "index": 671,
+      "style": "Normal",
+      "text": "còn lại cho công việc trong tương lai, trước khi tinh chỉnh kiến trúc của chính bộ dò."
+    },
+    {
+      "index": 672,
+      "style": "Normal",
+      "text": "AA đã thất bại trong nỗ lực phân đoạn có thể huấn luyện được, SuperSimpleNet"
+    },
+    {
+      "index": 673,
+      "style": "Normal",
+      "text": "Như một giải pháp thay thế cho việc định vị không cần huấn luyện của PatchCore, chúng tôi đã thử huấn luyện"
+    },
+    {
+      "index": 674,
+      "style": "Normal",
+      "text": "SuperSimpleNet [3] ở cấu hình không giám sát trên hai lớp có AUROC cơ sở thấp nhất của PatchCore, FA-1047 và FA-808."
+    },
+    {
+      "index": 675,
+      "style": "Normal",
+      "text": "Không giống như PatchCore, SuperSimpleNet huấn luyện bộ điều chỉnh tính năng nhẹ và đầu phân đoạn/phân loại từ đầu đến"
+    },
+    {
+      "index": 676,
+      "style": "Normal",
+      "text": "cuối thông qua phương pháp giảm độ dốc, sử dụng các khiếm khuyết giả được tổng hợp bằng cách chèn các nhiễu loạn"
+    },
+    {
+      "index": 677,
+      "style": "Normal",
+      "text": "Gaussian được che bằng nhiễu Perlin vào không gian tính năng của xương sống (đã đóng băng), không yêu cầu hình ảnh bị"
+    },
+    {
+      "index": 678,
+      "style": "Normal",
+      "text": "lỗi thực sự hoặc chú thích thủ công ở bất kỳ thời điểm nào."
+    },
+    {
+      "index": 679,
+      "style": "Normal",
+      "text": "A.1 Triển khai"
+    },
+    {
+      "index": 680,
+      "style": "Normal",
+      "text": "Cấu trúc xương sống (WideResNet-50, lớp 2 + lớp 3) phản ánh cấu hình của PatchCore nhưng được mở rộng lên lưới đặc"
+    },
+    {
+      "index": 681,
+      "style": "Normal",
+      "text": "trưng 64×64 (so với 28×28 của PatchCore), theo kiến trúc đã được công bố."
+    },
+    {
+      "index": 682,
+      "style": "Normal",
+      "text": "Quá trình huấn luyện sử dụng 80 hình ảnh bình thường cho mỗi lớp (cùng cách phân chia huấn luyện như PatchCore), 300"
+    },
+    {
+      "index": 683,
+      "style": "Normal",
+      "text": "epoch và các siêu tham số phù hợp với bài báo gốc ở những chỗ có thể áp dụng."
+    },
+    {
+      "index": 684,
+      "style": "Normal",
+      "text": "A.2 Hiệu chỉnh lặp đi lặp lại so với triển khai tham chiếu"
+    },
+    {
+      "index": 685,
+      "style": "Normal",
+      "text": "Một triển khai ban đầu, chỉ dựa trên việc đọc bài báo đã xuất bản, đã cho kết quả rất kém (AUROC 0.436 trên FA-1047,"
+    },
+    {
+      "index": 686,
+      "style": "Normal",
+      "text": "0.037 trên FA-808, tức là tệ hơn cả ngẫu nhiên) với tổn thất huấn luyện không giảm trong hơn 300 epoch. So sánh trực"
+    },
+    {
+      "index": 687,
+      "style": "Normal",
+      "text": "tiếp với triển khai tham chiếu của các tác giả1 cho thấy rằng thuật ngữ tổn thất phân đoạn của chúng tôi đã được"
+    },
+    {
+      "index": 688,
+      "style": "Normal",
+      "text": "triển khai không chính xác, tôi đã triển khai nó như một khoảng cách L1 được giới hạn giữa các dự đoán được kích"
+    },
+    {
+      "index": 689,
+      "style": "Normal",
+      "text": "hoạt bằng sigmoid và các mục tiêu nhị phân, trong khi triển khai tham chiếu sử dụng tổn thất biên độ bản lề trực tiếp"
+    },
+    {
+      "index": 690,
+      "style": "Normal",
+      "text": "trên logit thô (đẩy logit vùng bình thường xuống dưới -0.5 và logit vùng khuyết tật lên trên +0.5). Việc sửa chữa"
+    },
+    {
+      "index": 691,
+      "style": "Normal",
+      "text": "thuật ngữ tổn thất này đã cải thiện kết quả trên một lớp (FA-808, AUROC 0.915) nhưng về cơ bản không thay đổi trên"
+    },
+    {
+      "index": 692,
+      "style": "Normal",
+      "text": "lớp còn lại (FA-1047, AUROC 0.146), với tổn thất huấn luyện vẫn không giảm."
+    },
+    {
+      "index": 693,
+      "style": "Normal",
+      "text": "Việc so sánh thêm với cách triển khai tham chiếu đã phát hiện ra hai điểm khác biệt về kiến trúc bổ sung không"
+    },
+    {
+      "index": 694,
+      "style": "Normal",
+      "text": "thể thấy rõ chỉ từ văn bản bài báo, (i) một gradient dừng được áp dụng sao cho"
+    },
+    {
+      "index": 695,
+      "style": "Normal",
+      "text": "1"
+    },
+    {
+      "index": 696,
+      "style": "Normal",
+      "text": "https://github.com/blaz-r/SuperSimpleNet"
+    },
+    {
+      "index": 697,
+      "style": "Normal",
+      "text": "22"
+    },
+    {
+      "index": 702,
+      "style": "Normal",
+      "text": "(i) tổn thất phân loại không lan truyền ngược qua đầu phân đoạn và đầu phân loại sử dụng các đặc trưng xương sống"
+    },
+    {
+      "index": 703,
+      "style": "Normal",
+      "text": "thô (không được điều chỉnh) thay vì các đặc trưng được điều chỉnh được sử dụng cho phân đoạn; (ii) đầu phân đoạn"
+    },
+    {
+      "index": 704,
+      "style": "Normal",
+      "text": "là một khối tích chập 1×1 hai lớp với kích thước ẩn rộng hơn đáng kể (1024) so với thiết kế tích chập 3×3 ba lớp"
+    },
+    {
+      "index": 705,
+      "style": "Normal",
+      "text": "ban đầu của chúng tôi, và quá trình huấn luyện sử dụng lịch trình tốc độ học (giảm dần ở 80% và 90% quá trình huấn"
+    },
+    {
+      "index": 706,
+      "style": "Normal",
+      "text": "luyện) mà tôi đã bỏ qua ban đầu."
+    },
+    {
+      "index": 707,
+      "style": "Normal",
+      "text": "Sau khi sửa tất cả những điểm không nhất quán này để phù hợp với triển khai tham chiếu, một lần chạy huấn luyện lại"
+    },
+    {
+      "index": 708,
+      "style": "Normal",
+      "text": "hoàn chỉnh trên tập dữ liệu huấn luyện thực gồm 80 hình ảnh (thay vì một tập con nhỏ để gỡ lỗi) vẫn không hội tụ,"
+    },
+    {
+      "index": 709,
+      "style": "Normal",
+      "text": "tổn thất huấn luyện dao động giữa khoảng 1,05 và 1,11 trong suốt 300 epoch cho cả hai mẫu sản phẩm, và AUROC cuối cùng vẫn"
+    },
+    {
+      "index": 710,
+      "style": "Normal",
+      "text": "kém và không nhất quán giữa các lớp (FA-1047, 0,384; FA-808, 0,891)."
+    },
+    {
+      "index": 711,
+      "style": "Normal",
+      "text": "Hình 13 thể hiện tổn thất huấn luyện cho lần chạy cuối cùng này. Cả hai lớp đều tuân theo cùng một quỹ đạo"
+    },
+    {
+      "index": 712,
+      "style": "Normal",
+      "text": "định tính, giảm mạnh từ khi khởi tạo trong khoảng 20 epoch đầu tiên, sau đó là một giai đoạn ổn định kéo dài mà"
+    },
+    {
+      "index": 713,
+      "style": "Normal",
+      "text": "không có sự cải thiện nào nữa, không bị ảnh hưởng bởi sự suy giảm tốc độ học theo lịch trình."
+    },
+    {
+      "index": 714,
+      "style": "Normal",
+      "text": "A.3 Giải thích"
+    },
+    {
+      "index": 715,
+      "style": "Normal",
+      "text": "Qua ba lần chạy huấn luyện độc lập với các triển khai được sửa lỗi dần dần, tất cả các lần chạy đều thể hiện cùng"
+    },
+    {
+      "index": 716,
+      "style": "Normal",
+      "text": "một chế độ lỗi định tính: tổn thất huấn luyện chững lại ngay sau khi khởi tạo và không giảm đáng kể. Kết quả tốt"
+    },
+    {
+      "index": 717,
+      "style": "Normal",
+      "text": "đôi khi đạt được trên FA-808 mặc dù đường cong tổn thất phẳng, theo tôi, phù hợp hơn với sự tương quan ngẫu"
+    },
+    {
+      "index": 718,
+      "style": "Normal",
+      "text": "nhiên từ việc khởi tạo trọng số ngẫu nhiên hơn là với quá trình học thực sự, vì một mô hình hội tụ được kỳ vọng sẽ"
+    },
+    {
+      "index": 719,
+      "style": "Normal",
+      "text": "cải thiện nhất quán trên các lớp hơn là phân kỳ mạnh giữa hai mẫu sản phẩm được huấn luyện theo cùng một quỹ đạo tổn thất"
+    },
+    {
+      "index": 720,
+      "style": "Normal",
+      "text": "không đổi. Tôi không thể loại trừ một điểm khác biệt còn lại so với triển khai tham chiếu, đó là cơ chế sao"
+    },
+    {
+      "index": 721,
+      "style": "Normal",
+      "text": "chép lô trong quá trình tiêm lỗi giả mà tôi không tái tạo được, và không thể loại trừ khả năng tập huấn luyện"
+    },
+    {
+      "index": 722,
+      "style": "Normal",
+      "text": "trên mỗi mẫu sản phẩm (80 hình ảnh bình thường) quá nhỏ so với 200-300 hình ảnh mỗi loại được sử dụng trong các bài kiểm"
+    },
+    {
+      "index": 723,
+      "style": "Normal",
+      "text": "tra chuẩn của bài báo cáo gốc (MVTec AD, VisA) để kiến trúc này có thể hội tụ một cách đáng tin cậy. Tôi báo cáo"
+    },
+    {
+      "index": 724,
+      "style": "Normal",
+      "text": "kết quả tiêu cực này như một điều kiện biên hơn là một hạn chế của nỗ lực kỹ thuật của tôi, vì cấu hình cuối"
+    },
+    {
+      "index": 725,
+      "style": "Normal",
+      "text": "cùng phù hợp với kiến trúc đã được công bố theo như sự xác minh tốt nhất của tôi."
+    },
+    {
+      "index": 726,
+      "style": "Normal",
+      "text": "Tài liệu tham khảo"
+    },
+    {
+      "index": 727,
+      "style": "Normal",
+      "text": "[1] Paul Bergmann, Michael Fauser, David Sattlegger và Carsten Steger. MVTec AD – một tập dữ liệu thực tế toàn"
+    },
+    {
+      "index": 728,
+      "style": "Normal",
+      "text": "diện để phát hiện bất thường không giám sát. Trong Kỷ yếu Hội nghị IEEE/CVF về Thị giác máy tính và Nhận dạng"
+    },
+    {
+      "index": 729,
+      "style": "Normal",
+      "text": "mẫu (CVPR), trang 9584–9592, 2019."
+    },
+    {
+      "index": 730,
+      "style": "Normal",
+      "text": "[2] Fei Tony Liu, Kai Ming Ting và Zhi-Hua Zhou. Rừng cô lập. Trong Kỷ yếu của IEEE"
+    },
+    {
+      "index": 731,
+      "style": "Normal",
+      "text": "Hội nghị quốc tế về khai thác dữ liệu (ICDM), năm 2008."
+    },
+    {
+      "index": 732,
+      "style": "Normal",
+      "text": "[3] Blaˇz Rolih, Matic Fuˇcka, và Danijel Skoˇcaj. Supersimplenet: Thống nhất học tập không giám sát và có giám sát để phát hiện"
+    },
+    {
+      "index": 733,
+      "style": "Normal",
+      "text": "khuyết tật bề mặt nhanh chóng và đáng tin cậy. Bản in trước arXiv arXiv:2408.03143, 2024."
+    },
+    {
+      "index": 734,
+      "style": "Normal",
+      "text": "[4] Karsten Roth, Latha Pemula, Joaquin Zepeda, Bernhard Sch¨olkopf, Thomas Brox và Peter Gehler. Hướng tới khả"
+    },
+    {
+      "index": 735,
+      "style": "Normal",
+      "text": "năng thu hồi toàn diện trong phát hiện bất thường công nghiệp. Trong Kỷ yếu Hội nghị IEEE/CVF về Thị giác máy"
+    },
+    {
+      "index": 736,
+      "style": "Normal",
+      "text": "tính và Nhận dạng mẫu (CVPR), 2022."
+    },
+    {
+      "index": 737,
+      "style": "Normal",
+      "text": "[5] Vitjan Zavrtanik, Matej Kristan và Danijel Skoˇcaj. DRAEM - một phương pháp nhúng tái tạo được huấn luyện phân"
+    },
+    {
+      "index": 738,
+      "style": "Normal",
+      "text": "biệt để phát hiện dị thường bề mặt. Trong Kỷ yếu Hội nghị Quốc tế IEEE/CVF về Thị giác Máy tính (ICCV), trang"
+    },
+    {
+      "index": 739,
+      "style": "Normal",
+      "text": "8330–8339, 2021."
+    },
+    {
+      "index": 740,
+      "style": "Normal",
+      "text": "23"
+    },
+    {
+      "index": 745,
+      "style": "Normal",
+      "text": "[6] Zhang Jianming, Sarah Adel Bargal, Zhe Lin, Jonathan Brandt, Xiaohui Shen và Stan Sclaroff."
+    },
+    {
+      "index": 746,
+      "style": "Normal",
+      "text": "Sự chú ý thần kinh từ trên xuống bằng cách lan truyền ngược kích thích. Tạp chí quốc tế về thị giác máy"
+    },
+    {
+      "index": 747,
+      "style": "Normal",
+      "text": "tính, 126(10):1084–1102, 2018."
+    },
+    {
+      "index": 748,
+      "style": "Normal",
+      "text": "24"
+    },
+    {
+      "index": 753,
+      "style": "Normal",
+      "text": "Hình 8: FA-808, các mẫu bị lỗi ở độ phân giải 384 × 384. Bên trái, ảnh gốc. Ở giữa, ngưỡng phần trăm toàn bộ ảnh. Bên phải, ngưỡng"
+    },
+    {
+      "index": 754,
+      "style": "Normal",
+      "text": "giới hạn vùng tiền cảnh với bộ lọc thành phần liên thông lớn nhất, mặt nạ đối tượng từ kênh alpha thực; ranh giới của vùng được giữ"
+    },
+    {
+      "index": 755,
+      "style": "Normal",
+      "text": "lại được vẽ thêm bằng màu xanh lá cây, vì việc tô màu pha trộn alpha một mình có thể khó nhận biết bằng mắt thường trên các màu đối"
+    },
+    {
+      "index": 756,
+      "style": "Normal",
+      "text": "tượng bão hòa."
+    },
+    {
+      "index": 757,
+      "style": "Normal",
+      "text": "25"
+    },
+    {
+      "index": 762,
+      "style": "Normal",
+      "text": "Hình 9: FA-1047, các mẫu bị lỗi ở kích thước 384 × 384, bố cục giống như Hình 8."
+    },
+    {
+      "index": 763,
+      "style": "Normal",
+      "text": "26"
+    },
+    {
+      "index": 768,
+      "style": "Normal",
+      "text": "Hình 10: FA-808, các mẫu bình thường được giữ lại ở độ phân giải 384 × 384, ngưỡng giới hạn vùng"
+    },
+    {
+      "index": 769,
+      "style": "Normal",
+      "text": "tiền cảnh với mặt nạ đối tượng alpha thực. Các vùng nhỏ riêng lẻ (ví dụ: cạnh của hộp quà) đôi khi"
+    },
+    {
+      "index": 770,
+      "style": "Normal",
+      "text": "được giữ lại, nhưng không tạo ra vùng dương tính giả lớn nào."
+    },
+    {
+      "index": 771,
+      "style": "Normal",
+      "text": "27"
+    },
+    {
+      "index": 776,
+      "style": "Normal",
+      "text": "Hình 11: Một hình ảnh mẫu sản phẩm bình thường và một hình ảnh mẫu sản phẩm lỗi từ mỗi trong số 10 mẫu sản phẩm không được hiển thị trong Hình 8–9,"
+    },
+    {
+      "index": 777,
+      "style": "Normal",
+      "text": "cùng một quy trình xử lý hạn chế tiền cảnh, 384 × 384, các tham số không thay đổi. Đối với mỗi mẫu sản phẩm, từ"
+    },
+    {
+      "index": 778,
+      "style": "Normal",
+      "text": "trái sang phải, lớp phủ hạn chế tiền cảnh trên hình ảnh mẫu sản phẩm bình thường, hình ảnh mẫu sản phẩm lỗi ban đầu, lớp phủ hạn chế tiền cảnh trên cùng hình ảnh mẫu sản phẩm lỗi đó. s là điểm số bất thường ở cấp độ hình ảnh cho mẫu sản phẩm đó."
+    },
+    {
+      "index": 779,
+      "style": "Normal",
+      "text": "28"
+    },
+    {
+      "index": 784,
+      "style": "Normal",
+      "text": "29"
+    },
+    {
+      "index": 789,
+      "style": "Normal",
+      "text": "Hình 13: Hàm mất mát huấn luyện cho lần chạy SuperSimpleNet cuối cùng (đã hiệu chỉnh kiến trúc), FA-1047"
+    },
+    {
+      "index": 790,
+      "style": "Normal",
+      "text": "và FA-808. Hàm mất mát giảm mạnh từ khởi tạo ngẫu nhiên nhưng đạt mức ổn định ở khoảng epoch 20 và không"
+    },
+    {
+      "index": 791,
+      "style": "Normal",
+      "text": "giảm đáng kể trong 280 epoch còn lại, kể cả sau khi tốc độ học giảm dần theo lịch trình ở epoch 240 và"
+    },
+    {
+      "index": 792,
+      "style": "Normal",
+      "text": "270."
+    },
+    {
+      "index": 793,
+      "style": "Normal",
+      "text": "30"
+    }
+  ],
+  "tables": [
+    {
+      "index": 0,
+      "rows": [
+        [
+          "",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo",
+          "2 3\n                           XONG                                              XONG                                                XONG\nHình ảnh đầu vào Mặt nạ đối tượng Đầu vào đa thang đo"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "JPEG, tối đa",
+          "JPEG, tối đa",
+          "JPEG, tối đa",
+          "JPEG, tối đa",
+          "JPEG, tối đa",
+          "JPEG, tối đa",
+          "JPEG, tối đa",
+          "JPEG, tối đa",
+          "JPEG, tối đa",
+          "",
+          "rembg",
+          "rembg",
+          "rembg",
+          "rembg",
+          "rembg",
+          "rembg",
+          "rembg",
+          "",
+          "256 / 384 /",
+          "256 / 384 /",
+          "256 / 384 /",
+          "256 / 384 /",
+          "256 / 384 /"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "1276 × 956",
+          "1276 × 956",
+          "1276 × 956",
+          "1276 × 956",
+          "1276 × 956",
+          "1276 × 956",
+          "",
+          "alpha thực sự\n512 px",
+          "alpha thực sự\n512 px",
+          "alpha thực sự\n512 px",
+          "alpha thực sự\n512 px",
+          "alpha thực sự\n512 px",
+          "alpha thực sự\n512 px",
+          "alpha thực sự\n512 px",
+          "alpha thực sự\n512 px",
+          "alpha thực sự\n512 px",
+          "alpha thực sự\n512 px",
+          "alpha thực sự\n512 px",
+          "alpha thực sự\n512 px",
+          "alpha thực sự\n512 px"
+        ],
+        [
+          "",
+          "6",
+          "6",
+          "",
+          "",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường",
+          "5 4\n                                   XONG                                              XONG                                               XONG\nLọc ràng buộc đối tượng Tổng hợp đa quy mô. Phát hiện bất thường"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "máy kết hợp tối đa",
+          "máy kết hợp tối đa",
+          "máy kết hợp tối đa",
+          "máy kết hợp tối đa",
+          "máy kết hợp tối đa",
+          "máy kết hợp tối đa",
+          "máy kết hợp tối đa",
+          "máy kết hợp tối đa",
+          "máy kết hợp tối đa",
+          "máy kết hợp tối đa",
+          "máy kết hợp tối đa",
+          "máy kết hợp tối đa",
+          "máy kết hợp tối đa",
+          "",
+          "PatchCore",
+          "PatchCore"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "phần trăm trong khẩu trang",
+          "phần trăm trong khẩu trang",
+          "phần trăm trong khẩu trang",
+          "phần trăm trong khẩu trang",
+          "phần trăm trong khẩu trang",
+          "phần trăm trong khẩu trang",
+          "",
+          "không có lợi nhuận AUROC",
+          "không có lợi nhuận AUROC",
+          "không có lợi nhuận AUROC",
+          "không có lợi nhuận AUROC",
+          "không có lợi nhuận AUROC",
+          "không có lợi nhuận AUROC",
+          "không có lợi nhuận AUROC",
+          "không có lợi nhuận AUROC",
+          "không có lợi nhuận AUROC",
+          "không có lợi nhuận AUROC",
+          "",
+          "(+ SuperSimpleNet)",
+          "(+ SuperSimpleNet)",
+          "(+ SuperSimpleNet)",
+          "(+ SuperSimpleNet)",
+          "(+ SuperSimpleNet)",
+          "(+ SuperSimpleNet)",
+          "(+ SuperSimpleNet)",
+          "(+ SuperSimpleNet)",
+          "(+ SuperSimpleNet)",
+          "(+ SuperSimpleNet)"
+        ],
+        [
+          "",
+          "7",
+          "",
+          "",
+          "8\nXONG\nNgưỡng thích ứng Tinh chỉnh vùng",
+          "8\nXONG\nNgưỡng thích ứng Tinh chỉnh vùng",
+          "8\nXONG\nNgưỡng thích ứng Tinh chỉnh vùng",
+          "8\nXONG\nNgưỡng thích ứng Tinh chỉnh vùng",
+          "8\nXONG\nNgưỡng thích ứng Tinh chỉnh vùng",
+          "8\nXONG\nNgưỡng thích ứng Tinh chỉnh vùng",
+          "8\nXONG\nNgưỡng thích ứng Tinh chỉnh vùng",
+          "8\nXONG\nNgưỡng thích ứng Tinh chỉnh vùng",
+          "8\nXONG\nNgưỡng thích ứng Tinh chỉnh vùng",
+          "8\nXONG\nNgưỡng thích ứng Tinh chỉnh vùng",
+          "8\nXONG\nNgưỡng thích ứng Tinh chỉnh vùng",
+          "8\nXONG\nNgưỡng thích ứng Tinh chỉnh vùng",
+          "8\nXONG\nNgưỡng thích ứng Tinh chỉnh vùng",
+          "8\nXONG\nNgưỡng thích ứng Tinh chỉnh vùng",
+          "8\nXONG\nNgưỡng thích ứng Tinh chỉnh vùng",
+          "8\nXONG\nNgưỡng thích ứng Tinh chỉnh vùng",
+          "8\nXONG\nNgưỡng thích ứng Tinh chỉnh vùng",
+          "",
+          "9\nMỘT PHẦN\n                                                             XONG\nMặt nạ cuối cùng",
+          "9\nMỘT PHẦN\n                                                             XONG\nMặt nạ cuối cùng",
+          "9\nMỘT PHẦN\n                                                             XONG\nMặt nạ cuối cùng",
+          "9\nMỘT PHẦN\n                                                             XONG\nMặt nạ cuối cùng",
+          "9\nMỘT PHẦN\n                                                             XONG\nMặt nạ cuối cùng",
+          "9\nMỘT PHẦN\n                                                             XONG\nMặt nạ cuối cùng",
+          "9\nMỘT PHẦN\n                                                             XONG\nMặt nạ cuối cùng",
+          "9\nMỘT PHẦN\n                                                             XONG\nMặt nạ cuối cùng",
+          "9\nMỘT PHẦN\n                                                             XONG\nMặt nạ cuối cùng",
+          "9\nMỘT PHẦN\n                                                             XONG\nMặt nạ cuối cùng",
+          "9\nMỘT PHẦN\n                                                             XONG\nMặt nạ cuối cùng",
+          "9\nMỘT PHẦN\n                                                             XONG\nMặt nạ cuối cùng",
+          "9\nMỘT PHẦN\n                                                             XONG\nMặt nạ cuối cùng",
+          "9\nMỘT PHẦN\n                                                             XONG\nMặt nạ cuối cùng",
+          "9\nMỘT PHẦN\n                                                             XONG\nMặt nạ cuối cùng",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Hiệu chuẩn theo từng lớp.\n-66% diện tích FP",
+          "Hiệu chuẩn theo từng lớp.\n-66% diện tích FP",
+          "Hiệu chuẩn theo từng lớp.\n-66% diện tích FP",
+          "Hiệu chuẩn theo từng lớp.\n-66% diện tích FP",
+          "Hiệu chuẩn theo từng lớp.\n-66% diện tích FP",
+          "",
+          "CC lớn nhất\nkhông có hình thái",
+          "CC lớn nhất\nkhông có hình thái",
+          "CC lớn nhất\nkhông có hình thái",
+          "CC lớn nhất\nkhông có hình thái",
+          "CC lớn nhất\nkhông có hình thái",
+          "CC lớn nhất\nkhông có hình thái",
+          "CC lớn nhất\nkhông có hình thái",
+          "CC lớn nhất\nkhông có hình thái",
+          "CC lớn nhất\nkhông có hình thái",
+          "CC lớn nhất\nkhông có hình thái",
+          "",
+          "lớp phủ nhị phân",
+          "lớp phủ nhị phân",
+          "lớp phủ nhị phân",
+          "lớp phủ nhị phân",
+          "lớp phủ nhị phân",
+          "lớp phủ nhị phân",
+          "lớp phủ nhị phân",
+          "lớp phủ nhị phân",
+          "lớp phủ nhị phân"
+        ]
+      ]
+    },
+    {
+      "index": 1,
+      "rows": [
+        [
+          "",
+          "FA-504 1.000",
+          "FA-504 1.000"
+        ],
+        [
+          "",
+          "FA-808 0.970"
+        ],
+        [
+          "",
+          "FA-838 0.996"
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "rows": [
+        [
+          "",
+          "Lớp học",
+          "",
+          "Bản vá lõi rừng cô lập (cơ sở)",
+          "Bản vá lõi rừng cô lập (cơ sở)",
+          "Bản vá lõi rừng cô lập (cơ sở)"
+        ],
+        [
+          "",
+          "FA-504 0.993 1.000",
+          "FA-504 0.993 1.000",
+          "FA-504 0.993 1.000",
+          "FA-504 0.993 1.000",
+          "FA-504 0.993 1.000",
+          "FA-504 0.993 1.000",
+          "FA-504 0.993 1.000"
+        ],
+        [
+          "",
+          "FA-1114",
+          "FA-1114",
+          "FA-1114",
+          "",
+          "0.978 1.000",
+          "0.978 1.000",
+          "0.978 1.000"
+        ],
+        [
+          "",
+          "FA-1043 0.965 0.991",
+          "FA-1043 0.965 0.991",
+          "FA-1043 0.965 0.991",
+          "FA-1043 0.965 0.991",
+          "FA-1043 0.965 0.991",
+          "FA-1043 0.965 0.991"
+        ],
+        [
+          "",
+          "FA-1047 0.958 0.964",
+          "FA-1047 0.958 0.964",
+          "FA-1047 0.958 0.964",
+          "FA-1047 0.958 0.964",
+          "FA-1047 0.958 0.964",
+          "FA-1047 0.958 0.964"
+        ],
+        [
+          "",
+          "FA-1113 0.946 1.000",
+          "FA-1113 0.946 1.000",
+          "FA-1113 0.946 1.000",
+          "FA-1113 0.946 1.000",
+          "FA-1113 0.946 1.000",
+          "FA-1113 0.946 1.000",
+          "FA-1113 0.946 1.000"
+        ],
+        [
+          "",
+          "FA-1041 0.928 0.996",
+          "FA-1041 0.928 0.996",
+          "FA-1041 0.928 0.996",
+          "FA-1041 0.928 0.996",
+          "FA-1041 0.928 0.996",
+          "FA-1041 0.928 0.996"
+        ],
+        [
+          "",
+          "FA-1120 0.922 1.000",
+          "FA-1120 0.922 1.000",
+          "FA-1120 0.922 1.000",
+          "FA-1120 0.922 1.000",
+          "FA-1120 0.922 1.000",
+          "FA-1120 0.922 1.000",
+          "FA-1120 0.922 1.000"
+        ],
+        [
+          "",
+          "FA-1042 0.845 0.981",
+          "FA-1042 0.845 0.981",
+          "FA-1042 0.845 0.981",
+          "FA-1042 0.845 0.981",
+          "FA-1042 0.845 0.981",
+          "FA-1042 0.845 0.981"
+        ],
+        [
+          "",
+          "FA-1045 0.833 0.995",
+          "FA-1045 0.833 0.995",
+          "FA-1045 0.833 0.995",
+          "FA-1045 0.833 0.995",
+          "FA-1045 0.833 0.995",
+          "FA-1045 0.833 0.995"
+        ],
+        [
+          "",
+          "FA-838 0.814 0.996",
+          "FA-838 0.814 0.996",
+          "FA-838 0.814 0.996",
+          "FA-838 0.814 0.996",
+          "FA-838 0.814 0.996",
+          "FA-838 0.814 0.996"
+        ],
+        [
+          "",
+          "FA-924 0.799 1.000",
+          "FA-924 0.799 1.000",
+          "FA-924 0.799 1.000",
+          "FA-924 0.799 1.000",
+          "FA-924 0.799 1.000",
+          "FA-924 0.799 1.000",
+          "FA-924 0.799 1.000"
+        ],
+        [
+          "",
+          "FA-808 0.799 0.970",
+          "FA-808 0.799 0.970",
+          "FA-808 0.799 0.970",
+          "FA-808 0.799 0.970",
+          "FA-808 0.799 0.970",
+          "FA-808 0.799 0.970"
+        ],
+        [
+          "",
+          "Nghĩa là",
+          "Nghĩa là",
+          "Nghĩa là",
+          "",
+          "0.898 0.991",
+          "0.898 0.991"
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "rows": [
+        [
+          "",
+          "Lớp học",
+          "",
+          "Ảnh gốc đã được xóa phông nền"
+        ],
+        [
+          "",
+          "FA-1047 0.964 1.000",
+          "FA-1047 0.964 1.000",
+          "FA-1047 0.964 1.000",
+          "FA-1047 0.964 1.000",
+          "",
+          "+0,036"
+        ]
+      ]
+    },
+    {
+      "index": 4,
+      "rows": [
+        [
+          "",
+          "Lớp học",
+          "",
+          "Ảnh gốc đã được xóa phông nền",
+          "Ảnh gốc đã được xóa phông nền",
+          "Ảnh gốc đã được xóa phông nền",
+          "Ảnh gốc đã được xóa phông nền"
+        ],
+        [
+          "",
+          "FA-1042 0,981 0.990",
+          "FA-1042 0,981 0.990",
+          "FA-1042 0,981 0.990",
+          "FA-1042 0,981 0.990",
+          "FA-1042 0,981 0.990",
+          "FA-1042 0,981 0.990",
+          "FA-1042 0,981 0.990",
+          "",
+          "+0,009"
+        ],
+        [
+          "",
+          "FA-1045 0,995 FA-838 1.000",
+          "FA-1045 0,995 FA-838 1.000",
+          "FA-1045 0,995 FA-838 1.000",
+          "FA-1045 0,995 FA-838 1.000",
+          "FA-1045 0,995 FA-838 1.000",
+          "FA-1045 0,995 FA-838 1.000",
+          "FA-1045 0,995 FA-838 1.000",
+          "",
+          "+0,005"
+        ],
+        [
+          "",
+          "FA-1041 0.996 1.000",
+          "FA-1041 0.996 1.000",
+          "FA-1041 0.996 1.000",
+          "FA-1041 0.996 1.000",
+          "FA-1041 0.996 1.000",
+          "FA-1041 0.996 1.000",
+          "FA-1041 0.996 1.000",
+          "",
+          "+0,004"
+        ],
+        [
+          "",
+          "0,996 FA-1113 1,000 0.999",
+          "0,996 FA-1113 1,000 0.999",
+          "0,996 FA-1113 1,000 0.999",
+          "0,996 FA-1113 1,000 0.999",
+          "0,996 FA-1113 1,000 0.999",
+          "0,996 FA-1113 1,000 0.999",
+          "0,996 FA-1113 1,000 0.999",
+          "",
+          "+0,003"
+        ],
+        [
+          "",
+          "FA-504 1,000 FA-924 1.000 0,000",
+          "FA-504 1,000 FA-924 1.000 0,000",
+          "FA-504 1,000 FA-924 1.000 0,000",
+          "FA-504 1,000 FA-924 1.000 0,000",
+          "FA-504 1,000 FA-924 1.000 0,000",
+          "FA-504 1,000 FA-924 1.000 0,000",
+          "FA-504 1,000 FA-924 1.000 0,000",
+          "FA-504 1,000 FA-924 1.000 0,000",
+          "FA-504 1,000 FA-924 1.000 0,000"
+        ],
+        [
+          "",
+          "FA-1114 1,000 1.000 0,000",
+          "FA-1114 1,000 1.000 0,000",
+          "FA-1114 1,000 1.000 0,000",
+          "FA-1114 1,000 1.000 0,000",
+          "FA-1114 1,000 1.000 0,000",
+          "FA-1114 1,000 1.000 0,000",
+          "FA-1114 1,000 1.000 0,000",
+          "FA-1114 1,000 1.000 0,000",
+          "FA-1114 1,000 1.000 0,000"
+        ],
+        [
+          "",
+          "FA-1120 1.000 1.000 0,000",
+          "FA-1120 1.000 1.000 0,000",
+          "FA-1120 1.000 1.000 0,000",
+          "FA-1120 1.000 1.000 0,000",
+          "FA-1120 1.000 1.000 0,000",
+          "FA-1120 1.000 1.000 0,000",
+          "FA-1120 1.000 1.000 0,000",
+          "FA-1120 1.000 1.000 0,000",
+          "FA-1120 1.000 1.000 0,000"
+        ],
+        [
+          "",
+          "1,000 FA-808 0,970 0.994 -0,006",
+          "1,000 FA-808 0,970 0.994 -0,006",
+          "1,000 FA-808 0,970 0.994 -0,006",
+          "1,000 FA-808 0,970 0.994 -0,006",
+          "1,000 FA-808 0,970 0.994 -0,006",
+          "1,000 FA-808 0,970 0.994 -0,006",
+          "1,000 FA-808 0,970 0.994 -0,006",
+          "1,000 FA-808 0,970 0.994 -0,006",
+          "1,000 FA-808 0,970 0.994 -0,006",
+          "1,000 FA-808 0,970 0.994 -0,006"
+        ],
+        [
+          "",
+          "FA-1043 0,991 0.989 -0,011",
+          "FA-1043 0,991 0.989 -0,011",
+          "FA-1043 0,991 0.989 -0,011",
+          "FA-1043 0,991 0.989 -0,011",
+          "FA-1043 0,991 0.989 -0,011",
+          "FA-1043 0,991 0.989 -0,011",
+          "FA-1043 0,991 0.989 -0,011",
+          "FA-1043 0,991 0.989 -0,011",
+          "FA-1043 0,991 0.989 -0,011",
+          "FA-1043 0,991 0.989 -0,011"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0,955 -0,015",
+          "0,955 -0,015",
+          "0,955 -0,015",
+          "0,955 -0,015",
+          "0,955 -0,015"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "0,970 -0,021",
+          "0,970 -0,021",
+          "0,970 -0,021",
+          "0,970 -0,021",
+          "0,970 -0,021"
+        ],
+        [
+          "",
+          "Nghĩa là",
+          "Nghĩa là",
+          "Nghĩa là",
+          "",
+          "0.991 0.991 0,000",
+          "0.991 0.991 0,000",
+          "0.991 0.991 0,000",
+          "0.991 0.991 0,000",
+          "0.991 0.991 0,000"
+        ]
+      ]
+    },
+    {
+      "index": 5,
+      "rows": [
+        [
+          "",
+          "Lớp học",
+          "",
+          "Tỷ lệ âm tính giả Độ sáng trung bình của vật thể",
+          "Tỷ lệ âm tính giả Độ sáng trung bình của vật thể",
+          "Tỷ lệ âm tính giả Độ sáng trung bình của vật thể",
+          "Tỷ lệ âm tính giả Độ sáng trung bình của vật thể",
+          "Tỷ lệ âm tính giả Độ sáng trung bình của vật thể",
+          "Tỷ lệ âm tính giả Độ sáng trung bình của vật thể"
+        ],
+        [
+          "",
+          "FA-1120 0.963 4.7",
+          "FA-1120 0.963 4.7",
+          "FA-1120 0.963 4.7",
+          "FA-1120 0.963 4.7",
+          "FA-1120 0.963 4.7"
+        ],
+        [
+          "",
+          "FA-1047 0.825 28,7",
+          "FA-1047 0.825 28,7",
+          "FA-1047 0.825 28,7",
+          "FA-1047 0.825 28,7",
+          "FA-1047 0.825 28,7",
+          "FA-1047 0.825 28,7"
+        ],
+        [
+          "",
+          "FA-1114",
+          "FA-1114",
+          "FA-1114",
+          "",
+          "0.780 31,6",
+          "0.780 31,6"
+        ],
+        [
+          "",
+          "FA-1113 0,064 133.2",
+          "FA-1113 0,064 133.2",
+          "FA-1113 0,064 133.2",
+          "FA-1113 0,064 133.2",
+          "FA-1113 0,064 133.2",
+          "FA-1113 0,064 133.2",
+          "FA-1113 0,064 133.2"
+        ],
+        [
+          "",
+          "FA-1042 0,047 132,8",
+          "FA-1042 0,047 132,8",
+          "FA-1042 0,047 132,8",
+          "FA-1042 0,047 132,8",
+          "FA-1042 0,047 132,8",
+          "FA-1042 0,047 132,8",
+          "FA-1042 0,047 132,8"
+        ],
+        [
+          "",
+          "FA-1043 0,042 139,5",
+          "FA-1043 0,042 139,5",
+          "FA-1043 0,042 139,5",
+          "FA-1043 0,042 139,5",
+          "FA-1043 0,042 139,5",
+          "FA-1043 0,042 139,5",
+          "FA-1043 0,042 139,5"
+        ],
+        [
+          "",
+          "FA-1045 0,040 132,4",
+          "FA-1045 0,040 132,4",
+          "FA-1045 0,040 132,4",
+          "FA-1045 0,040 132,4",
+          "FA-1045 0,040 132,4",
+          "FA-1045 0,040 132,4",
+          "FA-1045 0,040 132,4"
+        ]
+      ]
+    },
+    {
+      "index": 6,
+      "rows": [
+        [
+          "",
+          "Lớp học",
+          "",
+          "Tỷ lệ âm tính giả Độ sáng trung bình của vật thể",
+          "Tỷ lệ âm tính giả Độ sáng trung bình của vật thể",
+          "Tỷ lệ âm tính giả Độ sáng trung bình của vật thể"
+        ],
+        [
+          "",
+          "FA-838 0,007 152,5",
+          "FA-838 0,007 152,5",
+          "FA-838 0,007 152,5",
+          "FA-838 0,007 152,5"
+        ],
+        [
+          "",
+          "FA-1041 0,003 171,6",
+          "FA-1041 0,003 171,6",
+          "FA-1041 0,003 171,6",
+          "FA-1041 0,003 171,6"
+        ],
+        [
+          "",
+          "FA-924 0,003 128,7",
+          "FA-924 0,003 128,7",
+          "FA-924 0,003 128,7",
+          "FA-924 0,003 128,7"
+        ],
+        [
+          "",
+          "FA-504 0,003 117,6",
+          "FA-504 0,003 117,6",
+          "FA-504 0,003 117,6",
+          "FA-504 0,003 117,6"
+        ],
+        [
+          "",
+          "FA-808 0,002 200,9",
+          "FA-808 0,002 200,9",
+          "FA-808 0,002 200,9"
+        ]
+      ]
+    },
+    {
+      "index": 7,
+      "rows": [
+        [
+          "",
+          "FA-504 1.000",
+          "FA-504 1.000"
+        ],
+        [
+          "",
+          "FA-808 0.983"
+        ],
+        [
+          "",
+          "FA-838 1.000",
+          "FA-838 1.000"
+        ]
+      ]
+    },
+    {
+      "index": 8,
+      "rows": [
+        [
+          "",
+          "Lớp học AUROC trung bình Độ lệch chuẩn",
+          "Lớp học AUROC trung bình Độ lệch chuẩn",
+          "Lớp học AUROC trung bình Độ lệch chuẩn",
+          "Lớp học AUROC trung bình Độ lệch chuẩn",
+          "Lớp học AUROC trung bình Độ lệch chuẩn",
+          "Lớp học AUROC trung bình Độ lệch chuẩn",
+          "Lớp học AUROC trung bình Độ lệch chuẩn"
+        ],
+        [
+          "",
+          "FA-1120 0.982 0,014",
+          "FA-1120 0.982 0,014",
+          "FA-1120 0.982 0,014",
+          "FA-1120 0.982 0,014",
+          "FA-1120 0.982 0,014",
+          "FA-1120 0.982 0,014"
+        ],
+        [
+          "",
+          "FA-1042 0.992 0,005",
+          "FA-1042 0.992 0,005",
+          "FA-1042 0.992 0,005",
+          "FA-1042 0.992 0,005",
+          "FA-1042 0.992 0,005",
+          "FA-1042 0.992 0,005"
+        ],
+        [
+          "",
+          "FA-924 0.992 0,011",
+          "FA-924 0.992 0,011",
+          "FA-924 0.992 0,011",
+          "FA-924 0.992 0,011",
+          "FA-924 0.992 0,011",
+          "FA-924 0.992 0,011"
+        ],
+        [
+          "",
+          "FA-1113 0.993 0,005",
+          "FA-1113 0.993 0,005",
+          "FA-1113 0.993 0,005",
+          "FA-1113 0.993 0,005",
+          "FA-1113 0.993 0,005",
+          "FA-1113 0.993 0,005"
+        ],
+        [
+          "",
+          "FA-808 0.996 0,008",
+          "FA-808 0.996 0,008",
+          "FA-808 0.996 0,008",
+          "FA-808 0.996 0,008",
+          "FA-808 0.996 0,008",
+          "FA-808 0.996 0,008"
+        ],
+        [
+          "",
+          "FA-1114",
+          "FA-1114",
+          "FA-1114",
+          "",
+          "0.998 0,003",
+          "0.998 0,003"
+        ],
+        [
+          "",
+          "FA-1045 0.999 0,002",
+          "FA-1045 0.999 0,002",
+          "FA-1045 0.999 0,002",
+          "FA-1045 0.999 0,002",
+          "FA-1045 0.999 0,002",
+          "FA-1045 0.999 0,002"
+        ],
+        [
+          "",
+          "FA-1043 0.999 0,001",
+          "FA-1043 0.999 0,001",
+          "FA-1043 0.999 0,001",
+          "FA-1043 0.999 0,001",
+          "FA-1043 0.999 0,001",
+          "FA-1043 0.999 0,001"
+        ],
+        [
+          "",
+          "FA-1047 1.000 0,000",
+          "FA-1047 1.000 0,000",
+          "FA-1047 1.000 0,000",
+          "FA-1047 1.000 0,000",
+          "FA-1047 1.000 0,000",
+          "FA-1047 1.000 0,000"
+        ],
+        [
+          "",
+          "FA-1041 1.000 0,000",
+          "FA-1041 1.000 0,000",
+          "FA-1041 1.000 0,000",
+          "FA-1041 1.000 0,000",
+          "FA-1041 1.000 0,000",
+          "FA-1041 1.000 0,000"
+        ],
+        [
+          "",
+          "FA-504 1.000 0,000",
+          "FA-504 1.000 0,000",
+          "FA-504 1.000 0,000",
+          "FA-504 1.000 0,000",
+          "FA-504 1.000 0,000",
+          "FA-504 1.000 0,000"
+        ],
+        [
+          "",
+          "FA-838 1.000 0,000",
+          "FA-838 1.000 0,000",
+          "FA-838 1.000 0,000",
+          "FA-838 1.000 0,000",
+          "FA-838 1.000 0,000",
+          "FA-838 1.000 0,000"
+        ],
+        [
+          "",
+          "Trung bình (tất cả hạt giống, tất cả các lớp)",
+          "",
+          "0.9959 —",
+          "0.9959 —",
+          "0.9959 —"
+        ]
+      ]
+    },
+    {
+      "index": 9,
+      "rows": [
+        [
+          "",
+          "Lớp học",
+          "",
+          "Chỉ 384 × 384 Đa tỷ lệ (tối đa)"
+        ],
+        [
+          "",
+          "FA-504 1.000 1.000",
+          "FA-504 1.000 1.000",
+          "FA-504 1.000 1.000",
+          "FA-504 1.000 1.000"
+        ],
+        [
+          "",
+          "FA-808 1.000 1.000",
+          "FA-808 1.000 1.000",
+          "FA-808 1.000 1.000",
+          "FA-808 1.000 1.000"
+        ],
+        [
+          "",
+          "FA-838 1.000 1.000",
+          "FA-838 1.000 1.000",
+          "FA-838 1.000 1.000",
+          "FA-838 1.000 1.000"
+        ]
+      ]
+    },
+    {
+      "index": 10,
+      "rows": [
+        [
+          "",
+          "Lớp học",
+          "",
+          "Chỉ 384 × 384 Đa tỷ lệ (tối đa)",
+          "Chỉ 384 × 384 Đa tỷ lệ (tối đa)",
+          "Chỉ 384 × 384 Đa tỷ lệ (tối đa)"
+        ],
+        [
+          "",
+          "FA-924 1.000 1.000",
+          "FA-924 1.000 1.000",
+          "FA-924 1.000 1.000",
+          "FA-924 1.000 1.000",
+          "FA-924 1.000 1.000",
+          "FA-924 1.000 1.000",
+          "FA-924 1.000 1.000"
+        ],
+        [
+          "",
+          "FA-1041 1.000 0.999",
+          "FA-1041 1.000 0.999",
+          "FA-1041 1.000 0.999",
+          "FA-1041 1.000 0.999",
+          "FA-1041 1.000 0.999",
+          "FA-1041 1.000 0.999"
+        ],
+        [
+          "",
+          "FA-1042 0.995 0.994",
+          "FA-1042 0.995 0.994",
+          "FA-1042 0.995 0.994",
+          "FA-1042 0.995 0.994",
+          "FA-1042 0.995 0.994",
+          "FA-1042 0.995 0.994"
+        ],
+        [
+          "",
+          "FA-1043 0.994 0.999",
+          "FA-1043 0.994 0.999",
+          "FA-1043 0.994 0.999",
+          "FA-1043 0.994 0.999",
+          "FA-1043 0.994 0.999",
+          "FA-1043 0.994 0.999"
+        ],
+        [
+          "",
+          "FA-1045 0.997 0.998",
+          "FA-1045 0.997 0.998",
+          "FA-1045 0.997 0.998",
+          "FA-1045 0.997 0.998",
+          "FA-1045 0.997 0.998",
+          "FA-1045 0.997 0.998"
+        ],
+        [
+          "",
+          "FA-1047 0.999 0.999",
+          "FA-1047 0.999 0.999",
+          "FA-1047 0.999 0.999",
+          "FA-1047 0.999 0.999",
+          "FA-1047 0.999 0.999",
+          "FA-1047 0.999 0.999"
+        ],
+        [
+          "",
+          "FA-1113 1.000 0.993",
+          "FA-1113 1.000 0.993",
+          "FA-1113 1.000 0.993",
+          "FA-1113 1.000 0.993",
+          "FA-1113 1.000 0.993",
+          "FA-1113 1.000 0.993"
+        ],
+        [
+          "",
+          "FA-1114",
+          "FA-1114",
+          "FA-1114",
+          "",
+          "0.995 0.995",
+          "0.995 0.995"
+        ],
+        [
+          "",
+          "FA-1120 0.977 0.973",
+          "FA-1120 0.977 0.973",
+          "FA-1120 0.977 0.973",
+          "FA-1120 0.977 0.973",
+          "FA-1120 0.977 0.973",
+          "FA-1120 0.977 0.973"
+        ],
+        [
+          "",
+          "Nghĩa là",
+          "Nghĩa là",
+          "Nghĩa là",
+          "",
+          "0.996 0.996",
+          "0.996 0.996"
+        ]
+      ]
+    },
+    {
+      "index": 11,
+      "rows": [
+        [
+          "",
+          "Lớp học",
+          "",
+          "Phần trăm được chọn Diện tích FP trung bình (p92) Diện tích FP trung bình (được chọn)",
+          "Phần trăm được chọn Diện tích FP trung bình (p92) Diện tích FP trung bình (được chọn)",
+          "Phần trăm được chọn Diện tích FP trung bình (p92) Diện tích FP trung bình (được chọn)",
+          "Phần trăm được chọn Diện tích FP trung bình (p92) Diện tích FP trung bình (được chọn)",
+          "Phần trăm được chọn Diện tích FP trung bình (p92) Diện tích FP trung bình (được chọn)"
+        ],
+        [
+          "",
+          "FA-1114",
+          "FA-1114",
+          "FA-1114",
+          "",
+          "99 1244,5 196,4",
+          "99 1244,5 196,4"
+        ],
+        [
+          "",
+          "FA-1113 99 1171,8 187,3",
+          "FA-1113 99 1171,8 187,3",
+          "FA-1113 99 1171,8 187,3",
+          "FA-1113 99 1171,8 187,3",
+          "FA-1113 99 1171,8 187,3",
+          "FA-1113 99 1171,8 187,3"
+        ],
+        [
+          "",
+          "FA-1047 98 846,3 253.1",
+          "FA-1047 98 846,3 253.1",
+          "FA-1047 98 846,3 253.1",
+          "FA-1047 98 846,3 253.1",
+          "FA-1047 98 846,3 253.1"
+        ],
+        [
+          "",
+          "FA-1043 98 634,8 219.1",
+          "FA-1043 98 634,8 219.1",
+          "FA-1043 98 634,8 219.1",
+          "FA-1043 98 634,8 219.1",
+          "FA-1043 98 634,8 219.1"
+        ],
+        [
+          "",
+          "FA-1042 98 618,4 223.0",
+          "FA-1042 98 618,4 223.0",
+          "FA-1042 98 618,4 223.0",
+          "FA-1042 98 618,4 223.0",
+          "FA-1042 98 618,4 223.0"
+        ],
+        [
+          "",
+          "FA-1041 98 562,9 175,2",
+          "FA-1041 98 562,9 175,2",
+          "FA-1041 98 562,9 175,2",
+          "FA-1041 98 562,9 175,2",
+          "FA-1041 98 562,9 175,2",
+          "FA-1041 98 562,9 175,2"
+        ],
+        [
+          "",
+          "FA-1045 96 577,9 293,7",
+          "FA-1045 96 577,9 293,7",
+          "FA-1045 96 577,9 293,7",
+          "FA-1045 96 577,9 293,7",
+          "FA-1045 96 577,9 293,7"
+        ]
+      ]
+    },
+    {
+      "index": 12,
+      "rows": [
+        [
+          "",
+          "Lớp học",
+          "",
+          "Phần trăm được chọn Diện tích FP trung bình (p92) Diện tích FP trung bình (được chọn)",
+          "Phần trăm được chọn Diện tích FP trung bình (p92) Diện tích FP trung bình (được chọn)",
+          "Phần trăm được chọn Diện tích FP trung bình (p92) Diện tích FP trung bình (được chọn)",
+          "Phần trăm được chọn Diện tích FP trung bình (p92) Diện tích FP trung bình (được chọn)",
+          "Phần trăm được chọn Diện tích FP trung bình (p92) Diện tích FP trung bình (được chọn)",
+          "Phần trăm được chọn Diện tích FP trung bình (p92) Diện tích FP trung bình (được chọn)",
+          "Phần trăm được chọn Diện tích FP trung bình (p92) Diện tích FP trung bình (được chọn)"
+        ],
+        [
+          "",
+          "FA-808 98 543,7 195,8",
+          "FA-808 98 543,7 195,8",
+          "FA-808 98 543,7 195,8",
+          "FA-808 98 543,7 195,8",
+          "FA-808 98 543,7 195,8",
+          "FA-808 98 543,7 195,8",
+          "FA-808 98 543,7 195,8",
+          "FA-808 98 543,7 195,8"
+        ],
+        [
+          "",
+          "FA-1120 98 530,7 163.2",
+          "FA-1120 98 530,7 163.2",
+          "FA-1120 98 530,7 163.2",
+          "FA-1120 98 530,7 163.2",
+          "FA-1120 98 530,7 163.2",
+          "FA-1120 98 530,7 163.2",
+          "FA-1120 98 530,7 163.2",
+          "FA-1120 98 530,7 163.2"
+        ],
+        [
+          "",
+          "FA-924 96 432,7 260,2",
+          "FA-924 96 432,7 260,2",
+          "FA-924 96 432,7 260,2",
+          "FA-924 96 432,7 260,2",
+          "FA-924 96 432,7 260,2",
+          "FA-924 96 432,7 260,2",
+          "FA-924 96 432,7 260,2"
+        ],
+        [
+          "",
+          "FA-838 96 410,7 240,2",
+          "FA-838 96 410,7 240,2",
+          "FA-838 96 410,7 240,2",
+          "FA-838 96 410,7 240,2",
+          "FA-838 96 410,7 240,2",
+          "FA-838 96 410,7 240,2",
+          "FA-838 96 410,7 240,2"
+        ],
+        [
+          "",
+          "FA-504 94 374,5 288.0",
+          "FA-504 94 374,5 288.0",
+          "FA-504 94 374,5 288.0",
+          "FA-504 94 374,5 288.0",
+          "FA-504 94 374,5 288.0",
+          "FA-504 94 374,5 288.0",
+          "FA-504 94 374,5 288.0"
+        ],
+        [
+          "",
+          "Nghĩa là",
+          "Nghĩa là",
+          "Nghĩa là",
+          "",
+          "—",
+          "",
+          "662,4 224,6"
+        ]
+      ]
+    },
+    {
+      "index": 13,
+      "rows": [
+        [
+          "",
+          "Lớp học",
+          "Lớp học",
+          "Lớp học",
+          "",
+          "n Trò chơi tính điểm phạm vi phủ sóng IoU",
+          "n Trò chơi tính điểm phạm vi phủ sóng IoU",
+          "n Trò chơi tính điểm phạm vi phủ sóng IoU",
+          "n Trò chơi tính điểm phạm vi phủ sóng IoU",
+          "n Trò chơi tính điểm phạm vi phủ sóng IoU"
+        ],
+        [
+          "",
+          "FA-808 20 0,323 0.564 0,800",
+          "FA-808 20 0,323 0.564 0,800",
+          "FA-808 20 0,323 0.564 0,800",
+          "FA-808 20 0,323 0.564 0,800",
+          "FA-808 20 0,323 0.564 0,800",
+          "FA-808 20 0,323 0.564 0,800",
+          "FA-808 20 0,323 0.564 0,800"
+        ],
+        [
+          "",
+          "FA-1041 20 0,289 0.361 0,950",
+          "FA-1041 20 0,289 0.361 0,950",
+          "FA-1041 20 0,289 0.361 0,950",
+          "FA-1041 20 0,289 0.361 0,950",
+          "FA-1041 20 0,289 0.361 0,950",
+          "FA-1041 20 0,289 0.361 0,950",
+          "FA-1041 20 0,289 0.361 0,950"
+        ],
+        [
+          "",
+          "FA-1043 16 0,258 0.329 1.000",
+          "FA-1043 16 0,258 0.329 1.000",
+          "FA-1043 16 0,258 0.329 1.000",
+          "FA-1043 16 0,258 0.329 1.000",
+          "FA-1043 16 0,258 0.329 1.000",
+          "FA-1043 16 0,258 0.329 1.000",
+          "FA-1043 16 0,258 0.329 1.000",
+          "FA-1043 16 0,258 0.329 1.000"
+        ],
+        [
+          "",
+          "FA-1047 12 0,222 0.229 1.000",
+          "FA-1047 12 0,222 0.229 1.000",
+          "FA-1047 12 0,222 0.229 1.000",
+          "FA-1047 12 0,222 0.229 1.000",
+          "FA-1047 12 0,222 0.229 1.000",
+          "FA-1047 12 0,222 0.229 1.000",
+          "FA-1047 12 0,222 0.229 1.000",
+          "FA-1047 12 0,222 0.229 1.000"
+        ],
+        [
+          "",
+          "FA-1042 16 0,214 12 0.369 1.000",
+          "FA-1042 16 0,214 12 0.369 1.000",
+          "FA-1042 16 0,214 12 0.369 1.000",
+          "FA-1042 16 0,214 12 0.369 1.000",
+          "FA-1042 16 0,214 12 0.369 1.000",
+          "FA-1042 16 0,214 12 0.369 1.000",
+          "FA-1042 16 0,214 12 0.369 1.000",
+          "FA-1042 16 0,214 12 0.369 1.000"
+        ],
+        [
+          "",
+          "FA-1113 0,212 0,225 1.000",
+          "FA-1113 0,212 0,225 1.000",
+          "FA-1113 0,212 0,225 1.000",
+          "FA-1113 0,212 0,225 1.000",
+          "FA-1113 0,212 0,225 1.000",
+          "FA-1113 0,212 0,225 1.000",
+          "FA-1113 0,212 0,225 1.000",
+          "FA-1113 0,212 0,225 1.000"
+        ],
+        [
+          "",
+          "FA-1045 12 0,209 0.237 1.000",
+          "FA-1045 12 0,209 0.237 1.000",
+          "FA-1045 12 0,209 0.237 1.000",
+          "FA-1045 12 0,209 0.237 1.000",
+          "FA-1045 12 0,209 0.237 1.000",
+          "FA-1045 12 0,209 0.237 1.000",
+          "FA-1045 12 0,209 0.237 1.000",
+          "FA-1045 12 0,209 0.237 1.000"
+        ],
+        [
+          "",
+          "FA-504 20 0,206 0.352 0,700",
+          "FA-504 20 0,206 0.352 0,700",
+          "FA-504 20 0,206 0.352 0,700",
+          "FA-504 20 0,206 0.352 0,700",
+          "FA-504 20 0,206 0.352 0,700",
+          "FA-504 20 0,206 0.352 0,700",
+          "FA-504 20 0,206 0.352 0,700"
+        ],
+        [
+          "",
+          "FA-924 12 0,199 0.242 0.917",
+          "FA-924 12 0,199 0.242 0.917",
+          "FA-924 12 0,199 0.242 0.917",
+          "FA-924 12 0,199 0.242 0.917",
+          "FA-924 12 0,199 0.242 0.917",
+          "FA-924 12 0,199 0.242 0.917",
+          "FA-924 12 0,199 0.242 0.917"
+        ],
+        [
+          "",
+          "FA-838 20 0,194 0.269 0,900",
+          "FA-838 20 0,194 0.269 0,900",
+          "FA-838 20 0,194 0.269 0,900",
+          "FA-838 20 0,194 0.269 0,900",
+          "FA-838 20 0,194 0.269 0,900",
+          "FA-838 20 0,194 0.269 0,900",
+          "FA-838 20 0,194 0.269 0,900"
+        ],
+        [
+          "",
+          "FA-1120 12 0,179 0.206 1.000",
+          "FA-1120 12 0,179 0.206 1.000",
+          "FA-1120 12 0,179 0.206 1.000",
+          "FA-1120 12 0,179 0.206 1.000",
+          "FA-1120 12 0,179 0.206 1.000",
+          "FA-1120 12 0,179 0.206 1.000",
+          "FA-1120 12 0,179 0.206 1.000",
+          "FA-1120 12 0,179 0.206 1.000"
+        ],
+        [
+          "",
+          "FA-1114",
+          "",
+          "20 0,116 0.213 0,500",
+          "20 0,116 0.213 0,500",
+          "20 0,116 0.213 0,500",
+          "20 0,116 0.213 0,500",
+          "20 0,116 0.213 0,500"
+        ],
+        [
+          "",
+          "Trung bình (12 mẫu sản phẩm) 192 0,220",
+          "Trung bình (12 mẫu sản phẩm) 192 0,220",
+          "Trung bình (12 mẫu sản phẩm) 192 0,220",
+          "Trung bình (12 mẫu sản phẩm) 192 0,220",
+          "Trung bình (12 mẫu sản phẩm) 192 0,220",
+          "",
+          "0.313 0.875"
+        ]
+      ]
+    }
+  ]
+}
