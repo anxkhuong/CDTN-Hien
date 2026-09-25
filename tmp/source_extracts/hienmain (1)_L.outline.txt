@@ -1,0 +1,709 @@
+0000	Normal	Phát hiện bất thường thực tiễn và định vị định tính cho
+0001	Normal	Kiểm tra công nghiệp đa cấp với giới hạn cực kỳ hạn chế
+0002	Normal	Dữ liệu chỉ dành cho chế độ bình thường
+0003	Normal	Tóm tắt
+0006	Normal	1. Giới thiệu
+0007	Normal	Kiểm tra trực quan tự động trong môi trường sản xuất quy mô nhỏ phải đối mặt với hạn chế về dữ liệu khác với
+0008	Normal	giả định của hầu hết các tiêu chuẩn phát hiện bất thường đã được công bố. Một dây chuyền sản xuất cho một
+0009	Normal	danh mục linh kiện có khối lượng thấp và thường xuyên thay đổi không thể thu thập nhiều dữ liệu một cách kinh tế.
+0010	Normal	1
+0015	Normal	Mỗi bộ phận chỉ có một trăm hình ảnh bình thường, và chắc chắn không thể thu thập mặt nạ lỗi chính xác đến từng pixel
+0016	Normal	để huấn luyện, vì toàn bộ tiền đề của việc phát hiện bất thường một lớp là các ví dụ bị lỗi rất hiếm và hình dạng của
+0017	Normal	chúng không được biết trước. Công trình này được thúc đẩy bởi chính bối cảnh đó, một tập dữ liệu công nghiệp thực tế
+0018	Normal	gồm 12 lớp linh kiện trang trí khác nhau, mỗi lớp chỉ có 100 hình ảnh bình thường và từ 30 đến 53 hình ảnh bị lỗi để
+0019	Normal	đánh giá, không có nhãn hoặc mặt nạ lỗi ở bất kỳ giai đoạn nào, và không giống như các tiêu chuẩn được tuyển chọn,
+0020	Normal	không có vị trí hoặc tỷ lệ đối tượng nhất quán trong một lớp (Mục 3).
+0021	Normal	Chúng tôi giải quyết hai nhiệm vụ cho mỗi lớp một cách độc lập: phân loại cấp độ hình ảnh, quyết định xem hình ảnh
+0022	Normal	được giữ lại là bình thường hay bị lỗi, và định vị cấp độ pixel, chỉ ra vị trí lỗi trong hình ảnh bị lỗi. Chúng tôi sử
+0023	Normal	dụng PatchCore [4], một bộ phát hiện bất thường lân cận gần nhất dựa trên bộ nhớ, làm phương pháp chính vì nó không
+0024	Normal	yêu cầu huấn luyện dựa trên gradient của bộ trích xuất đặc trưng và do đó tương đối phù hợp với ngân sách huấn luyện
+0025	Normal	80 hình ảnh mỗi lớp (Mục 4). Vì việc định vị của PatchCore là sản phẩm phụ gián tiếp của lưới khoảng cách vá thô chứ
+0026	Normal	không phải là đầu ra phân đoạn được huấn luyện trực tiếp, chúng tôi kết hợp nó với một quy trình nhỏ gồm các bước tiền
+0027	Normal	xử lý và hậu xử lý, loại bỏ nền, ngưỡng hạn chế tiền cảnh, lọc thành phần liên thông lớn nhất và tổng hợp đa tỷ lệ,
+0028	Normal	được tổ chức xung quanh khung chín giai đoạn (OC-MAR) do cố vấn của chúng tôi đề xuất (Mục 4.1), nhằm mục đích thắt
+0029	Normal	chặt việc định vị mà không yêu cầu bất kỳ nhãn bổ sung nào. Để so sánh, chúng tôi cũng đã thử SuperSimpleNet [3], một
+0030	Normal	giải pháp thay thế có thể huấn luyện được, học trực tiếp đầu phân đoạn từ các khiếm khuyết giả tổng hợp; chúng tôi báo
+0031	Normal	cáo nỗ lực này và việc nó không hội tụ ở quy mô dữ liệu của chúng tôi như một kết quả tiêu cực thay vì bỏ qua nó (Phụ
+0032	Normal	lục A).
+0033	Normal	Bài báo này ghi lại cuộc điều tra đó, bao gồm hai phát hiện không được dự đoán trước và chúng tôi cho rằng có nhiều
+0034	Normal	thông tin hơn so với độ chính xác phân loại được nêu bật. Thứ nhất, bước tiền xử lý loại bỏ nền, bỏ qua kênh alpha,
+0035	Normal	tạo ra mặt nạ đối tượng bị lỗi âm thầm đối với các đối tượng có màu tối, một lỗi mà chúng tôi không nhận thấy chỉ bằng
+0036	Normal	cách kiểm tra trực quan nhưng một cuộc khảo sát định lượng trên tất cả 12 lớp cho thấy nó được dự đoán mạnh mẽ bởi độ
+0037	Normal	sáng của đối tượng (Mục 6.4). Thứ hai, việc áp dụng toàn bộ quy trình định vị của chúng tôi một cách đồng nhất cho các
+0038	Normal	hình ảnh bình thường từ tất cả 12 lớp, không chỉ hai lớp có độ chính xác phân loại yếu nhất, cho thấy các vùng dương
+0039	Normal	tính giả nhỏ còn sót lại vẫn tồn tại dưới ngưỡng phát hiện cố định, không được hiệu chỉnh, một hạn chế dễ bị bỏ sót khi
+0040	Normal	chỉ kiểm tra một lớp duy nhất (Mục 6).
+0041	Normal	Những đóng góp của chúng tôi như sau.
+0042	Normal	• Một quy trình phát hiện và định vị bất thường hoàn chỉnh cho một lớp duy nhất, được đánh giá từ đầu đến cuối trên
+0043	Normal	một tập dữ liệu công nghiệp thực tế gồm 12 lớp với ngân sách huấn luyện chỉ dành cho dữ liệu bình thường cực kỳ
+0044	Normal	hạn chế, đạt được AUROC trung bình ở cấp độ hình ảnh là 0,996 (Mục 6).
+0045	Normal	• Một phát hiện phương pháp luận định lượng về việc xây dựng mặt nạ đối tượng từ hình ảnh đã loại bỏ nền, tỷ lệ âm
+0046	Normal	tính giả so với mặt nạ kênh alpha thực sự tương quan với độ sáng của đối tượng ở mức r =  0,938 trên 12 lớp,
+0047	Normal	cùng với giải pháp cụ thể được áp dụng trong quy trình cuối cùng của chúng tôi (Mục 6.4).
+0048	Normal	• Kết quả tiêu cực được ghi nhận đối với một phương án phân đoạn lỗi tổng hợp có thể huấn luyện được
+0049	Normal	(SuperSimpleNet) ở quy mô dữ liệu này, bao gồm ba vòng xác minh kiến trúc so với triển khai tham chiếu, đã loại
+0050	Normal	trừ lỗi triển khai là nguyên nhân chính (Phụ lục A).
+0051	Normal	• Định lượng một phần chất lượng định vị, vốn chỉ được đánh giá định tính do thiếu mặt nạ lỗi thực tế, bằng cách
+0052	Normal	sử dụng một tập hợp con các hình ảnh bị lỗi được chú thích thủ công (Mục 6), cùng với việc so sánh với một đường
+0053	Normal	cơ sở thống kê cổ điển, không dựa trên học sâu (Mục 5.5) để làm rõ đóng góp của các đặc trưng đã học.
+0054	Normal	2
+0059	Normal	Phần còn lại của bài báo được tổ chức như sau. Phần 2 trình bày phương pháp của chúng tôi so với các phương pháp phát
+0060	Normal	hiện bất thường dựa trên bộ nhớ, dựa trên tái tạo và phương pháp cổ điển. Phần 3 mô tả chi tiết tập dữ liệu và thiết lập bài
+0061	Normal	toán. Phần 4 mô tả quy trình xử lý dữ liệu của chúng tôi. Phần 5 mô tả quy trình đánh giá. Phần 6 trình bày kết quả, bao gồm
+0062	Normal	hai phát hiện được tóm tắt ở trên.
+0063	Normal	Phần 7 thảo luận về những điều chúng ta rút ra được từ công trình nghiên cứu này, và Phần 8 kết luận.
+0064	Normal	2. Các công trình nghiên cứu liên quan
+0065	Normal	2.1 Phát hiện bất thường dựa trên ngân hàng bộ nhớ và nhúng
+0066	Normal	PatchCore [4], bộ dò mà chúng tôi xây dựng dựa trên, thuộc một họ các phương pháp một lớp chấm điểm các điểm bất thường
+0067	Normal	bằng khoảng cách giữa phần nhúng của một mảng thử nghiệm, từ một xương sống được huấn luyện trước trên ImageNet đã được đóng
+0068	Normal	băng, và một ngân hàng bộ nhớ chứa các phần nhúng của mảng hình ảnh bình thường, được lấy mẫu con thành một tập lõi để dễ xử lý.
+0069	Normal	Họ mô hình này không yêu cầu huấn luyện dựa trên gradient cho chính mạng xương sống, chỉ cần tìm kiếm lân cận gần nhất và lựa
+0070	Normal	chọn tập lõi, điều này khiến nó tương đối phù hợp với các thiết lập có rất ít ảnh huấn luyện thông thường, chẳng hạn như 80 ảnh
+0071	Normal	mỗi lớp (sau khi chia tách hiệu chuẩn) được sử dụng xuyên suốt công trình này. Hạn chế chính của nó đối với mục đích của chúng ta
+0072	Normal	là việc định vị là một sản phẩm phụ gián tiếp của bản đồ khoảng cách lưới vá chứ không phải là kết quả phân đoạn được huấn luyện
+0073	Normal	trực tiếp, điều này thúc đẩy quá trình xử lý hậu kỳ hạn chế tiền cảnh được mô tả trong Phần 4.6 và việc đánh giá định vị chỉ
+0074	Normal	mang tính định tính được thảo luận như một hạn chế trong Phần 5.
+0075	Normal	2.2 Phương pháp tái cấu trúc và huấn luyện khuyết tật tổng hợp
+0076	Normal	Một họ khác huấn luyện mạng phân đoạn trực tiếp, sử dụng các khiếm khuyết giả được tạo ra tổng hợp để không cần hình ảnh
+0077	Normal	khiếm khuyết thực sự trong quá trình huấn luyện. DRAEM [5] tái tạo đầu vào bị hỏng tổng hợp và huấn luyện một mạng con phân
+0078	Normal	biệt để phân đoạn vùng bị hỏng so với bản tái tạo. SuperSimpleNet [3], mà chúng tôi đã thử nghiệm như một giải pháp thay thế
+0079	Normal	cho PatchCore trong công việc này, tuân theo một công thức liên quan, các khiếm khuyết giả nhiễu Perlin được đưa trực tiếp
+0080	Normal	vào không gian đặc trưng, với một bộ phân biệt nhẹ tạo ra cả phân loại cấp độ hình ảnh và bản đồ phân đoạn cấp độ pixel, và
+0081	Normal	tùy chọn kết hợp hình ảnh khiếm khuyết thực sự khi có sẵn.
+0082	Normal	Về nguyên tắc, họ mô hình này cung cấp một con đường trực tiếp hơn để phân đoạn sắc nét từng pixel so với bản đồ khoảng
+0083	Normal	cách lân cận gần nhất. Trên thực tế, như đã báo cáo trong Phụ lục A, nỗ lực SuperSimpleNet của chúng tôi đã không hội tụ
+0084	Normal	trên tập dữ liệu này ngay cả sau ba vòng hiệu chỉnh kiến trúc so với triển khai tham chiếu, điều mà chúng tôi tạm thời cho
+0085	Normal	là do sự kết hợp của tập huấn luyện cực kỳ nhỏ cho mỗi lớp (80 hình ảnh) và có thể là một chi tiết sao chép hàng loạt không
+0086	Normal	được tái tạo của vòng lặp huấn luyện ban đầu, hơn là do lỗi triển khai còn sót lại.
+0087	Normal	2.3 Các đường cơ sở cổ điển, không sâu
+0088	Normal	Việc chấm điểm bất thường bằng thống kê hình ảnh được tạo thủ công và bộ phát hiện ngoại lệ đa năng, chẳng hạn như Isolation
+0089	Normal	Forest [2], có trước các phương pháp dựa trên nhúng sâu ở trên và vẫn là một điểm so sánh phù hợp chính xác vì nó không yêu
+0090	Normal	cầu xương sống được huấn luyện trước và có chi phí huấn luyện thấp.
+0091	Normal	Mục 5.5 và Mục 6 sử dụng chính xác sự kết hợp này làm cơ sở so sánh với PatchCore, để kiểm tra xem khoảng cách do các tính
+0092	Normal	năng sâu tạo ra có phải là thật hay chỉ là kết quả giả tạo của một phép so sánh yếu kém khác.
+0093	Normal	2.4 Tiêu chuẩn so sánh và sự khác biệt trong môi trường của chúng tôi
+0094	Normal	Hầu hết các tài liệu về phát hiện dị thường nêu trên, bao gồm cả các đánh giá PatchCore và DRAEM ban đầu, đều được đánh giá
+0095	Normal	trên MVTec AD [1], một tập dữ liệu được sử dụng rộng rãi cung cấp độ chính xác pixel trên mặt đất-
+0096	Normal	3
+0101	Normal	Hình 1: Các mẫu bình thường và lỗi tiêu biểu từ bốn loại. Các lỗi trong tập dữ liệu này chủ yếu là thiếu
+0102	Normal	hoặc không đầy đủ màu sắc và chi tiết in (ví dụ: họa tiết in hiển thị dưới dạng hình bóng trống) chứ không
+0103	Normal	phải là hư hỏng vật lý đối với vật thể.
+0104	Normal	Các mặt nạ lỗi thực tế và, đối với hầu hết các danh mục, có khoảng 200 hoặc nhiều hơn hình ảnh huấn luyện
+0105	Normal	bình thường cho mỗi danh mục. Tập dữ liệu của chúng tôi (Mục 3) khác với thiết lập này ở ba điểm liên quan
+0106	Normal	đến lựa chọn và đánh giá phương pháp: nó chỉ cung cấp 100 hình ảnh bình thường cho mỗi lớp thay vì vài
+0107	Normal	trăm, nó không cung cấp bất kỳ mặt nạ thực tế cấp pixel nào, và vị trí và tỷ lệ của đối tượng thay đổi đáng
+0108	Normal	kể trong cùng một lớp thay vì được căn giữa và đóng khung nhất quán. Sự khác biệt đầu tiên là một lý do hợp
+0109	Normal	lý giải thích tại sao nỗ lực SuperSimpleNet của chúng tôi hoạt động kém hơn so với kết quả MVTec AD đã được
+0110	Normal	công bố, vì quá trình huấn luyện lỗi tổng hợp của phương pháp gốc được xác thực ở quy mô dữ liệu lớn hơn
+0111	Normal	cho mỗi lớp. Sự khác biệt thứ hai là lý do tại sao việc đánh giá định vị của chúng tôi trong toàn bộ bài
+0112	Normal	báo này mang tính định tính, và nếu có thể định lượng, dựa trên một tập con được chú thích thủ công (Mục
+0113	Normal	6), thay vì một chỉ số cấp pixel tiêu chuẩn được tính toán dựa trên toàn bộ tập dữ liệu thực tế. Sự khác
+0114	Normal	biệt thứ ba thúc đẩy sự lựa chọn rõ ràng, được thảo luận trong Mục 4, là không cắt ảnh đầu vào ở trung tâm
+0115	Normal	trong quá trình tiền xử lý.
+0116	Normal	3. Thiết lập bộ dữ liệu và bài toán
+0117	Normal	3.1 Tập dữ liệu
+0118	Normal	Tập dữ liệu bao gồm 12 lớp thành phần riêng biệt (ký hiệu là FA-504, FA-808, FA-838, FA-924, FA-1041, FA-1042, FA-1043, FA-1045,
+0119	Normal	FA-1047, FA-1113, FA-1114, FA-1120), mỗi lớp được chụp ảnh trong hai điều kiện: mẫu bình thường không có khuyết tật và mẫu có khuyết
+0120	Normal	tật có thể nhìn thấy (Hình 1). Mỗi lớp chứa chính xác 100 hình ảnh bình thường; số lượng hình ảnh có khuyết tật dao động từ 30 đến 53
+0121	Normal	hình ảnh mỗi lớp. Sau khi loại bỏ một tệp đại diện trùng lặp nằm ngoài hai thư mục con được gắn nhãn của mỗi lớp, tập dữ liệu có tổng
+0122	Normal	cộng 1705 hình ảnh JPEG duy nhất, không có hình ảnh nào bị hỏng, với dung lượng 474MB.
+0123	Normal	4
+0128	Normal	Hình 2: Các hộp giới hạn đối tượng được phát hiện bằng phương pháp phỏng đoán được chồng lên nhau cho 60 hình ảnh bình thường
+0129	Normal	được lấy mẫu trên tất cả 12 lớp (5 hình ảnh mỗi lớp), minh họa phạm vi vị trí và kích thước của đối tượng trong tập dữ liệu.
+0130	Normal	Các hình ảnh chủ yếu có kích thước 956×1276 pixel theo hướng dọc, với một phần nhỏ được xoay 90 sang hướng ngang (1276
+0131	Normal	× 956); tỷ lệ hình ảnh được xoay thay đổi đáng kể tùy theo từng loại (ví dụ: 0/150 đối với FA-1041 so với 68/153 đối với
+0132	Normal	FA-1047).
+0133	Normal	3.2 Sự thay đổi về vị trí và kích thước của đối tượng
+0134	Normal	Không giống như các bộ dữ liệu chuẩn được chọn lọc, trong đó đối tượng quan tâm được đặt ở trung tâm và có tỷ lệ nhất quán,
+0135	Normal	các đối tượng trong bộ dữ liệu này được đặt ở các vị trí khác nhau và chiếm các phần khác nhau của khung hình (Hình 2).
+0136	Normal	Sử dụng phương pháp phỏng đoán dựa trên sự khác biệt màu sắc ở các góc để ước tính khung bao cho mỗi hình ảnh, tâm khung bao
+0137	Normal	tương đối bị lệch về phía trên bên trái của khung hình trung bình, và diện tích đối tượng tương đối dao động từ khoảng 3%
+0138	Normal	đến gần 100% của khung hình. Điều này trực tiếp giải thích cho lựa chọn tiền xử lý được mô tả trong Phần 4 (không cắt xén
+0139	Normal	tâm).
+0140	Normal	3.3 Thang đo khuyết tật
+0141	Normal	Các khuyết tật quan sát được trong các hình ảnh bị lỗi có kích thước vật lý rất khác nhau, từ các vết nhỏ cục bộ khoảng 30–
+0142	Normal	40 pixel (ở độ phân giải gốc) cho đến các khuyết tật trải rộng trên một phần lớn đối tượng. Sự đa dạng về kích thước này là
+0143	Normal	một yếu tố quan trọng cần xem xét đối với việc giảm độ phân giải trong Phần 6, vì diện tích hiệu dụng của một ô lưới đặc
+0144	Normal	trưng (tính bằng pixel của hình ảnh gốc) phải nhỏ so với các khuyết tật nhỏ nhất để bản đồ bất thường có thể định vị chúng.
+0145	Normal	3.4 Sự mất cân bằng giai cấp
+0146	Normal	Hình 3 tóm tắt sự phân bố nhãn cho mỗi lớp. Với 100 hình ảnh bình thường so với 30–53 hình ảnh bị lỗi cho mỗi lớp, và chỉ
+0147	Normal	sử dụng hình ảnh bình thường để huấn luyện trong thiết lập một lớp.
+0148	Normal	5
+0153	Normal	Hình 3: Số lượng ảnh bình thường và ảnh lỗi trên mỗi lớp. Mỗi lớp có chính xác 100 ảnh bình thường; số lượng ảnh lỗi dao
+0154	Normal	động từ 30 đến 53.
+0155	Normal	(Mục 4), các hình ảnh bị lỗi chỉ đóng vai trò là tập dữ liệu đánh giá. Do số lượng nhỏ, ước tính AUROC trên mỗi lớp về nguyên tắc có
+0156	Normal	thể mang phương sai đáng kể tùy thuộc vào sự phân chia giữa tập huấn luyện và tập hiệu chuẩn; điều này được xem là một hạn chế trong Mục
+0157	Normal	5 và được đánh giá thực nghiệm trên 5 hạt giống trong Mục 6.6.
+0158	Normal	3.5 Phát biểu vấn đề
+0159	Normal	Đối với mỗi lớp riêng biệt, với một tập dữ liệu huấn luyện chỉ gồm các hình ảnh bình thường, nhiệm vụ gồm hai phần: (a)
+0160	Normal	phân loại ở cấp độ hình ảnh, dự đoán xem hình ảnh thử nghiệm được giữ lại là bình thường hay bị lỗi, và (b) định vị ở cấp
+0161	Normal	độ pixel, tạo ra bản đồ không gian chỉ ra vị trí có khả năng xảy ra lỗi trong hình ảnh bị lỗi. Không có nhãn hoặc mặt nạ
+0162	Normal	lỗi nào được cung cấp trong quá trình huấn luyện.
+0163	Normal	Phương pháp 4
+0164	Normal	4.1 Tổng quan về quy trình OC-MAR
+0165	Normal	Chúng tôi xây dựng phương pháp của mình dựa trên OC-MAR (Nhận dạng dị thường đa tỷ lệ bị ràng buộc bởi đối tượng), một quy
+0166	Normal	trình chín bước để phát hiện và định vị dị thường một lớp do cố vấn của chúng tôi đề xuất. Các bước bao gồm: (1) ảnh đầu
+0167	Normal	vào, (2) loại bỏ nền để thu được mặt nạ đối tượng, (3) thay đổi kích thước đa tỷ lệ của ảnh đầu vào, (4) phát hiện dị
+0168	Normal	thường trên mỗi tỷ lệ bằng bộ phát hiện một lớp, (5) tổng hợp đa tỷ lệ các bản đồ dị thường thu được, (6) lọc bị ràng buộc
+0169	Normal	bởi đối tượng, giới hạn các dị thường trong mặt nạ đối tượng, (7) ngưỡng thích ứng được hiệu chỉnh trên tập dữ liệu xác
+0170	Normal	thực bình thường được giữ lại, (8) tinh chỉnh vùng hình thái, và (9) mặt nạ phân đoạn khuyết tật nhị phân cuối cùng. Hình
+0171	Normal	4 minh họa từng giai đoạn cho việc triển khai cụ thể của chúng tôi và trạng thái hiện tại của nó.
+0172	Normal	4.2 Xử lý sơ bộ (giai đoạn 1)
+0173	Normal	Mỗi hình ảnh được điều chỉnh kích thước trực tiếp thành độ phân giải vuông cố định mà không cắt xén phần trung tâm, vì đối
+0174	Normal	tượng cần quan tâm thường nằm lệch tâm (Mục 3); việc cắt xén phần trung tâm có nguy cơ làm mất đi một phần của đối tượng.
+0175	Normal	Các hình ảnh ở chế độ ngang được xoay 90 sang chế độ dọc trước khi thay đổi kích thước, để mạng lưới được hiển thị đầy đủ.
+0176	Normal	6
+0181	Normal	Hình 4: Các giai đoạn của OC-MAR, quá trình triển khai và trạng thái của chúng tôi, được cập nhật sau Giai đoạn 2 (tổng hợp đa thang
+0182	Normal	đo) và Giai đoạn 3 (ngưỡng thích ứng). Màu xanh lá cây: đã được đánh giá và báo cáo; màu cam: đã được triển khai một phần. Các vòng
+0183	Normal	tròn được đánh số cho biết thứ tự đọc; xem phần văn bản chính để biết chi tiết triển khai mà mỗi ô viết tắt.
+0184	Normal	Không cần phải học thêm về tính bất biến xoay. Giá trị pixel được chuẩn hóa bằng cách sử dụng thống kê ImageNet tiêu
+0185	Normal	chuẩn, phù hợp với kiến trúc mạng được huấn luyện trước.
+0186	Normal	4.3 Xóa nền và tạo mặt nạ đối tượng (giai đoạn 2)
+0187	Normal	Chúng tôi sử dụng mô hình phân đoạn đối tượng nổi bật được huấn luyện trước (isnet-general-use, thông qua rembg) để
+0188	Normal	tách từng đối tượng khỏi nền của nó. Hai cách sử dụng khác nhau của mô hình này được đánh giá. Thứ nhất, như một bước
+0189	Normal	tiền xử lý tập dữ liệu, các pixel nền được thay thế bằng màu đen đồng nhất và các hình ảnh kết quả được đánh giá như
+0190	Normal	một đầu vào thay thế cho PatchCore (Mục 6). Thứ hai, như một nguồn mặt nạ đối tượng được sử dụng trong giai đoạn 6,
+0191	Normal	chúng tôi so sánh hai cách để có được mặt nạ này, (a) một phương pháp phỏng đoán đơn giản, ngưỡng độ sáng pixel trên
+0192	Normal	hình ảnh đã được loại bỏ nền (tiền cảnh = bất kỳ pixel nào có giá trị kênh trên 10), và (b) đầu ra alpha mềm gốc của
+0193	Normal	mô hình, được ngưỡng ở mức 0,5. Chúng tôi nhận thấy rằng (a) thất bại đáng kể đối với các lớp có vật liệu đối tượng
+0194	Normal	có màu tối, vì bước làm phẳng tạo ra tập dữ liệu đã loại bỏ nền sẽ loại bỏ kênh alpha, không còn tín hiệu nào để phân
+0195	Normal	biệt vùng đối tượng tối màu với nền đen mà nó được ghép vào; điều này được định lượng trong Mục 6. Chúng tôi áp dụng
+0196	Normal	(b) làm mặt nạ đối tượng được sử dụng trong cấu hình cuối cùng.
+0197	Normal	4.4 PatchCore (giai đoạn 4)
+0198	Normal	Chúng tôi sử dụng PatchCore [4] làm bộ phát hiện bất thường một lớp chính (Hình 5), khởi tạo giai đoạn 4 của OC-MAR.
+0199	Normal	Một mạng xương sống WideResNet-50 cố định, được huấn luyện trước trên ImageNet, trích xuất các bản đồ đặc trưng trung
+0200	Normal	gian từ lớp 2 và lớp 3. Mỗi bản đồ đặc trưng được tổng hợp cục bộ với một nhóm trung bình 3×3 và bản đồ lớp 3 được
+0201	Normal	lấy mẫu tăng tuyến tính để phù hợp với độ phân giải không gian của lớp 2 trước khi nối theo kênh, tạo ra một lưới các
+0202	Normal	vectơ đặc trưng cấp độ mảng cho mỗi hình ảnh.
+0203	Normal	Đối với mỗi lớp, một ngân hàng bộ nhớ được xây dựng bằng cách gộp các đặc trưng vá lỗi của tất cả các ảnh huấn
+0204	Normal	luyện thông thường, sau đó lấy mẫu con thông qua lựa chọn tập lõi k-center tham lam để giữ lại một tập con nhỏ, đa
+0205	Normal	dạng các vectơ đại diện. Trong quá trình suy luận, mỗi vá lỗi của ảnh truy vấn được chấm điểm bằng giá trị Euclidean của nó.
+0206	Normal	7
+0211	Normal	Hình 5: Quy trình PatchCore, được sao chép từ ấn bản gốc [4]. Một xương sống đóng băng trích xuất các đặc điểm
+0212	Normal	cấp độ vá; các đặc điểm hình ảnh bình thường điền vào ngân hàng bộ nhớ coreset trong thời gian huấn luyện; các
+0213	Normal	đặc điểm hình ảnh thử nghiệm được chấm điểm bằng khoảng cách lân cận gần nhất với ngân hàng để tạo ra một sự bất thường.
+0214	Normal	bản đồ.
+0215	Normal	Khoảng cách đến vectơ gần nhất trong bộ nhớ; lưới khoảng cách trên mỗi ô kết quả tạo thành bản đồ dị thường thô,
+0216	Normal	được lấy mẫu lại đến độ phân giải đầu vào và làm mờ bằng bộ lọc Gaussian để tạo ra bản đồ nhiệt dị thường ở cấp
+0217	Normal	độ pixel. Điểm số dị thường ở cấp độ hình ảnh là giá trị lớn nhất của bản đồ dị thường thô, được điều chỉnh trọng
+0218	Normal	số bằng mật độ cục bộ của bộ nhớ xung quanh điểm khớp tốt nhất để giảm độ nhạy cảm với các điểm ngoại lai còn sót
+0219	Normal	lại trong tập lõi.
+0220	Normal	Vì PatchCore không yêu cầu huấn luyện dựa trên gradient nào ngoài tìm kiếm lân cận gần nhất và lựa chọn tập
+0221	Normal	hợp lõi, nên nó rất phù hợp với ngân sách mẫu bình thường trên mỗi lớp cực kỳ hạn chế trong tập dữ liệu này (Mục
+0222	Normal	3). Là bộ phát hiện thứ hai, chúng tôi cũng đã thử SuperSimpleNet [3], một phương án thay thế có thể huấn luyện
+0223	Normal	không giám sát cho giai đoạn 4; nỗ lực này không hội tụ đáng tin cậy ở quy mô tập dữ liệu của chúng tôi và được
+0224	Normal	báo cáo là kết quả tiêu cực trong Phụ lục A.
+0225	Normal	4.5 Nhập liệu và tổng hợp đa quy mô (giai đoạn 3 và 5)
+0226	Normal	Vì bước tiến hiệu quả của mạng xương sống được cố định so với độ phân giải đầu vào, nên kích thước vật lý của một
+0227	Normal	ô lưới đặc trưng duy nhất, được đo bằng pixel của ảnh gốc, tỷ lệ nghịch với kích thước đầu vào đã chọn. Chúng tôi
+0228	Normal	đánh giá ba độ phân giải đầu vào, 256 × 256, 384 × 384 (được sử dụng xuyên suốt phần còn lại của bài báo này) và
+0229	Normal	512 × 512, một cách độc lập, để đánh giá ảnh hưởng của độ chi tiết lưới đến việc định vị các khuyết tật nhỏ (Mục
+0230	Normal	3). Ngoài ra, chúng tôi kết hợp ba bản đồ bất thường trên mỗi tỷ lệ thành một bản đồ duy nhất (giai đoạn 5 của OC-
+0231	Normal	MAR) bằng cách thay đổi kích thước từng bản đồ thành một khung chung và lấy giá trị tối đa theo từng phần tử,
+0232	Normal	với điểm số tổng hợp ở cấp độ ảnh được lấy là giá trị tối đa của ba điểm số trên mỗi tỷ lệ. Mục 6 báo cáo rằng sự
+0233	Normal	kết hợp này không cải thiện AUROC trung bình so với cấu hình 384 × 384 đơn tỷ lệ; Chúng tôi giữ nguyên cấu hình
+0234	Normal	384 × 384 làm cấu hình cuối cùng và báo cáo kết quả tổng hợp là một phát hiện tiêu cực thay vì chấp nhận nó.
+0235	Normal	4.6 Lọc có ràng buộc đối tượng và tinh chỉnh vùng (giai đoạn 6 và 8)
+0236	Normal	Bản đồ nhiệt bất thường thô được phân ngưỡng để trực quan hóa và sử dụng tiếp theo. Chúng tôi so sánh hai biến
+0237	Normal	thể. Trong biến thể đơn giản, ngưỡng phần trăm (ví dụ: phần trăm thứ 92) được tính toán trên toàn bộ bản đồ nhiệt,
+0238	Normal	bao gồm cả các pixel nền. Trong biến thể bị ràng buộc bởi đối tượng, ngưỡng phần trăm tương tự chỉ được tính toán
+0239	Normal	trên các pixel nằm trong mặt nạ đối tượng (Mục 4.3), và chỉ thành phần liên thông lớn nhất trong số các pixel đã
+0240	Normal	được phân ngưỡng được giữ lại như một hình thức tinh chỉnh vùng đơn giản, loại bỏ các phát hiện giả nhỏ. Bước
+0241	Normal	tinh chỉnh vùng đầy đủ hơn bằng cách sử dụng phép mở và đóng hình thái học (giai đoạn 8 của OC-MAR) vẫn chưa được
+0242	Normal	đánh giá.
+0243	Normal	8
+0248	Normal	4.7 Phân ngưỡng (giai đoạn 7)
+0249	Normal	Các mục 4.6 và 6 ở trên sử dụng một ngưỡng phân vị thứ 92 cố định duy nhất cho tất cả 12 lớp. Ngoài ra, chúng tôi hiệu chỉnh
+0250	Normal	ngưỡng này cho từng lớp, sử dụng phép chia chuẩn hiệu chỉnh (Mục 5), đối với mỗi lớp, chúng tôi chọn phân vị ứng viên nhỏ
+0251	Normal	nhất trong {92, 94, 96, 98, 99} có diện tích dương tính giả trung bình được giữ lại trên ảnh chuẩn hiệu chỉnh của lớp đó nằm
+0252	Normal	ở mức bằng hoặc thấp hơn mục tiêu cố định 300 pixel.
+0253	Normal	Mục 6 báo cáo rằng điều này làm giảm diện tích dương tính giả trung bình trên tất cả 12 lớp xuống 66% so với phân vị thứ 92
+0254	Normal	cố định, mà không làm thay đổi ngân hàng bộ nhớ hoặc điểm số bất thường ở cấp độ hình ảnh.
+0255	Normal	5. Thiết lập thí nghiệm
+0256	Normal	5.1 Quy trình
+0257	Normal	Đối với mỗi lớp, 100 hình ảnh bình thường được chia theo tỷ lệ 80/20 thành một tập dữ liệu huấn luyện dùng làm bộ nhớ và một tập dữ liệu
+0258	Normal	hiệu chuẩn bình thường được giữ lại, sử dụng một hạt giống ngẫu nhiên cố định được chia sẻ trong tất cả các thí nghiệm được báo cáo ở đây.
+0259	Normal	Tất cả các ảnh lỗi đều được giữ lại để đánh giá và không bao giờ được dùng để xây dựng bộ nhớ. Việc phát hiện ở cấp độ ảnh
+0260	Normal	được đánh giá trên tập hợp các ảnh bình thường được giữ lại (nhãn 0) và tất cả các ảnh lỗi thuộc lớp đó (nhãn 1).
+0261	Normal	5.2 Hệ mét
+0262	Normal	Chỉ số định lượng chính là AUROC cấp độ hình ảnh, được tính toán cho mỗi lớp và tính trung bình trên 12 lớp, được báo cáo
+0263	Normal	cả cho một điểm khởi đầu cố định duy nhất và, trong Phần 6.6, dưới dạng giá trị trung bình ± độ lệch chuẩn trên 5 điểm khởi
+0264	Normal	đầu. Chất lượng định vị chủ yếu được đánh giá định tính thông qua lớp phủ bản đồ nhiệt trên các hình ảnh bị lỗi (Phần 6),
+0265	Normal	vì tập dữ liệu không cung cấp mặt nạ tham chiếu cấp độ pixel (Phần 3).
+0266	Normal	Ngoài ra, chúng tôi cũng trình bày kết quả đánh giá định vị định lượng một phần (IoU, thước đo độ chồng lấp vùng ngưỡng đơn
+0267	Normal	và độ chính xác của trò chơi chỉ điểm) đối với một tập hợp con các hình ảnh bị lỗi được chú thích thủ công trong Phần 6.10.
+0268	Normal	5.3 Tỷ lệ Coreset
+0269	Normal	Tỷ lệ lấy mẫu con của coreset được đặt ở mức 2% dung lượng bộ nhớ thô, được chọn sau khi so sánh thực nghiệm thời gian huấn
+0270	Normal	luyện thực tế với mức 10%, trên phần cứng GPU hiện có, 5 phút so với 14 phút trên tất cả 12 lớp cho cấu hình độ phân giải
+0271	Normal	đầy đủ (224 × 224).
+0272	Normal	5.4 So sánh các cấu hình
+0273	Normal	Chúng tôi trình bày kết quả cho các cấu hình sau, mỗi cấu hình thể hiện một quyết định thiết kế riêng biệt.
+0274	Normal	(1) Đường cơ sở, PatchCore trên ảnh gốc (không xóa nền), đầu vào 224×224, na¨ive
+0275	Normal	Phân ngưỡng phần trăm toàn bộ hình ảnh.
+0276	Normal	(2) Loại bỏ nền, giống hệt với cơ sở ngoại trừ biến hình ảnh đã loại bỏ nền-
+0277	Normal	Từ "ant" được sử dụng.
+0278	Normal	(3) Ngưỡng giới hạn tiền cảnh, hình ảnh đã loại bỏ nền, với ngưỡng bản đồ dị thường được giới hạn trong mặt nạ tiền cảnh và
+0279	Normal	lọc thành phần liên thông lớn nhất (Mục 4.6).
+0280	Normal	(4) Độ phân giải cao hơn, như trên, với độ phân giải đầu vào tăng từ 224 × 224 lên 384 × 384.
+0281	Normal	9
+0286	Normal	5.5 Đường cơ sở thống kê cổ điển
+0287	Normal	Để so sánh hiệu suất của PatchCore với một phương pháp thay thế không dựa trên học sâu, chúng tôi đánh giá một
+0288	Normal	đường cơ sở một lớp cổ điển bằng cách sử dụng các thống kê hình ảnh được tạo thủ công được tính toán trong quá
+0289	Normal	trình phân tích dữ liệu thăm dò, độ sáng, độ tương phản, độ sắc nét, mật độ cạnh, độ bão hòa, bốn mô tả ma
+0290	Normal	trận đồng xuất hiện mức độ xám (GLCM) (độ tương phản, độ đồng nhất, năng lượng, tương quan) và entropy mẫu nhị
+0291	Normal	phân cục bộ (LBP), tổng cộng mười đặc trưng trên mỗi hình ảnh. Đối với mỗi lớp, một Rừng cô lập [2] (200 bộ
+0292	Normal	ước lượng) được huấn luyện trên các đặc trưng được chuẩn hóa chỉ của các hình ảnh huấn luyện bình thường, phản
+0293	Normal	ánh giao thức một lớp của PatchCore; điểm số bất thường thu được được đánh giá bằng AUROC so với cùng một tập
+0294	Normal	nhãn được sử dụng cho PatchCore. Một điểm khác biệt về phương pháp luận so với giao thức PatchCore đáng chú ý
+0295	Normal	là đường cơ sở này được đánh giá trên tất cả các hình ảnh bình thường của một lớp (thay vì chia tách 20%), vì
+0296	Normal	ban đầu nó được tính toán như một phần của phân tích thăm dò chứ không phải là một đánh giá giữ lại; Điều này
+0297	Normal	khiến cho chỉ số AUROC được báo cáo, nếu có thể nói, có phần lạc quan so với đánh giá mà PatchCore đưa ra trước đó.
+0298	Normal	5.6 Phương pháp tiếp cận thay thế
+0299	Normal	Để so sánh thêm, chúng tôi cũng đã cố gắng huấn luyện SuperSimpleNet [3], một phương pháp phân đoạn có thể
+0300	Normal	huấn luyện không giám sát tổng hợp các khiếm khuyết giả thông qua nhiễu Perlin được đưa vào không gian đặc
+0301	Normal	trưng, trên hai lớp có AUROC PatchCore cơ bản thấp nhất. So sánh này và kết quả của nó được báo cáo trong Phụ
+0302	Normal	lục A.
+0303	Normal	6 Kết quả
+0304	Normal	6.1 Hiệu suất phát hiện cơ bản
+0305	Normal	Bảng 1 trình bày giá trị AUROC ở cấp độ ảnh cho cấu hình cơ bản (ảnh gốc, đầu vào 224×224) trên tất cả 12 lớp.
+0306	Normal	Giá trị AUROC trung bình trên các lớp là 0,991, với 5 trong số 12 lớp đạt giá trị tuyệt đối 1,000 và các lớp
+0307	Normal	yếu nhất, FA-1047 (0,964) và FA-808 (0,970), vẫn cao hơn 0,95.
+0308	Normal	Bảng 1: Chỉ số AUROC cơ bản ở cấp độ ảnh PatchCore cho mỗi lớp (ảnh
+0309	Normal	gốc, đầu vào 224 × 224).
+0310	Normal	Lớp AUROC
+0311	Normal	FA-924 1,000 FA-1041
+0312	Normal	0,996 FA-1042 0,981
+0313	Normal	FA-1043 0,991
+0314	Normal	FA-1045 0,995
+0315	Normal	FA-1047 0,964
+0316	Normal	FA-1113 1,000
+0317	Normal	FA-1114 1,000
+0318	Normal	FA-1120 1.000
+0319	Normal	Nghĩa là 0.991
+0320	Normal	10
+0325	Normal	6.2 So sánh với một tiêu chuẩn thống kê cơ bản cổ điển
+0326	Normal	Bảng 2 so sánh PatchCore với mô hình cơ bản Isolation Forest cổ điển được mô tả trong Phần 5.5.
+0327	Normal	Chỉ số AUROC trung bình của phương pháp chuẩn cổ điển là 0,898, thấp hơn hơn 9 điểm so với chỉ số chuẩn của PatchCore.
+0328	Normal	cấu hình (0,991) và thấp hơn gần 10 điểm so với cấu hình cuối cùng của PatchCore (0,996, Bảng 5).
+0329	Normal	Khoảng cách này chủ yếu xuất phát từ một số ít các lớp học mà số liệu thống kê được tính toán thủ công rõ ràng là không phù hợp.
+0330	Normal	Không đủ, FA-808, FA-924 và FA-838 đều thấp hơn 0,82 so với mức cơ sở cổ điển trong khi vẫn duy trì
+0331	Normal	trên 0,97 đối với PatchCore. Độ phân tán theo từng lớp của đường cơ sở cổ điển cũng rộng hơn đáng kể (0,799)
+0332	Normal	(đến 0,993) so với PatchCore (0,964 đến 1,000 trong cấu hình cơ bản), cho thấy rằng khả năng học hỏi đã được cải thiện.
+0333	Normal	Các đặc điểm sâu có khả năng khái quát hóa nhất quán hơn trên 12 loại đối tượng khác nhau so với các đặc điểm khác.
+0334	Normal	Bộ tính năng cố định, được thiết kế thủ công.
+0335	Normal	Bảng 2: AUROC cấp độ hình ảnh, đường cơ sở thống kê cổ điển
+0336	Normal	(Rừng cô lập) so với PatchCore (cấu hình cơ bản).
+0337	Normal	6.3 Loại bỏ mô nền bằng phương pháp đốt điện
+0338	Normal	Bảng 3 so sánh đường cơ sở với biến thể đã loại bỏ nhiễu nền. Giá trị AUROC trung bình là
+0339	Normal	không thay đổi (0,991 trong cả hai cấu hình), nhưng sự chênh lệch giữa các lớp là không nhỏ ở cả hai hướng.
+0340	Normal	Việc loại bỏ nền cải thiện đáng kể FA-1047 (+0,036) nhưng làm giảm FA-1043 ( 0,021) và
+0341	Normal	FA-808 ( 0,015). Việc kiểm tra định tính các bản đồ nhiệt bất thường cho thấy rõ hơn rằng sự đồng nhất
+0342	Normal	Việc thêm nền đen do quá trình loại bỏ nền, khi kết hợp với phương pháp phân ngưỡng phần trăm toàn bộ ảnh đơn giản,
+0343	Normal	sẽ làm biến dạng ngưỡng và tạo ra các vùng định vị rộng hơn so với ban đầu.
+0344	Normal	Ngược lại với kỳ vọng ban đầu rằng việc loại bỏ nền sẽ giúp cải thiện khả năng định vị.
+0345	Normal	Điều này thúc đẩy việc áp dụng ngưỡng giới hạn đối tượng tiền cảnh được mô tả trong Phần 4.6.
+0346	Normal	Bảng 3: AUROC cấp độ ảnh, ảnh gốc so với ảnh đã chỉnh sửa
+0347	Normal	Ảnh đã loại bỏ nền, được sắp xếp theo độ chênh lệch.
+0348	Normal	11
+0353	Normal	6.4 Phương pháp che phủ đối tượng, một dạng lỗi đối với các đối tượng có màu tối
+0354	Normal	Mục 4.3 mô tả hai cách để thu được mặt nạ đối tượng được sử dụng cho ngưỡng giới hạn tiền cảnh, một ngưỡng độ
+0355	Normal	sáng màu đơn giản trên ảnh đã được loại bỏ nền, và đầu ra alpha mềm gốc của mô hình phân đoạn. Chúng tôi định
+0356	Normal	lượng sự khác biệt giữa chúng bằng cách lấy mẫu 10 ảnh bình thường.
+0357	Normal	hình ảnh cho mỗi lớp, tính toán cả hai mặt nạ và đo tỷ lệ pixel vật thể thực (alpha).
+0358	Normal	> 0,5) mặt nạ ngưỡng màu dán nhãn sai là nền (tỷ lệ âm tính giả). Bảng 4
+0359	Normal	Báo cáo kết quả cho từng lớp, cùng với độ sáng trung bình của vùng đối tượng thực.
+0360	Normal	Đối với 9 trong số 12 lớp, hai loại khẩu trang cho kết quả gần như tương đồng (tỷ lệ âm tính giả dưới 7%). Đối với ba lớp còn lại,
+0361	Normal	FA-1047, FA-1114 và FA-1120, mặt nạ ngưỡng màu bỏ sót 78–96% số pixel vật thể thực.
+0362	Normal	Ba lớp này có màu sắc trung bình của vật thể tối nhất trong tập dữ liệu (lần lượt là 28,7, 31,6 và 4,7 trên thang
+0363	Normal	điểm 0–255), và có mối tương quan giữa tỷ lệ âm tính giả và độ sáng trung bình của vật thể.
+0364	Normal	Hệ số tương quan r trên tất cả 12 lớp là r =  0,938. Cơ chế là do bước loại bỏ nền của chúng tôi kết hợp các yếu tố sau:
+0365	Normal	đối tượng được phân đoạn trên nền đen đồng nhất và loại bỏ kênh alpha; khi đối tượng
+0366	Normal	Bản thân vật liệu có màu tối, giá trị pixel của nó sau khi ghép ảnh không thể phân biệt được với nền.
+0367	Normal	chỉ riêng độ sáng. Hình 6 minh họa trực tiếp điều này cho FA-1047, mặt nạ ngưỡng màu chính xác.
+0368	Normal	Hình ảnh thể hiện rõ các nhân vật có màu sắc tươi sáng nhưng lại bỏ sót gần như toàn bộ phần đế tối màu nối liền chúng.
+0369	Normal	trong đó mặt nạ alpha thực sự bao gồm một cách chính xác.
+0370	Normal	Bảng 4: Tỷ lệ âm tính giả của đối tượng ngưỡng màu
+0371	Normal	Mặt nạ so với mặt nạ alpha thực và độ sáng trung bình của đối tượng,
+0372	Normal	theo từng lớp (10 hình ảnh bình thường mỗi lớp), được sắp xếp theo
+0373	Normal	tỷ lệ âm tính giả.
+0374	Normal	12
+0379	Normal	Hình 6: FA-1047, một mẫu bình thường. Từ trái sang phải, ảnh gốc; mặt nạ alpha thực (phân đoạn mới).
+0380	Normal	đầu ra mô hình); mặt nạ ngưỡng màu (từ tập dữ liệu đã loại bỏ nền); các pixel hiện có trong
+0381	Normal	Mặt nạ thật nhưng bị mặt nạ ngưỡng màu bỏ sót, được tô đỏ. Mặt nạ ngưỡng màu
+0382	Normal	Bỏ sót hầu hết phần đế tối màu.
+0383	Normal	Chúng tôi lưu ý một hạn chế quan trọng được phát hiện trong quá trình chuẩn bị các ví dụ định tính, đó là định lượng này.
+0384	Normal	được thực hiện trên các hình ảnh bình thường. Khi chúng tôi kiểm tra các hình ảnh FA-1047 bị lỗi cụ thể được sử dụng
+0385	Normal	Đối với các số liệu định tính trong phần tiếp theo, hai loại mặt nạ cho kết quả gần giống nhau (âm tính giả).
+0386	Normal	tỷ lệ lần lượt là 2,7% và 5,8% cho hai mẫu được hiển thị), và các số liệu chồng lớp thu được về cơ bản trông giống nhau.
+0387	Normal	Giống hệt nhau cho dù sử dụng ngưỡng màu hay mặt nạ alpha thực, điều này có thể dễ dàng gây nhầm lẫn.
+0388	Normal	bằng chứng cho thấy phương thức hỏng hóc không quan trọng trong thực tế. Giả thuyết làm việc của chúng tôi là bị lỗi
+0389	Normal	Các mẫu trong lớp này thường xuyên hiển thị màu in bị thiếu hoặc không đầy đủ (Hình 1), điều này thường xảy ra
+0390	Normal	để phần đế không bị tối đều và do đó dễ phân biệt hơn với nền bằng cách
+0391	Normal	chỉ riêng độ sáng. Sự khác biệt này giữa phép đo định lượng, có hệ thống (trên bình thường)
+0392	Normal	(hình ảnh) và việc kiểm tra chất lượng nhanh (trên hai hình ảnh bị lỗi có sẵn) tự nó đã là một phương pháp hữu ích.
+0393	Normal	Bài học về phương pháp luận: một số ít ví dụ được kiểm tra bằng mắt thường có thể không tiết lộ được vấn đề thực sự.
+0394	Normal	Vấn đề mang tính hệ thống mà chỉ có phân tích định lượng toàn diện mới phát hiện ra. Xét đến sự thất bại đã được chứng minh trên...
+0395	Normal	Đối với ảnh thông thường, và phù hợp với Mục 4.3, chúng tôi sử dụng mặt nạ alpha thực làm mặt nạ đối tượng.
+0396	Normal	trong cấu hình cuối cùng của chúng tôi.
+0397	Normal	6.5 Loại bỏ, ngưỡng giới hạn vùng tiền cảnh và độ phân giải đầu vào
+0398	Normal	Bảng 5 trình bày giá trị AUROC ở cấp độ ảnh cho cấu hình kết hợp, ảnh đã loại bỏ nền.
+0399	Normal	Đầu vào 384 × 384, ngưỡng phần trăm giới hạn vùng tiền cảnh với thành phần liên thông lớn nhất.
+0400	Normal	lọc. Giá trị AUROC trung bình được cải thiện lên 0,996, tăng từ 0,991 của đường cơ sở ban đầu và 0,991.
+0401	Normal	Chỉ riêng việc loại bỏ nền ở độ phân giải 224 × 224. Hiện tại, mọi lớp đều đạt điểm từ 0,983 trở lên, và...
+0402	Normal	Các lớp yếu nhất trước đây không còn là ngoại lệ rõ ràng nữa, FA-1047 đạt điểm tuyệt đối 1.000 và FA-808 cải thiện lên
+0403	Normal	0.983 (từ 0.970 ở mức cơ bản và 0.955 ở mức 224 × 224 đã loại bỏ nền).
+0404	Normal	(cấu hình). Lớp có chỉ số thấp nhất là FA-1120 với 0,987, vẫn ở mức khá cao.
+0405	Normal	13
+0410	Normal	Bảng 5: Cấu hình cuối cùng, AUROC cấp độ ảnh cho mỗi lớp (ảnh đã
+0411	Normal	loại bỏ nền, đầu vào 384 × 384, ngưỡng giới hạn đối tượng tiền
+0412	Normal	cảnh).
+0413	Normal	Lớp AUROC
+0414	Normal	FA-1041 1.000
+0415	Normal	FA-1042 1.000
+0416	Normal	FA-1043 0,996
+0417	Normal	FA-1045 1.000
+0418	Normal	FA-1047 1.000
+0419	Normal	FA-1113 0,995
+0420	Normal	FA-1114 0,994
+0421	Normal	FA-1120 0,987
+0422	Normal	FA-924 1.000
+0423	Normal	Nghĩa là 0.996
+0424	Normal	So sánh định tính trên hai lớp ban đầu yếu nhất (FA-1047, FA-808) cho thấy rằng việc giới hạn ngưỡng phần
+0425	Normal	trăm vào mặt nạ tiền cảnh và chỉ giữ lại thành phần liên thông lớn nhất giúp thu hẹp đáng kể vùng cục bộ so
+0426	Normal	với ngưỡng toàn ảnh đơn giản, trên cả ảnh bị lỗi (định vị chính xác) và ảnh bình thường (không quan sát thấy
+0427	Normal	vùng dương tính giả lớn). Tăng độ phân giải đầu vào từ 224×224 lên 384×384 giúp thu hẹp hơn nữa việc định vị,
+0428	Normal	và trong một trường hợp đã phát hiện ra một vùng lỗi thực sự nhỏ hoàn toàn không được phát hiện ở độ phân
+0429	Normal	giải 224×224, phù hợp với lập luận về dấu vết ô lưới trong Phần 4.5.
+0430	Normal	Chúng tôi lưu ý một chi tiết triển khai ảnh hưởng đến cấu hình này: ở độ phân giải đầu vào 384×384, tập hợp các
+0431	Normal	đặc trưng thô (trước khi thiết lập lại lõi) lớn hơn khoảng 3 lần so với ở độ phân giải 224×224 (vì độ phân giải lưới
+0432	Normal	đặc trưng tỷ lệ thuận với kích thước đầu vào), điều này khiến việc lựa chọn lõi k-center tham lam trở nên quá chậm;
+0433	Normal	chúng tôi đã giới hạn tập hợp thô thông qua lấy mẫu con ngẫu nhiên ở mức 65.000 điểm (tương đương với kích thước tập
+0434	Normal	hợp thô ở độ phân giải 224×224) trước khi lựa chọn lõi, khôi phục thời gian chạy thực tế mà không làm giảm chất
+0435	Normal	lượng bộ nhớ, theo như chúng tôi nhận thấy từ các kết quả trên.
+0436	Normal	Các số liệu định tính bên dưới (Hình 8, 9, 10) đã được tạo lại hoàn toàn với mặt nạ alpha thực sự đã được
+0437	Normal	sửa lỗi được áp dụng trong Phần 6.4, thay thế mặt nạ ngưỡng màu được sử dụng trong một phiên bản trước của
+0438	Normal	quy trình này. Bảng 5 ở trên đã phản ánh cấu hình mặt nạ alpha, vì mặt nạ đối tượng chỉ ảnh hưởng đến việc
+0439	Normal	hiển thị và xử lý hậu kỳ, chứ không ảnh hưởng đến ngân hàng bộ nhớ hoặc điểm số bất thường ở cấp độ hình ảnh.
+0440	Normal	Việc tạo lại các hình ảnh đã làm nổi bật một vấn đề riêng biệt, hoàn toàn mang tính trực quan, đó là lớp phủ
+0441	Normal	pha trộn alpha đơn giản gần như không thể nhìn thấy khi vùng được ngưỡng nằm trên các pixel đối tượng có màu
+0442	Normal	đỏ bão hòa dưới bản đồ màu JET, sự pha trộn đỏ trên đỏ làm thay đổi giá trị pixel về mặt số học nhưng không
+0443	Normal	thể nhận biết được. Chúng tôi đã khắc phục điều này bằng cách vẽ thêm ranh giới của vùng được giữ lại dưới
+0444	Normal	dạng đường viền màu xanh lá cây, như các hình ảnh bên dưới cho thấy; bản thân vùng được ngưỡng bên dưới đã
+0445	Normal	chính xác.
+0446	Normal	6.6 Độ ổn định của nhiều loại hạt
+0447	Normal	Mọi kết quả được báo cáo ở trên đều sử dụng một hạt giống ngẫu nhiên cố định duy nhất (Mục 5), hạt giống này
+0448	Normal	xác định cả việc phân chia tập huấn luyện/hiệu chuẩn và việc lấy mẫu con của tập lõi; do số lượng ảnh lỗi nhỏ.
+0449	Normal	14
+0454	Normal	Đối với mỗi lớp (Mục 3), chúng tôi đã đánh dấu AUROC trên mỗi lớp là một hạn chế vì nó mang phương sai đáng kể.
+0455	Normal	Chúng tôi lặp lại cấu hình cuối cùng (hình ảnh đã loại bỏ nền, đầu vào 384 × 384) trên 5 hạt giống.
+0456	Normal	(0–4), mỗi nhóm có một bộ dữ liệu huấn luyện/hiệu chuẩn được lấy mẫu lại độc lập và bộ lõi. Bảng 6 báo cáo
+0457	Normal	Giá trị trung bình và độ lệch chuẩn của từng lớp.
+0458	Normal	Giá trị AUROC trung bình trên tất cả các hạt giống và lớp là 0,9959, trùng khớp với kết quả của một hạt giống duy nhất (0,996).
+0459	Normal	đến ba chữ số thập phân, và độ lệch chuẩn trên mỗi lớp nhỏ xuyên suốt, tối đa là 0,014 (FA-1120), với 5 trong số 12
+0460	Normal	lớp cho thấy phương sai bằng không trên các hạt giống (hoàn hảo 1,000 bất kể sự phân chia).
+0461	Normal	Độ lệch chuẩn của giá trị AUROC trung bình tổng thể trên 5 hạt giống là 0,0019. Chúng tôi coi đây là
+0462	Normal	bằng chứng cho thấy kết quả gieo một hạt giống được báo cáo ở phần khác trong bài báo này không phải là kết quả giả tạo do yếu tố thuận lợi.
+0463	Normal	tách ra.
+0464	Normal	Bảng 6: AUROC ở cấp độ hình ảnh, giá trị trung bình ± độ lệch chuẩn
+0465	Normal	Trên 5 hạt giống (cấu hình cuối cùng), được sắp xếp theo giá trị trung bình.
+0466	Normal	6.7 Tổng hợp đa quy mô
+0467	Normal	Mục 4.5 đã đánh giá kích thước 224×224 và 384×384 một cách độc lập chứ không phải kết hợp. Bây giờ chúng ta sẽ đánh giá
+0468	Normal	Tổng hợp đa quy mô thực sự (giai đoạn 5 của OC-MAR), chạy PatchCore độc lập ở ba đầu vào.
+0469	Normal	các độ phân giải 256 × 256, 384 × 384 và 512 × 512, điều chỉnh kích thước mỗi bản đồ nhiệt thu được về cùng một độ phân giải.
+0470	Normal	Khung vẽ 384 × 384, và kết hợp chúng theo từng phần tử bằng cách lấy giá trị tối đa. Mức độ hình ảnh tổng hợp
+0471	Normal	Điểm số này cũng là điểm tối đa trong ba điểm số trên mỗi thang đo. Bảng 7 so sánh điểm số tổng hợp này.
+0472	Normal	Cấu hình được so sánh với cấu hình 384 × 384 riêng lẻ, được đánh giá trong cùng một lần chạy để có sự so sánh công bằng.
+0473	Normal	Bảng 7: AUROC cấp độ ảnh, đơn tỷ lệ (384 × 384) so với
+0474	Normal	Tổng hợp đa quy mô (tối đa trên 256/384/512), cùng một đánh giá-
+0475	Normal	chạy tình trạng.
+0476	Normal	15
+0481	Normal	Việc tổng hợp đa thang đo theo giá trị cực đại không cải thiện AUROC trung bình, mà chỉ làm giảm nhẹ.
+0482	Normal	(0,9964 so với 0,9958), gần như hoàn toàn do hai lớp, FA-1113 ( 0,007) và FA-1120
+0483	Normal	( 0,005), trong khi năm lớp không thay đổi và ba lớp cải thiện rất nhẹ. Việc lấy giá trị tối đa theo từng phần tử trên
+0484	Normal	các thang đo kết hợp bằng chứng một cách lạc quan cho thấy, nó có khả năng lan truyền chính xác như nhau.
+0485	Normal	Sự gia tăng đột biến dương tính giả theo quy mô cụ thể vào bản đồ tổng hợp nhằm mục đích phục hồi một khiếm khuyết thực sự bị bỏ sót.
+0486	Normal	một thang điểm duy nhất, và đối với các lớp đã đạt hoặc gần đạt điểm tuyệt đối, sẽ có nhiều khả năng giảm điểm hơn.
+0487	Normal	Việc này nhằm mục đích thu lợi từ bên kia hơn là từ bên trước.
+0488	Normal	Hình 7 thể hiện phiên bản định tính của FA-1047. Cả ba thang đo riêng lẻ đều đã nhất trí.
+0489	Normal	Quan sát kỹ vị trí khuyết tật trong các ví dụ này, và vùng tập trung khuyết tật phù hợp với chúng.
+0490	Normal	Trong một mẫu (hàng thứ hai), chỉ riêng thang đo 256 tạo ra một vùng phụ giả trên Giáng sinh
+0491	Normal	cây không tồn tại trong tập hợp đa quy mô, vì thành phần liên thông lớn nhất
+0492	Normal	Bộ lọc chỉ giữ lại vùng chiếm ưu thế của bản đồ kết hợp. Chúng tôi coi đây là một tín hiệu tích cực nhẹ.
+0493	Normal	để đảm bảo tính ổn định (một lỗi dương tính giả đơn lẻ ở một thang đo duy nhất sẽ không lan truyền vào kết quả tổng hợp cuối cùng)
+0494	Normal	mà không làm thay đổi kết luận tổng thể của chúng tôi, với kích thước khuyết tật hiện có trong tập dữ liệu này, kích thước 384 × 384 là phù hợp.
+0495	Normal	Độ phân giải đã được sử dụng xuyên suốt phần còn lại của bài báo này đáp ứng được yêu cầu, và đa thang đo.
+0496	Normal	Việc tổng hợp dữ liệu làm tăng chi phí suy luận lên khoảng gấp 3 lần so với Mục 6 mà không mang lại lợi ích ròng nào về AUROC. Có thể
+0498	Normal	6.8 Ngưỡng thích ứng
+0499	Normal	Mục 6 ở trên chứng minh rằng một vùng dương tính giả nhỏ còn sót lại trên hầu hết mọi trường hợp.
+0500	Normal	Hình ảnh bình thường dưới ngưỡng phân vị thứ 92 cố định, không hiệu chỉnh được sử dụng xuyên suốt bài báo này.
+0501	Normal	Chúng tôi đánh giá một phương án thích ứng theo từng lớp (giai đoạn 7 của OC-MAR), đối với mỗi lớp, chúng tôi đo lường giá trị trung bình.
+0502	Normal	diện tích thành phần liên thông lớn nhất được giữ lại trên đường phân chia chuẩn hiệu chuẩn của lớp đó (Mục 5) tại năm
+0503	Normal	các phân vị ứng viên (92, 94, 96, 98, 99), và chọn ứng viên nhỏ nhất có giá trị trung bình được giữ lại.
+0504	Normal	khu vực nằm ở mức hoặc thấp hơn mục tiêu cố định là 300 pixel (khoảng 0,2% của khung vẽ 384 × 384),
+0505	Normal	Thay vì áp dụng phân vị thứ 92 một cách đồng đều. Quá trình hiệu chuẩn này chỉ sử dụng các hình ảnh bình thường và
+0506	Normal	Nó không làm thay đổi ngân hàng bộ nhớ hoặc điểm số bất thường ở cấp độ hình ảnh, do đó không ảnh hưởng đến AUROC.
+0507	Normal	Kết quả đã được báo cáo trước đó trong phần này.
+0508	Normal	Bảng 8 trình bày phần trăm được chọn cho mỗi lớp và diện tích dương tính giả trung bình thu được, cùng với diện tích
+0509	Normal	tại phần trăm thứ 92 cố định để so sánh. Mỗi lớp đều đạt mục tiêu 300 pixel.
+0510	Normal	ở mức phần trăm từ 94 đến 99 tùy thuộc vào từng nhóm, và diện tích dương tính giả trung bình trên tất cả các nhóm.
+0511	Normal	Số lượng pixel giảm từ 662 ở phân vị thứ 92 cố định xuống còn 225 pixel dưới ngưỡng thích ứng ở 12 lớp, tương ứng với mức
+0512	Normal	giảm 66%. Điều này phù hợp với kỳ vọng của chúng tôi rằng một phân vị được chọn thủ công duy nhất
+0513	Normal	là một sự thỏa hiệp quá lỏng lẻo đối với một số lớp học và quá chặt chẽ một cách không cần thiết đối với những lớp khác, FA-1114 và
+0514	Normal	16
+0519	Normal	Hình 7: FA-1047, ba mẫu bị lỗi, lớp phủ giới hạn vùng phía trước ở từng tỷ lệ riêng lẻ.
+0520	Normal	và cho tổng hợp tối đa đa quy mô.
+0521	Normal	FA-1113 cần đạt mức phân vị thứ 99 để đạt mục tiêu, trong khi FA-504 đã đạt được mục tiêu ở mức phân vị thứ 94.
+0522	Normal	một sự lan rộng mà ngưỡng đồng nhất không thể đáp ứng đồng thời.
+0523	Normal	Bảng 8: Lựa chọn ngưỡng thích ứng theo từng lớp. Đã chọn
+0524	Normal	Phân vị là giá trị nhỏ nhất trong {92, 94, 96, 98, 99} có giá trị trung bình là 92.
+0525	Normal	diện tích thành phần liên thông lớn nhất trên đường chuẩn hiệu chuẩn
+0526	Normal	Khoảng cách chia tách là 300 pixel trở xuống.
+0527	Normal	17
+0532	Normal	Việc hiệu chuẩn này được thực hiện độc lập và sau khi có kết quả phân vị cố định.
+0533	Normal	các số liệu được báo cáo ở những phần khác trong mục này; các số liệu định tính ở trên (Hình 8, 9, 11) vẫn sử dụng
+0534	Normal	phân vị thứ 92 cố định, và chưa được tạo lại với ngưỡng thích ứng theo từng lớp. Chúng tôi
+0535	Normal	Tôi kỳ vọng điều này sẽ giúp làm rõ hơn các lớp phủ hình ảnh thông thường được hiển thị ở đó mà không làm thay đổi đáng kể cấu trúc.
+0536	Normal	việc định vị hình ảnh bị lỗi, vì điểm số bất thường của vùng lỗi thực sự về cơ bản là như vậy đối với tất cả
+0537	Normal	Các mẫu được kiểm tra trong bài báo này được tách biệt rõ ràng khỏi mức nền của hình ảnh bình thường (Hình 11).
+0538	Normal	6.9 Định vị chất lượng
+0539	Normal	Hình 8 và 9 so sánh hai biến thể ngưỡng trên ảnh FA-808 và FA-1047 bị lỗi.
+0540	Normal	tương ứng, ở độ phân giải 384 × 384. Trong cả hai lớp, ngưỡng phần trăm toàn bộ hình ảnh đơn giản.
+0541	Normal	(cột giữa) bao phủ hầu hết thân đối tượng, trong khi ngưỡng giới hạn tiền cảnh với
+0542	Normal	Lọc thành phần liên thông lớn nhất (cột bên phải) cô lập một vùng nhỏ, ổn định, gần
+0543	Normal	Mũ dành cho FA-808 và gần hình bên trái nhất dành cho FA-1047, mà chúng tôi cho là vị trí lỗi thực sự.
+0544	Normal	Với tính nhất quán trên các mẫu lỗi độc lập. Hình 10 cho thấy quy trình hạn chế vùng tiền cảnh tương tự được áp dụng
+0545	Normal	cho các hình ảnh FA-808 bình thường được giữ lại, không có vùng dương tính giả lớn nào.
+0546	Normal	được tạo ra, cho thấy việc thiết lập ngưỡng chặt chẽ hơn không dẫn đến việc phát hiện sai.
+0547	Normal	Nguyên liệu đầu vào không có lỗi.
+0548	Normal	Hình 8 và 9 tập trung vào hai lớp yếu nhất theo chỉ số AUROC cơ bản. Để kiểm tra điều đó
+0549	Normal	Quy trình giới hạn ở phía trước không chỉ được điều chỉnh cho hai mẫu này, Hình 11 áp dụng quy trình giống hệt nhau,
+0550	Normal	không thay đổi, cho một mẫu bình thường và một mẫu lỗi từ mỗi trong số 10 mẫu còn lại.
+0551	Normal	các lớp được đặt cạnh nhau để so sánh trực tiếp. Đối với mẫu lỗi trong 9 trên 10 lớp,
+0552	Normal	Vùng được giữ lại là một mảng nhỏ, có tính liên tục về mặt không gian chứ không phải là một khối phân tán, phù hợp với
+0553	Normal	Các ví dụ FA-808 và FA-1047 ở trên. Trong mẫu FA-1041 được hiển thị, không có vùng nào còn sót lại.
+0554	Normal	Bộ lọc thành phần liên thông lớn nhất, điểm số bất thường thô của nó (s = 13,7) tương đối thấp so với các bộ lọc khác.
+0555	Normal	Các mẫu được hiển thị phù hợp với trường hợp lỗi yếu hơn hoặc ở mức ranh giới hơn là lỗi của...
+0556	Normal	Quá trình xử lý hậu kỳ.
+0557	Normal	Đối với mẫu bình thường trong mỗi lớp, một vùng nhỏ được giữ lại trong cả 10 trường hợp, trái ngược với những gì...
+0558	Normal	Ví dụ đơn lẻ về FA-808 trong Hình 10 có thể gợi ý điều đó. Khi kiểm tra từng vùng riêng lẻ, không có vùng nào...
+0559	Normal	tương ứng với một vùng dương tính giả lớn, và một vùng (FA-1114) nằm trên một phần nhô ra trang trí mỏng thực sự của
+0560	Normal	vật thể chứ không phải trên nền bên ngoài vật thể, loại trừ lỗi căn chỉnh mặt nạ. Chúng tôi tiến hành
+0561	Normal	Đây là hành vi được dự đoán trước, do ngưỡng phân vị thứ 92 cố định và không được hiệu chỉnh được sử dụng xuyên suốt.
+0562	Normal	Trong phần này, một số vùng dương tính giả nhỏ còn sót lại trên hầu hết mọi hình ảnh bình thường tại điểm hoạt động
+0563	Normal	này, và đó chính là lý do cho việc hiệu chỉnh thích ứng theo từng lớp.
+0564	Normal	ngưỡng được đánh giá trong Phần 6.8, và làm giảm diện tích dương tính giả trung bình xuống 66% so với...
+0565	Normal	Ngưỡng cố định được sử dụng trong hình trên. Điểm số bất thường ở cấp độ hình ảnh s được hiển thị trong Hình 11 là
+0566	Normal	Tuy nhiên, tỷ lệ này luôn thấp hơn đáng kể đối với mẫu bình thường so với mẫu bị lỗi.
+0567	Normal	trong mỗi một trong 10 lớp, do đó các kết quả dương tính giả còn lại trong quá trình định vị không chuyển thành
+0568	Normal	Lỗi phân loại ở cấp độ hình ảnh tại đây.
+0569	Normal	18
+0574	Normal	6.10 Định vị định lượng, một tập hợp con được chú thích thủ công
+0575	Normal	Đánh giá định tính nêu trên, về bản chất, không thể trả lời một câu hỏi cơ bản: liệu vùng được giữ lại có thực sự
+0576	Normal	trùng khớp với vùng bị lỗi hay không, ngoài một vài ví dụ đã được trình bày. Tập dữ liệu không cung cấp dữ liệu tham
+0577	Normal	chiếu ở cấp độ pixel, vì vậy chúng tôi đã xây dựng một phần dữ liệu tham chiếu đó. Đối với mỗi lớp, chúng tôi đã chú
+0578	Normal	thích thủ công một mẫu hình ảnh bị lỗi được phân tầng, nhắm mục tiêu vào 40% số hình ảnh bị lỗi của lớp đó, được
+0579	Normal	chia cho hai người chú thích, sử dụng một công cụ trình duyệt được xây dựng riêng (một hình ảnh tham chiếu bình
+0580	Normal	thường được hiển thị bên cạnh mỗi hình ảnh bị lỗi để chú thích) ghi lại một vùng nhị phân được vẽ tay thay vì một đa
+0581	Normal	giác chính xác. Lựa chọn này là có chủ ý chứ không phải là một lối tắt, vì việc phân đoạn chính xác đến từng pixel
+0582	Normal	đòi hỏi chuyên môn và thời gian của người chú thích, điều hiếm khi có sẵn trong môi trường sản xuất nhỏ mà bài báo
+0583	Normal	này nhắm đến, vì vậy một giao thức chú thích thô, nhanh chóng được cho là dữ liệu tham chiếu đại diện hơn để đánh
+0584	Normal	giá khả năng triển khai thực tế, với chi phí là ranh giới lỏng lẻo hơn so với mặt nạ do chuyên gia vẽ.
+0585	Normal	Với một ranh giới thực tế được xác định một cách thô sơ và cố ý không chính xác, một chỉ số chồng lấp ranh giới
+0586	Normal	nghiêm ngặt như giao điểm trên hợp nhất (IoU) được cho là sẽ mang tính bi quan; một vị trí được xác định chính xác
+0587	Normal	về mặt kỹ thuật vẫn có thể đạt điểm IoU thấp nếu vùng được vẽ thủ công lớn hơn hoặc nhỏ hơn phạm vi khuyết tật thực sự.
+0588	Normal	Do đó, chúng tôi báo cáo ba số liệu bổ sung so với cùng một dự đoán thành phần liên kết lớn nhất bị hạn chế ở tiền
+0589	Normal	cảnh được sử dụng trong suốt phần này (ngưỡng phân vị thứ 92 cố định), IoU; phạm vi bao phủ, phần trăm vùng được chú
+0590	Normal	thích bằng tay mà vùng được dự đoán chồng lấn (|pred∩ gt|/|gt|, một thước đo chồng lấn vùng ngưỡng đơn, không phải là
+0591	Normal	đường cong PRO đa ngưỡng đầy đủ của [1]); và độ chính xác trò chơi chỉ điểm [6], liệu pixel có điểm số cao nhất của
+0592	Normal	bản đồ nhiệt bất thường thô có nằm bên trong vùng được chú thích bằng tay hay không, một số liệu hoàn toàn không phụ
+0593	Normal	thuộc vào ranh giới của vùng được dự đoán.
+0594	Normal	Bảng 9 trình bày kết quả cho tất cả 12 lớp (192 hình ảnh có vùng được chú thích không trống; thêm 9 hình ảnh
+0595	Normal	được chú thích là "không thấy khuyết tật rõ ràng" và bị loại trừ, vì IoU và độ phủ không được xác định so với dữ
+0596	Normal	liệu tham chiếu trống). IoU trung bình thấp (0,220), phù hợp với kỳ vọng của chúng tôi dựa trên dữ liệu tham chiếu
+0597	Normal	thô. Độ phủ trung bình cao hơn (0,313) nhưng vẫn ở mức khiêm tốn. Độ chính xác của trò chơi chỉ trỏ cao hơn đáng kể
+0598	Normal	(0,875), trong 10 trên 12 lớp, pixel có điểm số cao nhất nằm bên trong vùng khuyết tật được chú thích thủ công trên
+0599	Normal	80–100% số hình ảnh được chú thích. Nhìn chung, ba con số này kể một câu chuyện nhất quán: khả năng định vị của mô
+0600	Normal	hình không hoàn toàn chính xác đến từng ranh giới so với cảm nhận của con người về phạm vi khuyết tật, nhưng đối với
+0601	Normal	hầu hết các loại khuyết tật, nó lại rất đáng tin cậy trong việc chỉ ra đúng vị trí tổng quát, đây là thuộc tính hữu
+0602	Normal	ích hơn đối với người kiểm tra khi sử dụng kết quả đầu ra của hệ thống làm gợi ý để xác định vị trí cần tìm, thay vì
+0603	Normal	một hệ thống tính toán trực tiếp mặt nạ phân đoạn.
+0604	Normal	Có một lớp là ngoại lệ rõ ràng, FA-1114 chỉ đạt độ chính xác trò chơi chỉ trỏ là 0,500, thấp hơn nhiều so với
+0605	Normal	mọi lớp khác, cùng với IoU (0,116) và độ phủ (0,213) thấp nhất trong bảng. FA-1114 cũng là một trong ba lớp đối
+0606	Normal	tượng tối nhất được xác định trong phân tích lỗi mặt nạ đối tượng của Mục 6.4. Chúng tôi không có bằng chứng trực
+0607	Normal	tiếp cho thấy hai điều này có liên quan đến nhau về mặt nhân quả, mặt nạ đối tượng được sử dụng ở đây đã là phiên
+0608	Normal	bản alpha thực được hiệu chỉnh, chứ không phải là thuật toán ngưỡng màu bị lỗi, nhưng sự xuất hiện lặp lại của cùng
+0609	Normal	một lớp như một ngoại lệ trong hai phân tích độc lập là một tín hiệu mà chúng tôi sẽ ưu tiên điều tra trước tiên
+0610	Normal	trong bất kỳ công việc tiếp theo nào, thay vì mặc định cho rằng đó là nhiễu chú thích.
+0611	Normal	19
+0616	Normal	Bảng 9: Định vị định lượng so với mặt nạ được chú thích thủ công,
+0617	Normal	tất cả 12 lớp (192 hình ảnh không trống)
+0618	Normal	sự thật cơ bản), dự đoán bị hạn chế ở tiền cảnh tại điểm cố định
+0619	Normal	Ngưỡng phân vị thứ 92.
+0620	Normal	Chúng tôi coi phần này như một giới hạn dưới trung thực về tính chặt chẽ hơn là một nghiên cứu định lượng hoàn chỉnh.
+0621	Normal	Việc đánh giá này còn có hai lý do nữa. Thứ nhất, chúng tôi không đo lường sự nhất trí giữa những người chú thích, vì vậy
+0622	Normal	Chúng ta không biết khái niệm về "vùng khuyết tật" của hai người chú thích có nhất quán với nhau đến mức nào.
+0623	Normal	Khác; một tập hợp con nhỏ được chú thích kép để tính toán điều này được xác định là công việc tiếp theo. Thứ hai,
+0624	Normal	Các mặt nạ dữ liệu thực tế được thiết kế thô sơ (Mục 6.10 ở trên), do đó số liệu IoU và độ phủ không chính xác.
+0625	Normal	Ở đây nên được hiểu là giới hạn dưới, một phần là do sự lỏng lẻo trong chú thích chứ không phải là một giới hạn thuần túy.
+0626	Normal	Mức độ chính xác của mô hình.
+0627	Normal	7. Thảo luận
+0628	Normal	Một bộ dò không cần huấn luyện là lựa chọn mặc định hợp lý ở quy mô dữ liệu này, nhưng khả năng định vị của nó...
+0629	Normal	Cần trợ giúp. PatchCore đạt được AUROC trung bình ở cấp độ hình ảnh là 0,996 chỉ với 80 lần huấn luyện thông thường.
+0630	Normal	hình ảnh cho mỗi lớp và không có huấn luyện dựa trên gradient nào ngoài việc chọn coreset, đó là lý do chính.
+0631	Normal	chúng tôi đã sử dụng nó làm bộ dò chính thay vì mạng phân đoạn có thể huấn luyện (Mục 4).
+0632	Normal	Sự đánh đổi ở đây là kết quả định vị của nó là hệ quả gián tiếp của lưới khoảng cách giữa các vùng, chứ không phải là
+0633	Normal	một đầu phân đoạn được huấn luyện trực tiếp và quy trình xử lý hậu kỳ các quyết định trong Phần 4.6,
+0634	Normal	Hạn chế tiền cảnh, lọc thành phần liên thông lớn nhất, bằng chứng đa thang đo, tồn tại đặc biệt để bù đắp cho
+0635	Normal	điều đó. Không quyết định nào trong số này thay đổi bộ dò cơ bản; chúng chỉ thay đổi
+0636	Normal	Cách thức đầu ra thô của nó được phân ngưỡng và hiển thị.
+0637	Normal	Độ chính xác phân loại cao và khả năng định vị tốt là hai yêu cầu riêng biệt, và chúng tôi đã đạt được điều đó.
+0638	Normal	có nguy cơ nhầm lẫn chúng. Gần như mọi lớp trong tập dữ liệu này đều đạt AUROC ở mức hình ảnh từ hoặc trở lên.
+0639	Normal	trên 0,98 (Bảng 5), điều này có thể dễ dàng được hiểu là bằng chứng cho thấy đường ống xử lý lỗi rất tốt.
+0640	Normal	ở khắp mọi nơi. Hai phát hiện trong Phần 6 phản bác lại cách hiểu đó. Phương pháp mặt nạ đối tượng
+0641	Normal	Lỗi (Mục 6.4) không thể nhận thấy trong hai ví dụ định tính mà chúng tôi đã kiểm tra ban đầu và chỉ
+0642	Normal	xuất hiện sau khi chúng tôi khảo sát định lượng tất cả 12 lớp. So sánh định tính giữa các lớp đa dạng
+0643	Normal	20
+0648	Normal	(Hình 11) cho thấy một số vùng dương tính giả nhỏ vẫn tồn tại sau ngưỡng cố định của chúng tôi trên hầu hết
+0649	Normal	mọi hình ảnh bình thường mà chúng tôi đã kiểm tra, không chỉ hai lớp yếu nhất theo AUROC, mặc dù không có vùng
+0650	Normal	nào trong số đó đủ lớn để làm cho điểm số ở cấp độ hình ảnh tương ứng vượt quá mức bị lỗi. Bài học chung rút
+0651	Normal	ra là việc kiểm tra định tính trên một lớp hoặc một ví dụ duy nhất không thể thay thế cho việc kiểm tra toàn
+0652	Normal	bộ các lớp, ngay cả trong một bài báo mà việc đánh giá chính được thực hiện một cách có chủ ý là định tính.
+0653	Normal	Các lựa chọn tiền xử lý tưởng chừng miễn phí không phải lúc nào cũng miễn phí. Việc loại bỏ nền được áp dụng để cho phép phân ngưỡng
+0654	Normal	giới hạn đối tượng trước mà hầu như không tốn thêm chi phí, và nó đã cải thiện nhẹ chỉ số AUROC trung bình (từ 0,991 lên 0,996, Bảng
+0655	Normal	3). Nhưng cách cụ thể mà chúng tôi triển khai mặt nạ đối tượng thu được ban đầu, bằng cách phân ngưỡng độ sáng pixel trên một hình
+0656	Normal	ảnh đã được làm phẳng, đã âm thầm loại bỏ hầu hết vùng đối tượng thực sự cho ba lớp màu tối nhất (Mục 6.4). Giải pháp khắc phục, sử
+0657	Normal	dụng trực tiếp đầu ra alpha gốc của mô hình phân đoạn thay vì tạo lại mặt nạ từ màu sắc, không tốn chi phí tính toán và luôn có sẵn;
+0658	Normal	sai sót nằm ở chỗ không nhận thấy rằng hai biểu diễn của "mặt nạ đối tượng" có thể trùng khớp chặt chẽ trên một số hình ảnh nhưng lại
+0659	Normal	khác biệt rõ rệt trên những hình ảnh khác, tùy thuộc vào một thuộc tính (màu sắc đối tượng) không liên quan gì đến khuyết điểm đang
+0660	Normal	được phát hiện.
+0661	Normal	Ranh giới giữa các phương pháp không cần huấn luyện và các phương pháp có thể huấn luyện, ít nhất là trong trường hợp của chúng tôi,
+0662	Normal	được xác định bởi quy mô dữ liệu chứ không phải kiến trúc. Về nguyên tắc, việc huấn luyện lỗi tổng hợp của SuperSimpleNet tạo ra đầu
+0663	Normal	ra phân đoạn được huấn luyện trực tiếp, giúp định vị chính xác hơn so với bản đồ khoảng cách lân cận gần nhất. Sau ba vòng tái triển
+0664	Normal	khai ngày càng trung thực hơn so với kiến trúc tham chiếu, nó không hội tụ trên bất kỳ lớp nào trong hai lớp mà chúng tôi đã thử
+0665	Normal	nghiệm (Phụ lục A). Chúng tôi không thể loại trừ khả năng còn tồn tại một lỗ hổng triển khai chưa được xác định, nhưng chúng tôi đã
+0666	Normal	xác minh mọi chi tiết kiến trúc mà chúng tôi có thể tìm thấy trong triển khai tham chiếu, và lời giải thích hợp lý nhất còn lại là 80
+0667	Normal	hình ảnh huấn luyện mỗi lớp đơn giản là thấp hơn quy mô dữ liệu mà phương pháp được thiết kế và xác thực. Điều này phù hợp với mô
+0668	Normal	hình rộng hơn trong bài báo này, các phương pháp và lựa chọn tiền xử lý được thiết lập tốt ở quy mô dữ liệu chuẩn không tự động
+0669	Normal	chuyển sang quy mô triển khai thực tế nhỏ hơn nhiều, và khoảng trống này cần được kiểm tra chứ không phải giả định.
+0670	Normal	8. Kết luận
+0671	Normal	Chúng tôi đã xây dựng và đánh giá một quy trình phát hiện và định vị bất thường một lớp cho một tập dữ liệu
+0672	Normal	công nghiệp thực tế gồm 12 lớp với ngân sách huấn luyện cực kỳ hạn chế chỉ dành cho ảnh bình thường, 100 ảnh
+0673	Normal	bình thường cho mỗi lớp và không có nhãn hoặc mặt nạ lỗi ở bất kỳ giai đoạn nào. Bộ phát hiện dựa trên bộ nhớ
+0674	Normal	không cần huấn luyện, PatchCore, kết hợp với một tập hợp nhỏ các quyết định tiền xử lý và hậu xử lý được tổ
+0675	Normal	chức xung quanh khung chín giai đoạn (OC-MAR) do cố vấn của chúng tôi đề xuất, đã đạt được AUROC trung bình ở
+0676	Normal	cấp độ ảnh là 0,996 trên 12 lớp, ổn định trong phạm vi 0,002 trên 5 hạt giống ngẫu nhiên (Mục 6.6), và rõ ràng
+0677	Normal	vượt trội so với đường cơ sở thống kê cổ điển (0,898).
+0678	Normal	Theo quan điểm của chúng tôi, đóng góp bền vững hơn của công trình này không phải là con số thống kê nổi
+0679	Normal	bật mà là ba điều chúng tôi phát hiện ra trong quá trình cố gắng xác minh nó. Mặt nạ đối tượng được tạo ra từ
+0680	Normal	hình ảnh đã loại bỏ nền bằng cách phân ngưỡng màu sắc thường thất bại một cách đáng kể đối với các đối tượng
+0681	Normal	có màu tối, một mô hình chỉ trở nên rõ ràng khi chúng tôi kiểm tra định lượng trên tất cả 12 lớp thay vì chỉ
+0682	Normal	tin tưởng vào hai ví dụ mà chúng tôi đã kiểm tra ban đầu (Mục 6.4); một giải pháp thay thế có thể huấn luyện,
+0683	Normal	có lỗi tổng hợp (SuperSimpleNet) về nguyên tắc cung cấp khả năng định vị trực tiếp hơn đã không hội tụ ở quy
+0684	Normal	mô dữ liệu này mặc dù đã trải qua ba vòng xác minh kiến trúc so với triển khai tham chiếu, một kết quả tiêu cực.
+0685	Normal	21
+0690	Normal	Kết quả chúng tôi báo cáo thay vì bỏ qua (Phụ lục A); và ngưỡng phát hiện đồng nhất được lựa chọn thủ công rõ ràng là
+0691	Normal	không tối ưu, ngưỡng thích ứng theo từng lớp trên các hình ảnh bình thường được giữ lại làm giảm diện tích dương tính
+0692	Normal	giả trung bình xuống 66% mà không ảnh hưởng đến AUROC phân loại (Mục 6.8), trong khi giai đoạn thứ hai, phức tạp hơn
+0693	Normal	của quy trình OC-MAR, tổng hợp bản đồ dị thường đa tỷ lệ, đã được đánh giá và thấy rằng không giúp ích gì (Mục 6.7).
+0694	Normal	Cả ba phát hiện đều chỉ ra cùng một bài học rộng hơn, các phương pháp, các bước tiền xử lý, và thậm chí cả các kiểm
+0695	Normal	tra tính hợp lý hoạt động ở quy mô dữ liệu và điều kiện chuẩn mà chúng được phát triển không tự động chuyển sang quy
+0696	Normal	mô triển khai thực tế nhỏ hơn nhiều, và khoảng cách đó phải được kiểm tra trực tiếp thay vì giả định bỏ qua, theo bất
+0697	Normal	kỳ hướng nào, vì không phải mọi cải tiến khả thi đều hữu ích.
+0698	Normal	Trong nghiên cứu này, chất lượng định vị chủ yếu được đánh giá định tính, vì tập dữ liệu không cung cấp mặt nạ
+0699	Normal	khuyết tật được vẽ bởi chuyên gia; Mục 6.10 báo cáo một phần kiểm tra định lượng so với một tập con được chú thích
+0700	Normal	thủ công, cố ý thô (192 hình ảnh trên tất cả 12 lớp), cho thấy độ chồng chéo ranh giới (IoU) thấp nhưng độ chính xác
+0701	Normal	trò chơi chỉ điểm cao (0,875), phù hợp với một mô hình xác định đáng tin cậy vị trí khuyết tật tổng quát chính xác
+0702	Normal	mà không cần vạch rõ ranh giới của nó. Thu hẹp khoảng cách này hơn nữa, với dữ liệu tham chiếu chặt chẽ hơn, sự đồng
+0703	Normal	thuận giữa những người chú thích được đo lường, hoặc một đường cong PRO đa ngưỡng đầy đủ, là hướng đi có giá trị nhất
+0704	Normal	còn lại cho công việc trong tương lai, trước khi tinh chỉnh kiến trúc của chính bộ dò.
+0705	Normal	AA đã thất bại trong nỗ lực phân đoạn có thể huấn luyện được, SuperSimpleNet
+0706	Normal	Như một giải pháp thay thế cho việc định vị không cần huấn luyện của PatchCore, chúng tôi đã thử huấn luyện
+0707	Normal	SuperSimpleNet [3] ở cấu hình không giám sát trên hai lớp có AUROC cơ sở thấp nhất của PatchCore, FA-1047 và FA-808.
+0708	Normal	Không giống như PatchCore, SuperSimpleNet huấn luyện bộ điều chỉnh tính năng nhẹ và đầu phân đoạn/phân loại từ đầu đến
+0709	Normal	cuối thông qua phương pháp giảm độ dốc, sử dụng các khiếm khuyết giả được tổng hợp bằng cách chèn các nhiễu loạn
+0710	Normal	Gaussian được che bằng nhiễu Perlin vào không gian tính năng của xương sống (đã đóng băng), không yêu cầu hình ảnh bị
+0711	Normal	lỗi thực sự hoặc chú thích thủ công ở bất kỳ thời điểm nào.
+0712	Normal	A.1 Triển khai
+0713	Normal	Cấu trúc xương sống (WideResNet-50, lớp 2 + lớp 3) phản ánh cấu hình của PatchCore nhưng được mở rộng lên lưới đặc
+0714	Normal	trưng 64×64 (so với 28×28 của PatchCore), theo kiến trúc đã được công bố.
+0715	Normal	Quá trình huấn luyện sử dụng 80 hình ảnh bình thường cho mỗi lớp (cùng cách phân chia huấn luyện như PatchCore), 300
+0716	Normal	epoch và các siêu tham số phù hợp với bài báo gốc ở những chỗ có thể áp dụng.
+0717	Normal	A.2 Hiệu chỉnh lặp đi lặp lại so với triển khai tham chiếu
+0718	Normal	Một triển khai ban đầu, chỉ dựa trên việc đọc bài báo đã xuất bản, đã cho kết quả rất kém (AUROC 0.436 trên FA-1047,
+0719	Normal	0.037 trên FA-808, tức là tệ hơn cả ngẫu nhiên) với tổn thất huấn luyện không giảm trong hơn 300 epoch. So sánh trực
+0720	Normal	tiếp với triển khai tham chiếu của các tác giả1 cho thấy rằng thuật ngữ tổn thất phân đoạn của chúng tôi đã được
+0721	Normal	triển khai không chính xác, chúng tôi đã triển khai nó như một khoảng cách L1 được giới hạn giữa các dự đoán được kích
+0722	Normal	hoạt bằng sigmoid và các mục tiêu nhị phân, trong khi triển khai tham chiếu sử dụng tổn thất biên độ bản lề trực tiếp
+0723	Normal	trên logit thô (đẩy logit vùng bình thường xuống dưới -0.5 và logit vùng khuyết tật lên trên +0.5). Việc sửa chữa
+0724	Normal	thuật ngữ tổn thất này đã cải thiện kết quả trên một lớp (FA-808, AUROC 0.915) nhưng về cơ bản không thay đổi trên
+0725	Normal	lớp còn lại (FA-1047, AUROC 0.146), với tổn thất huấn luyện vẫn không giảm.
+0726	Normal	Việc so sánh thêm với cách triển khai tham chiếu đã phát hiện ra hai điểm khác biệt về kiến trúc bổ sung không
+0727	Normal	thể thấy rõ chỉ từ văn bản bài báo, (i) một gradient dừng được áp dụng sao cho
+0728	Normal	1
+0729	Normal	https://github.com/blaz-r/SuperSimpleNet
+0730	Normal	22
+0735	Normal	(i) tổn thất phân loại không lan truyền ngược qua đầu phân đoạn và đầu phân loại sử dụng các đặc trưng xương sống
+0736	Normal	thô (không được điều chỉnh) thay vì các đặc trưng được điều chỉnh được sử dụng cho phân đoạn; (ii) đầu phân đoạn
+0737	Normal	là một khối tích chập 1×1 hai lớp với kích thước ẩn rộng hơn đáng kể (1024) so với thiết kế tích chập 3×3 ba lớp
+0738	Normal	ban đầu của chúng tôi, và quá trình huấn luyện sử dụng lịch trình tốc độ học (giảm dần ở 80% và 90% quá trình huấn
+0739	Normal	luyện) mà chúng tôi đã bỏ qua ban đầu.
+0740	Normal	Sau khi sửa tất cả những điểm không nhất quán này để phù hợp với triển khai tham chiếu, một lần chạy huấn luyện lại
+0741	Normal	hoàn chỉnh trên tập dữ liệu huấn luyện thực gồm 80 hình ảnh (thay vì một tập con nhỏ để gỡ lỗi) vẫn không hội tụ,
+0742	Normal	tổn thất huấn luyện dao động giữa khoảng 1,05 và 1,11 trong suốt 300 epoch cho cả hai lớp, và AUROC cuối cùng vẫn
+0743	Normal	kém và không nhất quán giữa các lớp (FA-1047, 0,384; FA-808, 0,891).
+0744	Normal	Hình 13 thể hiện tổn thất huấn luyện cho lần chạy cuối cùng này. Cả hai lớp đều tuân theo cùng một quỹ đạo
+0745	Normal	định tính, giảm mạnh từ khi khởi tạo trong khoảng 20 epoch đầu tiên, sau đó là một giai đoạn ổn định kéo dài mà
+0746	Normal	không có sự cải thiện nào nữa, không bị ảnh hưởng bởi sự suy giảm tốc độ học theo lịch trình.
+0747	Normal	A.3 Giải thích
+0748	Normal	Qua ba lần chạy huấn luyện độc lập với các triển khai được sửa lỗi dần dần, tất cả các lần chạy đều thể hiện cùng
+0749	Normal	một chế độ lỗi định tính: tổn thất huấn luyện chững lại ngay sau khi khởi tạo và không giảm đáng kể. Kết quả tốt
+0750	Normal	đôi khi đạt được trên FA-808 mặc dù đường cong tổn thất phẳng, theo chúng tôi, phù hợp hơn với sự tương quan ngẫu
+0751	Normal	nhiên từ việc khởi tạo trọng số ngẫu nhiên hơn là với quá trình học thực sự, vì một mô hình hội tụ được kỳ vọng sẽ
+0752	Normal	cải thiện nhất quán trên các lớp hơn là phân kỳ mạnh giữa hai lớp được huấn luyện theo cùng một quỹ đạo tổn thất
+0753	Normal	không đổi. Chúng tôi không thể loại trừ một điểm khác biệt còn lại so với triển khai tham chiếu, đó là cơ chế sao
+0754	Normal	chép lô trong quá trình tiêm lỗi giả mà chúng tôi không tái tạo được, và không thể loại trừ khả năng tập huấn luyện
+0755	Normal	trên mỗi lớp (80 hình ảnh bình thường) quá nhỏ so với 200-300 hình ảnh mỗi loại được sử dụng trong các bài kiểm
+0756	Normal	tra chuẩn của bài báo gốc (MVTec AD, VisA) để kiến trúc này có thể hội tụ một cách đáng tin cậy. Chúng tôi báo cáo
+0757	Normal	kết quả tiêu cực này như một điều kiện biên hơn là một hạn chế của nỗ lực kỹ thuật của chúng tôi, vì cấu hình cuối
+0758	Normal	cùng phù hợp với kiến trúc đã được công bố theo như sự xác minh tốt nhất của chúng tôi.
+0759	Normal	Tài liệu tham khảo
+0760	Normal	[1] Paul Bergmann, Michael Fauser, David Sattlegger và Carsten Steger. MVTec AD – một tập dữ liệu thực tế toàn
+0761	Normal	diện để phát hiện bất thường không giám sát. Trong Kỷ yếu Hội nghị IEEE/CVF về Thị giác máy tính và Nhận dạng
+0762	Normal	mẫu (CVPR), trang 9584–9592, 2019.
+0763	Normal	[2] Fei Tony Liu, Kai Ming Ting và Zhi-Hua Zhou. Rừng cô lập. Trong Kỷ yếu của IEEE
+0764	Normal	Hội nghị quốc tế về khai thác dữ liệu (ICDM), năm 2008.
+0765	Normal	[3] Blaˇz Rolih, Matic Fuˇcka, và Danijel Skoˇcaj. Supersimplenet: Thống nhất học tập không giám sát và có giám sát để phát hiện
+0766	Normal	khuyết tật bề mặt nhanh chóng và đáng tin cậy. Bản in trước arXiv arXiv:2408.03143, 2024.
+0767	Normal	[4] Karsten Roth, Latha Pemula, Joaquin Zepeda, Bernhard Sch¨olkopf, Thomas Brox và Peter Gehler. Hướng tới khả
+0768	Normal	năng thu hồi toàn diện trong phát hiện bất thường công nghiệp. Trong Kỷ yếu Hội nghị IEEE/CVF về Thị giác máy
+0769	Normal	tính và Nhận dạng mẫu (CVPR), 2022.
+0770	Normal	[5] Vitjan Zavrtanik, Matej Kristan và Danijel Skoˇcaj. DRAEM - một phương pháp nhúng tái tạo được huấn luyện phân
+0771	Normal	biệt để phát hiện dị thường bề mặt. Trong Kỷ yếu Hội nghị Quốc tế IEEE/CVF về Thị giác Máy tính (ICCV), trang
+0772	Normal	8330–8339, 2021.
+0773	Normal	23
+0778	Normal	[6] Zhang Jianming, Sarah Adel Bargal, Zhe Lin, Jonathan Brandt, Xiaohui Shen và Stan Sclaroff.
+0779	Normal	Sự chú ý thần kinh từ trên xuống bằng cách lan truyền ngược kích thích. Tạp chí quốc tế về thị giác máy
+0780	Normal	tính, 126(10):1084–1102, 2018.
+0781	Normal	24
+0786	Normal	Hình 8: FA-808, các mẫu bị lỗi ở độ phân giải 384 × 384. Bên trái, ảnh gốc. Ở giữa, ngưỡng phần trăm toàn bộ ảnh. Bên phải, ngưỡng
+0787	Normal	giới hạn vùng tiền cảnh với bộ lọc thành phần liên thông lớn nhất, mặt nạ đối tượng từ kênh alpha thực; ranh giới của vùng được giữ
+0788	Normal	lại được vẽ thêm bằng màu xanh lá cây, vì việc tô màu pha trộn alpha một mình có thể khó nhận biết bằng mắt thường trên các màu đối
+0789	Normal	tượng bão hòa.
+0790	Normal	25
+0795	Normal	Hình 9: FA-1047, các mẫu bị lỗi ở kích thước 384 × 384, bố cục giống như Hình 8.
+0796	Normal	26
+0801	Normal	Hình 10: FA-808, các mẫu bình thường được giữ lại ở độ phân giải 384 × 384, ngưỡng giới hạn vùng
+0802	Normal	tiền cảnh với mặt nạ đối tượng alpha thực. Các vùng nhỏ riêng lẻ (ví dụ: cạnh của hộp quà) đôi khi
+0803	Normal	được giữ lại, nhưng không tạo ra vùng dương tính giả lớn nào.
+0804	Normal	27
+0809	Normal	Hình 11: Một mẫu bình thường và một mẫu lỗi từ mỗi trong số 10 lớp không được hiển thị trong Hình 8–9,
+0810	Normal	cùng một quy trình xử lý hạn chế tiền cảnh, 384 × 384, các tham số không thay đổi. Đối với mỗi lớp, từ
+0811	Normal	trái sang phải, lớp phủ hạn chế tiền cảnh trên mẫu bình thường, mẫu lỗi ban đầu, lớp phủ hạn chế tiền
+0812	Normal	cảnh trên cùng mẫu lỗi đó. s là điểm số bất thường ở cấp độ hình ảnh cho mẫu đó.
+0813	Normal	28
+0818	Normal	29
+0823	Normal	Hình 13: Hàm mất mát huấn luyện cho lần chạy SuperSimpleNet cuối cùng (đã hiệu chỉnh kiến trúc), FA-1047
+0824	Normal	và FA-808. Hàm mất mát giảm mạnh từ khởi tạo ngẫu nhiên nhưng đạt mức ổn định ở khoảng epoch 20 và không
+0825	Normal	giảm đáng kể trong 280 epoch còn lại, kể cả sau khi tốc độ học giảm dần theo lịch trình ở epoch 240 và
+0826	Normal	270.
+0827	Normal	30

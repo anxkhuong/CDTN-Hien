@@ -1,0 +1,2484 @@
+{
+  "type": "docx",
+  "paragraph_count": 423,
+  "nonempty_paragraph_count": 339,
+  "table_count": 12,
+  "sections": [
+    {
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "top_margin_cm": 2.5,
+      "bottom_margin_cm": 2.5,
+      "left_margin_cm": 3.0,
+      "right_margin_cm": 2.0,
+      "header_distance_cm": 1.25,
+      "footer_distance_cm": 1.5
+    },
+    {
+      "page_width_cm": 21.0,
+      "page_height_cm": 29.7,
+      "top_margin_cm": 3.0,
+      "bottom_margin_cm": 3.5,
+      "left_margin_cm": 3.5,
+      "right_margin_cm": 2.0,
+      "header_distance_cm": 1.25,
+      "footer_distance_cm": 1.5
+    }
+  ],
+  "drawing_count": 31,
+  "picture_count": 16,
+  "explicit_page_break_count": 5,
+  "image_relationships": [
+    "media/image1.jpeg",
+    "media/image5.png",
+    "media/image13.png",
+    "media/image8.png",
+    "media/image4.png",
+    "media/image12.png",
+    "media/image3.png",
+    "media/image7.png",
+    "media/image11.png",
+    "media/image2.png",
+    "media/image10.png",
+    "media/image6.png",
+    "media/image9.png",
+    "media/image14.png"
+  ],
+  "paragraphs": [
+    {
+      "index": 0,
+      "style": "Normal",
+      "text": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN – ĐHQG – HCM"
+    },
+    {
+      "index": 1,
+      "style": "Normal",
+      "text": "TRUNG TÂM PHÁT TRIỂN CÔNG NGHỆ THÔNG TIN"
+    },
+    {
+      "index": 2,
+      "style": "Normal",
+      "text": "KHOA KHOA HỌC VÀ KỸ THUẬT THÔNG TIN"
+    },
+    {
+      "index": 4,
+      "style": "Normal",
+      "text": "NGUYỄN THỊ HIỀN"
+    },
+    {
+      "index": 5,
+      "style": "Normal",
+      "text": "BÁO CÁO CHUYÊN ĐỀ TỐT NGHIỆP"
+    },
+    {
+      "index": 6,
+      "style": "Normal",
+      "text": "XÂY DỰNG HỆ THỐNG PHÁT HIỆN SAI LỆCH NGOẠI QUAN CỦA SẢN PHẨM ĐỒ TRANG TRÍ XUẤT KHẨU"
+    },
+    {
+      "index": 7,
+      "style": "Normal",
+      "text": "SỬ DỤNG THỊ GIÁC MÁY TÍNH"
+    },
+    {
+      "index": 8,
+      "style": "Normal",
+      "text": "Building a System for Detecting Visual Defects in Export Decoration Products Using Computer Vision"
+    },
+    {
+      "index": 11,
+      "style": "Normal",
+      "text": "KỸ SƯ/ CỬ NHÂN NGÀNH CÔNG NGHỆ THÔNG TIN"
+    },
+    {
+      "index": 12,
+      "style": "Normal",
+      "text": "25410207"
+    },
+    {
+      "index": 13,
+      "style": "Normal",
+      "text": "Thành phố Hồ Chí Minh, tháng 09 năm 2026"
+    },
+    {
+      "index": 15,
+      "style": "Normal",
+      "text": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN – ĐHQG – HCM"
+    },
+    {
+      "index": 16,
+      "style": "Normal",
+      "text": "TRUNG TÂM PHÁT TRIỂN CÔNG NGHỆ THÔNG TIN"
+    },
+    {
+      "index": 17,
+      "style": "Normal",
+      "text": "KHOA KHOA HỌC VÀ KỸ THUẬT THÔNG TIN"
+    },
+    {
+      "index": 19,
+      "style": "Normal",
+      "text": "NGUYỄN THỊ HIỀN"
+    },
+    {
+      "index": 20,
+      "style": "Normal",
+      "text": "BÁO CÁO CHUYÊN ĐỀ TỐT NGHIỆP"
+    },
+    {
+      "index": 21,
+      "style": "Normal",
+      "text": "XÂY DỰNG HỆ THỐNG PHÁT HIỆN SAI LỆCH NGOẠI QUAN CỦA SẢN PHẨM ĐỒ TRANG TRÍ XUẤT KHẨU"
+    },
+    {
+      "index": 22,
+      "style": "Normal",
+      "text": "SỬ DỤNG THỊ GIÁC MÁY TÍNH"
+    },
+    {
+      "index": 23,
+      "style": "Normal",
+      "text": "Building a System for Detecting Visual Defects in Export Decoration Products Using Computer Vision"
+    },
+    {
+      "index": 24,
+      "style": "Normal",
+      "text": "KỸ SƯ/ CỬ NHÂN NGÀNH CÔNG NGHỆ THÔNG TIN"
+    },
+    {
+      "index": 26,
+      "style": "Normal",
+      "text": "GIẢNG VIÊN HƯỚNG DẪN"
+    },
+    {
+      "index": 27,
+      "style": "Normal",
+      "text": "THS. ĐỖ MINH TIẾN"
+    },
+    {
+      "index": 28,
+      "style": "Normal",
+      "text": "Thành phố Hồ Chí Minh, tháng 09 năm 2026"
+    },
+    {
+      "index": 30,
+      "style": "Normal",
+      "text": "NHẬN XÉT CỦA GIẢNG VIÊN HƯỚNG DẪN"
+    },
+    {
+      "index": 53,
+      "style": "Normal",
+      "text": "Tp. Hồ Chí Minh, ngày……... tháng…… năm 20…"
+    },
+    {
+      "index": 54,
+      "style": "Normal",
+      "text": "Người nhận xét"
+    },
+    {
+      "index": 57,
+      "style": "Normal",
+      "text": "(Ký tên và ghi rõ họ tên)"
+    },
+    {
+      "index": 62,
+      "style": "Normal",
+      "text": "LỜI CẢM ƠN"
+    },
+    {
+      "index": 63,
+      "style": "Normal",
+      "text": "Em xin chân thành cảm ơn quý thầy cô Trường Đại học Công nghệ Thông tin đã trang bị nền tảng kiến thức và tạo điều kiện để em thực hiện chuyên đề tốt nghiệp. Em đặc biệt biết ơn giảng viên hướng dẫn đã định hướng phương pháp nghiên cứu, góp ý về thiết kế thí nghiệm và hỗ trợ em kiểm tra các giả định trong quá trình xây dựng hệ thống phát hiện sai lệch ngoại quan. Em cũng cảm ơn đơn vị cung cấp dữ liệu và những người đã hỗ trợ thu thập, rà soát hình ảnh sản phẩm. Do giới hạn về thời gian, quy mô dữ liệu và kinh nghiệm thực hiện, báo cáo khó tránh khỏi thiếu sót; em mong nhận được góp ý để tiếp tục hoàn thiện nghiên cứu."
+    },
+    {
+      "index": 65,
+      "style": "Normal",
+      "text": "TP. Hồ Chí Minh, tháng 9 năm 2026"
+    },
+    {
+      "index": 66,
+      "style": "Normal",
+      "text": "Sinh viên thực hiện\n\n\n            Nguyễn Thị Hiền"
+    },
+    {
+      "index": 68,
+      "style": "Normal",
+      "text": "MỤC LỤC"
+    },
+    {
+      "index": 69,
+      "style": "toc 1",
+      "text": "TÓM TẮT\t1"
+    },
+    {
+      "index": 70,
+      "style": "toc 1",
+      "text": "CHƯƠNG 1. MỞ ĐẦU\t2"
+    },
+    {
+      "index": 71,
+      "style": "toc 2",
+      "text": "1.1. Lý do chọn đề tài\t2"
+    },
+    {
+      "index": 72,
+      "style": "toc 2",
+      "text": "1.2. Mục tiêu nghiên cứu\t2"
+    },
+    {
+      "index": 73,
+      "style": "toc 2",
+      "text": "1.3. Đối tượng và phạm vi nghiên cứu\t3"
+    },
+    {
+      "index": 74,
+      "style": "toc 2",
+      "text": "1.4. Phương pháp nghiên cứu\t3"
+    },
+    {
+      "index": 75,
+      "style": "toc 2",
+      "text": "1.5. Đóng góp của chuyên đề\t3"
+    },
+    {
+      "index": 76,
+      "style": "toc 2",
+      "text": "1.6. Bố cục báo cáo\t4"
+    },
+    {
+      "index": 77,
+      "style": "toc 1",
+      "text": "CHƯƠNG 2. TỔNG QUAN NGHIÊN CỨU\t5"
+    },
+    {
+      "index": 78,
+      "style": "toc 2",
+      "text": "2.1. Phát hiện bất thường dựa trên ngân hàng bộ nhớ và đặc trưng nhúng\t5"
+    },
+    {
+      "index": 79,
+      "style": "toc 2",
+      "text": "2.2. Phương pháp tái cấu trúc và huấn luyện khuyết tật tổng hợp\t5"
+    },
+    {
+      "index": 80,
+      "style": "toc 2",
+      "text": "2.3. Đường cơ sở thống kê cổ điển\t6"
+    },
+    {
+      "index": 81,
+      "style": "toc 2",
+      "text": "2.4. Bộ dữ liệu chuẩn và khác biệt của bối cảnh nghiên cứu\t6"
+    },
+    {
+      "index": 82,
+      "style": "toc 1",
+      "text": "CHƯƠNG 3. DỮ LIỆU VÀ PHÁT BIỂU BÀI TOÁN\t8"
+    },
+    {
+      "index": 83,
+      "style": "toc 2",
+      "text": "3.1. Tập dữ liệu\t8"
+    },
+    {
+      "index": 84,
+      "style": "toc 2",
+      "text": "3.2. Sự thay đổi vị trí và kích thước đối tượng\t9"
+    },
+    {
+      "index": 85,
+      "style": "toc 2",
+      "text": "3.3. Quy mô khuyết tật\t10"
+    },
+    {
+      "index": 86,
+      "style": "toc 2",
+      "text": "3.4. Mất cân bằng dữ liệu\t10"
+    },
+    {
+      "index": 87,
+      "style": "toc 2",
+      "text": "3.5. Phát biểu bài toán\t11"
+    },
+    {
+      "index": 88,
+      "style": "toc 1",
+      "text": "CHƯƠNG 4. PHƯƠNG PHÁP VÀ THIẾT KẾ HỆ THỐNG\t12"
+    },
+    {
+      "index": 89,
+      "style": "toc 2",
+      "text": "4.1. Tổng quan quy trình OC-MAR\t12"
+    },
+    {
+      "index": 90,
+      "style": "toc 2",
+      "text": "4.2. Tiền xử lý ảnh\t12"
+    },
+    {
+      "index": 91,
+      "style": "toc 2",
+      "text": "4.3. Loại bỏ nền và tạo mặt nạ đối tượng\t13"
+    },
+    {
+      "index": 92,
+      "style": "toc 2",
+      "text": "4.4. Mô hình PatchCore\t14"
+    },
+    {
+      "index": 93,
+      "style": "toc 2",
+      "text": "4.5. Đầu vào và tổng hợp đa tỷ lệ\t15"
+    },
+    {
+      "index": 94,
+      "style": "toc 2",
+      "text": "4.6. Lọc giới hạn đối tượng và tinh chỉnh vùng\t15"
+    },
+    {
+      "index": 95,
+      "style": "toc 2",
+      "text": "4.7. Phân ngưỡng\t15"
+    },
+    {
+      "index": 96,
+      "style": "toc 1",
+      "text": "CHƯƠNG 5. THIẾT LẬP THỰC NGHIỆM\t17"
+    },
+    {
+      "index": 97,
+      "style": "toc 2",
+      "text": "5.1. Quy trình phân chia dữ liệu\t17"
+    },
+    {
+      "index": 98,
+      "style": "toc 2",
+      "text": "5.2. Chỉ số đánh giá\t17"
+    },
+    {
+      "index": 99,
+      "style": "toc 2",
+      "text": "5.3. Tỷ lệ coreset\t17"
+    },
+    {
+      "index": 100,
+      "style": "toc 2",
+      "text": "5.4. Các cấu hình so sánh\t18"
+    },
+    {
+      "index": 101,
+      "style": "toc 2",
+      "text": "5.5. Đường cơ sở thống kê cổ điển\t18"
+    },
+    {
+      "index": 102,
+      "style": "toc 2",
+      "text": "5.6. Phương pháp thay thế\t19"
+    },
+    {
+      "index": 103,
+      "style": "toc 1",
+      "text": "CHƯƠNG 6. KẾT QUẢ VÀ ĐÁNH GIÁ\t20"
+    },
+    {
+      "index": 104,
+      "style": "toc 2",
+      "text": "6.1. Hiệu suất phát hiện cơ sở\t20"
+    },
+    {
+      "index": 105,
+      "style": "toc 2",
+      "text": "6.2. So sánh với đường cơ sở thống kê\t20"
+    },
+    {
+      "index": 106,
+      "style": "toc 2",
+      "text": "6.3. Ảnh hưởng của bước loại bỏ nền\t22"
+    },
+    {
+      "index": 107,
+      "style": "toc 2",
+      "text": "6.4. Sai lệch mặt nạ đối với vật thể tối\t23"
+    },
+    {
+      "index": 108,
+      "style": "toc 2",
+      "text": "6.5. Cấu hình cuối cùng và độ phân giải đầu vào\t24"
+    },
+    {
+      "index": 109,
+      "style": "toc 2",
+      "text": "6.6. Độ ổn định theo hạt giống ngẫu nhiên\t25"
+    },
+    {
+      "index": 110,
+      "style": "toc 2",
+      "text": "6.7. Đánh giá tổng hợp đa tỷ lệ\t26"
+    },
+    {
+      "index": 111,
+      "style": "toc 2",
+      "text": "6.8. Ngưỡng thích ứng theo từng mẫu\t28"
+    },
+    {
+      "index": 112,
+      "style": "toc 2",
+      "text": "6.9. Đánh giá định tính khả năng định vị\t29"
+    },
+    {
+      "index": 113,
+      "style": "toc 2",
+      "text": "6.10. Đánh giá định lượng trên tập chú thích thủ công\t31"
+    },
+    {
+      "index": 114,
+      "style": "toc 1",
+      "text": "CHƯƠNG 7. THẢO LUẬN\t34"
+    },
+    {
+      "index": 115,
+      "style": "toc 2",
+      "text": "7.1. Ý nghĩa của kết quả\t34"
+    },
+    {
+      "index": 116,
+      "style": "toc 2",
+      "text": "7.2. Ảnh hưởng của tiền xử lý và hậu xử lý\t34"
+    },
+    {
+      "index": 117,
+      "style": "toc 2",
+      "text": "7.3. Lựa chọn giữa mô hình không huấn luyện và mô hình có huấn luyện\t35"
+    },
+    {
+      "index": 118,
+      "style": "toc 2",
+      "text": "7.4. Khả năng ứng dụng và giới hạn\t35"
+    },
+    {
+      "index": 119,
+      "style": "toc 2",
+      "text": "7.5. Khuyến nghị triển khai thử nghiệm\t36"
+    },
+    {
+      "index": 120,
+      "style": "toc 1",
+      "text": "CHƯƠNG 8. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN\t37"
+    },
+    {
+      "index": 121,
+      "style": "toc 2",
+      "text": "8.1. Kết luận\t37"
+    },
+    {
+      "index": 122,
+      "style": "toc 2",
+      "text": "8.2. Hướng phát triển\t37"
+    },
+    {
+      "index": 123,
+      "style": "toc 1",
+      "text": "TÀI LIỆU THAM KHẢO\t39"
+    },
+    {
+      "index": 124,
+      "style": "toc 1",
+      "text": "PHỤ LỤC A. THỬ NGHIỆM SUPERSIMPLENET\t40"
+    },
+    {
+      "index": 125,
+      "style": "toc 2",
+      "text": "A.1. Thiết lập\t40"
+    },
+    {
+      "index": 126,
+      "style": "toc 2",
+      "text": "A.2. Hiệu chỉnh theo triển khai tham chiếu\t40"
+    },
+    {
+      "index": 127,
+      "style": "toc 2",
+      "text": "A.3. Phân tích kết quả không hội tụ\t40"
+    },
+    {
+      "index": 130,
+      "style": "Normal",
+      "text": "DANH MỤC HÌNH"
+    },
+    {
+      "index": 131,
+      "style": "toc 1",
+      "text": "Hình 2.1. Ví dụ ảnh bình thường và ảnh lỗi của một số mẫu sản phẩm.\t8"
+    },
+    {
+      "index": 132,
+      "style": "toc 1",
+      "text": "Hình 3.1. Phân bố vị trí và kích thước hộp bao đối tượng trong dữ liệu.\t10"
+    },
+    {
+      "index": 133,
+      "style": "toc 1",
+      "text": "Hình 3.2. Số lượng ảnh bình thường và ảnh lỗi theo từng mẫu sản phẩm.\t11"
+    },
+    {
+      "index": 134,
+      "style": "toc 1",
+      "text": "Hình 4.1. Quy trình OC-MAR gồm chín giai đoạn.\t12"
+    },
+    {
+      "index": 135,
+      "style": "toc 1",
+      "text": "Hình 4.2. So sánh mặt nạ alpha và mặt nạ ngưỡng màu trên vật thể tối.\t14"
+    },
+    {
+      "index": 136,
+      "style": "toc 1",
+      "text": "Hình 4.3. Nguyên lý xây dựng ngân hàng bộ nhớ và suy luận của PatchCore.\t15"
+    },
+    {
+      "index": 137,
+      "style": "toc 1",
+      "text": "Hình 6.1. Vật thể tối bị bỏ sót khi tái tạo mặt nạ bằng ngưỡng màu.\t23"
+    },
+    {
+      "index": 138,
+      "style": "toc 1",
+      "text": "Hình 6.2. Bản đồ bất thường theo từng tỷ lệ và kết quả tổng hợp.\t27"
+    },
+    {
+      "index": 139,
+      "style": "toc 1",
+      "text": "Hình 6.3. Kết quả định vị trên ảnh lỗi: (a) FA-808; (b) FA-1047.\t29"
+    },
+    {
+      "index": 140,
+      "style": "toc 1",
+      "text": "Hình 6.4. Đối chiếu định vị: (a) ảnh bình thường FA-808; (b) các mẫu sản phẩm còn lại.\t30"
+    },
+    {
+      "index": 141,
+      "style": "toc 1",
+      "text": "Hình 6.5. Ví dụ đối chiếu vùng dự đoán với mặt nạ chú thích thủ công.\t32"
+    },
+    {
+      "index": 142,
+      "style": "toc 1",
+      "text": "Hình A.1. Hàm mất mát huấn luyện SuperSimpleNet trên FA-1047 và FA-808.\t40"
+    },
+    {
+      "index": 144,
+      "style": "Normal",
+      "text": "DANH MỤC BẢNG"
+    },
+    {
+      "index": 145,
+      "style": "toc 1",
+      "text": "Bảng 2.1. So sánh các nhóm phương pháp được xem xét.\t8"
+    },
+    {
+      "index": 146,
+      "style": "toc 1",
+      "text": "Bảng 3.1. Tóm tắt tập dữ liệu nghiên cứu.\t11"
+    },
+    {
+      "index": 147,
+      "style": "toc 1",
+      "text": "Bảng 4.1. Chức năng của các giai đoạn OC-MAR.\t16"
+    },
+    {
+      "index": 148,
+      "style": "toc 1",
+      "text": "Bảng 5.1. Các cấu hình thực nghiệm chính.\t19"
+    },
+    {
+      "index": 149,
+      "style": "toc 1",
+      "text": "Bảng 6.1. AUROC của Isolation Forest và PatchCore cơ sở.\t20"
+    },
+    {
+      "index": 150,
+      "style": "toc 1",
+      "text": "Bảng 6.2. Sai lệch của mặt nạ ngưỡng màu so với mặt nạ alpha.\t22"
+    },
+    {
+      "index": 151,
+      "style": "toc 1",
+      "text": "Bảng 6.3. AUROC của cấu hình cuối cùng theo từng mẫu sản phẩm.\t24"
+    },
+    {
+      "index": 152,
+      "style": "toc 1",
+      "text": "Bảng 6.4. AUROC trung bình và độ lệch chuẩn trên năm hạt giống.\t24"
+    },
+    {
+      "index": 153,
+      "style": "toc 1",
+      "text": "Bảng 6.5. So sánh đơn tỷ lệ và tổng hợp đa tỷ lệ.\t25"
+    },
+    {
+      "index": 154,
+      "style": "toc 1",
+      "text": "Bảng 6.6. Hiệu quả ngưỡng thích ứng theo mẫu sản phẩm.\t28"
+    },
+    {
+      "index": 155,
+      "style": "toc 1",
+      "text": "Bảng 6.7. Chỉ số định vị trên 192 ảnh được chú thích thủ công.\t31"
+    },
+    {
+      "index": 158,
+      "style": "Normal",
+      "text": "DANH MỤC TỪ VIẾT TẮT"
+    },
+    {
+      "index": 161,
+      "style": "Heading 1",
+      "text": "TÓM TẮT"
+    },
+    {
+      "index": 162,
+      "style": "Normal",
+      "text": "Chuyên đề nghiên cứu bài toán phát hiện và định vị sai lệch ngoại quan trên tập dữ liệu công nghiệp thực tế gồm 12 mẫu sản phẩm đồ trang trí xuất khẩu. Mỗi mẫu có 100 ảnh bình thường; ảnh lỗi chỉ được dùng để đánh giá, dao động từ 30 đến 53 ảnh và không có mặt nạ lỗi ở mức pixel. Trong điều kiện dữ liệu khan hiếm này, báo cáo lựa chọn PatchCore - phương pháp phát hiện bất thường dựa trên bộ nhớ, không cần huấn luyện lại bộ trích xuất đặc trưng - làm mô hình chính. Quy trình được tổ chức theo khung OC-MAR gồm tiền xử lý, tạo mặt nạ đối tượng, suy luận PatchCore, giới hạn tiền cảnh, đánh giá đa tỷ lệ, ngưỡng thích ứng và tinh chỉnh vùng."
+    },
+    {
+      "index": 163,
+      "style": "Normal",
+      "text": "Cấu hình cuối cùng đạt AUROC trung bình cấp ảnh 0, 996, ổn định với độ lệch chuẩn của giá trị trung bình khoảng 0, 0019 trên năm hạt giống ngẫu nhiên và cao hơn đường cơ sở thống kê cổ điển 0, 898. Phân tích cũng chỉ ra một lỗi quan trọng khi tái tạo mặt nạ bằng ngưỡng màu trên ảnh đã loại bỏ nền: ba mẫu tối nhất bị bỏ sót 78-96% pixel đối tượng, với hệ số tương quan giữa tỷ lệ âm tính giả và độ sáng đối tượng là r = -0, 938. Việc dùng trực tiếp kênh alpha của mô hình tách nền khắc phục được hạn chế này."
+    },
+    {
+      "index": 164,
+      "style": "Normal",
+      "text": "Đối với định vị, ngưỡng thích ứng theo từng mẫu sản phẩm làm giảm 66% diện tích dương tính giả trung bình mà không ảnh hưởng đến AUROC phân loại. Tổng hợp đa tỷ lệ không tạo cải thiện ròng so với độ phân giải 384 x 384, trong khi chi phí suy luận tăng gần ba lần. Trên tập tham chiếu 192 ảnh được chú thích thủ công, IoU trung bình đạt 0, 220 và độ chính xác pointing game đạt 0, 875, cho thấy hệ thống thường xác định đúng vùng lỗi tổng quát nhưng chưa mô tả chính xác biên lỗi. Kết quả khẳng định PatchCore kết hợp tiền xử lý được kiểm chứng là lựa chọn thực tế cho kiểm tra ngoại quan khi dữ liệu lỗi và nhãn pixel rất hạn chế."
+    },
+    {
+      "index": 165,
+      "style": "Normal",
+      "text": "Từ khóa: phát hiện bất thường; PatchCore; thị giác máy tính; kiểm tra ngoại quan; dữ liệu khan hiếm; OC-MAR."
+    },
+    {
+      "index": 166,
+      "style": "Heading 1",
+      "text": "CHƯƠNG 1. MỞ ĐẦU"
+    },
+    {
+      "index": 167,
+      "style": "Heading 2",
+      "text": "1.1. Lý do chọn đề tài"
+    },
+    {
+      "index": 168,
+      "style": "Normal",
+      "text": "Kiểm tra ngoại quan là công đoạn quan trọng đối với sản phẩm đồ trang trí xuất khẩu, nơi sai lệch về màu sắc, chi tiết in hoặc bộ phận bị thiếu có thể làm giảm chất lượng lô hàng. Kiểm tra thủ công phụ thuộc nhiều vào kinh nghiệm, dễ bị ảnh hưởng bởi mệt mỏi và khó duy trì tiêu chuẩn đồng nhất khi số lượng mẫu sản phẩm thay đổi. Trong khi đó, các hệ thống học sâu giám sát thường cần số lượng lớn ảnh lỗi đã gán nhãn, điều không phù hợp với dây chuyền quy mô nhỏ vì lỗi hiếm, hình dạng lỗi khó dự đoán và chi phí chú thích pixel cao."
+    },
+    {
+      "index": 169,
+      "style": "Normal",
+      "text": "Bối cảnh thực tế của chuyên đề chỉ cung cấp 100 ảnh bình thường cho mỗi trong số 12 mẫu sản phẩm và 30-53 ảnh lỗi để đánh giá. Đối tượng không cố định hoàn toàn về vị trí, tỷ lệ và hướng chụp. Vì vậy, đề tài tập trung vào phát hiện bất thường một mẫu sản phẩm: mô hình học biểu diễn từ ảnh bình thường, sau đó nhận biết ảnh và vùng có đặc trưng lệch khỏi phân bố chuẩn."
+    },
+    {
+      "index": 170,
+      "style": "Heading 2",
+      "text": "1.2. Mục tiêu nghiên cứu"
+    },
+    {
+      "index": 171,
+      "style": "List Bullet",
+      "text": "Xây dựng quy trình phát hiện ảnh bình thường và ảnh có sai lệch ngoại quan cho từng mẫu sản phẩm."
+    },
+    {
+      "index": 172,
+      "style": "List Bullet",
+      "text": "Định vị vùng nghi ngờ lỗi ở mức pixel mà không sử dụng mặt nạ lỗi trong giai đoạn huấn luyện."
+    },
+    {
+      "index": 173,
+      "style": "List Bullet",
+      "text": "Đánh giá ảnh hưởng của loại bỏ nền, độ phân giải, giới hạn tiền cảnh, đa tỷ lệ và ngưỡng thích ứng."
+    },
+    {
+      "index": 174,
+      "style": "List Bullet",
+      "text": "So sánh PatchCore với đường cơ sở thống kê cổ điển và ghi nhận kết quả thử nghiệm SuperSimpleNet."
+    },
+    {
+      "index": 175,
+      "style": "List Bullet",
+      "text": "Xác định các giới hạn thực tế và đề xuất hướng hoàn thiện để có thể triển khai trong sản xuất."
+    },
+    {
+      "index": 176,
+      "style": "Heading 2",
+      "text": "1.3. Đối tượng và phạm vi nghiên cứu"
+    },
+    {
+      "index": 177,
+      "style": "Normal",
+      "text": "Đối tượng nghiên cứu là ảnh JPEG của 12 mã sản phẩm FA-504, FA-808, FA-838, FA-924, FA-1041, FA-1042, FA-1043, FA-1045, FA-1047, FA-1113, FA-1114 và FA-1120. Nghiên cứu giới hạn ở phát hiện bất thường ngoại quan trên ảnh tĩnh, không thiết kế cơ khí dây chuyền, không đánh giá tốc độ thời gian thực trên thiết bị nhúng và không sử dụng ảnh lỗi để huấn luyện mô hình chính."
+    },
+    {
+      "index": 178,
+      "style": "Heading 2",
+      "text": "1.4. Phương pháp nghiên cứu"
+    },
+    {
+      "index": 179,
+      "style": "Normal",
+      "text": "Nghiên cứu kết hợp khảo sát tài liệu, phân tích dữ liệu thăm dò, xây dựng mô hình thực nghiệm và so sánh định lượng. PatchCore được triển khai độc lập theo từng mẫu sản phẩm; 80 ảnh bình thường dùng để xây dựng ngân hàng bộ nhớ và 20 ảnh bình thường giữ lại cho hiệu chuẩn. Toàn bộ ảnh lỗi chỉ tham gia đánh giá. Các chỉ số chính gồm AUROC cấp ảnh, IoU, độ phủ vùng và pointing game. Phân tích định tính dùng bản đồ nhiệt và đường biên vùng được giữ lại."
+    },
+    {
+      "index": 180,
+      "style": "Heading 2",
+      "text": "1.5. Đóng góp của chuyên đề"
+    },
+    {
+      "index": 181,
+      "style": "List Bullet",
+      "text": "Hoàn thiện quy trình OC-MAR chín giai đoạn cho dữ liệu công nghiệp khan hiếm, đạt AUROC trung bình 0,996."
+    },
+    {
+      "index": 182,
+      "style": "List Bullet",
+      "text": "Phát hiện có hệ thống lỗi tạo mặt nạ trên vật thể tối và chứng minh mối liên hệ với độ sáng đối tượng."
+    },
+    {
+      "index": 183,
+      "style": "List Bullet",
+      "text": "Đánh giá riêng tác động của đa tỷ lệ và ngưỡng thích ứng, tránh quy kết cải thiện khi chưa có bằng chứng."
+    },
+    {
+      "index": 184,
+      "style": "List Bullet",
+      "text": "Xây dựng tập tham chiếu 192 ảnh chú thích thủ công để bổ sung đánh giá định vị định lượng."
+    },
+    {
+      "index": 185,
+      "style": "List Bullet",
+      "text": "Báo cáo minh bạch kết quả không hội tụ của SuperSimpleNet trong điều kiện 80 ảnh huấn luyện mỗi mẫu."
+    },
+    {
+      "index": 186,
+      "style": "Heading 2",
+      "text": "1.6. Bố cục báo cáo"
+    },
+    {
+      "index": 187,
+      "style": "Normal",
+      "text": "Báo cáo gồm tám chương. Sau phần mở đầu, Chương 2 tổng quan các hướng nghiên cứu liên quan; Chương 3 mô tả dữ liệu và phát biểu bài toán; Chương 4 trình bày phương pháp và thiết kế quy trình; Chương 5 nêu thiết lập thực nghiệm; Chương 6 báo cáo kết quả; Chương 7 thảo luận các phát hiện, giới hạn và khả năng triển khai; Chương 8 kết luận và đề xuất hướng phát triển. Tài liệu tham khảo và phụ lục được trình bày ở cuối báo cáo."
+    },
+    {
+      "index": 188,
+      "style": "Heading 1",
+      "text": "CHƯƠNG 2. TỔNG QUAN NGHIÊN CỨU"
+    },
+    {
+      "index": 189,
+      "style": "Heading 2",
+      "text": "2.1. Phát hiện bất thường dựa trên ngân hàng bộ nhớ và đặc trưng nhúng"
+    },
+    {
+      "index": 190,
+      "style": "Normal",
+      "text": "PatchCore [4], bộ dò mà tôi xây dựng dựa trên, thuộc một họ các phương pháp một lớp chấm điểm các điểm bất thường bằng khoảng cách giữa phần nhúng của một mảng thử nghiệm, từ một xương sống được huấn luyện trước trên ImageNet đã được đóng băng, và một ngân hàng bộ nhớ chứa các phần nhúng của mảng hình ảnh bình thường, được lấy mẫu con thành một tập lõi để dễ xử lý. Họ mô hình này không yêu cầu huấn luyện dựa trên gradient cho chính mạng xương sống, chỉ cần tìm kiếm lân cận gần nhất và lựa chọn tập lõi, điều này khiến nó tương đối phù hợp với các thiết lập có rất ít ảnh huấn luyện thông thường, chẳng hạn như 80 ảnh mỗi mẫu sản phẩm (sau khi chia tách hiệu chuẩn) được sử dụng xuyên suốt công trình này. Hạn chế chính của nó đối với mục đích của chúng ta"
+    },
+    {
+      "index": 191,
+      "style": "Normal",
+      "text": "là việc định vị là một sản phẩm phụ gián tiếp của bản đồ khoảng cách lưới vá chứ không phải là kết quả phân đoạn được huấn luyện trực tiếp, điều này thúc đẩy quá trình xử lý hậu kỳ hạn chế tiền cảnh được mô tả trong Phần 4. 6 và việc đánh giá định vị chỉ mang tính định tính được thảo luận như một hạn chế trong Phần 5."
+    },
+    {
+      "index": 192,
+      "style": "Heading 2",
+      "text": "2.2. Phương pháp tái cấu trúc và huấn luyện khuyết tật tổng hợp"
+    },
+    {
+      "index": 193,
+      "style": "Normal",
+      "text": "Một họ khác huấn luyện mạng phân đoạn trực tiếp, sử dụng các khiếm khuyết giả được tạo ra tổng hợp để không cần hình ảnh khiếm khuyết thực sự trong quá trình huấn luyện. DRAEM [5] tái tạo đầu vào bị hỏng tổng hợp và huấn luyện một mạng con phân biệt để phân đoạn vùng bị hỏng so với bản tái tạo. SuperSimpleNet [3], mà tôi đã thử nghiệm như một giải pháp thay thế cho PatchCore trong công việc này, tuân theo một công thức liên quan, các khiếm khuyết giả nhiễu Perlin được đưa trực tiếp vào không gian đặc trưng, với một bộ phân biệt nhẹ tạo ra cả phân loại cấp độ hình ảnh và bản đồ phân đoạn cấp độ pixel, và tùy chọn kết hợp hình ảnh khiếm khuyết thực sự khi có sẵn."
+    },
+    {
+      "index": 194,
+      "style": "Normal",
+      "text": "Về nguyên tắc, họ mô hình này cung cấp một con đường trực tiếp hơn để phân đoạn sắc nét từng pixel so với bản đồ khoảng cách lân cận gần nhất. Trên thực tế, như đã báo cáo trong Phụ lục A, nỗ lực SuperSimpleNet của tôi đã không hội tụ trên tập dữ liệu này ngay cả sau ba vòng hiệu chỉnh kiến trúc so với triển khai tham chiếu, điều mà tôi tạm thời cho là do sự kết hợp của tập huấn luyện cực kỳ nhỏ cho mỗi mẫu sản phẩm (80 hình ảnh) và có thể là một chi tiết sao chép hàng loạt không được tái tạo của vòng lặp huấn luyện ban đầu, hơn là do lỗi triển khai còn sót lại."
+    },
+    {
+      "index": 195,
+      "style": "Heading 2",
+      "text": "2.3. Đường cơ sở thống kê cổ điển"
+    },
+    {
+      "index": 196,
+      "style": "Normal",
+      "text": "Việc chấm điểm bất thường bằng thống kê hình ảnh được tạo thủ công và bộ phát hiện ngoại lệ đa năng, chẳng hạn như Isolation Forest [2], có trước các phương pháp dựa trên nhúng sâu ở trên và vẫn là một điểm so sánh phù hợp chính xác vì nó không yêu cầu xương sống được huấn luyện trước và có chi phí huấn luyện thấp. Mục 5.5 và Mục 6 sử dụng chính xác sự kết hợp này làm cơ sở so sánh với PatchCore, để kiểm tra xem khoảng cách do các tính năng sâu tạo ra có phải là thật hay chỉ là kết quả giả tạo của một phép so sánh yếu kém khác."
+    },
+    {
+      "index": 197,
+      "style": "Heading 2",
+      "text": "2.4. Bộ dữ liệu chuẩn và khác biệt của bối cảnh nghiên cứu"
+    },
+    {
+      "index": 198,
+      "style": "Normal",
+      "text": "Hầu hết các tài liệu về phát hiện dị thường nêu trên, bao gồm cả các đánh giá PatchCore và DRAEM ban đầu, đều được đánh giá trên MVTec AD [1], một tập dữ liệu được sử dụng rộng rãi cung cấp độ chính xác pixel trên mặt đất- Các mặt nạ lỗi thực tế và, đối với hầu hết các danh mục, có khoảng 200 hoặc nhiều hơn hình ảnh huấn luyện bình thường cho mỗi danh mục. Tập dữ liệu của chúng tôi (Mục 3) khác với thiết lập này ở ba điểm liên quan đến lựa chọn và đánh giá phương pháp: nó chỉ cung cấp 100 hình ảnh bình thường cho mỗi mẫu sản phẩm thay vì vài trăm, nó không cung cấp bất kỳ mặt nạ thực tế cấp pixel nào, và vị trí và tỷ lệ của đối tượng thay đổi đáng kể trong cùng một mẫu sản phẩm thay vì được căn giữa và đóng khung nhất quán. Sự khác biệt đầu tiên là một lý do hợp lý giải thích tại sao nỗ lực SuperSimpleNet của chúng tôi hoạt động kém hơn so với kết quả MVTec AD đã được công bố, vì quá trình huấn luyện lỗi tổng hợp của phương pháp gốc được xác thực ở quy mô dữ liệu lớn hơn cho mỗi mẫu sản phẩm. Sự khác biệt thứ hai là lý do tại sao việc đánh giá định vị của tôi trong toàn bộ báo cáo này mang tính định tính, và nếu có thể định lượng, dựa trên một tập con được chú thích thủ công (Mục 6), thay vì một chỉ số cấp pixel tiêu chuẩn được tính toán dựa trên toàn bộ tập dữ liệu thực tế. Sự khác biệt thứ ba thúc đẩy sự lựa chọn rõ ràng, được thảo luận trong Mục 4, là không cắt ảnh đầu vào ở trung tâm trong quá trình tiền xử lý."
+    },
+    {
+      "index": 200,
+      "style": "Caption Figure",
+      "text": "Hình 2.1. Ví dụ ảnh bình thường và ảnh lỗi của một số mẫu sản phẩm."
+    },
+    {
+      "index": 201,
+      "style": "Caption Figure",
+      "text": "(Các mẫu bình thường và lỗi tiêu biểu từ bốn mã sản phẩm trên. Các lỗi trong tập dữ liệu này chủ yếu là thiếu hoặc không đầy đủ màu sắc và chi tiết – ví dụ: hoạ tiết in hiển thị dưới dạng hình bóng trắng) chứ không phải là hư hỏng vật lý đối với vật thể."
+    },
+    {
+      "index": 203,
+      "style": "Caption Table",
+      "text": "Bảng 2.1. So sánh các nhóm phương pháp được xem xét."
+    },
+    {
+      "index": 205,
+      "style": "Heading 1",
+      "text": "CHƯƠNG 3. DỮ LIỆU VÀ PHÁT BIỂU BÀI TOÁN"
+    },
+    {
+      "index": 206,
+      "style": "Heading 2",
+      "text": "3.1. Tập dữ liệu"
+    },
+    {
+      "index": 207,
+      "style": "Normal",
+      "text": "Tập dữ liệu bao gồm 12 mẫu sản phẩm thành phần riêng biệt (ký hiệu là FA-504, FA-808, FA-838, FA-924, FA-1041, FA-1042, FA-1043, FA-1045, tật có thể nhìn thấy (Hình 1). Mỗi mẫu sản phẩm chứa chính xác 100 hình ảnh bình thường; số lượng hình ảnh có khuyết tật dao động từ 30 đến 53 hình ảnh mỗi mẫu sản phẩm. Sau khi loại bỏ một tệp đại diện trùng lặp nằm ngoài hai thư mục con được gắn nhãn của mỗi mẫu sản phẩm, tập dữ liệu có tổng cộng 1705 hình ảnh JPEG duy nhất, không có hình ảnh nào bị hỏng, với dung lượng 474MB. Các hình ảnh chủ yếu có kích thước 956×1276 pixel theo hướng dọc, với một phần nhỏ được xoay 90 sang hướng ngang (1276×956); tỷ lệ hình ảnh được xoay thay đổi đáng kể tùy theo từng loại (ví dụ: 0/150 đối với FA-1041 so với 68/153 đối với"
+    },
+    {
+      "index": 210,
+      "style": "Caption Figure",
+      "text": "Hình 3.1. Phân bố vị trí và kích thước hộp bao đối tượng trong dữ liệu.\n(Các hộp giới hạn đối tượng được phát hiện bằng phương pháp phỏng đoán được chồng lên nhau cho 60 hình ảnh bình thường được lấy mẫu sản phẩm trên tất cả 12 mẫu sản phẩm (5 hình ảnh mỗi mẫu sản phẩm), minh hoạ phạm vi vị trí và kích thước của đối tượng trong tập dữ liệu)"
+    },
+    {
+      "index": 212,
+      "style": "Caption Figure",
+      "text": "Các hình ảnh chủ yếu có kích thước 956x1276 pixel theo hướng dọc, với một nhỏ được xoay 90o sang hướng ngang (1276x956); tỷ lệ hình ảnh được xoay đáng kể tuỳ theo từng loại (ví dụ: 0/150 đối với FA-1041 so với 68/153 đối với FA-1047)"
+    },
+    {
+      "index": 213,
+      "style": "Heading 2",
+      "text": "3.2. Sự thay đổi vị trí và kích thước đối tượng"
+    },
+    {
+      "index": 214,
+      "style": "Normal",
+      "text": "Không giống như các bộ dữ liệu chuẩn được chọn lọc, trong đó đối tượng quan tâm được đặt ở trung tâm và có tỷ lệ nhất quán, các đối tượng trong bộ dữ liệu này được đặt ở các vị trí khác nhau và chiếm các phần khác nhau của khung hình (Hình 3.1). Sử dụng phương pháp phỏng đoán dựa trên sự khác biệt màu sắc ở các góc để ước tính khung bao cho mỗi hình ảnh, tâm khung bao tương đối bị lệch về phía trên bên trái của khung hình trung bình, và diện tích đối tượng tương đối dao động từ khoảng 3% đến gần 100% của khung hình. Điều này trực tiếp giải thích cho lựa chọn tiền xử lý được mô tả trong Phần 4 (không cắt xén tâm)."
+    },
+    {
+      "index": 215,
+      "style": "Heading 2",
+      "text": "3.3. Quy mô khuyết tật"
+    },
+    {
+      "index": 216,
+      "style": "Normal",
+      "text": "Các khuyết tật quan sát được trong các hình ảnh bị lỗi có kích thước vật lý rất khác nhau, từ các vết nhỏ cục bộ khoảng 30– 40 pixel (ở độ phân giải gốc) cho đến các khuyết tật trải rộng trên một phần lớn đối tượng. Sự đa dạng về kích thước này là một yếu tố quan trọng cần xem xét đối với việc giảm độ phân giải trong Phần 6, vì diện tích hiệu dụng của một ô lưới đặc trưng (tính bằng pixel của hình ảnh gốc) phải nhỏ so với các khuyết tật nhỏ nhất để bản đồ bất thường có thể định vị chúng."
+    },
+    {
+      "index": 217,
+      "style": "Heading 2",
+      "text": "3.4. Mất cân bằng dữ liệu"
+    },
+    {
+      "index": 218,
+      "style": "Normal",
+      "text": "sử dụng hình ảnh bình thường để huấn luyện trong thiết lập một mẫu sản phẩm. (Mục 4), các hình ảnh bị lỗi chỉ đóng vai trò là tập dữ liệu đánh giá. Do số lượng nhỏ, ước tính AUROC trên mỗi lớp về nguyên tắc có thể mang phương sai đáng kể tùy thuộc vào sự phân chia giữa tập huấn luyện và tập hiệu chuẩn; điều này được xem là một hạn chế trong Mục"
+    },
+    {
+      "index": 221,
+      "style": "Caption Figure",
+      "text": "Hình 3.2. Số lượng ảnh bình thường và ảnh lỗi theo từng mẫu sản phẩm."
+    },
+    {
+      "index": 222,
+      "style": "Caption Figure",
+      "text": "(Mỗi mẫu sản phẩm có chính xác 100 ảnh bình thường; số lượng ảnh lỗi dao động từ 30 đến 53)"
+    },
+    {
+      "index": 223,
+      "style": "Heading 2",
+      "text": "3.5. Phát biểu bài toán"
+    },
+    {
+      "index": 224,
+      "style": "Normal",
+      "text": "Đối với mỗi mẫu sản phẩm riêng biệt, với một tập dữ liệu huấn luyện chỉ gồm các hình ảnh bình thường, nhiệm vụ gồm hai phần: (a) phân loại ở cấp độ hình ảnh, dự đoán xem hình ảnh thử nghiệm được giữ lại là bình thường hay bị lỗi, và (b) định vị ở cấp độ pixel, tạo ra bản đồ không gian chỉ ra vị trí có khả năng xảy ra lỗi trong hình ảnh bị lỗi. Không có nhãn hoặc mặt nạ lỗi nào được cung cấp trong quá trình huấn luyện."
+    },
+    {
+      "index": 225,
+      "style": "Caption Table",
+      "text": "Bảng 3.1. Tóm tắt tập dữ liệu nghiên cứu."
+    },
+    {
+      "index": 227,
+      "style": "Heading 1",
+      "text": "CHƯƠNG 4. PHƯƠNG PHÁP VÀ THIẾT KẾ HỆ THỐNG"
+    },
+    {
+      "index": 228,
+      "style": "Heading 2",
+      "text": "4.1. Tổng quan quy trình OC-MAR"
+    },
+    {
+      "index": 229,
+      "style": "Normal",
+      "text": "Tôi xây dựng phương pháp của mình dựa trên OC-MAR (Nhận dạng dị thường đa tỷ lệ bị ràng buộc bởi đối tượng), một quy trình chín bước để phát hiện và định vị dị thường một lớp do cố vấn của tôi đề xuất. Các bước bao gồm: (1) ảnh đầu vào, (2) loại bỏ nền để thu được mặt nạ đối tượng, (3) thay đổi kích thước đa tỷ lệ của ảnh đầu vào, (4) phát hiện dị thường trên mỗi tỷ lệ bằng bộ phát hiện một mẫu sản phẩm, (5) tổng hợp đa tỷ lệ các bản đồ dị thường thu được, (6) lọc bị ràng buộc bởi đối tượng, giới hạn các dị thường trong mặt nạ đối tượng, (7) ngưỡng thích ứng được hiệu chỉnh trên tập dữ liệu xác thực bình thường được giữ lại, (8) tinh chỉnh vùng hình thái, và (9) mặt nạ phân đoạn khuyết tật nhị phân cuối cùng. Hình 4 minh hoạ từng giai đoạn cho việc triển khai cụ thể của tôi và trạng thái hiện tại của nó."
+    },
+    {
+      "index": 230,
+      "style": "Heading 2",
+      "text": "4.2. Tiền xử lý ảnh (giai đoạn 1)"
+    },
+    {
+      "index": 231,
+      "style": "Normal",
+      "text": "Mỗi hình ảnh được điều chỉnh kích thước trực tiếp thành độ phân giải vuông cố định mà không cắt xén phần trung tâm, vì đối tượng cần quan tâm thường nằm lệch tâm (Mục 3); việc cắt xén phần trung tâm có nguy cơ làm mất đi một phần của đối tượng. Các hình ảnh ở chế độ ngang được xoay 90 sang chế độ dọc trước khi thay đổi kích thước, để mạng lưới được hiển thị đầy đủ. Không cần phải học thêm về tính bất biến xoay. Giá trị pixel được chuẩn hóa bằng cách sử dụng thống kê ImageNet tiêu chuẩn, phù hợp với kiến trúc mạng được huấn luyện trước."
+    },
+    {
+      "index": 234,
+      "style": "Caption Figure",
+      "text": "Hình 4.1. Quy trình OC-MAR gồm chín giai đoạn."
+    },
+    {
+      "index": 235,
+      "style": "Caption Figure",
+      "text": "(Các giai đoạn của OC-MAR, quá trình triển và trạng thái của tôi được cập nhật sau Giai đoạn 2 (tổng hợp đa thang đo) và Giai đoạn 3 (ngưỡng thích ứng). Màu xanh lá cây: đã được đánh giá và báo cáo; màu hồng:đã được triển khai một phần. Các vòng tròn được đánh số cho biết thứ tự đọc; xem phần văn bản chính để biết chi tiết triển khai mà mỗi ô viết tắt)."
+    },
+    {
+      "index": 236,
+      "style": "Heading 2",
+      "text": "4.3. Loại bỏ nền và tạo mặt nạ đối tượng (giai đoạn 2)"
+    },
+    {
+      "index": 237,
+      "style": "Normal",
+      "text": "Tôi sử dụng mô hình phân đoạn đối tượng nổi bật được huấn luyện trước (isnet-general-use, thông qua rembg) để tách từng đối tượng khỏi nền của nó. Hai cách sử dụng khác nhau của mô hình này được đánh giá. Thứ nhất, như một bước tiền xử lý tập dữ liệu, các pixel nền được thay thế bằng màu đen đồng nhất và các hình ảnh kết quả được đánh giá như một đầu vào thay thế cho PatchCore (Mục 6). Thứ hai, như một nguồn mặt nạ đối tượng được sử dụng trong giai đoạn 6, chúng tôi so sánh hai cách để có được mặt nạ này, (a) một phương pháp phỏng đoán đơn giản, ngưỡng độ sáng pixel trên hình ảnh đã được loại bỏ nền (tiền cảnh = bất kỳ pixel nào có giá trị kênh trên 10), và (b) đầu ra alpha mềm gốc của mô hình, được ngưỡng ở mức 0, 5. Tôi nhận thấy rằng (a) thất bại đáng kể đối với các mẫu sản phẩm có vật liệu đối tượng"
+    },
+    {
+      "index": 238,
+      "style": "Normal",
+      "text": "có màu tối, vì bước làm phẳng tạo ra tập dữ liệu đã loại bỏ nền sẽ loại bỏ kênh alpha, không còn tín hiệu nào để phân biệt vùng đối tượng tối màu với nền đen mà nó được ghép vào; điều này được định lượng trong Mục 6. Tôi áp dụng (b) làm mặt nạ đối tượng được sử dụng trong cấu hình cuối cùng."
+    },
+    {
+      "index": 240,
+      "style": "Caption Figure",
+      "text": "Hình 4.2. So sánh mặt nạ alpha và mặt nạ ngưỡng màu trên vật thể tối."
+    },
+    {
+      "index": 241,
+      "style": "Heading 2",
+      "text": "4.4. Mô hình PatchCore (giai đoạn 4)"
+    },
+    {
+      "index": 242,
+      "style": "Normal",
+      "text": "Tôi sử dụng PatchCore [4] làm bộ phát hiện bất thường một lớp chính (Hình 4.3), khởi tạo giai đoạn 4 của OC-MAR. Một mạng xương sống WideResNet-50 cố định, được huấn luyện trước trên ImageNet, trích xuất các bản đồ đặc trưng trung gian từ lớp 2 và lớp 3. Mỗi bản đồ đặc trưng được tổng hợp cục bộ với một nhóm trung bình 3×3 và bản đồ lớp 3 được lấy mẫu tăng tuyến tính để phù hợp với độ phân giải không gian của lớp 2 trước khi nối theo kênh, tạo ra một lưới các vectơ đặc trưng cấp độ mảng cho mỗi hình ảnh. Đối với mỗi lớp, một ngân hàng bộ nhớ được xây dựng bằng cách gộp các đặc trưng vá lỗi của tất cả các ảnh huấn luyện thông thường, sau đó lấy mẫu con thông qua lựa chọn tập lõi k-center tham lam để giữ lại một tập con nhỏ, đa dạng các vectơ đại diện. Trong quá trình suy luận, mỗi vá lỗi của ảnh truy vấn được chấm điểm bằng giá trị Euclidean của nó."
+    },
+    {
+      "index": 244,
+      "style": "Caption Figure",
+      "text": "Hình 4.3. Nguyên lý xây dựng ngân hàng bộ nhớ và suy luận của PatchCore."
+    },
+    {
+      "index": 245,
+      "style": "Caption Figure",
+      "text": "(Quy trình PatchCore, được sao chép từ ấn bản gốc [4]. Một xương sống đóng băng trích xuất các đặc điểm cấp độ vá; các đặc điểm hình ảnh bình thường điền vào ngân hàng bộ nhớ coreset trong thời gian huấn luyện; các đặc điểm hình ảnh thử nghiệm được chấm điểm bằng khoảng cách lân cận gần nhất với ngân hàng để tạo ra một sự bất thường bản đồ)."
+    },
+    {
+      "index": 246,
+      "style": "Heading 2",
+      "text": "4.5. Đầu vào và tổng hợp đa tỷ lệ (giai đoạn 3 và 5)"
+    },
+    {
+      "index": 247,
+      "style": "Normal",
+      "text": "Vì bước tiến hiệu quả của mạng xương sống được cố định so với độ phân giải đầu vào, nên kích thước vật lý của một ô lưới đặc trưng duy nhất, được đo bằng pixel của ảnh gốc, tỷ lệ nghịch với kích thước đầu vào đã chọn. Tôi đánh giá ba độ phân giải đầu vào, 256×256, 384×384 (được sử dụng xuyên suốt phần còn lại của báo cáo này) và 512×512, một cách độc lập, để đánh giá ảnh hưởng của độ chi tiết lưới đến việc định vị các khuyết tật nhỏ (Mục 3). Ngoài ra, tôi kết hợp ba bản đồ bất thường trên mỗi tỷ lệ thành một bản đồ duy nhất (giai đoạn 5 của OC-MAR) bằng cách thay đổi kích thước từng bản đồ thành một khung chung và lấy giá trị tối đa theo từng phần tử, với điểm số tổng hợp ở cấp độ ảnh được lấy là giá trị tối đa của ba điểm số trên mỗi tỷ lệ. Mục 6 báo cáo rằng sự kết hợp này không cải thiện AUROC trung bình so với cấu hình 384×384 đơn tỷ lệ; Tôi giữ nguyên cấu hình 384×384 làm cấu hình cuối cùng và báo cáo kết quả tổng hợp là một phát hiện tiêu cực thay vì chấp nhận nó."
+    },
+    {
+      "index": 248,
+      "style": "Heading 2",
+      "text": "4.6. Lọc giới hạn đối tượng và tinh chỉnh vùng (giai đoạn 6 và 8)"
+    },
+    {
+      "index": 249,
+      "style": "Normal",
+      "text": "Bản đồ nhiệt bất thường thô được phân ngưỡng để trực quan hóa và sử dụng tiếp theo. Tôi so sánh hai biến thể. Trong biến thể đơn giản, ngưỡng phần trăm (ví dụ: phần trăm thứ 92) được tính toán trên toàn bộ bản đồ nhiệt, bao gồm cả các pixel nền. Trong biến thể bị ràng buộc bởi đối tượng, ngưỡng phần trăm tương tự chỉ được tính toán trên các pixel nằm trong mặt nạ đối tượng (Mục 4. 3), và chỉ thành phần liên thông lớn nhất trong số các pixel đã được phân ngưỡng được giữ lại như một hình thức tinh chỉnh vùng đơn giản, loại bỏ các phát hiện giả nhỏ. Bước tinh chỉnh vùng đầy đủ hơn bằng cách sử dụng phép mở và đóng hình thái học (giai đoạn 8 của OC-MAR) vẫn chưa được đánh giá."
+    },
+    {
+      "index": 250,
+      "style": "Heading 2",
+      "text": "4.7. Phân ngưỡng (giai đoạn 7)"
+    },
+    {
+      "index": 251,
+      "style": "Normal",
+      "text": "Các mục 4. 6 và 6 ở trên sử dụng một ngưỡng phân vị thứ 92 cố định duy nhất cho tất cả 12 mẫu sản phẩm. Ngoài ra, tôi hiệu chỉnh ngưỡng này cho từng mẫu sản phẩm, sử dụng phép chia chuẩn hiệu chỉnh (Mục 5), đối với mỗi mẫu sản phẩm, tôi chọn phân vị ứng viên nhỏ nhất trong {92, 94, 96, 98, 99} có diện tích dương tính giả trung bình được giữ lại trên ảnh chuẩn hiệu chỉnh của mẫu sản phẩm đó nằm ở mức bằng hoặc thấp hơn mục tiêu cố định 300 pixel. Mục 6 báo cáo rằng điều này làm giảm diện tích dương tính giả trung bình trên tất cả 12 mẫu sản phẩm xuống 66% so với phân vị thứ 92 cố định, mà không làm thay đổi ngân hàng bộ nhớ hoặc điểm số bất thường ở cấp độ hình ảnh."
+    },
+    {
+      "index": 253,
+      "style": "Caption Table",
+      "text": "Bảng 4.1. Chức năng của các giai đoạn OC-MAR."
+    },
+    {
+      "index": 255,
+      "style": "Heading 1",
+      "text": "CHƯƠNG 5. THIẾT LẬP THỰC NGHIỆM"
+    },
+    {
+      "index": 256,
+      "style": "Heading 2",
+      "text": "5.1. Quy trình phân chia dữ liệu"
+    },
+    {
+      "index": 257,
+      "style": "Normal",
+      "text": "Đối với mỗi mẫu sản phẩm, 100 hình ảnh bình thường được chia theo tỷ lệ 80/20 thành một tập dữ liệu huấn luyện dùng làm bộ nhớ và một tập dữ liệu hiệu chuẩn bình thường được giữ lại, sử dụng một hạt giống ngẫu nhiên cố định được chia sẻ trong tất cả các thí nghiệm được báo cáo ở đây. Tất cả các ảnh lỗi đều được giữ lại để đánh giá và không bao giờ được dùng để xây dựng bộ nhớ. Việc phát hiện ở cấp độ ảnh được đánh giá trên tập hợp các ảnh bình thường được giữ lại (nhãn 0) và tất cả các ảnh lỗi thuộc mẫu sản phẩm đó (nhãn 1)."
+    },
+    {
+      "index": 258,
+      "style": "Heading 2",
+      "text": "5.2. Chỉ số đánh giá"
+    },
+    {
+      "index": 259,
+      "style": "Normal",
+      "text": "Chỉ số định lượng chính là AUROC cấp độ hình ảnh, được tính toán cho mỗi mẫu sản phẩm và tính trung bình trên 12 mẫu sản phẩm, được báo cáo cả cho một điểm khởi đầu cố định duy nhất và, trong Phần 6. 6, dưới dạng giá trị trung bình ± độ lệch chuẩn trên 5 điểm khởi đầu. Chất lượng định vị chủ yếu được đánh giá định tính thông qua lớp phủ bản đồ nhiệt trên các hình ảnh bị lỗi (Phần 6), vì tập dữ liệu không cung cấp mặt nạ tham chiếu cấp độ pixel (Phần 3). Ngoài ra, tôi cũng trình bày kết quả đánh giá định vị định lượng một phần (IoU, thước đo độ chồng lấp vùng ngưỡng đơn và độ chính xác của trò chơi chỉ điểm) đối với một tập hợp con các hình ảnh bị lỗi được chú thích thủ công trong Phần 6. 10."
+    },
+    {
+      "index": 260,
+      "style": "Heading 2",
+      "text": "5.3. Tỷ lệ coreset"
+    },
+    {
+      "index": 261,
+      "style": "Normal",
+      "text": "Tỷ lệ lấy mẫu con của coreset được đặt ở mức 2% dung lượng bộ nhớ thô, được chọn sau khi so sánh thực nghiệm thời gian huấn luyện thực tế với mức 10%, trên phần cứng GPU hiện có, 5 phút so với 14 phút trên tất cả 12 mẫu sản phẩm cho cấu hình độ phân giải đầy đủ (224×224)."
+    },
+    {
+      "index": 262,
+      "style": "Heading 2",
+      "text": "5.4. Các cấu hình so sánh"
+    },
+    {
+      "index": 263,
+      "style": "Normal",
+      "text": "Tôi trình bày kết quả cho các cấu hình sau, mỗi cấu hình thể hiện một quyết định thiết kế riêng biệt."
+    },
+    {
+      "index": 264,
+      "style": "List Number",
+      "text": "Đường cơ sở, PatchCore trên ảnh gốc (không xóa nền), đầu vào 224×224, phân ngưỡng phần trăm toàn bộ hình ảnh."
+    },
+    {
+      "index": 265,
+      "style": "List Number",
+      "text": "Loại bỏ nền, giống hệt với cơ sở ngoại trừ biến hình ảnh đã loại bỏ nền khác nhau đã được sử dụng."
+    },
+    {
+      "index": 266,
+      "style": "List Number",
+      "text": "Ngưỡng giới hạn tiền cảnh, hình ảnh đã loại bỏ nền, với ngưỡng bản đồ dị thường được giới hạn trong mặt nạ tiền cảnh và lọc thành phần liên thông lớn nhất (Mục 4.6)."
+    },
+    {
+      "index": 267,
+      "style": "List Number",
+      "text": "Độ phân giải cao hơn, như trên, với độ phân giải đầu vào tăng từ 224x224 lên 384x384."
+    },
+    {
+      "index": 268,
+      "style": "Heading 2",
+      "text": "5.5. Đường cơ sở thống kê cổ điển"
+    },
+    {
+      "index": 269,
+      "style": "Normal",
+      "text": "Để so sánh hiệu suất của PatchCore với một phương pháp thay thế không dựa trên học sâu, tôi đánh giá một đường cơ sở một lớp cổ điển bằng cách sử dụng các thống kê hình ảnh được tạo thủ công được tính toán trong quá trình phân tích dữ liệu thăm dò, độ sáng, độ tương phản, độ sắc nét, mật độ cạnh, độ bão hòa, bốn mô tả ma trận đồng xuất hiện mức độ xám (GLCM) (độ tương phản, độ đồng nhất, năng lượng, tương quan) và entropy mẫu nhị phân cục bộ (LBP), tổng cộng mười đặc trưng trên mỗi hình ảnh. Đối với mỗi mẫu sản phẩm, một Rừng cô lập [2] (200 bộ ước lượng) được huấn luyện trên các đặc trưng được chuẩn hóa chỉ của các hình ảnh huấn luyện bình thường, phản ánh giao thức một mẫu sản phẩm của PatchCore; điểm số bất thường thu được được đánh giá bằng AUROC so với cùng một tập nhãn được sử dụng cho PatchCore. Một điểm khác biệt về phương pháp luận so với giao thức PatchCore đáng chú ý là đường cơ sở này được đánh giá trên tất cả các hình ảnh bình thường của một lớp (thay vì chia tách 20%), vì ban đầu nó được tính toán như một phần của phân tích thăm dò chứ không phải là một đánh giá giữ lại; Điều này khiến cho chỉ số AUROC được báo cáo, nếu có thể nói, có phần lạc quan so với đánh giá mà PatchCore đưa ra trước đó."
+    },
+    {
+      "index": 270,
+      "style": "Heading 2",
+      "text": "5.6. Phương pháp tiếp cận thay thế"
+    },
+    {
+      "index": 271,
+      "style": "Normal",
+      "text": "Để so sánh thêm, tôi cũng đã cố gắng huấn luyện SuperSimpleNet [3], một phương pháp phân đoạn có thể huấn luyện không giám sát tổng hợp các khiếm khuyết giả thông qua nhiễu Perlin được đưa vào không gian đặc trưng, trên hai mẫu sản phẩm có AUROC PatchCore cơ bản thấp nhất. So sánh này và kết quả của nó được báo cáo trong Phụ lục A."
+    },
+    {
+      "index": 273,
+      "style": "Caption Table",
+      "text": "Bảng 5.1. Các cấu hình thực nghiệm chính."
+    },
+    {
+      "index": 275,
+      "style": "Heading 1",
+      "text": "CHƯƠNG 6. KẾT QUẢ VÀ ĐÁNH GIÁ"
+    },
+    {
+      "index": 276,
+      "style": "Heading 2",
+      "text": "6.1. Hiệu suất phát hiện cơ bản"
+    },
+    {
+      "index": 277,
+      "style": "Caption Table",
+      "text": "Chỉ số AUROC cơ bản ở cấp độ ảnh PatchCore cho mỗi mẫu sản phẩm (ảnh gốc, đầu vào 224x224)."
+    },
+    {
+      "index": 279,
+      "style": "Normal",
+      "text": "Mẫu sản phẩm\tAUROC"
+    },
+    {
+      "index": 280,
+      "style": "Normal",
+      "text": "FA-504\t\t1,000"
+    },
+    {
+      "index": 281,
+      "style": "Normal",
+      "text": "FA-808\t\t0,970"
+    },
+    {
+      "index": 282,
+      "style": "Normal",
+      "text": "FA-838\t\t0,996"
+    },
+    {
+      "index": 283,
+      "style": "Normal",
+      "text": "FA-924\t\t1,000"
+    },
+    {
+      "index": 284,
+      "style": "Normal",
+      "text": "FA-1041\t\t0,996"
+    },
+    {
+      "index": 285,
+      "style": "Normal",
+      "text": "FA-1042\t\t0,981"
+    },
+    {
+      "index": 286,
+      "style": "Normal",
+      "text": "FA-1043\t\t0,991"
+    },
+    {
+      "index": 287,
+      "style": "Normal",
+      "text": "FA-1045\t\t0,995"
+    },
+    {
+      "index": 288,
+      "style": "Normal",
+      "text": "FA-1047\t\t0,964"
+    },
+    {
+      "index": 289,
+      "style": "Normal",
+      "text": "FA-1113\t\t1,000"
+    },
+    {
+      "index": 290,
+      "style": "Normal",
+      "text": "FA-1114\t\t1,000"
+    },
+    {
+      "index": 291,
+      "style": "Normal",
+      "text": "FA-1120\t\t1,000"
+    },
+    {
+      "index": 292,
+      "style": "Normal",
+      "text": "Nghĩa là\t\t0,991"
+    },
+    {
+      "index": 294,
+      "style": "Normal",
+      "text": "Chỉ số trên trình bày giá trị AUROC ở cấp độ ảnh cho cấu hình cơ bản (ảnh gốc, đầu vào 224x224) trên tất cả 12 mẫu sản phẩm. Giá tri AUROC trung bình trên các mẫu sản phẩm là 0,991, với 5 mẫu sản phẩm trong 12 mẫu sản phẩm đạt giá trị tuyệt đối 1,000 và các mẫu sản phẩm yếu nhất, FA-1047 (0,964) và FA-808 (0,970), vẫn cao hơn 0,95."
+    },
+    {
+      "index": 295,
+      "style": "Heading 2",
+      "text": "6.2. So sánh với đường cơ sở thống kê"
+    },
+    {
+      "index": 296,
+      "style": "Normal",
+      "text": "Chỉ số AUROC trung bình của phương pháp chuẩn cổ điển là 0,898, thấp hơn hơn 9 điểm so với chỉ số chuẩn của PatchCore. cấu hình (0,991) và thấp hơn gần 10 điểm so với cấu hình cuối cùng của PatchCore (0,996, Bảng 5). Khoảng cách này chủ yếu xuất phát từ một số ít các mẫu sản phẩm mà số liệu thống kê được tính toán thủ công rõ ràng là không phù hợp. Không đủ, FA-808, FA-924 và FA-838 đều thấp hơn 0,820 so với mức cơ sở cổ điển trong khi vẫn duy trì trên 0,970 đối với PatchCore. Độ phân tán theo từng mẫu sản phẩm của đường cơ sở cổ điển cũng rộng hơn đáng kể (0,799) (đến 0,993) so với PatchCore (0,964 đến 1,000 trong cấu hình cơ bản), cho thấy rằng khả năng học hỏi đã được cải thiện."
+    },
+    {
+      "index": 297,
+      "style": "Normal",
+      "text": "Các đặc điểm sâu có khả năng khái quát hóa nhất quán hơn trên 12 mẫu sản phẩm đối tượng khác nhau so với các đặc điểm khác. Bộ tính năng cố định, được thiết kế thủ công."
+    },
+    {
+      "index": 298,
+      "style": "Caption Table",
+      "text": "Bảng 6.1. AUROC của Isolation Forest và PatchCore cơ sở."
+    },
+    {
+      "index": 299,
+      "style": "Caption Table",
+      "text": "AUROC cấp độ hình ảnh, đường cơ sở thống kê cổ điển của Isolation Forest (Rừng cô lập) so với PatchCore (cấu hình cơ bản)."
+    },
+    {
+      "index": 301,
+      "style": "Heading 2",
+      "text": "6.3. Ảnh hưởng của bước loại bỏ nền"
+    },
+    {
+      "index": 302,
+      "style": "Normal",
+      "text": "không thay đổi (0,991 trong cả hai cấu hình), nhưng sự chênh lệch giữa các lớp là không nhỏ ở cả hai hướng. Việc loại bỏ nền cải thiện đáng kể FA-1047 (+0,036) nhưng làm giảm FA-1043 ( 0,021) và Việc thêm nền đen do quá trình loại bỏ nền, khi kết hợp với phương pháp phân ngưỡng phần trăm toàn bộ ảnh đơn giản, sẽ làm biến dạng ngưỡng và tạo ra các vùng định vị rộng hơn so với ban đầu. Ngược lại với kỳ vọng ban đầu rằng việc loại bỏ nền sẽ giúp cải thiện khả năng định vị. Điều này thúc đẩy việc áp dụng ngưỡng giới hạn đối tượng tiền cảnh được mô tả trong Phần 4. 6."
+    },
+    {
+      "index": 304,
+      "style": "Caption Table",
+      "text": "AUROC cấp độ ảnh, ảnh gốc so với ảnh đã chỉnh sửa, ảnh đã loại bỏ nền, được sắp xếp theo độ chênh lệch."
+    },
+    {
+      "index": 306,
+      "style": "Normal",
+      "text": "Mẫu sản phẩm\tẢnh gốc\tĐã được xoá phông nền"
+    },
+    {
+      "index": 307,
+      "style": "Normal",
+      "text": "FA-1047\t\t0,964\t\t1,000\t\t\t\t+0,036"
+    },
+    {
+      "index": 308,
+      "style": "Normal",
+      "text": "FA-1042\t\t0,981\t\t0,990\t\t\t\t+0,009"
+    },
+    {
+      "index": 309,
+      "style": "Normal",
+      "text": "FA-1045\t\t0,995\t\t1,000\t\t\t\t+0,005"
+    },
+    {
+      "index": 310,
+      "style": "Normal",
+      "text": "FA-838\t\t0,996\t\t1,000\t\t\t\t+0,004"
+    },
+    {
+      "index": 311,
+      "style": "Normal",
+      "text": "FA-1041\t\t0,996\t\t0,999\t\t\t\t+0,003"
+    },
+    {
+      "index": 312,
+      "style": "Normal",
+      "text": "FA-1113\t\t1,000\t\t1,000\t\t\t\t0,000"
+    },
+    {
+      "index": 313,
+      "style": "Normal",
+      "text": "FA-504\t\t1,000\t\t1,000\t\t\t\t0,000"
+    },
+    {
+      "index": 314,
+      "style": "Normal",
+      "text": "FA-924\t\t1,000\t\t1,000\t\t\t\t0,000"
+    },
+    {
+      "index": 315,
+      "style": "Normal",
+      "text": "FA-1114\t\t1,000\t\t0,994\t\t\t\t-0,006"
+    },
+    {
+      "index": 316,
+      "style": "Normal",
+      "text": "FA-1120\t\t1,000\t\t0,989\t\t\t\t-0,011"
+    },
+    {
+      "index": 317,
+      "style": "Normal",
+      "text": "FA-808\t\t0,970\t\t0,955\t\t\t\t-0,015"
+    },
+    {
+      "index": 318,
+      "style": "Normal",
+      "text": "FA-1043\t\t0,991\t\t0,970\t\t\t\t-0,021"
+    },
+    {
+      "index": 319,
+      "style": "Normal",
+      "text": "Nghĩa là\t\t0,991\t\t0,991\t\t\t\t0,000"
+    },
+    {
+      "index": 320,
+      "style": "Heading 2",
+      "text": "6.4. Sai lệch mặt nạ đối với vật thể tối"
+    },
+    {
+      "index": 321,
+      "style": "Normal",
+      "text": "Mục 4. 3 mô tả hai cách để thu được mặt nạ đối tượng được sử dụng cho ngưỡng giới hạn tiền cảnh, một ngưỡng độ sáng màu đơn giản trên ảnh đã được loại bỏ nền, và đầu ra alpha mềm gốc của mô hình phân đoạn. Tôi định lượng sự khác biệt giữa chúng bằng cách lấy mẫu 10 ảnh bình thường. hình ảnh cho mỗi mẫu sản phẩm, tính toán cả hai mặt nạ và đo tỷ lệ pixel vật thể thực (alpha) > 0,5) mặt nạ ngưỡng màu dán nhãn sai là nền (tỷ lệ âm tính giả). Bảng 4 Báo cáo kết quả cho từng lớp, cùng với độ sáng trung bình của vùng đối tượng thực."
+    },
+    {
+      "index": 322,
+      "style": "Normal",
+      "text": "Đối với 9 trong số 12 mẫu sản phẩm, hai loại mặt nạ cho kết quả gần như tương đồng (tỷ lệ âm tính giả dưới 7%). Đối với ba mẫu sản phẩm còn lại, Ba mẫu sản phẩm này có màu sắc trung bình của vật thể tối nhất trong tập dữ liệu (lần lượt là 28, 7, 31, 6 và 4, 7 trên thang điểm 0–255), và có mối tương quan giữa tỷ lệ âm tính giả và độ sáng trung bình của vật thể. Hệ số tương quan r trên tất cả 12 lớp là r = 0,938. Cơ chế là do bước loại bỏ nền của tôi kết hợp các yếu tố sau: đối tượng được phân đoạn trên nền đen đồng nhất và loại bỏ kênh alpha; khi đối tượng Bản thân vật liệu có màu tối, giá trị pixel của nó sau khi ghép ảnh không thể phân biệt được với nền."
+    },
+    {
+      "index": 323,
+      "style": "Caption Table",
+      "text": "Bảng 6.2. Sai lệch của mặt nạ ngưỡng màu so với mặt nạ alpha."
+    },
+    {
+      "index": 324,
+      "style": "Caption Table",
+      "text": "(Tỷ lệ âm tính giả của đối tượng ngưỡng màu. Mặt nạ so với mặt nạ alpha thực và độ sáng trung bình của đối tượng, theo từng lớp (10 hình ảnh bình thường mỗi mẫu sản phẩm), được sắp xếp theo tỷ lệ âm tính giả)"
+    },
+    {
+      "index": 327,
+      "style": "Caption Figure",
+      "text": "Hình 6.1. Vật thể tối bị bỏ sót khi tái tạo mặt nạ bằng ngưỡng màu."
+    },
+    {
+      "index": 328,
+      "style": "Caption Figure",
+      "text": "FA-1047, một mẫu bình thường. Từ trái sang phải, ảnh gốc; mặt nạ alpha thực (phân đoạn mới đầu ra mô hình); mặt nạ ngưỡng màu (từ tập dữ liệu đã loại bỏ nền); các pixel hiện có trong mặt nạ thật nhưng bị mặt nạ ngưỡng màu bỏ sót, được tô đỏ. Măt nạ ngưỡng màu bot sót hầu hết phần để tối màu)"
+    },
+    {
+      "index": 330,
+      "style": "Caption Figure",
+      "text": "Mẫu sản phẩm\tTỷ lệ âm tính giả\tĐộ sáng trung bình cảu vật thể"
+    },
+    {
+      "index": 331,
+      "style": "Caption Figure",
+      "text": "FA-838\t\t0,007\t\t\t152,5"
+    },
+    {
+      "index": 332,
+      "style": "Caption Figure",
+      "text": "FA-1041\t\t0,003\t\t\t171,6"
+    },
+    {
+      "index": 333,
+      "style": "Caption Figure",
+      "text": "FA-924\t\t0,003\t\t\t128,7"
+    },
+    {
+      "index": 334,
+      "style": "Caption Figure",
+      "text": "FA-504\t\t0,003\t\t\t117,6"
+    },
+    {
+      "index": 335,
+      "style": "Caption Figure",
+      "text": "FA-808\t\t0,002\t\t\t200,9"
+    },
+    {
+      "index": 337,
+      "style": "Heading 2",
+      "text": "6.5. Cấu hình cuối cùng và độ phân giải đầu vào"
+    },
+    {
+      "index": 338,
+      "style": "Normal",
+      "text": "Đầu vào 384×384, ngưỡng phần trăm giới hạn vùng tiền cảnh với thành phần liên thông lớn nhất. lọc. Giá trị AUROC trung bình được cải thiện lên 0,996, tăng từ 0,991 của đường cơ sở ban đầu và 0,991. Chỉ riêng việc loại bỏ nền ở độ phân giải 224×224. Hiện tại, mọi mẫu sản phẩm đều đạt điểm từ 0,983 trở lên, và. .. Các mẫu sản phẩm yếu nhất trước đây không còn là ngoại lệ rõ ràng nữa, FA-1047 đạt điểm tuyệt đối 1,000 và FA-808 cải thiện lên 0,983 (từ 0,970 ở mức cơ bản và 0,955 ở mức 224×224 đã loại bỏ nền). (cấu hình). Mẫu sản phẩm có chỉ số thấp nhất là FA-1120 với 0,987, vẫn ở mức khá cao."
+    },
+    {
+      "index": 339,
+      "style": "Normal",
+      "text": "So sánh định tính trên hai mẫu sản phẩm ban đầu yếu nhất (FA-1047, FA-808) cho thấy rằng việc giới hạn ngưỡng phần trăm vào mặt nạ tiền cảnh và chỉ giữ lại thành phần liên thông lớn nhất giúp thu hẹp đáng kể vùng cục bộ so với ngưỡng toàn ảnh đơn giản, trên cả ảnh bị lỗi (định vị chính xác) và ảnh bình thường (không quan sát thấy vùng dương tính giả lớn). Tăng độ phân giải đầu vào từ 224×224 lên 384×384 giúp thu hẹp hơn nữa việc định vị, và trong một trường hợp đã phát hiện ra một vùng lỗi thực sự nhỏ hoàn toàn không được phát hiện ở độ phân giải 224×224, phù hợp với lập luận về dấu vết ô lưới trong Phần 4. 5."
+    },
+    {
+      "index": 340,
+      "style": "Caption Table",
+      "text": "Bảng 6.3. AUROC của cấu hình cuối cùng theo từng mẫu sản phẩm."
+    },
+    {
+      "index": 341,
+      "style": "Caption Table",
+      "text": "(Cấu hình cuối cùng, AUROC cấp độ ảnh cho mỗi mẫu sản phẩm “ảnh đã loại bỏ nền, đầu vào 384x384, ngưỡng giới hạn đối tượng tiền ảnh”)"
+    },
+    {
+      "index": 343,
+      "style": "Heading 2",
+      "text": "6.6. Độ ổn định theo hạt giống ngẫu nhiên"
+    },
+    {
+      "index": 344,
+      "style": "Normal",
+      "text": "Mọi kết quả được báo cáo ở trên đều sử dụng một hạt giống ngẫu nhiên cố định duy nhất (Mục 5), hạt giống này xác định cả việc phân chia tập huấn luyện/hiệu chuẩn và việc lấy mẫu con của tập lõi; do số lượng ảnh lỗi nhỏ. Đối với mỗi mẫu sản phẩm (Mục 3), Tôi đã đánh dấu AUROC trên mỗi mẫu sản phẩm là một hạn chế vì nó mang phương sai đáng kể. Chúng tôi lặp lại cấu hình cuối cùng (hình ảnh đã loại bỏ nền, đầu vào 384×384) trên 5 hạt giống. (0–4), mỗi nhóm có một bộ dữ liệu huấn luyện/hiệu chuẩn được lấy mẫu lại độc lập và bộ lõi. Bảng 6 báo cáo Giá trị trung bình và độ lệch chuẩn của từng lớp."
+    },
+    {
+      "index": 346,
+      "style": "Caption Table",
+      "text": "Bảng 6.4. AUROC trung bình và độ lệch chuẩn trên năm hạt giống."
+    },
+    {
+      "index": 347,
+      "style": "Caption Table",
+      "text": "(AUROC ở cấp độ hình ảnh, giá trị trung bình ± độ lệch chuẩn trên 5 hạt giống “cấu hình cuối cùng”, được sắp xếp theo giá trị trung bình)"
+    },
+    {
+      "index": 349,
+      "style": "Heading 2",
+      "text": "6.7. Đánh giá tổng hợp đa tỷ lệ"
+    },
+    {
+      "index": 350,
+      "style": "Normal",
+      "text": "Mục 4. 5 đã đánh giá kích thước 224×224 và 384×384 một cách độc lập chứ không phải kết hợp. Bây giờ chúng ta sẽ đánh giá Tổng hợp đa quy mô thực sự (giai đoạn 5 của OC-MAR), chạy PatchCore độc lập ở ba đầu vào. các độ phân giải 256×256, 384×384 và 512×512, điều chỉnh kích thước mỗi bản đồ nhiệt thu được về cùng một độ phân giải. Khung vẽ 384×384, và kết hợp chúng theo từng phần tử bằng cách lấy giá trị tối đa. Mức độ hình ảnh tổng hợp điểm số này cũng là điểm tối đa trong ba điểm số trên mỗi thang đo. Bảng 7 so sánh điểm số tổng hợp này."
+    },
+    {
+      "index": 351,
+      "style": "Normal",
+      "text": "Cấu hình được so sánh với cấu hình 384 × 384 riêng lẻ, được đánh giá trong cùng một lần chạy để có sự so sánh công bằng. Việc tổng hợp đa thang đo theo giá trị cực đại không cải thiện AUROC trung bình, mà chỉ làm giảm nhẹ. (0,9964 so với 0,9958), gần như hoàn toàn do hai mẫu sản phẩm, FA-1113 ( 0,007) và FA-1120 (0,005), trong khi năm mẫu sản phẩm không thay đổi và ba mẫu sản phẩm cải thiện rất nhẹ. Việc lấy giá trị tối đa theo từng phần tử trên các thang đo kết hợp bằng chứng một cách lạc quan cho thấy, nó có khả năng lan truyền chính xác như nhau."
+    },
+    {
+      "index": 352,
+      "style": "Caption Table",
+      "text": "Bảng 6.5. So sánh đơn tỷ lệ và tổng hợp đa tỷ lệ."
+    },
+    {
+      "index": 355,
+      "style": "Caption Figure",
+      "text": "Hình 6.2. Bản đồ bất thường theo từng tỷ lệ và kết quả tổng hợp."
+    },
+    {
+      "index": 356,
+      "style": "Caption Figure",
+      "text": "(FA-1047, ba mã bị lỗi, lớp phủ giới hạn vùng phía trước ở từng tỷ lệ riêng lẻ và cho tổng hợp tối đa quy mô)"
+    },
+    {
+      "index": 357,
+      "style": "Heading 2",
+      "text": "6.8. Ngưỡng thích ứng theo từng mẫu"
+    },
+    {
+      "index": 358,
+      "style": "Normal",
+      "text": "Mục 6 ở trên chứng minh rằng một vùng dương tính giả nhỏ còn sót lại trên hầu hết mọi trường hợp. Hình ảnh bình thường dưới ngưỡng phân vị thứ 92 cố định, không hiệu chỉnh được sử dụng xuyên suốt báo cáo này. Chúng tôi đánh giá một phương án thích ứng theo từng lớp (giai đoạn 7 của OC-MAR), đối với mỗi lớp, tôi đo lường giá trị trung bình. diện tích thành phần liên thông lớn nhất được giữ lại trên đường phân chia chuẩn hiệu chuẩn của lớp đó (Mục 5) tại năm các phân vị ứng viên (92, 94, 96, 98, 99), và chọn ứng viên nhỏ nhất có giá trị trung bình được giữ lại."
+    },
+    {
+      "index": 359,
+      "style": "Normal",
+      "text": "khu vực nằm ở mức hoặc thấp hơn mục tiêu cố định là 300 pixel (khoảng 0, 2% của khung vẽ 384 × 384), Thay vì áp dụng phân vị thứ 92 một cách đồng đều. Quá trình hiệu chuẩn này chỉ sử dụng các hình ảnh bình thường và Nó không làm thay đổi ngân hàng bộ nhớ hoặc điểm số bất thường ở cấp độ hình ảnh, do đó không ảnh hưởng đến AUROC. Kết quả đã được báo cáo trước đó trong phần này. tại phần trăm thứ 92 cố định để so sánh. Mỗi lớp đều đạt mục tiêu 300 pixel. ở mức phần trăm từ 94 đến 99 tùy thuộc vào từng nhóm, và diện tích dương tính giả trung bình trên tất cả các nhóm."
+    },
+    {
+      "index": 360,
+      "style": "Caption Table",
+      "text": "Bảng 6.6. Hiệu quả ngưỡng thích ứng theo mẫu sản phẩm."
+    },
+    {
+      "index": 361,
+      "style": "Caption Table",
+      "text": "(Lựa chọn ngưỡng thích ứng theo từng lớp. Đã chọn phân vị là giá trị nhỏ nhất trong {92, 94, 96, 98, 99 } có giá trị trung bình là 92, diện tích thanh phần liên thông lớn nhất trên đường chuẩn hiệu chuẩn khoảng cách chia tách là 300 pixel trở xuống)"
+    },
+    {
+      "index": 363,
+      "style": "Heading 2",
+      "text": "6.9. Đánh giá định tính khả năng định vị"
+    },
+    {
+      "index": 364,
+      "style": "Normal",
+      "text": "tương ứng, ở độ phân giải 384×384. Trong cả hai mẫu sản phẩm, ngưỡng phần trăm toàn bộ hình ảnh đơn giản. (cột giữa) bao phủ hầu hết thân đối tượng, trong khi ngưỡng giới hạn tiền cảnh với Lọc thành phần liên thông lớn nhất (cột bên phải) cô lập một vùng nhỏ, ổn định, gần Mũ dành cho FA-808 và gần hình bên trái nhất dành cho FA-1047, mà tôi cho là vị trí lỗi thực sự. Với tính nhất quán trên các mẫu lỗi độc lập. Hình 10 cho thấy quy trình hạn chế vùng tiền cảnh tương tự được áp dụng cho các hình ảnh FA-808 bình thường được giữ lại, không có vùng dương tính giả lớn nào."
+    },
+    {
+      "index": 365,
+      "style": "Normal",
+      "text": "được tạo ra, cho thấy việc thiết lập ngưỡng chặt chẽ hơn không dẫn đến việc phát hiện sai. Nguyên liệu đầu vào không có lỗi. Quy trình giới hạn ở phía trước không chỉ được điều chỉnh cho hai mẫu này, Hình 11 áp dụng quy trình giống hệt nhau, không thay đổi, cho một mẫu bình thường và một mẫu lỗi từ mỗi trong số 10 mẫu còn lại. các lớp được đặt cạnh nhau để so sánh trực tiếp. Đối với mẫu lỗi trong 9 trên 10 mẫu sản phẩm, Vùng được giữ lại là một mảng nhỏ, có tính liên tục về mặt không gian chứ không phải là một khối phân tán, phù hợp với Các ví dụ FA-808 và FA-1047 ở trên. Trong mẫu FA-1041 được hiển thị, không có vùng nào còn sót lại."
+    },
+    {
+      "index": 368,
+      "style": "Caption Figure",
+      "text": "Hình 6.3. Kết quả định vị trên ảnh lỗi: (a) FA-808; (b) FA-1047."
+    },
+    {
+      "index": 370,
+      "style": "Caption Figure",
+      "text": "Hình 6.4. Đối chiếu định vị: (a) ảnh bình thường FA-808; (b) các mẫu sản phẩm còn lại."
+    },
+    {
+      "index": 371,
+      "style": "Heading 2",
+      "text": "6.10. Đánh giá định lượng trên tập chú thích thủ công"
+    },
+    {
+      "index": 372,
+      "style": "Normal",
+      "text": "Đánh giá định tính nêu trên, về bản chất, không thể trả lời một câu hỏi cơ bản: liệu vùng được giữ lại có thực sự trùng khớp với vùng bị lỗi hay không, ngoài một vài ví dụ đã được trình bày. Tập dữ liệu không cung cấp dữ liệu tham chiếu ở cấp độ pixel, vì vậy tôi đã xây dựng một phần dữ liệu tham chiếu đó. Đối với mỗi mẫu sản phẩm, tôi đã chú thích thủ công một mẫu hình ảnh bị lỗi được phân tầng, nhắm mục tiêu vào 40% số hình ảnh bị lỗi của mẫu sản phẩm đó, được chia cho hai người chú thích, sử dụng một công cụ trình duyệt được xây dựng riêng (một hình ảnh tham chiếu bình thường được hiển thị bên cạnh mỗi hình ảnh bị lỗi để chú thích) ghi lại một vùng nhị phân được vẽ tay thay vì một đa giác chính xác. Lựa chọn này là có chủ ý chứ không phải là một lối tắt, vì việc phân đoạn chính xác đến từng pixel"
+    },
+    {
+      "index": 373,
+      "style": "Normal",
+      "text": "đòi hỏi chuyên môn và thời gian của người chú thích, điều hiếm khi có sẵn trong môi trường sản xuất nhỏ mà báo cáo này nhắm đến, vì vậy một giao thức chú thích thô, nhanh chóng được cho là dữ liệu tham chiếu đại diện hơn để đánh giá khả năng triển khai thực tế, với chi phí là ranh giới lỏng lẻo hơn so với mặt nạ do chuyên gia vẽ. Với một ranh giới thực tế được xác định một cách thô sơ và cố ý không chính xác, một chỉ số chồng lấp ranh giới nghiêm ngặt như giao điểm trên hợp nhất (IoU) được cho là sẽ mang tính bi quan; một vị trí được xác định chính xác về mặt kỹ thuật vẫn có thể đạt điểm IoU thấp nếu vùng được vẽ thủ công lớn hơn hoặc nhỏ hơn phạm vi khuyết tật thực sự."
+    },
+    {
+      "index": 374,
+      "style": "Normal",
+      "text": "Do đó, tôi báo cáo ba số liệu bổ sung so với cùng một dự đoán thành phần liên kết lớn nhất bị hạn chế ở tiền cảnh được sử dụng trong suốt phần này (ngưỡng phân vị thứ 92 cố định), IoU; phạm vi bao phủ, phần trăm vùng được chú thích bằng tay mà vùng được dự đoán chồng lấn (|pred∩ gt|/|gt|, một thước đo chồng lấn vùng ngưỡng đơn, không phải là đường cong PRO đa ngưỡng đầy đủ của [1]); và độ chính xác trò chơi chỉ điểm [6], liệu pixel có điểm số cao nhất của bản đồ nhiệt bất thường thô có nằm bên trong vùng được chú thích bằng tay hay không, một số liệu hoàn toàn không phụ thuộc vào ranh giới của vùng được dự đoán."
+    },
+    {
+      "index": 375,
+      "style": "Caption Table",
+      "text": "Bảng 6.7. Chỉ số định vị trên 192 ảnh được chú thích thủ công."
+    },
+    {
+      "index": 376,
+      "style": "Caption Table",
+      "text": "(Định vị định lượng so với mặt nạ được chú thích thủ công, tất cả 12 mẫu sản phẩm {192 hình ảnh không trống – sự thật cơ bản}, dự đoán bị hạn chế ở tiền cảnh tại điểm cố định ngưỡng phân vị thứ 92."
+    },
+    {
+      "index": 379,
+      "style": "Caption Figure",
+      "text": "Hình 6.5. Ví dụ đối chiếu vùng dự đoán với mặt nạ chú thích thủ công."
+    },
+    {
+      "index": 380,
+      "style": "Heading 1",
+      "text": "CHƯƠNG 7. THẢO LUẬN"
+    },
+    {
+      "index": 381,
+      "style": "Heading 2",
+      "text": "7.1. Ý nghĩa của kết quả"
+    },
+    {
+      "index": 382,
+      "style": "Normal",
+      "text": "Một bộ dò không cần huấn luyện là lựa chọn mặc định hợp lý ở quy mô dữ liệu này, nhưng khả năng định vị của nó. .. Cần trợ giúp. PatchCore đạt được AUROC trung bình ở cấp độ hình ảnh là 0,996 chỉ với 80 lần huấn luyện thông thường. hình ảnh cho mỗi mẫu sản phẩm và không có huấn luyện dựa trên gradient nào ngoài việc chọn coreset, đó là lý do chính. chúng tôi đã sử dụng nó làm bộ dò chính thay vì mạng phân đoạn có thể huấn luyện (Mục 4). Sự đánh đổi ở đây là kết quả định vị của nó là hệ quả gián tiếp của lưới khoảng cách giữa các vùng, chứ không phải là một đầu phân đoạn được huấn luyện trực tiếp và quy trình xử lý hậu kỳ các quyết định trong Phần 4. 6, Hạn chế tiền cảnh, lọc thành phần liên thông lớn nhất, bằng chứng đa thang đo, tồn tại đặc biệt để bù đắp cho"
+    },
+    {
+      "index": 383,
+      "style": "Heading 2",
+      "text": "7.2. Ảnh hưởng của tiền xử lý và hậu xử lý"
+    },
+    {
+      "index": 384,
+      "style": "Normal",
+      "text": "Các lựa chọn tiền xử lý tưởng chừng miễn phí không phải lúc nào cũng miễn phí. Việc loại bỏ nền được áp dụng để cho phép phân ngưỡng giới hạn đối tượng trước mà hầu như không tốn thêm chi phí, và nó đã cải thiện nhẹ chỉ số AUROC trung bình (từ 0,991 lên 0,996, Bảng 3). Nhưng cách cụ thể mà chúng tôi triển khai mặt nạ đối tượng thu được ban đầu, bằng cách phân ngưỡng độ sáng pixel trên một hình ảnh đã được làm phẳng, đã âm thầm loại bỏ hầu hết vùng đối tượng thực sự cho ba lớp màu tối nhất (Mục 6. 4). Giải pháp khắc phục, sử dụng trực tiếp đầu ra alpha gốc của mô hình phân đoạn thay vì tạo lại mặt nạ từ màu sắc, không tốn chi phí tính toán và luôn có sẵn; sai sót nằm ở chỗ không nhận thấy rằng hai biểu diễn của \"mặt nạ đối tượng\" có thể trùng khớp chặt chẽ trên một số hình ảnh nhưng lại"
+    },
+    {
+      "index": 385,
+      "style": "Normal",
+      "text": "khác biệt rõ rệt trên những hình ảnh khác, tùy thuộc vào một thuộc tính (màu sắc đối tượng) không liên quan gì đến khuyết điểm đang được phát hiện."
+    },
+    {
+      "index": 386,
+      "style": "Heading 2",
+      "text": "7.3. Lựa chọn giữa mô hình không huấn luyện và mô hình có huấn luyện"
+    },
+    {
+      "index": 387,
+      "style": "Normal",
+      "text": "Ranh giới giữa các phương pháp không cần huấn luyện và các phương pháp có thể huấn luyện, ít nhất là trong trường hợp của tôi, được xác định bởi quy mô dữ liệu chứ không phải kiến trúc. Về nguyên tắc, việc huấn luyện lỗi tổng hợp của SuperSimpleNet tạo ra đầu ra phân đoạn được huấn luyện trực tiếp, giúp định vị chính xác hơn so với bản đồ khoảng cách lân cận gần nhất. Sau ba vòng tái triển khai ngày càng trung thực hơn so với kiến trúc tham chiếu, nó không hội tụ trên bất kỳ lớp nào trong hai mẫu sản phẩm mà tôi đã thử nghiệm (Phụ lục A). Tôi không thể loại trừ khả năng còn tồn tại một lỗ hổng triển khai chưa được xác định, nhưng tôi đã xác minh mọi chi tiết kiến trúc mà tôi có thể tìm thấy trong triển khai tham chiếu, và lời giải thích hợp lý nhất còn lại là 80"
+    },
+    {
+      "index": 388,
+      "style": "Normal",
+      "text": "hình ảnh huấn luyện mỗi lớp đơn giản là thấp hơn quy mô dữ liệu mà phương pháp được thiết kế và xác thực. Điều này phù hợp với mô hình rộng hơn trong báo cáo này, các phương pháp và lựa chọn tiền xử lý được thiết lập tốt ở quy mô dữ liệu chuẩn không tự động chuyển sang quy mô triển khai thực tế nhỏ hơn nhiều, và khoảng trống này cần được kiểm tra chứ không phải giả định."
+    },
+    {
+      "index": 389,
+      "style": "Heading 2",
+      "text": "7.4. Khả năng ứng dụng và giới hạn"
+    },
+    {
+      "index": 390,
+      "style": "Normal",
+      "text": "Kết quả cho thấy quy trình phù hợp cho bước sàng lọc hoặc hỗ trợ người kiểm tra trong môi trường sản xuất có ít ảnh lỗi. Tuy nhiên, AUROC cao không đồng nghĩa vùng lỗi được phân đoạn chính xác. Khi triển khai thực tế cần tách hai ngưỡng: ngưỡng cảnh báo cấp ảnh và ngưỡng hiển thị vùng lỗi; đồng thời lưu lại ảnh mới để giám sát sự thay đổi của điều kiện chiếu sáng, phông nền và thiết kế sản phẩm."
+    },
+    {
+      "index": 391,
+      "style": "Normal",
+      "text": "Các giới hạn chính gồm quy mô dữ liệu nhỏ, không có mặt nạ lỗi do chuyên gia xây dựng, chưa đo độ đồng thuận giữa người chú thích, chưa đánh giá tốc độ suy luận trên dây chuyền và chưa thực hiện kiểm thử theo thời gian. Tập tham chiếu 192 ảnh có chủ ý được chú thích thô nên các giá trị IoU và độ phủ chỉ nên được hiểu như giới hạn dưới. Việc mở rộng kết luận sang sản phẩm mới cần thêm thí nghiệm độc lập."
+    },
+    {
+      "index": 392,
+      "style": "Heading 2",
+      "text": "7.5. Khuyến nghị triển khai thử nghiệm"
+    },
+    {
+      "index": 393,
+      "style": "Normal",
+      "text": "Giai đoạn thử nghiệm nên bắt đầu ở một trạm chụp cố định với nền, khoảng cách camera và điều kiện chiếu sáng được kiểm soát. Mỗi mã sản phẩm cần có ngân hàng bộ nhớ riêng và bộ ảnh hiệu chuẩn bình thường được rà soát trước khi đưa vào sử dụng. Hệ thống nên lưu đồng thời ảnh gốc, điểm bất thường, bản đồ nhiệt, mặt nạ đối tượng và quyết định cuối để có thể truy vết khi phát sinh cảnh báo sai. Khi đổi thiết kế sản phẩm, vật liệu, camera hoặc bố trí ánh sáng, dữ liệu phải được đánh giá lại thay vì tiếp tục dùng ngưỡng cũ."
+    },
+    {
+      "index": 394,
+      "style": "Normal",
+      "text": "Trong vận hành, mô hình nên đóng vai trò sàng lọc và cung cấp vùng nghi ngờ cho nhân viên kiểm tra, chưa nên tự động loại sản phẩm chỉ từ một dự đoán. Các cảnh báo cần được phân nhóm thành đúng lỗi, báo động giả và trường hợp chưa chắc chắn; số liệu này được tổng hợp định kỳ để theo dõi tỷ lệ báo động giả theo từng mã hàng. Chỉ nên mở rộng sang nhiều trạm sau khi ngưỡng cảnh báo đạt độ ổn định trong một giai đoạn chạy song song với quy trình thủ công và các trường hợp lỗi quan trọng không bị bỏ sót."
+    },
+    {
+      "index": 395,
+      "style": "Heading 1",
+      "text": "CHƯƠNG 8. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN"
+    },
+    {
+      "index": 396,
+      "style": "Heading 2",
+      "text": "8.1. Kết luận"
+    },
+    {
+      "index": 397,
+      "style": "Normal",
+      "text": "Tôi đã xây dựng và đánh giá một quy trình phát hiện và định vị bất thường một mẫu sản phẩm cho một tập dữ liệu công nghiệp thực tế gồm 12 mẫu sản phẩm với ngân sách huấn luyện cực kỳ hạn chế chỉ dành cho ảnh bình thường, 100 ảnh bình thường cho mỗi mẫu sản phẩm và không có nhãn hoặc mặt nạ lỗi ở bất kỳ giai đoạn nào. Bộ phát hiện dựa trên bộ nhớ không cần huấn luyện, PatchCore, kết hợp với một tập hợp nhỏ các quyết định tiền xử lý và hậu xử lý được tổ chức xung quanh khung chín giai đoạn (OC-MAR) do thầy hướng dẫn của tôi đề xuất, đã đạt được AUROC trung bình ở cấp độ ảnh là 0,996 trên 12 mẫu sản phẩm, ổn định trong phạm vi 0,002 trên 5 hạt giống ngẫu nhiên (Mục 6. 6), và rõ ràng vượt trội so với đường cơ sở thống kê cổ điển (0, 898)."
+    },
+    {
+      "index": 398,
+      "style": "Heading 2",
+      "text": "8.2. Hướng phát triển"
+    },
+    {
+      "index": 399,
+      "style": "Normal",
+      "text": "Trong nghiên cứu này, chất lượng định vị chủ yếu được đánh giá định tính, vì tập dữ liệu không cung cấp mặt nạ khuyết tật được vẽ bởi chuyên gia; Mục 6. 10 báo cáo một phần kiểm tra định lượng so với một tập con được chú thích thủ công, cố ý thô (192 hình ảnh trên tất cả 12 mẫu sản phẩm), cho thấy độ chồng chéo ranh giới (IoU) thấp nhưng độ chính xác trò chơi chỉ điểm cao (0,875), phù hợp với một mô hình xác định đáng tin cậy vị trí khuyết tật tổng quát chính xác mà không cần vạch rõ ranh giới của nó. Thu hẹp khoảng cách này hơn nữa, với dữ liệu tham chiếu chặt chẽ hơn, sự đồng thuận giữa những người chú thích được đo lường, hoặc một đường cong PRO đa ngưỡng đầy đủ, là hướng đi có giá trị nhất còn lại cho công việc trong tương lai, trước khi tinh chỉnh kiến trúc của chính bộ dò."
+    },
+    {
+      "index": 400,
+      "style": "List Bullet",
+      "text": "Xây dựng bộ mặt nạ lỗi do nhiều chuyên gia chú thích và đo mức độ đồng thuận giữa người chú thích."
+    },
+    {
+      "index": 401,
+      "style": "List Bullet",
+      "text": "Đánh giá PRO đa ngưỡng, đường cong precision-recall và chi phí lỗi theo yêu cầu kiểm soát chất lượng."
+    },
+    {
+      "index": 402,
+      "style": "List Bullet",
+      "text": "Thử nghiệm mô hình trên dữ liệu thu thập theo thời gian để phát hiện trôi dữ liệu và thay đổi điều kiện chụp."
+    },
+    {
+      "index": 403,
+      "style": "List Bullet",
+      "text": "Tối ưu hóa ngân hàng bộ nhớ, thời gian suy luận và cơ chế cập nhật đối với mã sản phẩm mới."
+    },
+    {
+      "index": 404,
+      "style": "List Bullet",
+      "text": "Thiết kế giao diện xác nhận cảnh báo để phản hồi của nhân viên kiểm tra trở thành dữ liệu hiệu chuẩn có kiểm soát."
+    },
+    {
+      "index": 405,
+      "style": "Heading 1",
+      "text": "TÀI LIỆU THAM KHẢO"
+    },
+    {
+      "index": 406,
+      "style": "Normal",
+      "text": "[1] Paul Bergmann, Michael Fauser, David Sattlegger và Carsten Steger, 'MVTec AD - A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection. In Proceedings of the IEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pages 9584-9592, 2019."
+    },
+    {
+      "index": 407,
+      "style": "Normal",
+      "text": "[2] Fei Tony Liu, Kai Ming Ting và Zhi-Hua Zhou. Isolation forest. In proceedings of the IEEE International Conference on Data Mining, 2008."
+    },
+    {
+      "index": 408,
+      "style": "Normal",
+      "text": "[3] Blaz Rolih, Matic Fučka và Danijel Skočaj. SuperSimpleNet: Unifying Unsupervised and Supervised Learning for Fast and Reliable Surface Defect Detection. arXiv preprint arXiv: 2408.03143, 2024."
+    },
+    {
+      "index": 409,
+      "style": "Normal",
+      "text": "[4] Karsten Roth, Latha Pemula, Joaquin Zepeda, Bernhard Schölkopf, Thomas Brox, and Petter Gehler. Towards Total Recall in Industrial Anomaly Detection. In Proceedings of the IEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022."
+    },
+    {
+      "index": 410,
+      "style": "Normal",
+      "text": "[5] Vitjan Zavrtanik, Matej Kristan và Danijel Skočaj. DRAEM - A Discriminatively Trained Reconstruction Embedding for Surface Anomaly Detection. In Proceedings of the IEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pages 8330-8339, 2021."
+    },
+    {
+      "index": 411,
+      "style": "Normal",
+      "text": "[6] Jianming Zhang, Sarah Adel Bargal, Zhe Lin, Jonathan Brandt, Xiaohui Shen and Stan Sclaroff. Top-Down Neural Attention by Excitation Backprop.  International Journal of Computer Vision, 126(10): 1084-1102, 2018."
+    },
+    {
+      "index": 412,
+      "style": "Heading 1",
+      "text": "PHỤ LỤC A. THỬ NGHIỆM SUPERSIMPLENET"
+    },
+    {
+      "index": 413,
+      "style": "Heading 2",
+      "text": "A.1. Thiết lập"
+    },
+    {
+      "index": 414,
+      "style": "Normal",
+      "text": "SuperSimpleNet được thử nghiệm như một phương án có thể huấn luyện nhằm tạo trực tiếp bản đồ phân đoạn lỗi. Hai mẫu có AUROC PatchCore cơ sở thấp nhất, FA-1047 và FA-808, được chọn để đánh giá. Mỗi mô hình dùng 80 ảnh bình thường, WideResNet-50 làm bộ trích xuất đặc trưng đóng băng, lỗi giả tổng hợp bằng nhiễu Gaussian có mặt nạ Perlin và lịch huấn luyện 300 epoch. Ảnh lỗi thực và mặt nạ lỗi không tham gia huấn luyện."
+    },
+    {
+      "index": 415,
+      "style": "Heading 2",
+      "text": "A.2. Hiệu chỉnh theo triển khai tham chiếu"
+    },
+    {
+      "index": 416,
+      "style": "Normal",
+      "text": "Ba vòng hiệu chỉnh được thực hiện bằng cách đối chiếu với mã tham chiếu. Vòng đầu sửa hàm mất mát phân đoạn từ khoảng cách L1 trên đầu ra sigmoid sang hàm biên độ bản lề trên logit. Vòng tiếp theo bổ sung cơ chế dừng gradient giữa hai đầu ra, dùng đặc trưng xương sống thô cho đầu phân loại, thay đầu phân đoạn bằng khối tích chập 1x1 hai lớp có chiều ẩn 1. 024 và bổ sung lịch giảm tốc độ học tại 80% và 90% tiến trình. Các thay đổi này loại trừ phần lớn sai khác kiến trúc có thể xác định được."
+    },
+    {
+      "index": 417,
+      "style": "Heading 2",
+      "text": "A.3. Phân tích kết quả không hội tụ"
+    },
+    {
+      "index": 418,
+      "style": "Normal",
+      "text": "Sau hiệu chỉnh, tổn thất giảm mạnh trong khoảng 20 epoch đầu rồi dao động quanh 1, 05-1, 11 cho đến hết 300 epoch; AUROC cuối đạt 0,384 trên FA-1047 và 0,891 trên FA-808. Quỹ đạo tổn thất tương tự nhưng chất lượng hai mẫu khác xa nhau cho thấy mô hình chưa học ổn định. Báo cáo xem đây là kết quả tiêu cực có giá trị: với 80 ảnh bình thường cho mỗi mẫu, phương pháp có thể huấn luyện này chưa chứng minh được lợi thế so với PatchCore. Nghiên cứu tiếp theo cần kiểm tra cơ chế sao chép theo lô trong bước chèn lỗi giả và đánh giá trên quy mô 200-300 ảnh bình thường cho mỗi mẫu."
+    },
+    {
+      "index": 422,
+      "style": "Caption Figure",
+      "text": "Hình A.1. Hàm mất mát huấn luyện SuperSimpleNet trên FA-1047 và FA-808."
+    }
+  ],
+  "tables": [
+    {
+      "index": 0,
+      "rows": [
+        [
+          "Từ viết tắt",
+          "Nội dung"
+        ],
+        [
+          "AUROC",
+          "Area Under the Receiver Operating Characteristic Curve"
+        ],
+        [
+          "CNN",
+          "Convolutional Neural Network"
+        ],
+        [
+          "FP",
+          "False Positive - dương tính giả"
+        ],
+        [
+          "GLCM",
+          "Gray-Level Co-occurrence Matrix"
+        ],
+        [
+          "IoU",
+          "Intersection over Union"
+        ],
+        [
+          "LBP",
+          "Local Binary Pattern"
+        ],
+        [
+          "OC-MAR",
+          "Object-Constrained Multi-scale Anomaly Recognition"
+        ],
+        [
+          "PRO",
+          "Per-Region Overlap"
+        ]
+      ]
+    },
+    {
+      "index": 1,
+      "rows": [
+        [
+          "Nhóm phương pháp",
+          "Dữ liệu huấn luyện",
+          "Ưu điểm",
+          "Hạn chế trong đề tài"
+        ],
+        [
+          "PatchCore",
+          "Chỉ ảnh bình thường",
+          "Không huấn luyện gradient; phù hợp dữ liệu ít",
+          "Bản đồ định vị còn thô"
+        ],
+        [
+          "DRAEM / SuperSimpleNet",
+          "Ảnh bình thường và lỗi giả",
+          "Có đầu phân đoạn trực tiếp",
+          "Khó hội tụ khi mỗi mẫu chỉ có 80 ảnh huấn luyện"
+        ],
+        [
+          "Isolation Forest",
+          "Thống kê thủ công từ ảnh bình thường",
+          "Đơn giản; chi phí thấp",
+          "Khả năng khái quát không đồng đều giữa các mẫu"
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "rows": [
+        [
+          "Thuộc tính",
+          "Giá trị / mô tả"
+        ],
+        [
+          "Số mẫu sản phẩm",
+          "12 mã sản phẩm độc lập"
+        ],
+        [
+          "Ảnh bình thường",
+          "100 ảnh cho mỗi mẫu; 80 ảnh huấn luyện và 20 ảnh hiệu chuẩn"
+        ],
+        [
+          "Ảnh lỗi",
+          "30-53 ảnh cho mỗi mẫu; chỉ dùng đánh giá"
+        ],
+        [
+          "Tổng số ảnh",
+          "1.705 ảnh JPEG, dung lượng khoảng 474 MB"
+        ],
+        [
+          "Độ phân giải phổ biến",
+          "956 x 1.276 pixel; một phần ảnh xoay ngang"
+        ],
+        [
+          "Nhãn pixel",
+          "Không có trong dữ liệu gốc"
+        ],
+        [
+          "Nhiệm vụ",
+          "Phân loại cấp ảnh và định vị vùng lỗi"
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "rows": [
+        [
+          "Giai đoạn",
+          "Tên",
+          "Vai trò"
+        ],
+        [
+          "1",
+          "Tiếp nhận ảnh",
+          "Chuẩn hóa hướng và kích thước"
+        ],
+        [
+          "2",
+          "Tách nền",
+          "Lấy ảnh đối tượng và mặt nạ alpha"
+        ],
+        [
+          "3",
+          "Tạo nhiều tỷ lệ",
+          "256, 384 và 512 pixel"
+        ],
+        [
+          "4",
+          "Phát hiện bất thường",
+          "PatchCore độc lập theo mẫu sản phẩm"
+        ],
+        [
+          "5",
+          "Tổng hợp",
+          "Đưa bản đồ về cùng kích thước và lấy cực đại"
+        ],
+        [
+          "6",
+          "Giới hạn tiền cảnh",
+          "Loại phản hồi ngoài mặt nạ đối tượng"
+        ],
+        [
+          "7",
+          "Ngưỡng thích ứng",
+          "Hiệu chuẩn phân vị theo từng mẫu"
+        ],
+        [
+          "8",
+          "Tinh chỉnh vùng",
+          "Giữ thành phần liên thông lớn nhất"
+        ],
+        [
+          "9",
+          "Xuất kết quả",
+          "Điểm cấp ảnh, bản đồ nhiệt và mặt nạ nhị phân"
+        ]
+      ]
+    },
+    {
+      "index": 4,
+      "rows": [
+        [
+          "Cấu hình",
+          "Ảnh đầu vào",
+          "Độ phân giải",
+          "Hậu xử lý"
+        ],
+        [
+          "C1 - Cơ sở",
+          "Ảnh gốc",
+          "224 x 224",
+          "Ngưỡng phân vị toàn ảnh"
+        ],
+        [
+          "C2 - Tách nền",
+          "Ảnh đã loại nền",
+          "224 x 224",
+          "Ngưỡng phân vị toàn ảnh"
+        ],
+        [
+          "C3 - Giới hạn tiền cảnh",
+          "Ảnh đã loại nền",
+          "224 x 224",
+          "Mặt nạ alpha và thành phần lớn nhất"
+        ],
+        [
+          "C4 - Cấu hình cuối",
+          "Ảnh đã loại nền",
+          "384 x 384",
+          "Giới hạn tiền cảnh và thành phần lớn nhất"
+        ],
+        [
+          "C5 - Đa tỷ lệ",
+          "Ảnh đã loại nền",
+          "256/384/512",
+          "Tổng hợp cực đại và giới hạn tiền cảnh"
+        ]
+      ]
+    },
+    {
+      "index": 5,
+      "rows": [
+        [
+          "Mẫu",
+          "Isolation Forest",
+          "PatchCore"
+        ],
+        [
+          "FA-504",
+          "0,993",
+          "1,000"
+        ],
+        [
+          "FA-808",
+          "0,799",
+          "0,970"
+        ],
+        [
+          "FA-838",
+          "0,814",
+          "0,996"
+        ],
+        [
+          "FA-924",
+          "0,799",
+          "1,000"
+        ],
+        [
+          "FA-1041",
+          "0,928",
+          "0,996"
+        ],
+        [
+          "FA-1042",
+          "0,845",
+          "0,981"
+        ],
+        [
+          "FA-1043",
+          "0,965",
+          "0,991"
+        ],
+        [
+          "FA-1045",
+          "0,833",
+          "0,995"
+        ],
+        [
+          "FA-1047",
+          "0,958",
+          "0,964"
+        ],
+        [
+          "FA-1113",
+          "0,946",
+          "1,000"
+        ],
+        [
+          "FA-1114",
+          "0,978",
+          "1,000"
+        ],
+        [
+          "FA-1120",
+          "0,922",
+          "1,000"
+        ],
+        [
+          "Trung bình",
+          "0,898",
+          "0,991"
+        ]
+      ]
+    },
+    {
+      "index": 6,
+      "rows": [
+        [
+          "Mẫu",
+          "Tỷ lệ âm tính giả",
+          "Độ sáng trung bình"
+        ],
+        [
+          "FA-1120",
+          "0,963",
+          "4,7"
+        ],
+        [
+          "FA-1047",
+          "0,825",
+          "28,7"
+        ],
+        [
+          "FA-1114",
+          "0,780",
+          "31,6"
+        ],
+        [
+          "FA-1113",
+          "0,064",
+          "133,2"
+        ],
+        [
+          "FA-1042",
+          "0,047",
+          "132,8"
+        ],
+        [
+          "FA-1043",
+          "0,042",
+          "139,5"
+        ],
+        [
+          "FA-1045",
+          "0,040",
+          "132,4"
+        ],
+        [
+          "FA-838",
+          "0,007",
+          "152,5"
+        ],
+        [
+          "FA-1041",
+          "0,003",
+          "171,6"
+        ],
+        [
+          "FA-924",
+          "0,003",
+          "128,7"
+        ],
+        [
+          "FA-504",
+          "0,003",
+          "117,6"
+        ],
+        [
+          "FA-808",
+          "0,002",
+          "200,9"
+        ]
+      ]
+    },
+    {
+      "index": 7,
+      "rows": [
+        [
+          "Mẫu sản phẩm",
+          "AUROC",
+          "Mẫu sản phẩm",
+          "AUROC"
+        ],
+        [
+          "FA-504",
+          "1,000",
+          "FA-1043",
+          "0,996"
+        ],
+        [
+          "FA-808",
+          "0,983",
+          "FA-1045",
+          "1,000"
+        ],
+        [
+          "FA-838",
+          "1,000",
+          "FA-1047",
+          "1,000"
+        ],
+        [
+          "FA-924",
+          "1,000",
+          "FA-1113",
+          "0,995"
+        ],
+        [
+          "FA-1041",
+          "1,000",
+          "FA-1114",
+          "0,994"
+        ],
+        [
+          "FA-1042",
+          "1,000",
+          "FA-1120",
+          "0,987"
+        ],
+        [
+          "Trung bình",
+          "0,996",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "index": 8,
+      "rows": [
+        [
+          "Mẫu",
+          "AUROC trung bình",
+          "Độ lệch chuẩn"
+        ],
+        [
+          "FA-1120",
+          "0,982",
+          "0,014"
+        ],
+        [
+          "FA-1042",
+          "0,992",
+          "0,005"
+        ],
+        [
+          "FA-924",
+          "0,992",
+          "0,011"
+        ],
+        [
+          "FA-1113",
+          "0,993",
+          "0,005"
+        ],
+        [
+          "FA-808",
+          "0,996",
+          "0,008"
+        ],
+        [
+          "FA-1114",
+          "0,998",
+          "0,003"
+        ],
+        [
+          "FA-1045",
+          "0,999",
+          "0,002"
+        ],
+        [
+          "FA-1043",
+          "0,999",
+          "0,001"
+        ],
+        [
+          "FA-1047",
+          "1,000",
+          "0,000"
+        ],
+        [
+          "FA-1041",
+          "1,000",
+          "0,000"
+        ],
+        [
+          "FA-504",
+          "1,000",
+          "0,000"
+        ],
+        [
+          "FA-838",
+          "1,000",
+          "0,000"
+        ]
+      ]
+    },
+    {
+      "index": 9,
+      "rows": [
+        [
+          "Mẫu sản phẩm",
+          "384 x 384",
+          "Đa tỷ lệ (tối đa)"
+        ],
+        [
+          "FA-504",
+          "1,000",
+          "1,000"
+        ],
+        [
+          "FA-808",
+          "1,000",
+          "1,000"
+        ],
+        [
+          "FA-838",
+          "1,000",
+          "1,000"
+        ],
+        [
+          "FA-924",
+          "1,000",
+          "1,000"
+        ],
+        [
+          "FA-1041",
+          "1,000",
+          "0,999"
+        ],
+        [
+          "FA-1042",
+          "0,995",
+          "0,994"
+        ],
+        [
+          "FA-1043",
+          "0,994",
+          "0,999"
+        ],
+        [
+          "FA-1045",
+          "0,997",
+          "0,998"
+        ],
+        [
+          "FA-1047",
+          "0,999",
+          "0,999"
+        ],
+        [
+          "FA-1113",
+          "1,000",
+          "0,993"
+        ],
+        [
+          "FA-1114",
+          "0,995",
+          "0,995"
+        ],
+        [
+          "FA-1120",
+          "0,977",
+          "0,973"
+        ],
+        [
+          "Trung bình",
+          "0,996",
+          "0,996"
+        ]
+      ]
+    },
+    {
+      "index": 10,
+      "rows": [
+        [
+          "Mẫu sản phẩm",
+          "Phần % được chọn",
+          "Diện tích FP trung bình  (p92)",
+          "Diện tích FP trung bình  (được chọn)"
+        ],
+        [
+          "FA-1114",
+          "99",
+          "1.244,5",
+          "196,4"
+        ],
+        [
+          "FA-1113",
+          "99",
+          "1.171,8",
+          "187,3"
+        ],
+        [
+          "FA-1047",
+          "98",
+          "846,3",
+          "253,1"
+        ],
+        [
+          "FA-1043",
+          "98",
+          "634,8",
+          "219,1"
+        ],
+        [
+          "FA-1042",
+          "98",
+          "618,4",
+          "223,0"
+        ],
+        [
+          "FA-1041",
+          "98",
+          "562,9",
+          "175,2"
+        ],
+        [
+          "FA-1045",
+          "96",
+          "577,9",
+          "293,7"
+        ],
+        [
+          "FA-808",
+          "98",
+          "543,7",
+          "195,8"
+        ],
+        [
+          "FA-1120",
+          "98",
+          "530,7",
+          "163,2"
+        ],
+        [
+          "FA-924",
+          "96",
+          "432,7",
+          "260,2"
+        ],
+        [
+          "FA-838",
+          "96",
+          "410,7",
+          "240,2"
+        ],
+        [
+          "FA-504",
+          "94",
+          "374,5",
+          "288,0"
+        ],
+        [
+          "Trung bình",
+          "-",
+          "662,4",
+          "224,6"
+        ]
+      ]
+    },
+    {
+      "index": 11,
+      "rows": [
+        [
+          "Mẫu sản phẩm",
+          "n",
+          "IoU",
+          "Coverage (phạm vi phủ)",
+          "Pointing game (trỏ vào đối tượng)"
+        ],
+        [
+          "FA-808",
+          "20",
+          "0,323",
+          "0,564",
+          "0,800"
+        ],
+        [
+          "FA-1041",
+          "20",
+          "0,289",
+          "0,361",
+          "0,950"
+        ],
+        [
+          "FA-1043",
+          "16",
+          "0,258",
+          "0,329",
+          "1,000"
+        ],
+        [
+          "FA-1047",
+          "12",
+          "0,222",
+          "0,229",
+          "1,000"
+        ],
+        [
+          "FA-1042",
+          "16",
+          "0,214",
+          "0,369",
+          "1,000"
+        ],
+        [
+          "FA-1113",
+          "12",
+          "0,212",
+          "0,225",
+          "1,000"
+        ],
+        [
+          "FA-1045",
+          "12",
+          "0,209",
+          "0,237",
+          "1,000"
+        ],
+        [
+          "FA-504",
+          "20",
+          "0,206",
+          "0,352",
+          "0,700"
+        ],
+        [
+          "FA-924",
+          "12",
+          "0,199",
+          "0,242",
+          "0,917"
+        ],
+        [
+          "FA-838",
+          "20",
+          "0,194",
+          "0,269",
+          "0,900"
+        ],
+        [
+          "FA-1120",
+          "12",
+          "0,179",
+          "0,206",
+          "1,000"
+        ],
+        [
+          "FA-1114",
+          "20",
+          "0,116",
+          "0,213",
+          "0,500"
+        ],
+        [
+          "Trung bình",
+          "192",
+          "0,220",
+          "0,313",
+          "0,875"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+0000	Normal	TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN – ĐHQG – HCM
+0001	Normal	TRUNG TÂM PHÁT TRIỂN CÔNG NGHỆ THÔNG TIN
+0002	Normal	KHOA KHOA HỌC VÀ KỸ THUẬT THÔNG TIN
+0004	Normal	NGUYỄN THỊ HIỀN
+0005	Normal	BÁO CÁO CHUYÊN ĐỀ TỐT NGHIỆP
+0006	Normal	XÂY DỰNG HỆ THỐNG PHÁT HIỆN SAI LỆCH NGOẠI QUAN CỦA SẢN PHẨM ĐỒ TRANG TRÍ XUẤT KHẨU
+0007	Normal	SỬ DỤNG THỊ GIÁC MÁY TÍNH
+0008	Normal	Building a System for Detecting Visual Defects in Export Decoration Products Using Computer Vision
+0011	Normal	KỸ SƯ/ CỬ NHÂN NGÀNH CÔNG NGHỆ THÔNG TIN
+0012	Normal	25410207
+0013	Normal	Thành phố Hồ Chí Minh, tháng 09 năm 2026
+0015	Normal	TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN – ĐHQG – HCM
+0016	Normal	TRUNG TÂM PHÁT TRIỂN CÔNG NGHỆ THÔNG TIN
+0017	Normal	KHOA KHOA HỌC VÀ KỸ THUẬT THÔNG TIN
+0019	Normal	NGUYỄN THỊ HIỀN
+0020	Normal	BÁO CÁO CHUYÊN ĐỀ TỐT NGHIỆP
+0021	Normal	XÂY DỰNG HỆ THỐNG PHÁT HIỆN SAI LỆCH NGOẠI QUAN CỦA SẢN PHẨM ĐỒ TRANG TRÍ XUẤT KHẨU
+0022	Normal	SỬ DỤNG THỊ GIÁC MÁY TÍNH
+0023	Normal	Building a System for Detecting Visual Defects in Export Decoration Products Using Computer Vision
+0024	Normal	KỸ SƯ/ CỬ NHÂN NGÀNH CÔNG NGHỆ THÔNG TIN
+0026	Normal	GIẢNG VIÊN HƯỚNG DẪN
+0027	Normal	THS. ĐỖ MINH TIẾN
+0028	Normal	Thành phố Hồ Chí Minh, tháng 09 năm 2026
+0030	Normal	NHẬN XÉT CỦA GIẢNG VIÊN HƯỚNG DẪN
+0053	Normal	Tp. Hồ Chí Minh, ngày……... tháng…… năm 20…
+0054	Normal	Người nhận xét
+0057	Normal	(Ký tên và ghi rõ họ tên)
+0062	Normal	LỜI CẢM ƠN
+0065	Normal	TP. Hồ Chí Minh, tháng 9 năm 2026
+0066	Normal	Sinh viên thực hiện /  /  /             Nguyễn Thị Hiền
+0068	Normal	MỤC LỤC
+0069	toc 1	TÓM TẮT	1
+0070	toc 1	CHƯƠNG 1. MỞ ĐẦU	2
+0071	toc 2	1.1. Lý do chọn đề tài	2
+0072	toc 2	1.2. Mục tiêu nghiên cứu	2
+0073	toc 2	1.3. Đối tượng và phạm vi nghiên cứu	3
+0074	toc 2	1.4. Phương pháp nghiên cứu	3
+0075	toc 2	1.5. Đóng góp của chuyên đề	3
+0076	toc 2	1.6. Bố cục báo cáo	4
+0077	toc 1	CHƯƠNG 2. TỔNG QUAN NGHIÊN CỨU	5
+0078	toc 2	2.1. Phát hiện bất thường dựa trên ngân hàng bộ nhớ và đặc trưng nhúng	5
+0079	toc 2	2.2. Phương pháp tái cấu trúc và huấn luyện khuyết tật tổng hợp	5
+0080	toc 2	2.3. Đường cơ sở thống kê cổ điển	6
+0081	toc 2	2.4. Bộ dữ liệu chuẩn và khác biệt của bối cảnh nghiên cứu	6
+0082	toc 1	CHƯƠNG 3. DỮ LIỆU VÀ PHÁT BIỂU BÀI TOÁN	8
+0083	toc 2	3.1. Tập dữ liệu	8
+0084	toc 2	3.2. Sự thay đổi vị trí và kích thước đối tượng	9
+0085	toc 2	3.3. Quy mô khuyết tật	10
+0086	toc 2	3.4. Mất cân bằng dữ liệu	10
+0087	toc 2	3.5. Phát biểu bài toán	11
+0088	toc 1	CHƯƠNG 4. PHƯƠNG PHÁP VÀ THIẾT KẾ HỆ THỐNG	12
+0089	toc 2	4.1. Tổng quan quy trình OC-MAR	12
+0090	toc 2	4.2. Tiền xử lý ảnh	12
+0091	toc 2	4.3. Loại bỏ nền và tạo mặt nạ đối tượng	13
+0092	toc 2	4.4. Mô hình PatchCore	14
+0093	toc 2	4.5. Đầu vào và tổng hợp đa tỷ lệ	15
+0094	toc 2	4.6. Lọc giới hạn đối tượng và tinh chỉnh vùng	15
+0095	toc 2	4.7. Phân ngưỡng	15
+0096	toc 1	CHƯƠNG 5. THIẾT LẬP THỰC NGHIỆM	17
+0097	toc 2	5.1. Quy trình phân chia dữ liệu	17
+0098	toc 2	5.2. Chỉ số đánh giá	17
+0099	toc 2	5.3. Tỷ lệ coreset	17
+0100	toc 2	5.4. Các cấu hình so sánh	18
+0101	toc 2	5.5. Đường cơ sở thống kê cổ điển	18
+0102	toc 2	5.6. Phương pháp thay thế	19
+0103	toc 1	CHƯƠNG 6. KẾT QUẢ VÀ ĐÁNH GIÁ	20
+0104	toc 2	6.1. Hiệu suất phát hiện cơ sở	20
+0105	toc 2	6.2. So sánh với đường cơ sở thống kê	20
+0106	toc 2	6.3. Ảnh hưởng của bước loại bỏ nền	22
+0107	toc 2	6.4. Sai lệch mặt nạ đối với vật thể tối	23
+0108	toc 2	6.5. Cấu hình cuối cùng và độ phân giải đầu vào	24
+0109	toc 2	6.6. Độ ổn định theo hạt giống ngẫu nhiên	25
+0110	toc 2	6.7. Đánh giá tổng hợp đa tỷ lệ	26
+0111	toc 2	6.8. Ngưỡng thích ứng theo từng mẫu	28
+0112	toc 2	6.9. Đánh giá định tính khả năng định vị	29
+0113	toc 2	6.10. Đánh giá định lượng trên tập chú thích thủ công	31
+0114	toc 1	CHƯƠNG 7. THẢO LUẬN	34
+0115	toc 2	7.1. Ý nghĩa của kết quả	34
+0116	toc 2	7.2. Ảnh hưởng của tiền xử lý và hậu xử lý	34
+0117	toc 2	7.3. Lựa chọn giữa mô hình không huấn luyện và mô hình có huấn luyện	35
+0118	toc 2	7.4. Khả năng ứng dụng và giới hạn	35
+0119	toc 2	7.5. Khuyến nghị triển khai thử nghiệm	36
+0120	toc 1	CHƯƠNG 8. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN	37
+0121	toc 2	8.1. Kết luận	37
+0122	toc 2	8.2. Hướng phát triển	37
+0123	toc 1	TÀI LIỆU THAM KHẢO	39
+0124	toc 1	PHỤ LỤC A. THỬ NGHIỆM SUPERSIMPLENET	40
+0125	toc 2	A.1. Thiết lập	40
+0126	toc 2	A.2. Hiệu chỉnh theo triển khai tham chiếu	40
+0127	toc 2	A.3. Phân tích kết quả không hội tụ	40
+0130	Normal	DANH MỤC HÌNH
+0131	toc 1	Hình 2.1. Ví dụ ảnh bình thường và ảnh lỗi của một số mẫu sản phẩm.	8
+0132	toc 1	Hình 3.1. Phân bố vị trí và kích thước hộp bao đối tượng trong dữ liệu.	10
+0133	toc 1	Hình 3.2. Số lượng ảnh bình thường và ảnh lỗi theo từng mẫu sản phẩm.	11
+0134	toc 1	Hình 4.1. Quy trình OC-MAR gồm chín giai đoạn.	12
+0135	toc 1	Hình 4.2. So sánh mặt nạ alpha và mặt nạ ngưỡng màu trên vật thể tối.	14
+0136	toc 1	Hình 4.3. Nguyên lý xây dựng ngân hàng bộ nhớ và suy luận của PatchCore.	15
+0137	toc 1	Hình 6.1. Vật thể tối bị bỏ sót khi tái tạo mặt nạ bằng ngưỡng màu.	23
+0138	toc 1	Hình 6.2. Bản đồ bất thường theo từng tỷ lệ và kết quả tổng hợp.	27
+0139	toc 1	Hình 6.3. Kết quả định vị trên ảnh lỗi: (a) FA-808; (b) FA-1047.	29
+0140	toc 1	Hình 6.4. Đối chiếu định vị: (a) ảnh bình thường FA-808; (b) các mẫu sản phẩm còn lại.	30
+0141	toc 1	Hình 6.5. Ví dụ đối chiếu vùng dự đoán với mặt nạ chú thích thủ công.	32
+0142	toc 1	Hình A.1. Hàm mất mát huấn luyện SuperSimpleNet trên FA-1047 và FA-808.	40
+0144	Normal	DANH MỤC BẢNG
+0145	toc 1	Bảng 2.1. So sánh các nhóm phương pháp được xem xét.	8
+0146	toc 1	Bảng 3.1. Tóm tắt tập dữ liệu nghiên cứu.	11
+0147	toc 1	Bảng 4.1. Chức năng của các giai đoạn OC-MAR.	16
+0148	toc 1	Bảng 5.1. Các cấu hình thực nghiệm chính.	19
+0149	toc 1	Bảng 6.1. AUROC của Isolation Forest và PatchCore cơ sở.	20
+0150	toc 1	Bảng 6.2. Sai lệch của mặt nạ ngưỡng màu so với mặt nạ alpha.	22
+0151	toc 1	Bảng 6.3. AUROC của cấu hình cuối cùng theo từng mẫu sản phẩm.	24
+0152	toc 1	Bảng 6.4. AUROC trung bình và độ lệch chuẩn trên năm hạt giống.	24
+0153	toc 1	Bảng 6.5. So sánh đơn tỷ lệ và tổng hợp đa tỷ lệ.	25
+0154	toc 1	Bảng 6.6. Hiệu quả ngưỡng thích ứng theo mẫu sản phẩm.	28
+0155	toc 1	Bảng 6.7. Chỉ số định vị trên 192 ảnh được chú thích thủ công.	31
+0158	Normal	DANH MỤC TỪ VIẾT TẮT
+0161	Heading 1	TÓM TẮT
+0165	Normal	Từ khóa: phát hiện bất thường; PatchCore; thị giác máy tính; kiểm tra ngoại quan; dữ liệu khan hiếm; OC-MAR.
+0166	Heading 1	CHƯƠNG 1. MỞ ĐẦU
+0167	Heading 2	1.1. Lý do chọn đề tài
+0170	Heading 2	1.2. Mục tiêu nghiên cứu
+0171	List Bullet	Xây dựng quy trình phát hiện ảnh bình thường và ảnh có sai lệch ngoại quan cho từng mẫu sản phẩm.
+0172	List Bullet	Định vị vùng nghi ngờ lỗi ở mức pixel mà không sử dụng mặt nạ lỗi trong giai đoạn huấn luyện.
+0173	List Bullet	Đánh giá ảnh hưởng của loại bỏ nền, độ phân giải, giới hạn tiền cảnh, đa tỷ lệ và ngưỡng thích ứng.
+0174	List Bullet	So sánh PatchCore với đường cơ sở thống kê cổ điển và ghi nhận kết quả thử nghiệm SuperSimpleNet.
+0175	List Bullet	Xác định các giới hạn thực tế và đề xuất hướng hoàn thiện để có thể triển khai trong sản xuất.
+0176	Heading 2	1.3. Đối tượng và phạm vi nghiên cứu
+0178	Heading 2	1.4. Phương pháp nghiên cứu
+0180	Heading 2	1.5. Đóng góp của chuyên đề
+0181	List Bullet	Hoàn thiện quy trình OC-MAR chín giai đoạn cho dữ liệu công nghiệp khan hiếm, đạt AUROC trung bình 0,996.
+0182	List Bullet	Phát hiện có hệ thống lỗi tạo mặt nạ trên vật thể tối và chứng minh mối liên hệ với độ sáng đối tượng.
+0183	List Bullet	Đánh giá riêng tác động của đa tỷ lệ và ngưỡng thích ứng, tránh quy kết cải thiện khi chưa có bằng chứng.
+0184	List Bullet	Xây dựng tập tham chiếu 192 ảnh chú thích thủ công để bổ sung đánh giá định vị định lượng.
+0185	List Bullet	Báo cáo minh bạch kết quả không hội tụ của SuperSimpleNet trong điều kiện 80 ảnh huấn luyện mỗi mẫu.
+0186	Heading 2	1.6. Bố cục báo cáo
+0188	Heading 1	CHƯƠNG 2. TỔNG QUAN NGHIÊN CỨU
+0189	Heading 2	2.1. Phát hiện bất thường dựa trên ngân hàng bộ nhớ và đặc trưng nhúng
+0192	Heading 2	2.2. Phương pháp tái cấu trúc và huấn luyện khuyết tật tổng hợp
+0195	Heading 2	2.3. Đường cơ sở thống kê cổ điển
+0197	Heading 2	2.4. Bộ dữ liệu chuẩn và khác biệt của bối cảnh nghiên cứu
+0200	Caption Figure	Hình 2.1. Ví dụ ảnh bình thường và ảnh lỗi của một số mẫu sản phẩm.
+0203	Caption Table	Bảng 2.1. So sánh các nhóm phương pháp được xem xét.
+0205	Heading 1	CHƯƠNG 3. DỮ LIỆU VÀ PHÁT BIỂU BÀI TOÁN
+0206	Heading 2	3.1. Tập dữ liệu
+0213	Heading 2	3.2. Sự thay đổi vị trí và kích thước đối tượng
+0215	Heading 2	3.3. Quy mô khuyết tật
+0217	Heading 2	3.4. Mất cân bằng dữ liệu
+0221	Caption Figure	Hình 3.2. Số lượng ảnh bình thường và ảnh lỗi theo từng mẫu sản phẩm.
+0222	Caption Figure	(Mỗi mẫu sản phẩm có chính xác 100 ảnh bình thường; số lượng ảnh lỗi dao động từ 30 đến 53)
+0223	Heading 2	3.5. Phát biểu bài toán
+0225	Caption Table	Bảng 3.1. Tóm tắt tập dữ liệu nghiên cứu.
+0227	Heading 1	CHƯƠNG 4. PHƯƠNG PHÁP VÀ THIẾT KẾ HỆ THỐNG
+0228	Heading 2	4.1. Tổng quan quy trình OC-MAR
+0230	Heading 2	4.2. Tiền xử lý ảnh (giai đoạn 1)
+0234	Caption Figure	Hình 4.1. Quy trình OC-MAR gồm chín giai đoạn.
+0236	Heading 2	4.3. Loại bỏ nền và tạo mặt nạ đối tượng (giai đoạn 2)
+0240	Caption Figure	Hình 4.2. So sánh mặt nạ alpha và mặt nạ ngưỡng màu trên vật thể tối.
+0241	Heading 2	4.4. Mô hình PatchCore (giai đoạn 4)
+0244	Caption Figure	Hình 4.3. Nguyên lý xây dựng ngân hàng bộ nhớ và suy luận của PatchCore.
+0246	Heading 2	4.5. Đầu vào và tổng hợp đa tỷ lệ (giai đoạn 3 và 5)
+0248	Heading 2	4.6. Lọc giới hạn đối tượng và tinh chỉnh vùng (giai đoạn 6 và 8)
+0250	Heading 2	4.7. Phân ngưỡng (giai đoạn 7)
+0253	Caption Table	Bảng 4.1. Chức năng của các giai đoạn OC-MAR.
+0255	Heading 1	CHƯƠNG 5. THIẾT LẬP THỰC NGHIỆM
+0256	Heading 2	5.1. Quy trình phân chia dữ liệu
+0258	Heading 2	5.2. Chỉ số đánh giá
+0260	Heading 2	5.3. Tỷ lệ coreset
+0262	Heading 2	5.4. Các cấu hình so sánh
+0263	Normal	Tôi trình bày kết quả cho các cấu hình sau, mỗi cấu hình thể hiện một quyết định thiết kế riêng biệt.
+0264	List Number	Đường cơ sở, PatchCore trên ảnh gốc (không xóa nền), đầu vào 224×224, phân ngưỡng phần trăm toàn bộ hình ảnh.
+0265	List Number	Loại bỏ nền, giống hệt với cơ sở ngoại trừ biến hình ảnh đã loại bỏ nền khác nhau đã được sử dụng.
+0267	List Number	Độ phân giải cao hơn, như trên, với độ phân giải đầu vào tăng từ 224x224 lên 384x384.
+0268	Heading 2	5.5. Đường cơ sở thống kê cổ điển
+0270	Heading 2	5.6. Phương pháp tiếp cận thay thế
+0273	Caption Table	Bảng 5.1. Các cấu hình thực nghiệm chính.
+0275	Heading 1	CHƯƠNG 6. KẾT QUẢ VÀ ĐÁNH GIÁ
+0276	Heading 2	6.1. Hiệu suất phát hiện cơ bản
+0277	Caption Table	Chỉ số AUROC cơ bản ở cấp độ ảnh PatchCore cho mỗi mẫu sản phẩm (ảnh gốc, đầu vào 224x224).
+0279	Normal	Mẫu sản phẩm	AUROC
+0280	Normal	FA-504		1,000
+0281	Normal	FA-808		0,970
+0282	Normal	FA-838		0,996
+0283	Normal	FA-924		1,000
+0284	Normal	FA-1041		0,996
+0285	Normal	FA-1042		0,981
+0286	Normal	FA-1043		0,991
+0287	Normal	FA-1045		0,995
+0288	Normal	FA-1047		0,964
+0289	Normal	FA-1113		1,000
+0290	Normal	FA-1114		1,000
+0291	Normal	FA-1120		1,000
+0292	Normal	Nghĩa là		0,991
+0295	Heading 2	6.2. So sánh với đường cơ sở thống kê
+0298	Caption Table	Bảng 6.1. AUROC của Isolation Forest và PatchCore cơ sở.
+0299	Caption Table	AUROC cấp độ hình ảnh, đường cơ sở thống kê cổ điển của Isolation Forest (Rừng cô lập) so với PatchCore (cấu hình cơ bản).
+0301	Heading 2	6.3. Ảnh hưởng của bước loại bỏ nền
+0304	Caption Table	AUROC cấp độ ảnh, ảnh gốc so với ảnh đã chỉnh sửa, ảnh đã loại bỏ nền, được sắp xếp theo độ chênh lệch.
+0306	Normal	Mẫu sản phẩm	Ảnh gốc	Đã được xoá phông nền
+0307	Normal	FA-1047		0,964		1,000				+0,036
+0308	Normal	FA-1042		0,981		0,990				+0,009
+0309	Normal	FA-1045		0,995		1,000				+0,005
+0310	Normal	FA-838		0,996		1,000				+0,004
+0311	Normal	FA-1041		0,996		0,999				+0,003
+0312	Normal	FA-1113		1,000		1,000				0,000
+0313	Normal	FA-504		1,000		1,000				0,000
+0314	Normal	FA-924		1,000		1,000				0,000
+0315	Normal	FA-1114		1,000		0,994				-0,006
+0316	Normal	FA-1120		1,000		0,989				-0,011
+0317	Normal	FA-808		0,970		0,955				-0,015
+0318	Normal	FA-1043		0,991		0,970				-0,021
+0319	Normal	Nghĩa là		0,991		0,991				0,000
+0320	Heading 2	6.4. Sai lệch mặt nạ đối với vật thể tối
+0323	Caption Table	Bảng 6.2. Sai lệch của mặt nạ ngưỡng màu so với mặt nạ alpha.
+0327	Caption Figure	Hình 6.1. Vật thể tối bị bỏ sót khi tái tạo mặt nạ bằng ngưỡng màu.
+0330	Caption Figure	Mẫu sản phẩm	Tỷ lệ âm tính giả	Độ sáng trung bình cảu vật thể
+0331	Caption Figure	FA-838		0,007			152,5
+0332	Caption Figure	FA-1041		0,003			171,6
+0333	Caption Figure	FA-924		0,003			128,7
+0334	Caption Figure	FA-504		0,003			117,6
+0335	Caption Figure	FA-808		0,002			200,9
+0337	Heading 2	6.5. Cấu hình cuối cùng và độ phân giải đầu vào
+0340	Caption Table	Bảng 6.3. AUROC của cấu hình cuối cùng theo từng mẫu sản phẩm.
+0341	Caption Table	(Cấu hình cuối cùng, AUROC cấp độ ảnh cho mỗi mẫu sản phẩm “ảnh đã loại bỏ nền, đầu vào 384x384, ngưỡng giới hạn đối tượng tiền ảnh”)
+0343	Heading 2	6.6. Độ ổn định theo hạt giống ngẫu nhiên
+0346	Caption Table	Bảng 6.4. AUROC trung bình và độ lệch chuẩn trên năm hạt giống.
+0347	Caption Table	(AUROC ở cấp độ hình ảnh, giá trị trung bình ± độ lệch chuẩn trên 5 hạt giống “cấu hình cuối cùng”, được sắp xếp theo giá trị trung bình)
+0349	Heading 2	6.7. Đánh giá tổng hợp đa tỷ lệ
+0352	Caption Table	Bảng 6.5. So sánh đơn tỷ lệ và tổng hợp đa tỷ lệ.
+0355	Caption Figure	Hình 6.2. Bản đồ bất thường theo từng tỷ lệ và kết quả tổng hợp.
+0356	Caption Figure	(FA-1047, ba mã bị lỗi, lớp phủ giới hạn vùng phía trước ở từng tỷ lệ riêng lẻ và cho tổng hợp tối đa quy mô)
+0357	Heading 2	6.8. Ngưỡng thích ứng theo từng mẫu
+0360	Caption Table	Bảng 6.6. Hiệu quả ngưỡng thích ứng theo mẫu sản phẩm.
+0363	Heading 2	6.9. Đánh giá định tính khả năng định vị
+0368	Caption Figure	Hình 6.3. Kết quả định vị trên ảnh lỗi: (a) FA-808; (b) FA-1047.
+0370	Caption Figure	Hình 6.4. Đối chiếu định vị: (a) ảnh bình thường FA-808; (b) các mẫu sản phẩm còn lại.
+0371	Heading 2	6.10. Đánh giá định lượng trên tập chú thích thủ công
+0375	Caption Table	Bảng 6.7. Chỉ số định vị trên 192 ảnh được chú thích thủ công.
+0379	Caption Figure	Hình 6.5. Ví dụ đối chiếu vùng dự đoán với mặt nạ chú thích thủ công.
+0380	Heading 1	CHƯƠNG 7. THẢO LUẬN
+0381	Heading 2	7.1. Ý nghĩa của kết quả
+0383	Heading 2	7.2. Ảnh hưởng của tiền xử lý và hậu xử lý
+0385	Normal	khác biệt rõ rệt trên những hình ảnh khác, tùy thuộc vào một thuộc tính (màu sắc đối tượng) không liên quan gì đến khuyết điểm đang được phát hiện.
+0386	Heading 2	7.3. Lựa chọn giữa mô hình không huấn luyện và mô hình có huấn luyện
+0389	Heading 2	7.4. Khả năng ứng dụng và giới hạn
+0392	Heading 2	7.5. Khuyến nghị triển khai thử nghiệm
+0395	Heading 1	CHƯƠNG 8. KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN
+0396	Heading 2	8.1. Kết luận
+0398	Heading 2	8.2. Hướng phát triển
+0400	List Bullet	Xây dựng bộ mặt nạ lỗi do nhiều chuyên gia chú thích và đo mức độ đồng thuận giữa người chú thích.
+0401	List Bullet	Đánh giá PRO đa ngưỡng, đường cong precision-recall và chi phí lỗi theo yêu cầu kiểm soát chất lượng.
+0402	List Bullet	Thử nghiệm mô hình trên dữ liệu thu thập theo thời gian để phát hiện trôi dữ liệu và thay đổi điều kiện chụp.
+0403	List Bullet	Tối ưu hóa ngân hàng bộ nhớ, thời gian suy luận và cơ chế cập nhật đối với mã sản phẩm mới.
+0404	List Bullet	Thiết kế giao diện xác nhận cảnh báo để phản hồi của nhân viên kiểm tra trở thành dữ liệu hiệu chuẩn có kiểm soát.
+0405	Heading 1	TÀI LIỆU THAM KHẢO
+0407	Normal	[2] Fei Tony Liu, Kai Ming Ting và Zhi-Hua Zhou. Isolation forest. In proceedings of the IEEE International Conference on Data Mining, 2008.
+0412	Heading 1	PHỤ LỤC A. THỬ NGHIỆM SUPERSIMPLENET
+0413	Heading 2	A.1. Thiết lập
+0415	Heading 2	A.2. Hiệu chỉnh theo triển khai tham chiếu
+0417	Heading 2	A.3. Phân tích kết quả không hội tụ
+0422	Caption Figure	Hình A.1. Hàm mất mát huấn luyện SuperSimpleNet trên FA-1047 và FA-808.
